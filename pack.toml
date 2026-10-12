@@ -1,11 +1,11 @@
 name = "Arcane Horizons"
-version = "0.3.2"
+version = "0.3.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8891419a90d9f74d2eef9c40fa8c2e9526a2fee2d1ec8c82838c948d908f7933"
+hash = "050c0835a6e7d4ed1efcb7fa14dad414d52f8ca5b81bfb34a955ba8e5765a82e"
 
 [versions]
 minecraft = "1.21.1"

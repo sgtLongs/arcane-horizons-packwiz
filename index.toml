@@ -129,6 +129,10 @@ file = "kubejs/startup_scripts/arcane_horizons_expert_metallurgy_items.js"
 hash = "7abc197ba04bdbe7d2d5b64c36fe10df287205d509e7cce1a1507a2646f2a451"
 
 [[files]]
+file = "mod-release-audit.csv"
+hash = "0e1837c0b869f4b027c02219e047cb0af4c79fc23771aa5b1d6334154f37b1ec"
+
+[[files]]
 file = "mods/aces-spell-utils.pw.toml"
 hash = "ed90b65c424e2af0597d2a39bc655ebdb5ef25c7f30e0d8af9c0eb5fdd172bba"
 metafile = true
@@ -141,6 +145,11 @@ metafile = true
 [[files]]
 file = "mods/almostunified.pw.toml"
 hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
+metafile = true
+
+[[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "09127668de79c87f6ec7cead69dd642c1261f5f725ab74fafce941cb55a57e2c"
 metafile = true
 
 [[files]]
@@ -245,7 +254,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "7dba9a4a9894a6bbab3a8c7edcc718499297412247fc0e8ccebf75b760c85140"
+hash = "0f6b24d697903dc261c881c4a736ec57c57ed5384f23d77ca9f6cec1e954d559"
 metafile = true
 
 [[files]]
@@ -319,6 +328,11 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "d31432b52be0a51900d7249d048968173616bab905c1810e8000b40489e68dd4"
+metafile = true
+
+[[files]]
 file = "mods/combat-roll.pw.toml"
 hash = "9bb81c87fca7a6429a10e18ad8665fb9accd758f53737f1a5543787be8308e51"
 metafile = true
@@ -346,6 +360,16 @@ metafile = true
 [[files]]
 file = "mods/corgilib.pw.toml"
 hash = "88b8e547b137f1435b0e383b933062ef0085454561f6adecff585b2fb9b50dd6"
+metafile = true
+
+[[files]]
+file = "mods/coroutil.pw.toml"
+hash = "8ff227007d3ea2f499193f04410000892bcc35b87572ae74d3f19494c6572368"
+metafile = true
+
+[[files]]
+file = "mods/crafting-tweaks.pw.toml"
+hash = "9942062b933fc042f551ff9539c81ca37ef8e97eec7d35f7800805a9d285b956"
 metafile = true
 
 [[files]]
@@ -429,6 +453,11 @@ hash = "046a80051e21c0bab042ad1b7e27d42a7456fd36cfabf0454e9110ec345078fd"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "9872a039a5c245ece1345292c9855228accc8cf15f02cfb45ef8bcc8578d643a"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "c76891545fb28fbcd2c280cf451ad98a463f8a17a50e0eee8a33b3b410743711"
 metafile = true
@@ -501,6 +530,11 @@ metafile = true
 [[files]]
 file = "mods/expanded-delight.pw.toml"
 hash = "e0ad7cb6cf33d7958b7c9b7af321807190adf45ada89d65892fe2d437fe3024d"
+metafile = true
+
+[[files]]
+file = "mods/exposure.pw.toml"
+hash = "c21fdfb4055a25a2658c58995e0088f973b570c0c0b60e3bb8bf8291fa2a8e64"
 metafile = true
 
 [[files]]
@@ -589,8 +623,18 @@ hash = "bd496127dfae8939188c1eb6d6e77930a2f89514308169abed5d27a7b3199ac2"
 metafile = true
 
 [[files]]
+file = "mods/horse-expert.pw.toml"
+hash = "fbd996f88dd06859110841a2b4716285b6b491f54aef2dd9ca59b0978718dd93"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "48b746cb623c16a8cee88ec0d7d42233d74d97b9cf92d662f121633723d50876"
+metafile = true
+
+[[files]]
+file = "mods/immersive-hotbar.pw.toml"
+hash = "361f03c93884dc4a26d93d917d93c637acdccca17ddb071fe2b67d3cb78bd249"
 metafile = true
 
 [[files]]
@@ -824,6 +868,11 @@ hash = "a212ae4bcff47e7bae30e02f5dd65f40b9d443782a89b35eabc85fa17625be7f"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "a3f6da0a0185d1f5725d57ea0fde61fc33922a3b42408e491ba407a98e0e2f68"
+metafile = true
+
+[[files]]
 file = "mods/occultism.pw.toml"
 hash = "b8c0d5c9a69b45135efd1e4a329e455d884c3378c4ebe3e0ad5794b5ddcc1414"
 metafile = true
@@ -854,6 +903,11 @@ hash = "d48697a0d75267fe97428fa6b8442ec419846d7396e2dc9b4dd2c90e13f17daa"
 metafile = true
 
 [[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "33072e6d0d27e9d5d35ad83b0e9f68784358adf2af9d51b353e6641aa3188de5"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
 metafile = true
@@ -861,6 +915,11 @@ metafile = true
 [[files]]
 file = "mods/pf-neoforge.pw.toml"
 hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
+metafile = true
+
+[[files]]
+file = "mods/pickloot.pw.toml"
+hash = "1849825017f00e774e22a7dc32c30f12193c10274ee079b933c6e83675db89da"
 metafile = true
 
 [[files]]
@@ -901,6 +960,11 @@ metafile = true
 [[files]]
 file = "mods/productivetrees.pw.toml"
 hash = "23d84c8b5a6fd787cc8eb7b9b423a5b05de93cb5b7eea5f2551ecd6d014df44e"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "b50f3be99af30eed556bc1f6c142b2e454996d6d7c143dc207274b396ca0f698"
 metafile = true
 
 [[files]]
@@ -1019,6 +1083,11 @@ hash = "2d45e747634f18813476b01a13507fa99e01e330334f11c3ed8b6a074faf3b5f"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "cf4e5f63253b423171e41bbe4a55891a48cbabd9cb029952f7c8df70d74553b7"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
@@ -1074,8 +1143,23 @@ hash = "e64376be6101f6ba8a1af9db49d5b256279681abada369bbd078b965c4a0ea9d"
 metafile = true
 
 [[files]]
+file = "mods/villager-names.pw.toml"
+hash = "7aec1476b811ab6da354d7a6da3c998755479811938b090646ef57eabb134451"
+metafile = true
+
+[[files]]
+file = "mods/visuality-reforged.pw.toml"
+hash = "6c16cc2db95f2d965494434a2548125de5b7c89b91ba7bcea6ad97192380b5a9"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "18755836fe5817992e8f52bdb1d42857e85a41a7a19287b04d63a072006931b5"
+metafile = true
+
+[[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+hash = "61387d427f7c5bfd71df275f731384b70ae12f6b1e520ee9e232ae8c175d42bd"
 metafile = true
 
 [[files]]
@@ -1110,7 +1194,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
 
 [[files]]
