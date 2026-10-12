@@ -1,0 +1,517 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "7bd6b3addacaa9b0"
+	icon: { id: "minecraft:shield" }
+	id: "7BD6B3ADDACAA9B0"
+	title: "11 — Hunter's Path"
+	subtitle: ["Danger belongs on expeditions, not as constant base harassment."]
+	images: [ ]
+	order_index: 10
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:iron_chestplate" }
+			id: "128BB0E014F820BF"
+			title: "Iron Arsenal"
+			description: ["Turn expensive processed iron into dependable combat equipment."]
+			rewards: [
+				{
+					id: "6F4D4059D075BD95"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "7E9B8AA53276F438"
+					item: { count: 20, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2E5F9B32A25D42E5"
+					item: { count: 1, id: "minecraft:iron_chestplate" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -4.46d
+		}
+		{
+			dependencies: ["434AB80625F23B2D"]
+			icon: { id: "minecraft:cooked_beef" }
+			id: "78943F624BEF149F"
+			title: "Field Rations"
+			description: ["Carry enough food for combat that lasts longer than one encounter."]
+			rewards: [
+				{
+					id: "2B57D7508966257B"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "30B29CEB401291C0"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "36742576EAD099CE"
+					item: { count: 1, id: "minecraft:cooked_beef" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: -2.36d
+		}
+		{
+			dependencies: ["52932978A3E0D28B"]
+			icon: { id: "create_ironworks:bronze_pickaxe" }
+			id: "3686E5B71C76F6DC"
+			title: "Bronze Arsenal"
+			description: ["Make Bronze a meaningful combat tier during the long wait for iron."]
+			rewards: [
+				{
+					id: "16E24A8F18B731EC"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "122EC4C1453FC824"
+					item: { count: 20, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "68AB523FF9C2A291"
+					item: { count: 1, id: "create_ironworks:bronze_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -2.185d
+		}
+		{
+			dependencies: ["51E5D1D7CFB478FC"]
+			icon: { id: "minecraft:shield" }
+			id: "230D834AF2B8E253"
+			title: "Primitive Defense"
+			description: ["Use terrain, early shields and preparation before iron armor exists."]
+			rewards: [
+				{
+					id: "1F7DB61DD7EBFC05"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "063146ADCB6CA525"
+					item: { count: 6, id: "minecraft:cooked_beef" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1E103470CD39FF28"
+					item: { count: 1, id: "minecraft:shield" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 2.185d
+		}
+		{
+			dependencies: [
+				"32445362A5EDFE0D"
+				"128BB0E014F820BF"
+			]
+			icon: { id: "ars_nouveau:novice_spell_book" }
+			id: "6BFBD8FA6A5C4AB0"
+			title: "Arcane Combat"
+			description: ["Combine spells, weapons and support supplies."]
+			rewards: [
+				{
+					id: "76885B4659CD4A21"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "5C434E798F7FA15C"
+					item: { count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "698AF13C88B166B9"
+					item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -4.46d
+		}
+		{
+			dependencies: ["3686E5B71C76F6DC"]
+			icon: { id: "minecraft:shield" }
+			id: "626AF63B79BEC3D8"
+			title: "Bronze Field Trial"
+			description: ["Complete a dangerous outing while bronze equipment is still your primary protection."]
+			rewards: [
+				{
+					id: "3812D731D5017F2A"
+					type: "xp"
+					xp: 53
+				}
+				{
+					id: "4AECE0D2BDA95136"
+					item: { count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+				{
+					id: "4A1BC55A411F1315"
+					item: { count: 3, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3CA777AE750A9B37"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -2.185d
+		}
+		{
+			dependencies: [
+				"230D834AF2B8E253"
+				"78943F624BEF149F"
+			]
+			icon: { id: "minecraft:lantern" }
+			id: "461F57C52E24707F"
+			title: "Night Patrol"
+			description: ["Learn the danger around the settlement without abandoning it."]
+			rewards: [
+				{
+					id: "25A78C6C2B5C8ACD"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "19EABB67E64CA3A8"
+					item: { count: 16, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7E81AD0905F7CF2C"
+					item: { count: 1, id: "minecraft:lantern" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 1.135d
+		}
+		{
+			dependencies: ["230D834AF2B8E253"]
+			icon: { id: "minecraft:shield" }
+			id: "51725C2AEED1AE76"
+			title: "Shield Drill"
+			description: ["Practice a defensive loadout against ordinary hostile mobs before pursuing champions."]
+			rewards: [
+				{
+					id: "2568A8880CEE7644"
+					type: "xp"
+					xp: 53
+				}
+				{
+					id: "601FC653A9F0D0E7"
+					item: { count: 6, id: "minecraft:cooked_beef" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7E003A16FBF6E829"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 3.235d
+		}
+		{
+			dependencies: [
+				"275ADC496625E9DB"
+				"6BFBD8FA6A5C4AB0"
+			]
+			icon: { id: "minecraft:blaze_rod" }
+			id: "77A60B8BA35CC5FF"
+			title: "Nether Hunt"
+			description: ["Fight for materials that cannot be obtained safely at home."]
+			rewards: [
+				{
+					id: "28EFF616F8B59291"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "7A6AFC37F6370650"
+					item: { count: 20, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "644FA4CEDFB8E494"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: -4.81d
+		}
+		{
+			dependencies: [
+				"3686E5B71C76F6DC"
+				"461F57C52E24707F"
+			]
+			icon: { id: "minecraft:experience_bottle" }
+			id: "47E307FC20818D8A"
+			title: "Champion Hunt"
+			description: ["Deliberately hunt an elite enemy instead of facing constant hordes."]
+			rewards: [
+				{
+					id: "19F2B77824ABE463"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "762F8F6982527930"
+					item: { count: 20, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7E8C1A862F649CD5"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -0.085d
+		}
+		{
+			dependencies: ["461F57C52E24707F"]
+			icon: { id: "create_ironworks:bronze_pickaxe" }
+			id: "6EE0872C8C33B705"
+			title: "Night Watch"
+			description: ["Defend the settlement perimeter through a full night without turning the base into an impenetrable bunker."]
+			rewards: [
+				{
+					id: "4B7D2320B4F5D274"
+					type: "xp"
+					xp: 53
+				}
+				{
+					id: "6C041D9CE341FBDC"
+					item: { count: 16, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "23499CB92F8DFBC3"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 4.81d
+		}
+		{
+			dependencies: ["47E307FC20818D8A"]
+			icon: { id: "create_ironworks:bronze_pickaxe" }
+			id: "199C45350703415E"
+			title: "Champion Trophy"
+			description: ["Defeat a champion-tier enemy and return with proof of the encounter."]
+			rewards: [
+				{
+					id: "6D5A773CA0F99552"
+					type: "xp"
+					xp: 53
+				}
+				{
+					id: "31DAACCF1328F589"
+					item: { count: 20, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7A96B546B1BA6DC7"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 0.085d
+		}
+		{
+			dependencies: [
+				"461F57C52E24707F"
+				"47E307FC20818D8A"
+			]
+			icon: { id: "minecraft:crossbow" }
+			id: "7D2A421BAB19D5AC"
+			title: "Structure Assault"
+			description: ["Clear a hostile structure with a planned retreat path."]
+			rewards: [
+				{
+					id: "226F4DD3D6FDAF2B"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "5BECA1A2B6B449A2"
+					item: { count: 20, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "67B455617A4A16C1"
+					item: { count: 1, id: "minecraft:crossbow" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 2.185d
+		}
+		{
+			dependencies: [
+				"78943F624BEF149F"
+				"7D2A421BAB19D5AC"
+				"6BFBD8FA6A5C4AB0"
+				"77A60B8BA35CC5FF"
+			]
+			icon: { id: "minecraft:golden_apple" }
+			id: "218A618FA8F446C6"
+			title: "Boss Preparation"
+			description: ["Standardize replacement gear, food and recovery items before bosses."]
+			rewards: [
+				{
+					id: "61FA5E1425E031A8"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "21F06B19809D621B"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+				{
+					id: "4AD2A57B600324A6"
+					item: { count: 16, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6AF1770313152CAF"
+					item: { count: 1, id: "minecraft:golden_apple" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -3.585d
+		}
+		{
+			dependencies: ["7D2A421BAB19D5AC"]
+			icon: { id: "minecraft:cooked_beef" }
+			id: "186A8D1B013933D0"
+			title: "Dungeon Withdrawal Plan"
+			description: ["Enter a major structure with enough supplies and route knowledge to retreat safely."]
+			rewards: [
+				{
+					id: "72A670E9F208CEBD"
+					type: "xp"
+					xp: 53
+				}
+				{
+					id: "4E80983C0169C3DE"
+					item: { count: 6, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "19997306525A327B"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 2.185d
+		}
+		{
+			dependencies: ["218A618FA8F446C6"]
+			icon: { id: "minecraft:cooked_beef" }
+			id: "53941779B85D1F69"
+			title: "Boss Kit Checklist"
+			description: ["Assemble healing, food, ammunition, spare equipment and escape tools before a major boss attempt."]
+			rewards: [
+				{
+					id: "239ABC5F8A3D5A8B"
+					type: "xp"
+					xp: 53
+				}
+				{
+					id: "014B1E72B5C53158"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "226098FDCC3F12C3"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: -3.585d
+		}
+	]
+}

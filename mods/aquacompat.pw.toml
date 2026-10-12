@@ -1,0 +1,13 @@
+name = "Aquacompat"
+filename = "aquacompat-0.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb408a826f16d5842e9d0deded7f0804a0810af1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8376978
+project-id = 1511779

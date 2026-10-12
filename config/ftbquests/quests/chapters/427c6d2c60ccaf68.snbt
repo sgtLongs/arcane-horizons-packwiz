@@ -1,0 +1,565 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "427c6d2c60ccaf68"
+	icon: { id: "createmetallurgy:industrial_crucible" }
+	id: "427C6D2C60CCAF68"
+	title: "10 — Metallurgical Mastery"
+	subtitle: ["Efficiency itself becomes a late-game progression reward."]
+	images: [ ]
+	order_index: 9
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "kubejs:rich_iron_concentrate" }
+			id: "7190235CB759922F"
+			title: "Rich Concentrates"
+			description: ["Belt-grind washed material into high-grade concentrates."]
+			rewards: [
+				{
+					id: "126DC7C74D1E659F"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "3D3F44E6B4E96AAF"
+					item: { count: 12, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2E0364BF0E54E1E0"
+					item: { count: 1, id: "kubejs:rich_iron_concentrate" }
+					type: "item"
+				}
+			]
+			x: -1.05d
+			y: 0d
+		}
+		{
+			dependencies: ["458F3596A3EF93BA"]
+			icon: { id: "minecraft:shulker_shell" }
+			id: "5793B1A7941F8AB1"
+			title: "End Separation Materials"
+			description: ["Acquire shulker and End resources for stronger separation media."]
+			rewards: [
+				{
+					id: "457C2315D020A533"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "3A332303ED6EEB6D"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "167B01FFD797BC03"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+			]
+			x: 4.2d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5A8BA1E915B9560B"]
+			icon: { id: "minecraft:nether_star" }
+			id: "52FBC7F506054365"
+			title: "Boss Catalyst Materials"
+			description: ["Collect Nether Star, dragon breath, Netherite and Source for the final catalyst."]
+			rewards: [
+				{
+					id: "709C1A5BD15941A4"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "2C737AB47EA38496"
+					item: { count: 10, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "70135E2454A055E2"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+			]
+			x: 1.4d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7190235CB759922F"]
+			icon: { id: "minecraft:iron_ingot" }
+			id: "67B262AD324671D3"
+			title: "One to One Iron"
+			description: ["At mature industry, finally recover one full iron ingot per raw ore."]
+			rewards: [
+				{
+					id: "1BFAE5E52CC40B65"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "0CBCF84A95B403EE"
+					item: { count: 12, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "75FD479436877380"
+					type: "checkmark"
+				}
+			]
+			x: -2.1d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7190235CB759922F"]
+			icon: { id: "kubejs:rich_copper_concentrate" }
+			id: "180A03CD4FD7F7A8"
+			title: "One to One Nonferrous"
+			description: ["Apply the same mature recovery to copper, tin and gold."]
+			rewards: [
+				{
+					id: "2F89856340E290C6"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "64D7210442C72731"
+					item: { count: 14, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "136F21078C153AC6"
+					item: { count: 1, id: "kubejs:rich_copper_concentrate" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7190235CB759922F"]
+			icon: { id: "kubejs:processed_slag" }
+			id: "28ED8FA0EE1C6937"
+			title: "Slag Reprocessing"
+			description: ["Stop treating slag as useless waste and turn it into aggregate."]
+			rewards: [
+				{
+					id: "25B1E4BE0F82BA2A"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "6071BFF5AF025B6A"
+					item: { count: 16, id: "minecraft:gravel" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "713C82BEAC44DC5A"
+					item: { count: 1, id: "kubejs:processed_slag" }
+					type: "item"
+				}
+			]
+			x: 2.1d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7190235CB759922F"]
+			icon: { id: "kubejs:rich_iron_concentrate" }
+			id: "546CE2E85FAD75F9"
+			title: "Recovery Ledger"
+			description: ["Record the yield of primitive, washed, rich and separated material to make the progression gains tangible."]
+			rewards: [
+				{
+					id: "71AAAB5F3C215D5F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "510632A8A5ECCCC2"
+					item: { count: 12, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "72CED429A8FFDA11"
+					type: "checkmark"
+				}
+			]
+			x: -4.2d
+			y: 2.625d
+		}
+		{
+			dependencies: [
+				"67B262AD324671D3"
+				"180A03CD4FD7F7A8"
+			]
+			icon: { id: "kubejs:industrial_separation_media" }
+			id: "31AE81DFB0A92232"
+			title: "Industrial Separation Media"
+			description: ["Combine steel, precision and magic into a material that recovers otherwise lost metal."]
+			rewards: [
+				{
+					id: "5FEC686BECDC6313"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "1B6FC0107C36BF5F"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4A315EA2DAB6494A"
+					item: { count: 1, id: "kubejs:industrial_separation_media" }
+					type: "item"
+				}
+			]
+			x: -2.1d
+			y: 5.25d
+		}
+		{
+			dependencies: ["28ED8FA0EE1C6937"]
+			icon: { id: "kubejs:rich_iron_concentrate" }
+			id: "2EEC4413C950DE1F"
+			title: "Slag Recovery Run"
+			description: ["Turn a real stockpile of slag into useful recovered material."]
+			rewards: [
+				{
+					id: "7DAAF3486D6BC5DB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "70F7647CF1DAFA33"
+					item: { count: 16, id: "minecraft:gravel" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3FD51087BFAEF410"
+					type: "checkmark"
+				}
+			]
+			x: 2.1d
+			y: 5.25d
+		}
+		{
+			dependencies: ["180A03CD4FD7F7A8"]
+			icon: { id: "minecraft:iron_ingot" }
+			id: "1E7ECCA137C7548F"
+			title: "Nonferrous Efficiency Trial"
+			description: ["Demonstrate improved copper, tin or gold recovery alongside iron."]
+			rewards: [
+				{
+					id: "25CA16BD3241FAC2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "76FC5C8D0918A8BB"
+					item: { count: 14, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "72D120AC6D3665EC"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["31AE81DFB0A92232"]
+			icon: { id: "kubejs:industrial_iron_feed" }
+			id: "2D557643DFF9E03A"
+			title: "Positive Recovery"
+			description: ["Cross the line from lossless metallurgy into actual ore multiplication."]
+			rewards: [
+				{
+					id: "2DE89B42191F4893"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "7303C302F2B94259"
+					item: { count: 12, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "240A26473C6CAF25"
+					item: { count: 1, id: "kubejs:industrial_iron_feed" }
+					type: "item"
+				}
+			]
+			x: -2.1d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"5793B1A7941F8AB1"
+				"31AE81DFB0A92232"
+			]
+			icon: { id: "kubejs:advanced_separation_media" }
+			id: "313FE11D4AF18207"
+			title: "Advanced Separation Media"
+			description: ["Build the post-End recovery medium."]
+			rewards: [
+				{
+					id: "7291B298DAD98E5C"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "61C7A46F7342141C"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7A5F6C9846EED77D"
+					item: { count: 1, id: "kubejs:advanced_separation_media" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 7.875d
+		}
+		{
+			dependencies: ["31AE81DFB0A92232"]
+			icon: { id: "minecraft:iron_ingot" }
+			id: "7046659F2B60D506"
+			title: "Separation Reagent Batch"
+			description: ["Produce enough separation media for repeated use instead of a single demonstration."]
+			rewards: [
+				{
+					id: "552C445F10D3FF41"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4AFDB44FA5662D7E"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3B03A9A0B3751D32"
+					type: "checkmark"
+				}
+			]
+			x: -4.2d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"31AE81DFB0A92232"
+				"2D557643DFF9E03A"
+			]
+			icon: { id: "kubejs:industrial_iron_feed" }
+			id: "3F18BA321F8019F3"
+			title: "One Point Five Times"
+			description: ["Superheated industrial feed yields 135 mB per raw-equivalent: 1.5 ingots per ore."]
+			rewards: [
+				{
+					id: "3FD99D47122015AD"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "73A227B79503FFDA"
+					item: { count: 10, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "192D15155305A8AB"
+					item: { count: 1, id: "kubejs:industrial_iron_feed" }
+					type: "item"
+				}
+			]
+			x: -0.7d
+			y: 10.5d
+		}
+		{
+			dependencies: ["313FE11D4AF18207"]
+			icon: { id: "kubejs:advanced_iron_feed" }
+			id: "7FAD497D398DD9B1"
+			title: "Two Times Recovery"
+			description: ["Advanced feed produces 180 mB: two ingots from one ore."]
+			rewards: [
+				{
+					id: "2511AE144C0CE6E2"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "7F9DC00A3166C9E8"
+					item: { count: 12, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "36A3B9F2D97AE296"
+					item: { count: 1, id: "kubejs:advanced_iron_feed" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3F18BA321F8019F3"
+				"7FAD497D398DD9B1"
+				"52FBC7F506054365"
+			]
+			icon: { id: "kubejs:arcane_metallurgical_catalyst" }
+			id: "216FE49765E8F90E"
+			title: "Arcane Metallurgical Catalyst"
+			description: ["Fuse endgame magic and industry into the maximum-recovery catalyst."]
+			rewards: [
+				{
+					id: "665102B1DA2C1BD5"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "3EB16B60ED2CA476"
+					item: { count: 10, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+				{
+					id: "16CFBA596C994994"
+					item: { count: 10, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5982FEB41F929EFD"
+					item: { count: 1, id: "kubejs:arcane_metallurgical_catalyst" }
+					type: "item"
+				}
+			]
+			x: 1.4d
+			y: 13.125d
+		}
+		{
+			dependencies: ["7FAD497D398DD9B1"]
+			icon: { id: "kubejs:rich_copper_concentrate" }
+			id: "6CD6A99E81053DA6"
+			title: "Post-End Yield Test"
+			description: ["Verify the two-times recovery route on a meaningful ore batch."]
+			rewards: [
+				{
+					id: "7E97EC5C24CF6DB1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2B4BF7ADE6CC26B8"
+					item: { count: 12, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "15CE897E9774D00E"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 13.125d
+		}
+		{
+			dependencies: ["216FE49765E8F90E"]
+			icon: { id: "kubejs:rich_copper_concentrate" }
+			id: "6567FE27E3B9DAE2"
+			title: "Endgame Yield Test"
+			description: ["Run an arcane-catalyst batch and confirm the three-times endgame recovery."]
+			rewards: [
+				{
+					id: "54E6D429D4D03DED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "17DD01BC8743CD53"
+					item: { count: 12, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1010936B15DDFEA6"
+					type: "checkmark"
+				}
+			]
+			x: 1.4d
+			y: 15.75d
+		}
+	]
+}

@@ -1,0 +1,615 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "685635b154063850"
+	icon: { id: "minecraft:minecart" }
+	id: "685635B154063850"
+	title: "16 — Logistics and Freight"
+	subtitle: ["Turn production into a physical network of warehouses, packages and rail-served industry."]
+	images: [ ]
+	order_index: 15
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:minecart" }
+			id: "4478698D1127B0E0"
+			title: "Warehouse Discipline"
+			description: ["Build a dedicated storage district instead of letting every workshop become a chest maze."]
+			rewards: [
+				{
+					id: "24F99F444CD69C56"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4A49928ED6CE06F6"
+					item: { count: 2, id: "minecraft:barrel" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6ACFCCFD40C17939"
+					item: { count: 1, id: "minecraft:chest" }
+					type: "item"
+				}
+			]
+			x: -2.89d
+			y: 0d
+		}
+		{
+			dependencies: ["4478698D1127B0E0"]
+			icon: { id: "minecraft:minecart" }
+			id: "151FCD909A01912D"
+			title: "Funnels and Chutes"
+			description: ["Use Create routing components to move materials predictably between machines and buffers."]
+			rewards: [
+				{
+					id: "6FE4E3F003CE204A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "18C7EBBFB7596488"
+					item: { count: 1, id: "minecraft:comparator" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6E502FDFB9482E4A"
+					type: "checkmark"
+				}
+			]
+			x: -1.84d
+			y: 2.625d
+		}
+		{
+			dependencies: ["4478698D1127B0E0"]
+			icon: { id: "minecraft:minecart" }
+			id: "57387C6D5C875527"
+			title: "Warehouse Zones"
+			description: ["Divide storage into receiving, bulk stock, production inputs and finished goods."]
+			rewards: [
+				{
+					id: "2667E272F36B2385"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "74A6FB3B59742B45"
+					item: { count: 2, id: "minecraft:barrel" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "04C84ADEEE3E7A1B"
+					type: "checkmark"
+				}
+			]
+			x: -3.94d
+			y: 2.625d
+		}
+		{
+			dependencies: ["151FCD909A01912D"]
+			icon: { id: "minecraft:minecart" }
+			id: "4136DF69582D3FA4"
+			title: "Belt Distribution"
+			description: ["Build a belt line that serves more than one process and can be maintained without tearing the factory apart."]
+			rewards: [
+				{
+					id: "5040DCCB6EF8EB1B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7DAA2502AB6B08DE"
+					item: { count: 14, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "77DF160787241955"
+					type: "checkmark"
+				}
+			]
+			x: -1.84d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4136DF69582D3FA4"]
+			icon: { id: "minecraft:minecart" }
+			id: "0F9BCECF0214A540"
+			title: "Item Vault Buffering"
+			description: ["Use bulk buffers so production can continue when downstream machines pause."]
+			rewards: [
+				{
+					id: "0FAFB47672423EF7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "383C6C2E6F911E81"
+					item: { count: 2, id: "minecraft:barrel" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1FD509D985E30998"
+					type: "checkmark"
+				}
+			]
+			x: -1.84d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"151FCD909A01912D"
+				"4136DF69582D3FA4"
+			]
+			icon: { id: "minecraft:minecart" }
+			id: "1D70FF61E2641697"
+			title: "Throughput Test"
+			description: ["Move a sustained stream of items through funnels, chutes and belts without hand-carrying them."]
+			rewards: [
+				{
+					id: "298F52FF8AF93C5A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0C5C78129AEC01FA"
+					item: { count: 2, id: "minecraft:comparator" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1BBCF3612A93E5F4"
+					type: "checkmark"
+				}
+			]
+			x: -4.115d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"151FCD909A01912D"
+				"0F9BCECF0214A540"
+			]
+			icon: { id: "minecraft:minecart" }
+			id: "3FA8D50EDD223E90"
+			title: "Packaged Goods"
+			description: ["Adopt Create package logistics for named, routed deliveries rather than hand-carrying every component."]
+			rewards: [
+				{
+					id: "7B930F44D1E7930C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4158B507208FFF78"
+					item: { count: 16, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5F07368B2C01F2F6"
+					type: "checkmark"
+				}
+			]
+			x: 0.44d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0F9BCECF0214A540"]
+			icon: { id: "minecraft:minecart" }
+			id: "6A36F3AA34AE0D14"
+			title: "Buffer Discipline"
+			description: ["Use vaults or buffers to prevent one machine from starving or backing up another."]
+			rewards: [
+				{
+					id: "2444832ECFB7A9A7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "45C9F7D461D1C494"
+					item: { count: 2, id: "minecraft:barrel" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "25236CA38D91FDAE"
+					type: "checkmark"
+				}
+			]
+			x: -1.84d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3FA8D50EDD223E90"]
+			icon: { id: "minecraft:minecart" }
+			id: "47B111725B167A9F"
+			title: "Stockkeeping"
+			description: ["Establish a stock-controlled supply area for frequently used industrial and settlement materials."]
+			rewards: [
+				{
+					id: "37D89CB1FB9BB4A9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6B9A8D4D5CCF3849"
+					item: { count: 14, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "567B5594F22C643D"
+					type: "checkmark"
+				}
+			]
+			x: 3.59d
+			y: 13.125d
+		}
+		{
+			dependencies: [
+				"3FA8D50EDD223E90"
+				"79B7F0899BE64410"
+			]
+			icon: { id: "minecraft:minecart" }
+			id: "35AB0E28D196D029"
+			title: "Rail Freight"
+			description: ["Move useful cargo by train between two physically separate production sites."]
+			rewards: [
+				{
+					id: "12647FEA6F567830"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "316046875753B450"
+					item: { count: 24, id: "minecraft:rail" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "07105F832EDCD058"
+					type: "checkmark"
+				}
+			]
+			x: 0.44d
+			y: 13.125d
+		}
+		{
+			dependencies: ["3FA8D50EDD223E90"]
+			icon: { id: "minecraft:minecart" }
+			id: "0D9808B5473379C7"
+			title: "Package Addressing"
+			description: ["Create a small package network with clear destinations and repeatable routing."]
+			rewards: [
+				{
+					id: "074D854DD2B136B9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3122B991E7B6D37C"
+					item: { count: 16, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "69E19117835EEE4F"
+					type: "checkmark"
+				}
+			]
+			x: -1.66d
+			y: 13.125d
+		}
+		{
+			dependencies: [
+				"35AB0E28D196D029"
+				"4BDDF524A50EA3B2"
+			]
+			icon: { id: "minecraft:minecart" }
+			id: "6BF662D27ADEE9EE"
+			title: "Remote Foundry"
+			description: ["Operate the foundry as its own district and supply it through logistics rather than player inventory."]
+			rewards: [
+				{
+					id: "75EA0671B560A51D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1FAF9B023E559DE8"
+					item: { count: 1, id: "minecraft:minecart" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6CEE42C850D60660"
+					type: "checkmark"
+				}
+			]
+			x: -2.185d
+			y: 15.75d
+		}
+		{
+			dependencies: [
+				"35AB0E28D196D029"
+				"4357C1096B20F99B"
+			]
+			icon: { id: "minecraft:minecart" }
+			id: "7F88E96784F5BEE9"
+			title: "Agricultural Freight"
+			description: ["Move food, animal products or crops from a support district into centralized processing."]
+			rewards: [
+				{
+					id: "48F0A3C9363E4C3F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2A8906E7B3E77409"
+					item: { count: 24, id: "minecraft:rail" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "37C134DF784884A7"
+					type: "checkmark"
+				}
+			]
+			x: -0.085d
+			y: 15.75d
+		}
+		{
+			dependencies: [
+				"47B111725B167A9F"
+				"35AB0E28D196D029"
+			]
+			icon: { id: "minecraft:minecart" }
+			id: "797BABD82942A0CB"
+			title: "Meta Logistics Network"
+			description: ["Use Create: Meta Logistics to manage a remote or unloaded storage network while retaining physical transport."]
+			rewards: [
+				{
+					id: "3DD0AD9194294EA4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "32490B85879882FD"
+					item: { count: 14, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "00639849F9E9F646"
+					item: { count: 1, id: "minecraft:minecart" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7DA421DEE31142A7"
+					type: "checkmark"
+				}
+			]
+			x: 4.115d
+			y: 15.75d
+		}
+		{
+			dependencies: ["35AB0E28D196D029"]
+			icon: { id: "minecraft:minecart" }
+			id: "1CC4925D6F588091"
+			title: "Freight Manifest"
+			description: ["Move a useful shipment by train and record where it originated and where it was consumed."]
+			rewards: [
+				{
+					id: "478879D18E1C114E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7F71FE71579D3CAD"
+					item: { count: 24, id: "minecraft:rail" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "02C312C136E102B2"
+					type: "checkmark"
+				}
+			]
+			x: 2.015d
+			y: 15.75d
+		}
+		{
+			dependencies: [
+				"6BF662D27ADEE9EE"
+				"7F88E96784F5BEE9"
+				"797BABD82942A0CB"
+			]
+			icon: { id: "minecraft:minecart" }
+			id: "622E5780C93CC0F4"
+			title: "Distribution Hub"
+			description: ["Create a central hub that receives, stores and dispatches goods to multiple destinations."]
+			rewards: [
+				{
+					id: "18AE94916D141C16"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "29AF8E0CBF6F062D"
+					item: { count: 14, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "56723983499AAD34"
+					item: { count: 1, id: "minecraft:minecart" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7BEAE8E6F57893BE"
+					type: "checkmark"
+				}
+			]
+			x: -0.085d
+			y: 18.375d
+		}
+		{
+			dependencies: [
+				"6BF662D27ADEE9EE"
+				"7F88E96784F5BEE9"
+			]
+			icon: { id: "minecraft:minecart" }
+			id: "3ED0CBECD79E10BA"
+			title: "Remote Consumer"
+			description: ["Supply a factory or farm that is physically separated from the central warehouse."]
+			rewards: [
+				{
+					id: "18F062CDC77B84B9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5215C6C4F41828F7"
+					item: { count: 1, id: "minecraft:minecart" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "39194309C5506680"
+					type: "checkmark"
+				}
+			]
+			x: -2.185d
+			y: 18.375d
+		}
+		{
+			dependencies: ["622E5780C93CC0F4"]
+			icon: { id: "minecraft:minecart" }
+			id: "0A3C3B304B1B13AA"
+			title: "Network Stress Test"
+			description: ["Run several producers and consumers at once and fix the first real bottleneck you find."]
+			rewards: [
+				{
+					id: "7998ECD81E3DC36E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "39AADD17A7AB15CD"
+					item: { count: 14, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "1E340B2D092105BB"
+					item: { count: 1, id: "minecraft:minecart" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "66269F154D94757E"
+					type: "checkmark"
+				}
+			]
+			x: 0.585d
+			y: 21d
+		}
+		{
+			dependencies: [
+				"35AB0E28D196D029"
+				"622E5780C93CC0F4"
+				"0A3C3B304B1B13AA"
+			]
+			icon: { id: "minecraft:minecart" }
+			id: "60052179A45E175A"
+			title: "Regional Supply Chain"
+			description: ["Maintain at least three specialized sites connected through a deliberate logistics network."]
+			rewards: [
+				{
+					id: "614D65BA00A88AFA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1EFE0681E7A621A3"
+					item: { count: 14, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "40C7032AA2FC4ABD"
+					item: { count: 1, id: "minecraft:minecart" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "37CD1D98E03A15E8"
+					type: "checkmark"
+				}
+			]
+			x: -1.865d
+			y: 23.625d
+		}
+	]
+}

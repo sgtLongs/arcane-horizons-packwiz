@@ -1,0 +1,641 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "2847ef37a16e095c"
+	icon: { id: "minecraft:campfire" }
+	id: "2847EF37A16E095C"
+	title: "1 — Foundations"
+	subtitle: ["Survival comes before industry."]
+	images: [ ]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:oak_planks" }
+			id: "11CA8B6D6B95AF62"
+			title: "A Harder First Night"
+			description: ["Build shelter and survive without assuming a furnace will solve the opening game."]
+			rewards: [
+				{
+					id: "38CFC2240059F492"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "58EF174A551AD121"
+					item: { count: 16, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "32F7713B73F743B2"
+					item: { count: 1, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 3.075d
+		}
+		{
+			dependencies: ["11CA8B6D6B95AF62"]
+			icon: { id: "minecraft:stone_pickaxe" }
+			id: "2632D0B7E53A278B"
+			title: "Stone Tool Economy"
+			description: ["Maintain spare stone tools because metal equipment is not close."]
+			rewards: [
+				{
+					id: "22BF8B80329410B9"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "161F5FF4E75984C9"
+					item: { count: 6, id: "minecraft:string" }
+					type: "item"
+				}
+				{
+					id: "2CAC3B4E759943A5"
+					item: { count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7E21EFCCF0058F1C"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 2.025d
+		}
+		{
+			dependencies: ["11CA8B6D6B95AF62"]
+			icon: { id: "minecraft:oak_planks" }
+			id: "2768340FC72DE51A"
+			title: "Shelter Before Sunset"
+			description: ["Establish a shelter, bed and fallback route before the first dangerous night."]
+			rewards: [
+				{
+					id: "49714B098C02F747"
+					type: "xp"
+					xp: 23
+				}
+				{
+					id: "5AF7061C36478005"
+					item: { count: 16, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "4126C25BC78FE012"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 6.695d
+		}
+		{
+			dependencies: ["2632D0B7E53A278B"]
+			icon: { id: "minecraft:campfire" }
+			id: "68CE115163F2BAE7"
+			title: "The Campfire Kiln"
+			description: ["Use campfires for heat, cooking and the first material transformations."]
+			rewards: [
+				{
+					id: "174D302B67CD1041"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4E4405BF8DD6AAD4"
+					item: { count: 8, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "354A8E03E9F566E8"
+					item: { count: 1, id: "minecraft:campfire" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -1.825d
+		}
+		{
+			dependencies: ["2632D0B7E53A278B"]
+			icon: { id: "minecraft:oak_planks" }
+			id: "2A45C0882817E34E"
+			title: "Stone Reserve"
+			description: ["Stock enough stone and replacement tools that one death or broken pick does not halt progress."]
+			rewards: [
+				{
+					id: "4B4A83906005D94B"
+					type: "xp"
+					xp: 23
+				}
+				{
+					id: "60C8583CCBAB37D1"
+					item: { count: 4, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "42804C0363C784E1"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 0.975d
+		}
+		{
+			dependencies: ["2632D0B7E53A278B"]
+			icon: { id: "minecraft:clay_ball" }
+			id: "67A7B39CE0E7DDEC"
+			title: "Clay Survey"
+			description: ["Find and stockpile clay for charges, bricks and foundry work."]
+			rewards: [
+				{
+					id: "2B536B9D29C6D3E1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "378DAD79FA794348"
+					item: { count: 12, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4D0E064BC6E5393A"
+					item: { count: 1, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 3.075d
+		}
+		{
+			dependencies: ["68CE115163F2BAE7"]
+			icon: { id: "minecraft:glass" }
+			id: "22ED89C9F874F29D"
+			title: "Glass by Patience"
+			description: ["Fire sand at primitive heat for bottles and workshop construction."]
+			rewards: [
+				{
+					id: "285E962B6769606A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "72195D2CBDCA9A51"
+					item: { count: 6, id: "minecraft:flint" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "64F2EA6F64A8FF38"
+					item: { count: 1, id: "minecraft:glass" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: -4.625d
+		}
+		{
+			dependencies: ["68CE115163F2BAE7"]
+			icon: { id: "minecraft:stone_pickaxe" }
+			id: "1458BA084102DA23"
+			title: "Kiln Duty"
+			description: ["Run the campfire kiln through a useful batch of charcoal, bricks or glass instead of treating it as a one-off recipe."]
+			rewards: [
+				{
+					id: "18F64397DD8FD1BB"
+					type: "xp"
+					xp: 23
+				}
+				{
+					id: "757D268FDF6AEA7D"
+					item: { count: 12, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "190D1DC942A54DCE"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: -2.525d
+		}
+		{
+			dependencies: ["68CE115163F2BAE7"]
+			icon: { id: "minecraft:charcoal" }
+			id: "3A6E06ED8A33F7DC"
+			title: "Charcoal Production"
+			description: ["Establish renewable charcoal for primitive metallurgy."]
+			rewards: [
+				{
+					id: "7C7B8716DCBEA2DF"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "238A1991C1EA7062"
+					item: { count: 8, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5F00A305BD06FFE9"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 2.375d
+		}
+		{
+			dependencies: ["67A7B39CE0E7DDEC"]
+			icon: { id: "minecraft:stone_pickaxe" }
+			id: "53B2493BCBEF52F5"
+			title: "Forager’s Cache"
+			description: ["Build a small reserve of gathered food and fibers before relying on permanent agriculture."]
+			rewards: [
+				{
+					id: "6FC491A2018A5B84"
+					type: "xp"
+					xp: 23
+				}
+				{
+					id: "7978BAC7BB40623C"
+					item: { count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1F6ECC03D7545673"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 4.475d
+		}
+		{
+			dependencies: ["22ED89C9F874F29D"]
+			icon: { id: "minecraft:dried_kelp" }
+			id: "1575FE1101C6F43B"
+			title: "Dried Kelp Supply"
+			description: ["Preserve kelp for primitive drive components and expedition food."]
+			rewards: [
+				{
+					id: "38285FAC5C9F65D9"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2787C7652718C573"
+					item: { count: 6, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3F513FC0AAA47B43"
+					item: { count: 1, id: "minecraft:dried_kelp" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -6.695d
+		}
+		{
+			dependencies: [
+				"67A7B39CE0E7DDEC"
+				"1458BA084102DA23"
+			]
+			icon: { id: "minecraft:brick" }
+			id: "6EE447FB16DA1A66"
+			title: "Fire Brick Stockpile"
+			description: ["Slowly fire the brick needed for the first metallurgical structures."]
+			rewards: [
+				{
+					id: "62ACDC1BDD773251"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0F22840DB228328F"
+					item: { count: 8, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "324071CC3B968655"
+					item: { count: 1, id: "minecraft:brick" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -1.62d
+		}
+		{
+			dependencies: [
+				"3A6E06ED8A33F7DC"
+				"53B2493BCBEF52F5"
+			]
+			icon: { id: "minecraft:bread" }
+			id: "3EEBBAB6A4474225"
+			title: "Food Security"
+			description: ["Build several days of food before committing to long production projects."]
+			rewards: [
+				{
+					id: "336B5E3BBEEEA0DB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "25CB11DE9CF30D25"
+					item: { count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5980E6E9F736119F"
+					item: { count: 1, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.275d
+		}
+		{
+			dependencies: ["1575FE1101C6F43B"]
+			icon: { id: "minecraft:campfire" }
+			id: "74AEF6CD0EFE09A2"
+			title: "Coastal Kelp Run"
+			description: ["Make a deliberate trip for kelp and return with enough to support early fuel and food needs."]
+			rewards: [
+				{
+					id: "40E93E58EB35575E"
+					type: "xp"
+					xp: 23
+				}
+				{
+					id: "12B3D36D0E2A72ED"
+					item: { count: 8, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "764544753747A557"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: -6.695d
+		}
+		{
+			dependencies: [
+				"6EE447FB16DA1A66"
+				"22ED89C9F874F29D"
+			]
+			icon: { id: "minecraft:calcite" }
+			id: "754579AB522236DA"
+			title: "Calcite Prospecting"
+			description: ["Locate calcite well before the first iron reduction charge."]
+			rewards: [
+				{
+					id: "114E960F1EA5440A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7182D6BA50056EE4"
+					item: { count: 6, id: "minecraft:flint" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2C30D75C1485D2AC"
+					item: { count: 1, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			x: 13.125d
+			y: -4.245d
+		}
+		{
+			dependencies: ["3EEBBAB6A4474225"]
+			icon: { id: "minecraft:leather" }
+			id: "57E43D367D520B90"
+			title: "Leather and Fiber"
+			description: ["Gather leather, string and wool for mechanical support components."]
+			rewards: [
+				{
+					id: "7002A7C5F80FBE22"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1016C0E75FB47E05"
+					item: { count: 6, id: "minecraft:flint" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "41A376521DF9B2C5"
+					item: { count: 1, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			x: 13.125d
+			y: 4.07d
+		}
+		{
+			dependencies: ["754579AB522236DA"]
+			icon: { id: "minecraft:campfire" }
+			id: "2857A1BADDD79E75"
+			title: "Calcite Expedition"
+			description: ["Locate a dependable calcite source and mark a safe route back to it."]
+			rewards: [
+				{
+					id: "7B93905F15A7CBA9"
+					type: "xp"
+					xp: 23
+				}
+				{
+					id: "3C1BA7BCAA13F7FF"
+					item: { count: 6, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "10D7F711E9872DF3"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: -6.695d
+		}
+		{
+			dependencies: [
+				"3EEBBAB6A4474225"
+				"57E43D367D520B90"
+				"2768340FC72DE51A"
+			]
+			icon: { id: "minecraft:oak_fence" }
+			id: "6C0A790FDE5C551D"
+			title: "Defensible Ground"
+			description: ["Choose a settlement that can be lit, fenced and expanded."]
+			rewards: [
+				{
+					id: "403FBBDFF28C2369"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1191DFBB05B1A17B"
+					item: { count: 4, id: "minecraft:bread" }
+					type: "item"
+				}
+				{
+					id: "61CCBA5B7C269A64"
+					item: { count: 12, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "33893DA02B50201B"
+					item: { count: 1, id: "minecraft:oak_fence" }
+					type: "item"
+				}
+			]
+			x: 15.75d
+			y: 6.52d
+		}
+		{
+			dependencies: [
+				"3A6E06ED8A33F7DC"
+				"6EE447FB16DA1A66"
+				"57E43D367D520B90"
+				"754579AB522236DA"
+				"6C0A790FDE5C551D"
+			]
+			icon: { id: "minecraft:chest" }
+			id: "171992F96EBF79D2"
+			title: "Primitive Reserves"
+			description: ["Finish the first age with organized food, fuel and construction reserves."]
+			rewards: [
+				{
+					id: "6D5F6C65FFA8B0E2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "5F678CABAC2613EB"
+					item: { count: 12, id: "minecraft:torch" }
+					type: "item"
+				}
+				{
+					id: "39A5A31999EC3EB2"
+					item: { count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "54DB6843319D8102"
+					item: { count: 1, id: "minecraft:chest" }
+					type: "item"
+				}
+			]
+			x: 18.375d
+			y: 1.3d
+		}
+		{
+			dependencies: ["6C0A790FDE5C551D"]
+			icon: { id: "minecraft:charcoal" }
+			id: "6542CFC84815B286"
+			title: "Emergency Stockpile"
+			description: ["Prepare spare food, tools, torches and basic materials for a recovery after death or disaster."]
+			rewards: [
+				{
+					id: "396F4456ECD59F09"
+					type: "xp"
+					xp: 23
+				}
+				{
+					id: "55C6099ECE8233DA"
+					item: { count: 12, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "4A9BA67E21D44EE4"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: 6.52d
+		}
+	]
+}

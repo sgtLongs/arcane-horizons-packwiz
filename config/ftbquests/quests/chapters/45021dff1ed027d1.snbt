@@ -1,0 +1,615 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "45021dff1ed027d1"
+	icon: { id: "create_ironworks:bronze_ingot" }
+	id: "45021DFF1ED027D1"
+	title: "5 — Bronze Foundry"
+	subtitle: ["Metallurgy becomes a physical foundry process."]
+	images: [ ]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "kubejs:poor_copper_powder" }
+			id: "3F1639242CDE3345"
+			title: "Poor Copper Powder"
+			description: ["Mill copper without bonus nuggets or hidden ore multiplication."]
+			rewards: [
+				{
+					id: "2E8F48FB6BA1EAE4"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "2DFE342937800C1D"
+					item: { count: 3, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "52198BA8276A3FDF"
+					item: { count: 1, id: "kubejs:poor_copper_powder" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -1.24d
+		}
+		{
+			dependencies: ["678071CC02025D14"]
+			icon: { id: "createmetallurgy:foundry_basin" }
+			id: "2C24DE5AF181FCB5"
+			title: "Foundry Brickwork"
+			description: ["Spend primitive metal on a dedicated Create Metallurgy foundry."]
+			rewards: [
+				{
+					id: "37D93DACCBFF379F"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "7CEFA2EEA4D369D0"
+					item: { count: 14, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5FCB4A291DB0644C"
+					item: { count: 1, id: "createmetallurgy:foundry_basin" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 1.91d
+		}
+		{
+			dependencies: ["2C24DE5AF181FCB5"]
+			icon: { id: "createmetallurgy:graphite_ingot_mold" }
+			id: "12CBE94294D47BBC"
+			title: "Graphite Ingot Mold"
+			description: ["Make a reusable ingot mold from carbon and clay."]
+			rewards: [
+				{
+					id: "3E2502E196A352AC"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "78DC255CAD360F16"
+					item: { count: 14, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3E5C763D0C0A17AB"
+					item: { count: 1, id: "createmetallurgy:graphite_ingot_mold" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -3.34d
+		}
+		{
+			dependencies: ["2C24DE5AF181FCB5"]
+			icon: { id: "createmetallurgy:casting_table" }
+			id: "13FEAD8FE51A16CF"
+			title: "Casting Table"
+			description: ["Build the table where measured molten metal becomes usable stock."]
+			rewards: [
+				{
+					id: "3C35A585D31B7851"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "768EF83409ED5958"
+					item: { count: 14, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5794ACA75BE471A5"
+					item: { count: 1, id: "createmetallurgy:casting_table" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 0.86d
+		}
+		{
+			dependencies: ["2C24DE5AF181FCB5"]
+			icon: { id: "createmetallurgy:foundry_basin" }
+			id: "4029AA66A719CA13"
+			title: "Kiln Brick Run"
+			description: ["Produce enough refractory brickwork to repair or expand the foundry after the first successful cast."]
+			rewards: [
+				{
+					id: "7B30FBAF849D2957"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "17A8C1CA97552063"
+					item: { count: 14, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "27F2E26AEAB97227"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 2.96d
+		}
+		{
+			dependencies: ["2C24DE5AF181FCB5"]
+			icon: { id: "createmetallurgy:faucet" }
+			id: "7F04574BEA776398"
+			title: "Faucet and Flow"
+			description: ["Control molten metal rather than crafting ingots directly."]
+			rewards: [
+				{
+					id: "3DC227E7B7164395"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "529748BD5E457C57"
+					item: { count: 8, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "157FF7908644F132"
+					item: { count: 1, id: "createmetallurgy:faucet" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 5.06d
+		}
+		{
+			dependencies: ["12CBE94294D47BBC"]
+			icon: { id: "createmetallurgy:casting_table" }
+			id: "31B95D279832466B"
+			title: "Slag Bucket"
+			description: ["Collect the foundry byproduct and reserve it for later recovery instead of discarding it."]
+			rewards: [
+				{
+					id: "29B3A54C611ECC1A"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "3CA5A9CA8B4741B2"
+					item: { count: 8, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "25E0AAC618BAE0C5"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -3.34d
+		}
+		{
+			dependencies: [
+				"13FEAD8FE51A16CF"
+				"3F1639242CDE3345"
+			]
+			icon: { id: "minecraft:copper_ingot" }
+			id: "50322FDBD26B332F"
+			title: "Three to One Copper"
+			description: ["Melt poor powder at 30 mB per raw; three raw copper now makes one ingot."]
+			rewards: [
+				{
+					id: "6FEC83C92DBC333C"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "06A0F1115414E619"
+					item: { count: 3, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4B6598FA1A8130C2"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -1.24d
+		}
+		{
+			dependencies: [
+				"13FEAD8FE51A16CF"
+				"1A25160759F6F92C"
+			]
+			icon: { id: "create_ironworks:tin_ingot" }
+			id: "21A611E49D486E22"
+			title: "Three to One Tin"
+			description: ["Improve tin from five-to-one primitive firing to three-to-one foundry recovery."]
+			rewards: [
+				{
+					id: "1E088D5F3808D7DA"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "5B0B44BAAB90E9B8"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3EDD2800353FE4D1"
+					item: { count: 1, id: "create_ironworks:tin_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.86d
+		}
+		{
+			dependencies: [
+				"13FEAD8FE51A16CF"
+				"7F04574BEA776398"
+			]
+			icon: { id: "createmetallurgy:foundry_basin" }
+			id: "64A428BD0CE54316"
+			title: "Moldmaker"
+			description: ["Create and store the molds needed for routine metal casting."]
+			rewards: [
+				{
+					id: "3117704170448275"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "61E9B6ACEE60F2E6"
+					item: { count: 14, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "79066AE0B286E4C7"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 2.96d
+		}
+		{
+			dependencies: [
+				"13FEAD8FE51A16CF"
+				"7F04574BEA776398"
+			]
+			icon: { id: "createmetallurgy:foundry_mixer" }
+			id: "61B0FB1F842CFF02"
+			title: "Foundry Mixer"
+			description: ["Build the copper-era mixer used for molten alloys."]
+			rewards: [
+				{
+					id: "2B2F06DFE7DFB5E8"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "46CDDA566D42C609"
+					item: { count: 14, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5C29A21DE360B339"
+					item: { count: 1, id: "createmetallurgy:foundry_mixer" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 5.06d
+		}
+		{
+			dependencies: [
+				"50322FDBD26B332F"
+				"21A611E49D486E22"
+			]
+			icon: { id: "createmetallurgy:casting_table" }
+			id: "42DA169FF2F0F2D6"
+			title: "Bronze Ratio Test"
+			description: ["Run a controlled copper-to-tin alloy batch and verify the intended bronze ratio."]
+			rewards: [
+				{
+					id: "5948A397224554CA"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "1180A01BD6313560"
+					item: { count: 10, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1975FF711FD2FEB9"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: -1.24d
+		}
+		{
+			dependencies: [
+				"61B0FB1F842CFF02"
+				"50322FDBD26B332F"
+				"21A611E49D486E22"
+			]
+			icon: { id: "create_ironworks:bronze_ingot" }
+			id: "6721EDDB52D160D6"
+			title: "Molten Bronze"
+			description: ["Alloy three parts molten copper to one part molten tin."]
+			rewards: [
+				{
+					id: "45520076D849FEBD"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "7739DB8B283A6D92"
+					item: { count: 10, id: "minecraft:coal" }
+					type: "item"
+				}
+				{
+					id: "665085813F5915C5"
+					item: { count: 8, id: "minecraft:brick" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "13B45FC65180F132"
+					item: { count: 1, id: "create_ironworks:bronze_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 0.86d
+		}
+		{
+			dependencies: [
+				"12CBE94294D47BBC"
+				"6721EDDB52D160D6"
+			]
+			icon: { id: "create_ironworks:bronze_ingot" }
+			id: "5841F802FE802477"
+			title: "Bronze Casting"
+			description: ["Cast bronze ingots and begin treating alloys as designed materials."]
+			rewards: [
+				{
+					id: "3BA6F83F32B10C20"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "19B2A3E74138F7E1"
+					item: { count: 14, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "693FFC95AA799FF1"
+					item: { count: 1, id: "create_ironworks:bronze_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.16d
+		}
+		{
+			dependencies: ["5841F802FE802477"]
+			icon: { id: "create_ironworks:bronze_sheet" }
+			id: "479A4CC9038BE0BB"
+			title: "Bronze Sheets"
+			description: ["Press bronze into formed machine stock."]
+			rewards: [
+				{
+					id: "2702AEFFF876C179"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "6DD0487A76DC4405"
+					item: { count: 10, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5D2D456DA72E8745"
+					item: { count: 1, id: "create_ironworks:bronze_sheet" }
+					type: "item"
+				}
+			]
+			x: 13.125d
+			y: -2.61d
+		}
+		{
+			dependencies: ["5841F802FE802477"]
+			icon: { id: "createmetallurgy:faucet" }
+			id: "131AF4D52FEAFE38"
+			title: "Bronze Tool Trial"
+			description: ["Use bronze equipment in real mining or combat before iron replaces it."]
+			rewards: [
+				{
+					id: "3AEBE634EA6050AF"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "40AD63D5E41584CA"
+					item: { count: 10, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "575BAC4C5A5EF95F"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: 2.61d
+		}
+		{
+			dependencies: ["479A4CC9038BE0BB"]
+			icon: { id: "create_ironworks:bronze_pickaxe" }
+			id: "52932978A3E0D28B"
+			title: "Bronze Equipment"
+			description: ["Use Bronze as a real equipment tier rather than a one-quest novelty."]
+			rewards: [
+				{
+					id: "79E06C6B45B30757"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "605454D37AA5B8B1"
+					item: { count: 10, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "476FAB0E858BD8DC"
+					item: { count: 1, id: "create_ironworks:bronze_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 15.75d
+			y: -5.06d
+		}
+		{
+			dependencies: ["52932978A3E0D28B"]
+			icon: { id: "createmetallurgy:faucet" }
+			id: "3010927393796BDF"
+			title: "Mixer Commissioning"
+			description: ["Commission the bronze-era mixer as a permanent part of the workshop."]
+			rewards: [
+				{
+					id: "5B06F4AA44E68E2C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "0B4D59A5CD1F576C"
+					item: { count: 6, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "20B750670ED564DC"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: -5.06d
+		}
+		{
+			dependencies: [
+				"61B0FB1F842CFF02"
+				"5841F802FE802477"
+				"479A4CC9038BE0BB"
+				"52932978A3E0D28B"
+			]
+			icon: { id: "create:mechanical_mixer" }
+			id: "1FFBEC4328E29A9A"
+			title: "Bronze Mechanical Mixer"
+			description: ["Use bronze sheets in the Whisk and build the Mixer required for iron chemistry."]
+			rewards: [
+				{
+					id: "6B23DCE25070E48D"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "79639513348F27B7"
+					item: { count: 10, id: "minecraft:coal" }
+					type: "item"
+				}
+				{
+					id: "2856100F2B30A07F"
+					item: { count: 8, id: "minecraft:brick" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "1C2BCA458D8477AB"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+			]
+			x: 18.375d
+			y: -1.24d
+		}
+	]
+}

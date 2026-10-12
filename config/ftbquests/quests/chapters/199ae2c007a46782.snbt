@@ -1,0 +1,705 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "199ae2c007a46782"
+	icon: { id: "minecraft:ender_eye" }
+	id: "199AE2C007A46782"
+	title: "23 — Dimensional Ecology"
+	subtitle: ["Give every existing dimension a distinct economic, magical and expedition identity."]
+	images: [ ]
+	order_index: 22
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:ender_eye" }
+			id: "1377A24132850D56"
+			title: "Aether Ecology"
+			description: ["Study Aether plants, creatures and resources as a celestial ecosystem rather than only a dungeon dimension."]
+			rewards: [
+				{
+					id: "08CACA269528B511"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0AC85EE74BD9335F"
+					item: { count: 12, id: "minecraft:feather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4C0DE8C25AC8FB96"
+					item: { count: 1, id: "aether:skyroot_log" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -7.265d
+		}
+		{
+			dependencies: [
+				"191D364CFA329AC5"
+				"35AB0E28D196D029"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "0F20710647319049"
+			title: "End Logistics"
+			description: ["Prepare the End as a long-duration expedition with storage and replacement equipment."]
+			rewards: [
+				{
+					id: "2C2B84DEA31F9686"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3DDFE15AE159A72B"
+					item: { count: 6, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5997097F1016D6F7"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: -3.065d
+		}
+		{
+			dependencies: ["22533F4935E0E750"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "422A9CAC6B73EE85"
+			title: "Deep Dark Survey"
+			description: ["Enter Ancient City and Deep Dark territory as a planned research mission rather than casual mining."]
+			rewards: [
+				{
+					id: "7FFCA63D2B18D6BB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5ED530C550AB8B0F"
+					item: { count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "36A6EB8291662CD2"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: -1.66d
+		}
+		{
+			dependencies: [
+				"275ADC496625E9DB"
+				"35AB0E28D196D029"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "29AA56E7429C91C3"
+			title: "Nether Logistics"
+			description: ["Establish a safe supply route and staging area before using the Nether as routine industrial territory."]
+			rewards: [
+				{
+					id: "6590023A58C15222"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3A962EE6996C80EA"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "565B2359E06392E2"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 3.935d
+		}
+		{
+			dependencies: ["422A9CAC6B73EE85"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "713A8BFD9539909B"
+			title: "Echo Sample Archive"
+			description: ["Return Deep Dark materials to a protected research collection."]
+			rewards: [
+				{
+					id: "5434972999FA31F6"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "282B9525A9D578AF"
+					item: { count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "0E1C4C671BD0E182"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: -9.365d
+		}
+		{
+			dependencies: ["1377A24132850D56"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "35CECC75CC94EBE4"
+			title: "Aether Specimen Program"
+			description: ["Bring back flora, fauna products or materials for ecological and magical research."]
+			rewards: [
+				{
+					id: "42FC0834CC1F5260"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0F3D514DEAB8C365"
+					item: { count: 12, id: "minecraft:feather" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3096D463DED358EA"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -8.315d
+		}
+		{
+			dependencies: [
+				"1377A24132850D56"
+				"7795EC85D3201A86"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "4005277871B9E094"
+			title: "Aether Apothecary"
+			description: ["Bring celestial biological ingredients into late apothecary and Nature’s Aura/Ars research."]
+			rewards: [
+				{
+					id: "6BA9D5AE06066F0D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2615D8CEB2F89E79"
+					item: { count: 12, id: "minecraft:feather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "78EF69088A5ED4E2"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -6.215d
+		}
+		{
+			dependencies: [
+				"1377A24132850D56"
+				"35AB0E28D196D029"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "1214DE2F238B2D7F"
+			title: "Aether Infrastructure"
+			description: ["Establish a repeatable route, shelter and storage for sustained Aether expeditions."]
+			rewards: [
+				{
+					id: "4BE047598189B45E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "75F885567FED8552"
+					item: { count: 12, id: "minecraft:feather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "67A515A9FBC6D273"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -6.215d
+		}
+		{
+			dependencies: ["0F20710647319049"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "11F60D894392AE0B"
+			title: "Shulker Economy"
+			description: ["Turn shulker resources into a major logistics milestone instead of merely better boxes."]
+			rewards: [
+				{
+					id: "0FDE106820A50424"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0E0B2C2FB63F272D"
+					item: { count: 6, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+				{
+					id: "6E9B81DD9AA8195B"
+					item: { count: 2, id: "minecraft:end_rod" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1B76429CB15E4F04"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -4.115d
+		}
+		{
+			dependencies: [
+				"0F20710647319049"
+				"313FE11D4AF18207"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "131E4767408AD63F"
+			title: "End Separation"
+			description: ["Connect End materials to the two-times metallurgy era and advanced separation technology."]
+			rewards: [
+				{
+					id: "494B7E3271441627"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3FC8E1E0CE26A299"
+					item: { count: 6, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "35B9DDB4B0798106"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -2.015d
+		}
+		{
+			dependencies: [
+				"29AA56E7429C91C3"
+				"52D9DE9C412F0D4C"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "60E63D95705C8418"
+			title: "Nether Industry"
+			description: ["Use blaze heat, quartz, brass and precision as the Nether’s defining contribution to technology."]
+			rewards: [
+				{
+					id: "6CE0EBD384B59567"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "136AD80FEDC2851B"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+				{
+					id: "0DBC1B6DB6F7AF8E"
+					item: { count: 2, id: "minecraft:end_rod" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6A6481EBCC9590CD"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 2.885d
+		}
+		{
+			dependencies: ["29AA56E7429C91C3"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "5434B75786A002B5"
+			title: "Nether Supply Contract"
+			description: ["Maintain a repeatable flow of quartz, blaze materials or other Nether inputs back to industry."]
+			rewards: [
+				{
+					id: "747573ABF0ED9DFB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4A0B5F573A156410"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "0469ADDF4432E79C"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 4.985d
+		}
+		{
+			dependencies: [
+				"29AA56E7429C91C3"
+				"313E7CCB487A83D1"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "6A4527DB6C263A7B"
+			title: "Nether Apothecary"
+			description: ["Collect Nether-specific ingredients that expand brewing and high-risk combat preparation."]
+			rewards: [
+				{
+					id: "36B13447CC9AB5B5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "100EDAB5055D569D"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "74665889474C6006"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 7.085d
+		}
+		{
+			dependencies: ["422A9CAC6B73EE85"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "3C480481C2D8EA1C"
+			title: "Echo Research"
+			description: ["Use echo/sculk resources as rare inputs for occult, apothecary or advanced magical work."]
+			rewards: [
+				{
+					id: "632C3F47D5020A3C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4D67D871DFAE0861"
+					item: { count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "623D33B54A080557"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 8.135d
+		}
+		{
+			dependencies: ["1214DE2F238B2D7F"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "7701DE3AC0F86742"
+			title: "Aether Supply Line"
+			description: ["Move useful Aether resources into settlement storage without treating the dimension as a one-time trip."]
+			rewards: [
+				{
+					id: "222E3AAE0AF21093"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "76A2D48C8906E44F"
+					item: { count: 12, id: "minecraft:feather" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "102FCCCC9F33FD7C"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: -6.215d
+		}
+		{
+			dependencies: ["11F60D894392AE0B"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "0535F7A367C6F914"
+			title: "Shulker Logistics Trial"
+			description: ["Use post-End storage or logistics materials in a real distribution system."]
+			rewards: [
+				{
+					id: "19CB96F9913DF4D5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0B1478A4C9DDF421"
+					item: { count: 6, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "79C1C8B2D83B9F78"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: -4.115d
+		}
+		{
+			dependencies: ["6A4527DB6C263A7B"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "24AC73DAA31D72C6"
+			title: "Nether Field Pharmacy"
+			description: ["Identify which Nether materials belong in the apothecary supply chain."]
+			rewards: [
+				{
+					id: "011F3150BD1770A7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3CEFC115ACD1A106"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3021886ABE0CF90B"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 4.46d
+		}
+		{
+			dependencies: ["3C480481C2D8EA1C"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "70716417489C01D5"
+			title: "Deeper and Darker Expedition"
+			description: ["Treat the deeper dimension as a separate high-risk campaign with its own resupply requirements."]
+			rewards: [
+				{
+					id: "4F089C10467B7B6B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "564C8DDEAA102F4B"
+					item: { count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4EC312A6977FCD5E"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 9.185d
+		}
+		{
+			dependencies: [
+				"29AA56E7429C91C3"
+				"60E63D95705C8418"
+				"70716417489C01D5"
+				"1214DE2F238B2D7F"
+				"131E4767408AD63F"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "6A812FC526CFDEDF"
+			title: "Dimensional Supply Network"
+			description: ["Maintain supplies or staging infrastructure for multiple dimensions at the same time."]
+			rewards: [
+				{
+					id: "5D26271DD22976E4"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6D9E8921929EC07B"
+					item: { count: 3, id: "minecraft:end_rod" }
+					type: "item"
+				}
+				{
+					id: "26E7A1380A7A0D73"
+					item: { count: 10, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6420E34D6132DFDA"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 0.44d
+		}
+		{
+			dependencies: ["70716417489C01D5"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "20FB7BCDEAE59706"
+			title: "Other-side Staging Camp"
+			description: ["Build a defensible staging point for Deeper and Darker exploration."]
+			rewards: [
+				{
+					id: "7E96E2DA4E35190E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2CFE781D2D211730"
+					item: { count: 8, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3AFC987AEDA907BD"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 9.365d
+		}
+		{
+			dependencies: ["6A812FC526CFDEDF"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "645008AE21F6CBE5"
+			title: "Interdimensional Ledger"
+			description: ["Track which dimension supplies which branch of the settlement economy."]
+			rewards: [
+				{
+					id: "1CBA9B5F8C95BF43"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "33677ADE92A4BC66"
+					item: { count: 3, id: "minecraft:end_rod" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "26CC404E58C9998A"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -0.79d
+		}
+		{
+			dependencies: [
+				"6A4527DB6C263A7B"
+				"4005277871B9E094"
+				"6A812FC526CFDEDF"
+				"645008AE21F6CBE5"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "7812B1CBB06935BA"
+			title: "Worlds as an Economy"
+			description: ["Use each dimension for a distinct set of resources and systems rather than treating them as isolated sightseeing content."]
+			rewards: [
+				{
+					id: "21377E5ABA322266"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1CADC3D925E3AFCF"
+					item: { count: 3, id: "minecraft:end_rod" }
+					type: "item"
+				}
+				{
+					id: "585A3C9E156CDEBB"
+					item: { count: 10, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "0263BBF63209E255"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: 0.44d
+		}
+	]
+}

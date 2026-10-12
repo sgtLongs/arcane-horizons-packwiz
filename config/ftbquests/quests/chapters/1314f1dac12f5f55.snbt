@@ -1,0 +1,517 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "1314f1dac12f5f55"
+	icon: { id: "minecraft:wheat" }
+	id: "1314F1DAC12F5F55"
+	title: "2 — Hearth and Homestead"
+	subtitle: ["The settlement is part of the technology tree."]
+	images: [ ]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:wheat" }
+			id: "3D9B9EBC698A2E96"
+			title: "Fields Before Factories"
+			description: ["Establish renewable crops so factory work does not compete with survival."]
+			rewards: [
+				{
+					id: "281BEB4325876099"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "649FCD3F1796229A"
+					item: { count: 10, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1966CEE84F9A0236"
+					item: { count: 1, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			x: 1.37d
+			y: 0d
+		}
+		{
+			dependencies: ["3D9B9EBC698A2E96"]
+			icon: { id: "chipped:carpenters_table" }
+			id: "295A6C0A67AA3421"
+			title: "Early Chipped Workshop"
+			description: ["Open decorative construction before iron so the settlement can grow with progression."]
+			rewards: [
+				{
+					id: "7C9C3C29804CE522"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "44659E3677062DA2"
+					item: { count: 6, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1F55A2CCEDCA6895"
+					item: { count: 1, id: "chipped:carpenters_table" }
+					type: "item"
+				}
+			]
+			x: 2.42d
+			y: 2.625d
+		}
+		{
+			dependencies: ["3D9B9EBC698A2E96"]
+			icon: { id: "minecraft:wheat" }
+			id: "39817F21BA10C397"
+			title: "Kitchen Garden"
+			description: ["Lay out a compact food garden close enough to the settlement to maintain routinely."]
+			rewards: [
+				{
+					id: "7DCBDE946BF02974"
+					type: "xp"
+					xp: 26
+				}
+				{
+					id: "26E8A680F0D83746"
+					item: { count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "26C0EEB25AE8A414"
+					type: "checkmark"
+				}
+			]
+			x: 0.32d
+			y: 2.625d
+		}
+		{
+			dependencies: ["3D9B9EBC698A2E96"]
+			icon: { id: "minecraft:leather" }
+			id: "2971B118C743EA6D"
+			title: "Ranching Begins"
+			description: ["Keep livestock for food, leather and future mechanical components."]
+			rewards: [
+				{
+					id: "18C244300897DEF9"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "3A124DC3F5600A60"
+					item: { count: 6, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "608ED6ECE54ED944"
+					item: { count: 1, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			x: 5.045d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"3D9B9EBC698A2E96"
+				"39817F21BA10C397"
+			]
+			icon: { id: "minecraft:barrel" }
+			id: "14F0B3340E896DB9"
+			title: "A Real Pantry"
+			description: ["Store cooked food and ingredients for long expeditions."]
+			rewards: [
+				{
+					id: "29DB6EB369553507"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "4D9CD2C2B780E006"
+					item: { count: 8, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "401F4A29A8AD2B07"
+					item: { count: 1, id: "minecraft:barrel" }
+					type: "item"
+				}
+			]
+			x: -2.13d
+			y: 5.25d
+		}
+		{
+			dependencies: ["295A6C0A67AA3421"]
+			icon: { id: "minecraft:leather" }
+			id: "26143276D509D34E"
+			title: "Carpenter’s Row"
+			description: ["Use Chipped and basic building materials to create a distinct workshop or residential area."]
+			rewards: [
+				{
+					id: "1AC9C61240A4559B"
+					type: "xp"
+					xp: 26
+				}
+				{
+					id: "6C539C44D353073A"
+					item: { count: 8, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7CE03B20D353DE7E"
+					type: "checkmark"
+				}
+			]
+			x: 2.77d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2971B118C743EA6D"]
+			icon: { id: "minecraft:white_wool" }
+			id: "61FEA663F188F8DE"
+			title: "Animal Byproducts"
+			description: ["Build dependable supplies of leather, wool and feathers."]
+			rewards: [
+				{
+					id: "19D43F4B0D5B0643"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "7F5E6066A8A8FEA3"
+					item: { count: 10, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "65F49FD9D0C9DFAE"
+					item: { count: 1, id: "minecraft:white_wool" }
+					type: "item"
+				}
+			]
+			x: 2.77d
+			y: 7.875d
+		}
+		{
+			dependencies: ["2971B118C743EA6D"]
+			icon: { id: "minecraft:wheat" }
+			id: "117E06BC1742B4AB"
+			title: "Breeding Pair"
+			description: ["Secure at least one dependable breeding pair of useful livestock without exhausting local animals."]
+			rewards: [
+				{
+					id: "28D7D96D589FAA27"
+					type: "xp"
+					xp: 26
+				}
+				{
+					id: "75F83A3F2C08E023"
+					item: { count: 6, id: "minecraft:potato" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5658E69D057A9D3C"
+					type: "checkmark"
+				}
+			]
+			x: 7.67d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"14F0B3340E896DB9"
+				"295A6C0A67AA3421"
+			]
+			icon: { id: "minecraft:barrel" }
+			id: "1FE7DA5E206B1312"
+			title: "Storage District"
+			description: ["Separate ore, fuel, food, magic and building materials."]
+			rewards: [
+				{
+					id: "5BDDB69EDBCE7B63"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "4F0C044AC0D4BE4A"
+					item: { count: 8, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "42A11A5636DADE38"
+					item: { count: 1, id: "minecraft:barrel" }
+					type: "item"
+				}
+			]
+			x: -2.13d
+			y: 7.875d
+		}
+		{
+			dependencies: ["14F0B3340E896DB9"]
+			icon: { id: "minecraft:leather" }
+			id: "2A4FE8A4AEE870F8"
+			title: "Smokehouse Routine"
+			description: ["Maintain a practical cooked-food reserve without relying on a furnace."]
+			rewards: [
+				{
+					id: "49230D9F9FBFAAD3"
+					type: "xp"
+					xp: 26
+				}
+				{
+					id: "76FCCBDA556E0C1B"
+					item: { count: 6, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1D8AE0609D44FB67"
+					type: "checkmark"
+				}
+			]
+			x: -4.23d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"14F0B3340E896DB9"
+				"61FEA663F188F8DE"
+			]
+			icon: { id: "minecraft:bowl" }
+			id: "70E3A359019C9A54"
+			title: "Kitchen Without a Furnace"
+			description: ["Learn campfire meals and low-tech food preparation."]
+			rewards: [
+				{
+					id: "7124B46F5A038201"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "0DF87B85C5B695D9"
+					item: { count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3D71373E502E5BF6"
+					item: { count: 1, id: "minecraft:bowl" }
+					type: "item"
+				}
+			]
+			x: 2.305d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1FE7DA5E206B1312"]
+			icon: { id: "minecraft:lantern" }
+			id: "225D7AC7C1E6DA96"
+			title: "Safe Paths and Lighting"
+			description: ["Make the settlement safer than the wilderness around it."]
+			rewards: [
+				{
+					id: "62AF86E99219F776"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "0C2413AD7BEE3391"
+					item: { count: 8, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "108B4B8C8F67BEFC"
+					item: { count: 1, id: "minecraft:lantern" }
+					type: "item"
+				}
+			]
+			x: -5.54d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"70E3A359019C9A54"
+				"1FE7DA5E206B1312"
+				"225D7AC7C1E6DA96"
+			]
+			icon: { id: "minecraft:chest" }
+			id: "434AB80625F23B2D"
+			title: "Expedition Kits"
+			description: ["Standardize food, beds, blocks and recovery supplies before travel."]
+			rewards: [
+				{
+					id: "7AEED2DF4DA0229D"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "50B494650233AA33"
+					item: { count: 4, id: "minecraft:bread" }
+					type: "item"
+				}
+				{
+					id: "53A2C5E18A658B13"
+					item: { count: 2, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1BA0ED4E9B831184"
+					item: { count: 1, id: "minecraft:chest" }
+					type: "item"
+				}
+			]
+			x: -2.77d
+			y: 13.125d
+		}
+		{
+			dependencies: ["225D7AC7C1E6DA96"]
+			icon: { id: "minecraft:barrel" }
+			id: "5763EA4D0E61333A"
+			title: "Lit Streets"
+			description: ["Connect key settlement buildings with safe, lit paths rather than isolated boxes."]
+			rewards: [
+				{
+					id: "4C45C18E7BBA9DC9"
+					type: "xp"
+					xp: 26
+				}
+				{
+					id: "5E88A591F1C04687"
+					item: { count: 4, id: "minecraft:white_wool" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1DBAB6E14BFD6389"
+					type: "checkmark"
+				}
+			]
+			x: -7.67d
+			y: 13.125d
+		}
+		{
+			dependencies: [
+				"2971B118C743EA6D"
+				"70E3A359019C9A54"
+				"1FE7DA5E206B1312"
+				"225D7AC7C1E6DA96"
+				"434AB80625F23B2D"
+			]
+			icon: { id: "minecraft:bell" }
+			id: "51E5D1D7CFB478FC"
+			title: "Settlement Established"
+			description: ["Maintain a home capable of supporting copper, bronze and Create workshops."]
+			rewards: [
+				{
+					id: "1E799C69BEA8766E"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "1EE18D4F129B199C"
+					item: { count: 6, id: "minecraft:potato" }
+					type: "item"
+				}
+				{
+					id: "1353B3C259353215"
+					item: { count: 2, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2588A86F64BF7F8D"
+					item: { count: 1, id: "minecraft:bell" }
+					type: "item"
+				}
+			]
+			x: -0.32d
+			y: 15.75d
+		}
+		{
+			dependencies: ["434AB80625F23B2D"]
+			icon: { id: "minecraft:barrel" }
+			id: "206580E03672B26C"
+			title: "Two-Person Expedition Kit"
+			description: ["Prepare a matched set of food, tools and emergency supplies for both players."]
+			rewards: [
+				{
+					id: "40ED7B96D532BFDD"
+					type: "xp"
+					xp: 26
+				}
+				{
+					id: "08639B4DFF3322B3"
+					item: { count: 8, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "14DB0DFEBB6C6E1D"
+					type: "checkmark"
+				}
+			]
+			x: -2.77d
+			y: 15.75d
+		}
+	]
+}

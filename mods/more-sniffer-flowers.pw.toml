@@ -1,0 +1,13 @@
+name = "More Sniffer Flowers"
+filename = "MoreSnifferFlowers-1.21.1-neo-6.7.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DbriYWc8/versions/mULgzS3g/MoreSnifferFlowers-1.21.1-neo-6.7.2.jar"
+hash-format = "sha512"
+hash = "869d0e95f37effd60a3110be280345c35c3332e12f4b038afb9647a90f5c7aae54541a35e7e9e5964cadcff53cffa2b2dad0947eb2541d819879a4a5bc77faf2"
+
+[update]
+[update.modrinth]
+mod-id = "DbriYWc8"
+version = "mULgzS3g"

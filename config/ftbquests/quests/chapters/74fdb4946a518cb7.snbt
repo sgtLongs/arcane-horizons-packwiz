@@ -1,0 +1,540 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "74fdb4946a518cb7"
+	icon: { id: "minecraft:copper_ingot" }
+	id: "74FDB4946A518CB7"
+	title: "3 — Copper and Tin"
+	subtitle: ["The first metals are scarce, lossy and valuable."]
+	images: [ ]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:raw_copper" }
+			id: "1E8D69AEE403FE2A"
+			title: "Copper Prospecting"
+			description: ["Gather raw copper knowing that primitive recovery wastes most of the ore."]
+			rewards: [
+				{
+					id: "71DB01C77908E729"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2B323D7FCBACB325"
+					item: { count: 3, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1027641E165FB9F0"
+					item: { count: 1, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: -1.84d
+		}
+		{
+			dependencies: ["51E5D1D7CFB478FC"]
+			icon: { id: "create:raw_zinc" }
+			id: "5E435269E472AF3D"
+			title: "Zinc Prospecting"
+			description: ["Locate zinc for Andesite Alloy and the first Create mechanisms."]
+			rewards: [
+				{
+					id: "29B3EA4262EF069F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "15D1ABC21E589359"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "33F737FFEB4FE78C"
+					item: { count: 1, id: "create:raw_zinc" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -1.84d
+		}
+		{
+			dependencies: ["51E5D1D7CFB478FC"]
+			icon: { id: "create_ironworks:raw_tin" }
+			id: "787543B5490C53BA"
+			title: "Tin Prospecting"
+			description: ["Find Ironworks tin deposits; bronze cannot exist without them."]
+			rewards: [
+				{
+					id: "65ED5BEC599E7B7D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "66207D43EDE007C7"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "770AA1D728BA83CD"
+					item: { count: 1, id: "create_ironworks:raw_tin" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 3.41d
+		}
+		{
+			dependencies: ["1E8D69AEE403FE2A"]
+			icon: { id: "kubejs:primitive_copper_charge" }
+			id: "1CB52B87D9F77560"
+			title: "Primitive Copper Charge"
+			description: ["Combine four raw copper with carbon and clay for one primitive charge."]
+			rewards: [
+				{
+					id: "622CC87237652CC4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "45463D67D0C1806B"
+					item: { count: 3, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "194F8E4E00138BD0"
+					item: { count: 1, id: "kubejs:primitive_copper_charge" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -3.935d
+		}
+		{
+			dependencies: ["5E435269E472AF3D"]
+			icon: { id: "create:zinc_ingot" }
+			id: "22BCFF008940FB41"
+			title: "Primitive Zinc"
+			description: ["Accept four raw zinc per ingot until a real foundry exists."]
+			rewards: [
+				{
+					id: "4AD70BB60EEE664F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4359AC970BFE5BF8"
+					item: { count: 8, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "42A3D0168A93FF56"
+					item: { count: 1, id: "create:zinc_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -1.84d
+		}
+		{
+			dependencies: ["1E8D69AEE403FE2A"]
+			icon: { id: "minecraft:raw_copper" }
+			id: "1936F353BDB0BC99"
+			title: "Copper Vein Survey"
+			description: ["Mark a productive copper site and record the real cost of primitive recovery."]
+			rewards: [
+				{
+					id: "54261BC628A5602C"
+					type: "xp"
+					xp: 29
+				}
+				{
+					id: "06466CC23125F8E4"
+					item: { count: 3, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1D41D0025BA4BD46"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 0.26d
+		}
+		{
+			dependencies: ["5E435269E472AF3D"]
+			icon: { id: "minecraft:raw_copper" }
+			id: "3E67EB75935D68D2"
+			title: "Zinc Run"
+			description: ["Return from a dedicated zinc trip with enough material to support Andesite Alloy production."]
+			rewards: [
+				{
+					id: "621DC17AC97335F1"
+					type: "xp"
+					xp: 29
+				}
+				{
+					id: "3A6701702FAB844B"
+					item: { count: 8, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "62639B836ACF990E"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 0.26d
+		}
+		{
+			dependencies: ["787543B5490C53BA"]
+			icon: { id: "kubejs:primitive_copper_charge" }
+			id: "2429A103027F70CE"
+			title: "Tin Route"
+			description: ["Establish a repeatable route to tin rather than depending on accidental finds."]
+			rewards: [
+				{
+					id: "272FCDFD58C504EB"
+					type: "xp"
+					xp: 29
+				}
+				{
+					id: "36B15414AB8D3008"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "53611779A8BE7D53"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 2.36d
+		}
+		{
+			dependencies: ["787543B5490C53BA"]
+			icon: { id: "kubejs:primitive_tin_charge" }
+			id: "1324BBF1FA9BFC15"
+			title: "Primitive Tin Charge"
+			description: ["Build the deliberately poor five-raw tin charge."]
+			rewards: [
+				{
+					id: "5C38BD1A37CD4997"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0986068FC8B581BE"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2F549CFB3FF110EE"
+					item: { count: 1, id: "kubejs:primitive_tin_charge" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 4.46d
+		}
+		{
+			dependencies: ["1CB52B87D9F77560"]
+			icon: { id: "minecraft:copper_ingot" }
+			id: "6EC3607753F2A0F4"
+			title: "First Copper"
+			description: ["Fire a primitive copper charge: four raw copper becomes one ingot."]
+			rewards: [
+				{
+					id: "70823722B5C24C87"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "19ABBE9618E33DB0"
+					item: { count: 3, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7545632FC0B9DE81"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -3.935d
+		}
+		{
+			dependencies: ["1324BBF1FA9BFC15"]
+			icon: { id: "create_ironworks:tin_ingot" }
+			id: "1A25160759F6F92C"
+			title: "First Tin"
+			description: ["Fire five raw tin into one precious tin ingot."]
+			rewards: [
+				{
+					id: "2508C9723EB2A74D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3858DA89920617F9"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "794A2E424C9C9477"
+					item: { count: 1, id: "create_ironworks:tin_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 3.41d
+		}
+		{
+			dependencies: [
+				"6EC3607753F2A0F4"
+				"22BCFF008940FB41"
+				"1A25160759F6F92C"
+			]
+			icon: { id: "minecraft:copper_ingot" }
+			id: "352351388C16437C"
+			title: "Metal Accounting"
+			description: ["Track metal use: every early ingot represents a large mining investment."]
+			rewards: [
+				{
+					id: "466DC9E23E558731"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "69F486945D254E4D"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+				{
+					id: "4DEC73BD4B8D63EE"
+					item: { count: 6, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4D9A5079A18F867B"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 0.615d
+		}
+		{
+			dependencies: [
+				"22BCFF008940FB41"
+				"352351388C16437C"
+			]
+			icon: { id: "minecraft:andesite" }
+			id: "78EA0A4B28B82387"
+			title: "Andesite Survey"
+			description: ["Collect Andesite for the mechanical structures that improve recovery."]
+			rewards: [
+				{
+					id: "24059B1014DCC27D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "05DBAC87C643716E"
+					item: { count: 6, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2C6C1DE3C2BDD1F4"
+					item: { count: 1, id: "minecraft:andesite" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -1.84d
+		}
+		{
+			dependencies: ["352351388C16437C"]
+			icon: { id: "kubejs:primitive_copper_charge" }
+			id: "7D91AFCA5CF92F8B"
+			title: "Ore Ledger"
+			description: ["Track raw ore consumed versus metal produced so the early losses are visible."]
+			rewards: [
+				{
+					id: "2070ED3424D54C8A"
+					type: "xp"
+					xp: 29
+				}
+				{
+					id: "0D962CDF9A25920D"
+					item: { count: 2, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "11802464C6003ECA"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 0.435d
+		}
+		{
+			dependencies: [
+				"6EC3607753F2A0F4"
+				"78EA0A4B28B82387"
+			]
+			icon: { id: "minecraft:copper_block" }
+			id: "68C86CF01970BAAC"
+			title: "Copper Construction"
+			description: ["Spend scarce copper on infrastructure rather than rushing gear."]
+			rewards: [
+				{
+					id: "3AB37C957E024A32"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2DBB7987BB13BC95"
+					item: { count: 3, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "41BC0E745CC4A36D"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: -4.46d
+		}
+		{
+			dependencies: ["78EA0A4B28B82387"]
+			icon: { id: "minecraft:copper_ingot" }
+			id: "1BD1AFD7DD72640A"
+			title: "Andesite Outcrop"
+			description: ["Secure an andesite source suitable for the first mechanical workshop."]
+			rewards: [
+				{
+					id: "4765FC5D878A8102"
+					type: "xp"
+					xp: 29
+				}
+				{
+					id: "33F3ADFE3968A3EF"
+					item: { count: 10, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "2B5ED79ECF1A79B5"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: 0.435d
+		}
+		{
+			dependencies: [
+				"352351388C16437C"
+				"78EA0A4B28B82387"
+				"68C86CF01970BAAC"
+			]
+			icon: { id: "minecraft:copper_ingot" }
+			id: "68B6C2A258EFDB37"
+			title: "End of the Primitive Metal Age"
+			description: ["Stock enough copper, zinc and tin to begin mechanical processing."]
+			rewards: [
+				{
+					id: "6B27519A3E304DA4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7D95974D5FE387A0"
+					item: { count: 10, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+				{
+					id: "7D95EB48EE278B22"
+					item: { count: 6, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2F4C364EF1BCB478"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: -2.01d
+		}
+	]
+}

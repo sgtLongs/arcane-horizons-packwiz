@@ -1,0 +1,485 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "3970120e93475481"
+	icon: { id: "minecraft:fishing_rod" }
+	id: "3970120E93475481"
+	title: "12 — Angler's Journal: Foundations"
+	subtitle: ["Fishing supports food, travel and dangerous exploration."]
+	images: [ ]
+	order_index: 11
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:fishing_rod" }
+			id: "37E0D3AC7761048D"
+			title: "First Cast"
+			description: ["Begin fishing as a support profession."]
+			rewards: [
+				{
+					id: "444C5B1C037FE9F6"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "52E7F6BC0B28B5C1"
+					item: { count: 10, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "284E3337CA0B617E"
+					item: { count: 1, id: "minecraft:fishing_rod" }
+					type: "item"
+				}
+			]
+			x: 2.71d
+			y: 0d
+		}
+		{
+			dependencies: ["37E0D3AC7761048D"]
+			icon: { id: "minecraft:cod" }
+			id: "7031C511B25A0F5E"
+			title: "Freshwater Survey"
+			description: ["Catalog ordinary river and lake catches."]
+			rewards: [
+				{
+					id: "24B82258D1E6E839"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "0913F8EBCBD22520"
+					item: { count: 4, id: "minecraft:cod" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "65D3D24AE36FFA4A"
+					item: { count: 1, id: "minecraft:cod" }
+					type: "item"
+				}
+			]
+			x: 2.71d
+			y: 2.625d
+		}
+		{
+			dependencies: ["37E0D3AC7761048D"]
+			icon: { id: "minecraft:salmon" }
+			id: "5974BA75E0AF402F"
+			title: "Coastal Fishing"
+			description: ["Travel to ocean biomes for different resources."]
+			rewards: [
+				{
+					id: "3F3F07E38A64F507"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "3E248C59AD4DBB5C"
+					item: { count: 4, id: "minecraft:salmon" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "174E63DFFF070647"
+					item: { count: 1, id: "minecraft:salmon" }
+					type: "item"
+				}
+			]
+			x: 4.81d
+			y: 2.625d
+		}
+		{
+			dependencies: ["37E0D3AC7761048D"]
+			icon: { id: "minecraft:string" }
+			id: "2B690C1F5EDE047E"
+			title: "Fishing Supplies"
+			description: ["Maintain rods, food and storage for long sessions."]
+			rewards: [
+				{
+					id: "21787826ACB62BA3"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "25756E471B53CEF3"
+					item: { count: 10, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7B53A6864937D799"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: -2.71d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"7031C511B25A0F5E"
+				"5974BA75E0AF402F"
+			]
+			icon: { id: "minecraft:cooked_cod" }
+			id: "2F6E9B0FF4ED3AC3"
+			title: "Cook the Catch"
+			description: ["Use fish as dependable expedition food."]
+			rewards: [
+				{
+					id: "6B60DF082E75881B"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "293C5AC2EC0B0302"
+					item: { count: 10, id: "minecraft:kelp" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1D574629142214D8"
+					item: { count: 1, id: "minecraft:cooked_cod" }
+					type: "item"
+				}
+			]
+			x: 4.81d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"7031C511B25A0F5E"
+				"5974BA75E0AF402F"
+			]
+			icon: { id: "minecraft:nautilus_shell" }
+			id: "5E6BC6034347211B"
+			title: "Treasure Fishing"
+			description: ["Pursue non-fish rewards without using them to skip metallurgy."]
+			rewards: [
+				{
+					id: "19BACBA86536917A"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "07F9AE088307F744"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "12767052F64122EA"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+			]
+			x: 2.71d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7031C511B25A0F5E"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "2F40F85D1AD46D9A"
+			title: "River Notebook"
+			description: ["Catch several freshwater species and note which environments produced them."]
+			rewards: [
+				{
+					id: "76661CF4CBB0D5FF"
+					type: "xp"
+					xp: 56
+				}
+				{
+					id: "663AC417EE9EE441"
+					item: { count: 4, id: "minecraft:cod" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "69B695287B3F3B76"
+					type: "checkmark"
+				}
+			]
+			x: 0.61d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5974BA75E0AF402F"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "7A1C04A68899E110"
+			title: "Saltwater Notebook"
+			description: ["Repeat the survey on a coast or ocean biome."]
+			rewards: [
+				{
+					id: "7A14C39C4FAA5037"
+					type: "xp"
+					xp: 56
+				}
+				{
+					id: "54B60B1E179A6640"
+					item: { count: 4, id: "minecraft:salmon" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "293C77FD7A3BD2B4"
+					type: "checkmark"
+				}
+			]
+			x: 6.91d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"43506590DA8DED73"
+				"2B690C1F5EDE047E"
+			]
+			icon: { id: "minecraft:magma_cream" }
+			id: "691F024C7F4FC946"
+			title: "Nether Support"
+			description: ["Bring preserved food and fishing resources into hostile dimensions."]
+			rewards: [
+				{
+					id: "65552825F8B1DA01"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "25D1A09FF6D4BFE6"
+					item: { count: 8, id: "minecraft:stick" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "67EE6CAF174F6547"
+					item: { count: 1, id: "minecraft:magma_cream" }
+					type: "item"
+				}
+			]
+			x: -6.91d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"191D364CFA329AC5"
+				"2B690C1F5EDE047E"
+			]
+			icon: { id: "minecraft:ender_pearl" }
+			id: "3141A3F050338BAB"
+			title: "End Support"
+			description: ["Use late-dimensional resources to expand the support branch."]
+			rewards: [
+				{
+					id: "2593F39CB9C5F39B"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "1E5068D0A0D77F6F"
+					item: { count: 3, id: "minecraft:lily_pad" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "12C036A58192C0F6"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			x: -4.81d
+			y: 7.875d
+		}
+		{
+			dependencies: ["2B690C1F5EDE047E"]
+			icon: { id: "minecraft:cod" }
+			id: "42D5CEF12F8A92F5"
+			title: "Tackle Reserve"
+			description: ["Carry spare bait, hooks or rod components for a long fishing trip."]
+			rewards: [
+				{
+					id: "1ABE06590F19ED0A"
+					type: "xp"
+					xp: 56
+				}
+				{
+					id: "051CD03AD6D9AB62"
+					item: { count: 10, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3E2D527A83A386BD"
+					type: "checkmark"
+				}
+			]
+			x: -2.71d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"2B690C1F5EDE047E"
+				"5E6BC6034347211B"
+			]
+			icon: { id: "minecraft:pufferfish" }
+			id: "42B2C2BA026A3911"
+			title: "Dangerous Waters"
+			description: ["Fish in regions where combat preparation matters."]
+			rewards: [
+				{
+					id: "61EC4CB59A232845"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "3E3CF7A327A2C3C3"
+					item: { count: 2, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "54811A7DEA1B5E9E"
+					item: { count: 1, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+			]
+			x: -0.61d
+			y: 7.875d
+		}
+		{
+			dependencies: ["2F6E9B0FF4ED3AC3"]
+			icon: { id: "minecraft:cod" }
+			id: "16AEC73EBF5CAF05"
+			title: "Fillet Practice"
+			description: ["Process catches into useful meals rather than eating every fish raw."]
+			rewards: [
+				{
+					id: "5C3E8CFDFF52B3B6"
+					type: "xp"
+					xp: 56
+				}
+				{
+					id: "42B4C797928622E2"
+					item: { count: 10, id: "minecraft:kelp" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "50C7CE63FFE2282D"
+					type: "checkmark"
+				}
+			]
+			x: 6.385d
+			y: 7.875d
+		}
+		{
+			dependencies: ["5E6BC6034347211B"]
+			icon: { id: "minecraft:salmon" }
+			id: "5D18B50D0EA0EFD6"
+			title: "Treasure Log"
+			description: ["Keep at least one unusual fishing treasure or rare catch as part of the settlement collection."]
+			rewards: [
+				{
+					id: "6B9EE300D4AD7802"
+					type: "xp"
+					xp: 56
+				}
+				{
+					id: "7C34A986ECCE819A"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "352BC5F45C53817A"
+					type: "checkmark"
+				}
+			]
+			x: 1.49d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"2F6E9B0FF4ED3AC3"
+				"5E6BC6034347211B"
+				"42B2C2BA026A3911"
+				"691F024C7F4FC946"
+				"3141A3F050338BAB"
+			]
+			icon: { id: "minecraft:heart_of_the_sea" }
+			id: "22F9EAA6D6F60F3D"
+			title: "Master Angler"
+			description: ["Keep the settlement supplied from water as well as fields."]
+			rewards: [
+				{
+					id: "105CCF5CB1FD2DFC"
+					type: "xp"
+					xp: 95
+				}
+				{
+					id: "03F60EC4CDC0A679"
+					item: { count: 6, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+				{
+					id: "2996521C300AF44B"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3FC8EC586288A023"
+					item: { count: 1, id: "minecraft:heart_of_the_sea" }
+					type: "item"
+				}
+			]
+			x: -0.61d
+			y: 10.5d
+		}
+	]
+}

@@ -1,0 +1,583 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "7b1155fe45f02ad8"
+	icon: { id: "minecraft:carrot" }
+	id: "7B1155FE45F02AD8"
+	title: "19 — Agriculture and Cuisine"
+	subtitle: ["Expand the support economy from subsistence crops to automated settlement-scale food production."]
+	images: [ ]
+	order_index: 18
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:carrot" }
+			id: "09B31AA2916F01D9"
+			title: "Crop Diversity"
+			description: ["Grow a deliberately diverse field rather than surviving on one staple crop."]
+			rewards: [
+				{
+					id: "6C8E5794F4E154E5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3DF574B87EAEAFEB"
+					item: { count: 12, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "0F61145B6EF4CBC4"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: -2.55d
+		}
+		{
+			dependencies: [
+				"09B31AA2916F01D9"
+				"4391A052F2ADF1D3"
+			]
+			icon: { id: "minecraft:carrot" }
+			id: "102219CDE7F8FF40"
+			title: "Animal Feed Production"
+			description: ["Reserve agricultural output for livestock and ranch expansion rather than sending every crop to the kitchen."]
+			rewards: [
+				{
+					id: "6B0E31BCCB24D24A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5B53459D28B39111"
+					item: { count: 12, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "439C82601DFC51E2"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: -6.05d
+		}
+		{
+			dependencies: ["09B31AA2916F01D9"]
+			icon: { id: "minecraft:carrot" }
+			id: "1DF18A27F2CFBE5D"
+			title: "Expanded Delight Crops"
+			description: ["Establish the additional crops from Expanded Delight as part of the settlement food economy."]
+			rewards: [
+				{
+					id: "01B6835D64832912"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "55A51F35A5F75B2E"
+					item: { count: 12, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4843D4E1C4038AAA"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: -3.775d
+		}
+		{
+			dependencies: ["09B31AA2916F01D9"]
+			icon: { id: "minecraft:carrot" }
+			id: "513FB67A4C286525"
+			title: "Seed Bank"
+			description: ["Maintain spare seed stock for the expanded crop roster."]
+			rewards: [
+				{
+					id: "3516344D69D7B2FE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "65053CBAA6C27717"
+					item: { count: 12, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "45CE957E85767873"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 1.125d
+		}
+		{
+			dependencies: ["102219CDE7F8FF40"]
+			icon: { id: "minecraft:carrot" }
+			id: "00632D0590D8C4A4"
+			title: "Feed Plot"
+			description: ["Dedicate part of the farm to livestock feed rather than player food."]
+			rewards: [
+				{
+					id: "0C1DD74B46DCA32A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "42BC6AC881AD0F9B"
+					item: { count: 12, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "18774F2AD563C321"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -6.05d
+		}
+		{
+			dependencies: [
+				"09B31AA2916F01D9"
+				"1DF18A27F2CFBE5D"
+			]
+			icon: { id: "minecraft:carrot" }
+			id: "58F5745237868F71"
+			title: "Pantry Standards"
+			description: ["Maintain reserve ingredients so cooking does not stop every time an expedition consumes the last meal."]
+			rewards: [
+				{
+					id: "5F30B08BB534F99E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5334ADF5063D565B"
+					item: { count: 10, id: "minecraft:potato" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4116D9F244420B59"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -1.325d
+		}
+		{
+			dependencies: ["58F5745237868F71"]
+			icon: { id: "minecraft:carrot" }
+			id: "08E3957EC5A619F0"
+			title: "Cutting Board Mastery"
+			description: ["Use Farmer’s Delight preparation steps as part of real recipes rather than skipping directly to finished food."]
+			rewards: [
+				{
+					id: "69FE6E1A8932DC56"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "437EAFE83F936FA4"
+					item: { count: 10, id: "minecraft:carrot" }
+					type: "item"
+				}
+				{
+					id: "3AF807933887699F"
+					item: { count: 2, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4ADC022B159341C4"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: -3.425d
+		}
+		{
+			dependencies: ["08E3957EC5A619F0"]
+			icon: { id: "minecraft:carrot" }
+			id: "3BB301A2B6C0639C"
+			title: "Prep Line"
+			description: ["Organize cutting-board and ingredient storage so meals can be assembled efficiently."]
+			rewards: [
+				{
+					id: "691F36FE7D91177D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7E5E581D67E474CE"
+					item: { count: 10, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "128DA559FCFAA312"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -5.525d
+		}
+		{
+			dependencies: [
+				"08E3957EC5A619F0"
+				"5A207486E0FB1018"
+			]
+			icon: { id: "minecraft:carrot" }
+			id: "3E40D3DE40D4B155"
+			title: "Create Slicer"
+			description: ["Automate cutting-board style preparation with Create: Slice and Dice."]
+			rewards: [
+				{
+					id: "19F946DDCEA7715A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1107BD0FAA875019"
+					item: { count: 10, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1C74D1A665D7EB23"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -3.425d
+		}
+		{
+			dependencies: ["3E40D3DE40D4B155"]
+			icon: { id: "minecraft:carrot" }
+			id: "40E45C03DFB50699"
+			title: "Slicer Throughput"
+			description: ["Automate a repeated cutting task with Slice and Dice."]
+			rewards: [
+				{
+					id: "3188B7949C837B60"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7BA5A6E6FF34EE54"
+					item: { count: 10, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "0A2CA77345BC9822"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: -6.14d
+		}
+		{
+			dependencies: [
+				"58F5745237868F71"
+				"3E40D3DE40D4B155"
+			]
+			icon: { id: "minecraft:carrot" }
+			id: "4357C1096B20F99B"
+			title: "Mechanical Kitchen"
+			description: ["Connect Create power and ingredient movement to a working food-production line."]
+			rewards: [
+				{
+					id: "42E696625F5CEBD8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4DC7A6278D165B41"
+					item: { count: 10, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "44A184536F682FC8"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: -0.745d
+		}
+		{
+			dependencies: [
+				"4357C1096B20F99B"
+				"78943F624BEF149F"
+			]
+			icon: { id: "minecraft:carrot" }
+			id: "5034D283EC3219A2"
+			title: "Combat Provisions"
+			description: ["Prepare expensive food intended for difficult combat and boss attempts."]
+			rewards: [
+				{
+					id: "647D19FE6A5CFF7D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1D186EF28944C10B"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "40DE0BFAFB12590D"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: -0.745d
+		}
+		{
+			dependencies: [
+				"4357C1096B20F99B"
+				"434AB80625F23B2D"
+			]
+			icon: { id: "minecraft:carrot" }
+			id: "3FED74ED8994DE9C"
+			title: "Expedition Rations"
+			description: ["Produce meals specifically chosen for long exploration and recovery rather than only hunger value."]
+			rewards: [
+				{
+					id: "2206EE0D60C89456"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "48E2F8F96F133867"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3E3FD511865E8A76"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: 1.59d
+		}
+		{
+			dependencies: [
+				"58F5745237868F71"
+				"4357C1096B20F99B"
+			]
+			icon: { id: "minecraft:carrot" }
+			id: "6EDE0F43323B1C81"
+			title: "Bulk Preservation"
+			description: ["Maintain enough prepared food to survive a long expedition or production interruption."]
+			rewards: [
+				{
+					id: "6788B34895B581D3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3003747987AF979C"
+					item: { count: 10, id: "minecraft:potato" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "40941AB876D3859A"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: 3.69d
+		}
+		{
+			dependencies: [
+				"3FED74ED8994DE9C"
+				"5034D283EC3219A2"
+				"6EDE0F43323B1C81"
+			]
+			icon: { id: "minecraft:carrot" }
+			id: "4A6072656B84CC4E"
+			title: "Settlement Kitchen"
+			description: ["Build a dedicated kitchen capable of feeding both players and supporting the wider settlement."]
+			rewards: [
+				{
+					id: "7F32A3FE9A006AF3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "03298EB27951A76D"
+					item: { count: 3, id: "minecraft:pumpkin_pie" }
+					type: "item"
+				}
+				{
+					id: "0F6EFEEFAC6A3BFA"
+					item: { count: 2, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "427A5DC72F0E868F"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: 4.04d
+		}
+		{
+			dependencies: ["3FED74ED8994DE9C"]
+			icon: { id: "minecraft:carrot" }
+			id: "6FBCCA58DAF551F5"
+			title: "Ration Batch"
+			description: ["Produce expedition food in quantity for more than one trip."]
+			rewards: [
+				{
+					id: "2BA0E816D837BE45"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7554C500CBAF877D"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "617CAE2696A6C891"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: 6.14d
+		}
+		{
+			dependencies: [
+				"102219CDE7F8FF40"
+				"3E40D3DE40D4B155"
+				"3FED74ED8994DE9C"
+				"5034D283EC3219A2"
+				"4A6072656B84CC4E"
+			]
+			icon: { id: "minecraft:carrot" }
+			id: "383CADC202B6BAE1"
+			title: "Food Industry"
+			description: ["Automate meaningful portions of ingredient preparation while keeping high-tier meals dependent on diverse supply chains."]
+			rewards: [
+				{
+					id: "15C06E90A218F7D9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2499C439E41FE48B"
+					item: { count: 3, id: "minecraft:pumpkin_pie" }
+					type: "item"
+				}
+				{
+					id: "11CF48EF3B12B2E5"
+					item: { count: 2, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3518DA8B22601036"
+					type: "checkmark"
+				}
+			]
+			x: 21d
+			y: -1.18d
+		}
+		{
+			dependencies: ["4A6072656B84CC4E"]
+			icon: { id: "minecraft:carrot" }
+			id: "61D5EE55D7AF597E"
+			title: "Kitchen Supply Contract"
+			description: ["Keep the settlement kitchen supplied from farms, ranches and fisheries at the same time."]
+			rewards: [
+				{
+					id: "7FD5757587E09958"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "48C04EFD896C48DF"
+					item: { count: 10, id: "minecraft:potato" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "729C618FD770C10D"
+					type: "checkmark"
+				}
+			]
+			x: 21d
+			y: 4.04d
+		}
+	]
+}

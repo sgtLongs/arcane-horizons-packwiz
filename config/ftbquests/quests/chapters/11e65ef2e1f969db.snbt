@@ -1,0 +1,622 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "11e65ef2e1f969db"
+	icon: { id: "minecraft:iron_ingot" }
+	id: "11E65EF2E1F969DB"
+	title: "6 — Ironworks"
+	subtitle: ["Iron is a ten-to-twenty-hour industrial milestone."]
+	images: [ ]
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:raw_iron" }
+			id: "6DC0F645DB0FD4AF"
+			title: "Iron Prospecting"
+			description: ["Gather raw iron, but accept that raw ore is nowhere near a finished metal."]
+			rewards: [
+				{
+					id: "10ED13A392C6DB90"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "680D24C6DCC5A0C3"
+					item: { count: 3, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5194B6BB4A1C3073"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			x: -2.8d
+			y: 0d
+		}
+		{
+			dependencies: ["3A6E06ED8A33F7DC"]
+			icon: { id: "minecraft:charcoal" }
+			id: "35A30DD8E7F405F2"
+			title: "Carbon for Reduction"
+			description: ["Prepare charcoal specifically for metallurgical reduction."]
+			rewards: [
+				{
+					id: "7892F777C0F13EB1"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "7AFC325DF14C4CE0"
+					item: { count: 12, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2DEEBC684C76A5BC"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			x: -0.525d
+			y: 2.625d
+		}
+		{
+			dependencies: ["754579AB522236DA"]
+			icon: { id: "minecraft:calcite" }
+			id: "265343B0583119EA"
+			title: "Flux Supply"
+			description: ["Use calcite and clay to control the first iron bloom charge."]
+			rewards: [
+				{
+					id: "42BF728179CC2A88"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "635C2274B8AF03AA"
+					item: { count: 10, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "218D57EE4DDF088F"
+					item: { count: 1, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 2.625d
+		}
+		{
+			dependencies: ["6DC0F645DB0FD4AF"]
+			icon: { id: "kubejs:poor_iron_powder" }
+			id: "18176968A65D656E"
+			title: "Poor Iron Powder"
+			description: ["Mill raw iron into controlled poor powder with no free byproducts."]
+			rewards: [
+				{
+					id: "734755C5F8CEA6AB"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "3401D5814A29A96E"
+					item: { count: 3, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "221F2A9CAF39E77F"
+					item: { count: 1, id: "kubejs:poor_iron_powder" }
+					type: "item"
+				}
+			]
+			x: -2.8d
+			y: 2.625d
+		}
+		{
+			dependencies: ["35A30DD8E7F405F2"]
+			icon: { id: "minecraft:raw_iron" }
+			id: "5211843D489FBE88"
+			title: "Charcoal Reserve"
+			description: ["Build a carbon reserve large enough for repeated bloom batches."]
+			rewards: [
+				{
+					id: "6F1F3F98C5F73770"
+					type: "xp"
+					xp: 38
+				}
+				{
+					id: "6591CFB82231F7A4"
+					item: { count: 12, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "365DCBFCBB2DD749"
+					type: "checkmark"
+				}
+			]
+			x: 1.05d
+			y: 5.25d
+		}
+		{
+			dependencies: ["265343B0583119EA"]
+			icon: { id: "minecraft:raw_iron" }
+			id: "58B83246BCBA4871"
+			title: "Flux Cache"
+			description: ["Gather calcite and clay ahead of time so iron production is limited by ore, not forgotten reagents."]
+			rewards: [
+				{
+					id: "79639D997B1FE3EC"
+					type: "xp"
+					xp: 38
+				}
+				{
+					id: "117E401309491B36"
+					item: { count: 10, id: "minecraft:calcite" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "2195359ADB1C8F29"
+					type: "checkmark"
+				}
+			]
+			x: 3.15d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"18176968A65D656E"
+				"35A30DD8E7F405F2"
+				"265343B0583119EA"
+			]
+			icon: { id: "kubejs:iron_bloom_charge" }
+			id: "5728FB6D4D5E4CE2"
+			title: "Six Ore Batch"
+			description: ["Load six poor iron powders into a single reduction batch."]
+			rewards: [
+				{
+					id: "2AB6D1307E46F652"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "42398574E6D2EFE2"
+					item: { count: 3, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					id: "7A87E63137CEFC8E"
+					item: { count: 10, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6DAC32464029C69B"
+					item: { count: 1, id: "kubejs:iron_bloom_charge" }
+					type: "item"
+				}
+			]
+			x: -1.05d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5728FB6D4D5E4CE2"]
+			icon: { id: "minecraft:iron_ingot" }
+			id: "63B448F1B573E65D"
+			title: "First Molten Iron"
+			description: ["Reduce a six-ore bloom charge into only enough molten iron for one ingot."]
+			rewards: [
+				{
+					id: "65EAD68306E995AD"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "1ECFDEFA965F2452"
+					item: { count: 3, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4DCEE93F011A5D2B"
+					type: "checkmark"
+				}
+			]
+			x: 1.05d
+			y: 7.875d
+		}
+		{
+			dependencies: ["5728FB6D4D5E4CE2"]
+			icon: { id: "kubejs:poor_iron_powder" }
+			id: "25E7BCF1BA25135C"
+			title: "Six-for-One Proof"
+			description: ["Produce an iron ingot from the full six-raw-iron process and confirm the intended early loss."]
+			rewards: [
+				{
+					id: "3BD2C51CEAE72BC8"
+					type: "xp"
+					xp: 38
+				}
+				{
+					id: "3CFE105E565AF400"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "6C4CCB5641EBF9AE"
+					type: "checkmark"
+				}
+			]
+			x: -1.05d
+			y: 7.875d
+		}
+		{
+			dependencies: ["63B448F1B573E65D"]
+			icon: { id: "minecraft:iron_ingot" }
+			id: "6FCFAA3CACC6B5CD"
+			title: "First Iron Ingot"
+			description: ["Cast the pack-defining first iron ingot. Six raw iron paid for this one piece."]
+			rewards: [
+				{
+					id: "1DD5B6077AA2D462"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "0FE86A700912C4CE"
+					item: { count: 3, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "768E2B3B0A0238F1"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.05d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6FCFAA3CACC6B5CD"]
+			icon: { id: "create:iron_sheet" }
+			id: "1E20D8CB9F45C747"
+			title: "Iron Sheet"
+			description: ["Form scarce iron into the sheet stock used by serious machines and equipment."]
+			rewards: [
+				{
+					id: "39AC7384352E5094"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "32382186F49ADAF5"
+					item: { count: 3, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3444449F38E5A17C"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+			]
+			x: 1.225d
+			y: 13.125d
+		}
+		{
+			dependencies: ["6FCFAA3CACC6B5CD"]
+			icon: { id: "kubejs:poor_iron_powder" }
+			id: "74013130EFD87061"
+			title: "First Iron Budget"
+			description: ["Choose where the first few iron ingots go and avoid spending them on convenience items."]
+			rewards: [
+				{
+					id: "6548B546DF82D22A"
+					type: "xp"
+					xp: 38
+				}
+				{
+					id: "4B537B8915FF7457"
+					item: { count: 3, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "45DAA02CC9BC1B45"
+					type: "checkmark"
+				}
+			]
+			x: -0.875d
+			y: 13.125d
+		}
+		{
+			dependencies: ["1E20D8CB9F45C747"]
+			icon: { id: "create:encased_fan" }
+			id: "1A5C796F8A7771DD"
+			title: "Encased Fan Investment"
+			description: ["Spend early iron on the machine that dramatically improves recovery."]
+			rewards: [
+				{
+					id: "1686EF20C076AB2B"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "0AD8439D9C5D1678"
+					item: { count: 8, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "180A2DA3F6552358"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+			]
+			x: -1.05d
+			y: 15.75d
+		}
+		{
+			dependencies: [
+				"18176968A65D656E"
+				"1A5C796F8A7771DD"
+			]
+			icon: { id: "kubejs:washed_iron_concentrate" }
+			id: "30B1E185C627D327"
+			title: "Wash the Concentrate"
+			description: ["Wash poor powder instead of throwing most of the metal into slag."]
+			rewards: [
+				{
+					id: "45BDAEA9178BEFD4"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "52A2C22BAC84335B"
+					item: { count: 8, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "400B095FC5510309"
+					item: { count: 1, id: "kubejs:washed_iron_concentrate" }
+					type: "item"
+				}
+			]
+			x: -2.1d
+			y: 18.375d
+		}
+		{
+			dependencies: ["30B1E185C627D327"]
+			icon: { id: "kubejs:refined_iron_charge" }
+			id: "39D9444D4C598BDC"
+			title: "Three to One Iron"
+			description: ["Refined washed charges improve iron from six-to-one to three-to-one."]
+			rewards: [
+				{
+					id: "25CE05FEAA5DD013"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "2AA31142F7FF9471"
+					item: { count: 3, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "49314ADFF0B93FBB"
+					item: { count: 1, id: "kubejs:refined_iron_charge" }
+					type: "item"
+				}
+			]
+			x: -3.15d
+			y: 21d
+		}
+		{
+			dependencies: ["30B1E185C627D327"]
+			icon: { id: "minecraft:charcoal" }
+			id: "6C3439DCB5050A1E"
+			title: "Washed Yield Trial"
+			description: ["Compare a primitive iron batch against washed concentrate and document the improvement."]
+			rewards: [
+				{
+					id: "27E96ADCB37F3E6F"
+					type: "xp"
+					xp: 38
+				}
+				{
+					id: "0B0081915E672703"
+					item: { count: 8, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "611C199BCD924C2C"
+					type: "checkmark"
+				}
+			]
+			x: -1.05d
+			y: 21d
+		}
+		{
+			dependencies: [
+				"1E20D8CB9F45C747"
+				"39D9444D4C598BDC"
+			]
+			icon: { id: "minecraft:furnace" }
+			id: "7114FFBCC11A039E"
+			title: "The Furnace Age"
+			description: ["Only now build a conventional Furnace from brick, campfire technology and Iron Sheet."]
+			rewards: [
+				{
+					id: "14A802114CE5F96F"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "17D1568F520FA88D"
+					item: { count: 12, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "265F4CF439368D05"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 23.625d
+		}
+		{
+			dependencies: ["7114FFBCC11A039E"]
+			icon: { id: "minecraft:bucket" }
+			id: "4BDDF524A50EA3B2"
+			title: "Iron Infrastructure"
+			description: ["Unlock buckets, hoppers, armor and formed-stock tools after metallurgy is stable."]
+			rewards: [
+				{
+					id: "2B7C18A2B147C680"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "3C0A052BEDDF5987"
+					item: { count: 3, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1E277850AB668A95"
+					item: { count: 1, id: "minecraft:bucket" }
+					type: "item"
+				}
+			]
+			x: -1.925d
+			y: 26.25d
+		}
+		{
+			dependencies: ["7114FFBCC11A039E"]
+			icon: { id: "minecraft:gold_ingot" }
+			id: "10B7123682507A04"
+			title: "Gold Foundry"
+			description: ["Bring gold into the same controlled ore-processing system instead of direct smelting."]
+			rewards: [
+				{
+					id: "262D65B86800CAA4"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "2FA6C952A11805B1"
+					item: { count: 2, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4596B4B5130FE2E6"
+					item: { count: 1, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.175d
+			y: 26.25d
+		}
+		{
+			dependencies: ["10B7123682507A04"]
+			icon: { id: "minecraft:charcoal" }
+			id: "5CA575F0B7BCBE36"
+			title: "Gold Sidecast"
+			description: ["Use the foundry for a small gold batch so gold becomes part of the industrial workflow."]
+			rewards: [
+				{
+					id: "15AF9ABD71B548D2"
+					type: "xp"
+					xp: 38
+				}
+				{
+					id: "750C6A6E56AFCCFA"
+					item: { count: 6, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7304A29C84575254"
+					type: "checkmark"
+				}
+			]
+			x: 0.175d
+			y: 28.875d
+		}
+	]
+}

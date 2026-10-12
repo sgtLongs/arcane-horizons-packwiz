@@ -1,0 +1,13 @@
+name = "Retrogen"
+filename = "retrogen-neoforge-1.21.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0575ee831480b0f4c74fbcd00827fe07dee28afe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8425341
+project-id = 1608879

@@ -1,0 +1,489 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "502483a01d8250c6"
+	icon: { id: "minecraft:ender_eye" }
+	id: "502483A01D8250C6"
+	title: "15 — Worlds Beyond: Foundations"
+	subtitle: ["Dimensions, automation and metallurgy converge in the endgame."]
+	images: [ ]
+	order_index: 14
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:ender_chest" }
+			id: "6576400F8EDE15A1"
+			title: "Dimensional Readiness"
+			description: ["Stock food, metallurgy, magic and replacement equipment before new worlds."]
+			rewards: [
+				{
+					id: "6F5371938F6EA97A"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "270C79B73F1BEEB9"
+					item: { count: 5, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+				{
+					id: "49F1ABC7C05BE878"
+					item: { count: 6, id: "minecraft:firework_rocket" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1326E1AAB8BE988E"
+					item: { count: 1, id: "minecraft:ender_chest" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 2.1d
+		}
+		{
+			dependencies: [
+				"6576400F8EDE15A1"
+				"32445362A5EDFE0D"
+			]
+			icon: { id: "minecraft:ender_eye" }
+			id: "2C871C2F24AEF0FC"
+			title: "Eyes of Ender"
+			description: ["Craft Eyes from Nether, Arcane and Precision components."]
+			rewards: [
+				{
+					id: "55B7ADA563C4CDC6"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "49F502BD50877C4E"
+					item: { count: 2, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1995EB186C82FF44"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -2.45d
+		}
+		{
+			dependencies: ["6576400F8EDE15A1"]
+			icon: { id: "minecraft:sculk" }
+			id: "22533F4935E0E750"
+			title: "Deep Dark Campaign"
+			description: ["Approach the deepest hostile regions only with mature recovery systems."]
+			rewards: [
+				{
+					id: "2D71CCBABFFAAFD5"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "63783615B48F6C86"
+					item: { count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "702071233AA749BD"
+					item: { count: 1, id: "minecraft:sculk" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 1.05d
+		}
+		{
+			dependencies: ["6576400F8EDE15A1"]
+			icon: { id: "minecraft:glowstone" }
+			id: "36ACB39522A809A8"
+			title: "Aether Campaign"
+			description: ["Treat the Aether as a prepared dimensional expedition."]
+			rewards: [
+				{
+					id: "2103AAB6C7B1B0AA"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "15663611B67CA6D0"
+					item: { count: 10, id: "minecraft:feather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7AB88FFCC28D1D5B"
+					item: { count: 1, id: "minecraft:glowstone" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 3.325d
+		}
+		{
+			dependencies: ["6576400F8EDE15A1"]
+			icon: { id: "minecraft:ender_chest" }
+			id: "15E46EAF571D8B98"
+			title: "Dimension Loadout"
+			description: ["Prepare different supply kits for the Aether, Deep Dark and End rather than using one generic backpack."]
+			rewards: [
+				{
+					id: "6E4BEF3D72C342C6"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "1FFB1508BCE90BF0"
+					item: { count: 5, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "79F2E4847C383AE2"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 5.425d
+		}
+		{
+			dependencies: ["2C871C2F24AEF0FC"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "238317165CCB9E99"
+			title: "Stronghold Expedition"
+			description: ["Find and provision a route to the stronghold."]
+			rewards: [
+				{
+					id: "31285FAB7799C378"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "1BA3377A960E8057"
+					item: { count: 2, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1879D2FB351128B1"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -3.85d
+		}
+		{
+			dependencies: ["22533F4935E0E750"]
+			icon: { id: "minecraft:glowstone" }
+			id: "6EC33CE53EC66DFB"
+			title: "Deep Dark Extraction"
+			description: ["Enter the Deep Dark for a specific material and return without turning it into routine strip-mining."]
+			rewards: [
+				{
+					id: "65CF00A2A80F4841"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "26E738CDBA85A4A0"
+					item: { count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "2DC80C1E36873D6C"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 1.05d
+		}
+		{
+			dependencies: ["36ACB39522A809A8"]
+			icon: { id: "minecraft:ender_chest" }
+			id: "2457ABA0E3A2CA48"
+			title: "Aether Return Route"
+			description: ["Establish a reliable portal-side staging point in the Aether."]
+			rewards: [
+				{
+					id: "4F0C3295641C01D3"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "29640DD81896512B"
+					item: { count: 10, id: "minecraft:feather" }
+					type: "item"
+				}
+				{
+					id: "3A261757E8A7DB2A"
+					item: { count: 6, id: "minecraft:firework_rocket" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7F52B4A11B23874E"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 5.95d
+		}
+		{
+			dependencies: ["238317165CCB9E99"]
+			icon: { id: "minecraft:end_stone" }
+			id: "191D364CFA329AC5"
+			title: "The End"
+			description: ["Enter the End after industry, magic and exploration have converged."]
+			rewards: [
+				{
+					id: "4DE23818809DC7B4"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "3193FCABBBC8F4BA"
+					item: { count: 5, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "30BF4B6E791B472A"
+					item: { count: 1, id: "minecraft:end_stone" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: -5.95d
+		}
+		{
+			dependencies: ["238317165CCB9E99"]
+			icon: { id: "minecraft:glowstone" }
+			id: "1EC99A0B0C56993D"
+			title: "Stronghold Base Camp"
+			description: ["Create a safe resupply point near the stronghold before entering the End."]
+			rewards: [
+				{
+					id: "7612325C524CEE96"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "50507CBA01BFE759"
+					item: { count: 2, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "31C6CE17FBAAF8B7"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: -3.85d
+		}
+		{
+			dependencies: ["191D364CFA329AC5"]
+			icon: { id: "minecraft:dragon_breath" }
+			id: "5A8BA1E915B9560B"
+			title: "Dragon Chemistry"
+			description: ["Collect dragon breath for maximum metallurgical catalysis."]
+			rewards: [
+				{
+					id: "111745A576E9A171"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "2F879728BDBE95D5"
+					item: { count: 5, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6973B84B7F885F5B"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -5.95d
+		}
+		{
+			dependencies: ["191D364CFA329AC5"]
+			icon: { id: "minecraft:shulker_shell" }
+			id: "458F3596A3EF93BA"
+			title: "Shulker Separation"
+			description: ["Bring shulker resources home to unlock two-times metallurgy."]
+			rewards: [
+				{
+					id: "19FDE01B4E4AC01D"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "5BB0F187DC4F1503"
+					item: { count: 5, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "42F27EFA46C7090A"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -3.85d
+		}
+		{
+			dependencies: ["5A8BA1E915B9560B"]
+			icon: { id: "minecraft:sculk" }
+			id: "28D8095C21A7AB2D"
+			title: "Dragon Aftermath"
+			description: ["Collect and preserve post-dragon materials needed for later chemistry and metallurgy."]
+			rewards: [
+				{
+					id: "1B7912F599382146"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "1902DCFF1631EFDA"
+					item: { count: 5, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3797B1F9FE536868"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: -5.95d
+		}
+		{
+			dependencies: [
+				"458F3596A3EF93BA"
+				"5A8BA1E915B9560B"
+				"3F18BA321F8019F3"
+			]
+			icon: { id: "kubejs:arcane_iron_feed" }
+			id: "246F65CE3194D13E"
+			title: "Three Times Recovery"
+			description: ["Use the Arcane Metallurgical Catalyst to reach roughly three ingots per ore."]
+			rewards: [
+				{
+					id: "34C4F3965C05CFB7"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "03E5DC59BF82A21B"
+					item: { count: 8, id: "minecraft:firework_rocket" }
+					type: "item"
+				}
+				{
+					id: "27BC34DE9BD8362F"
+					item: { count: 3, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4D9B9D1A3E8D9C95"
+					item: { count: 1, id: "kubejs:arcane_iron_feed" }
+					type: "item"
+				}
+			]
+			x: 13.125d
+			y: -3.85d
+		}
+		{
+			dependencies: [
+				"36ACB39522A809A8"
+				"22533F4935E0E750"
+				"246F65CE3194D13E"
+			]
+			icon: { id: "minecraft:dragon_egg" }
+			id: "36753E1AD5E2CC75"
+			title: "Arcane Horizons"
+			description: ["Finish with a secure settlement, dangerous frontiers and a factory that turns scarcity into abundance."]
+			rewards: [
+				{
+					id: "16BA479856720056"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "7CD38A107945035E"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					id: "654D14E13DBD5375"
+					item: { count: 6, id: "minecraft:firework_rocket" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6D4EB948CDF4A082"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+			]
+			x: 15.75d
+			y: -1.4d
+		}
+	]
+}

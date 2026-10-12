@@ -1,0 +1,12 @@
+name = "Arcane Horizons"
+version = "0.3.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "52035bf46a2f771a88b73817da89ac16e9bb337368a14b1cc14ec3c17b07ea56"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.249"

@@ -1,0 +1,571 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "18b6e0f5d7d87844"
+	icon: { id: "minecraft:fishing_rod" }
+	id: "18B6E0F5D7D87844"
+	title: "18 — Angler’s Field Guide"
+	subtitle: ["Turn Aquaculture into a travel, food, equipment and rare-resource profession."]
+	images: [ ]
+	order_index: 17
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:fishing_rod" }
+			id: "4600A366EEA6E512"
+			title: "Tackle Station"
+			description: ["Establish a permanent fishing station with spare rods, food, storage and tackle."]
+			rewards: [
+				{
+					id: "7BDB93ACDA3EF3F2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6CB08E228947569A"
+					item: { count: 10, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1D3E9427FA860922"
+					item: { count: 1, id: "minecraft:fishing_rod" }
+					type: "item"
+				}
+			]
+			x: -0.79d
+			y: 18.375d
+		}
+		{
+			dependencies: ["4600A366EEA6E512"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "5E11B18986A07C16"
+			title: "Bait and Tackle"
+			description: ["Use Aquaculture tackle and bait intentionally instead of relying only on a vanilla rod."]
+			rewards: [
+				{
+					id: "2551F0C9F8D75122"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "73AFD14E6A4367CC"
+					item: { count: 10, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "76B799B69D9264E7"
+					type: "checkmark"
+				}
+			]
+			x: 0.26d
+			y: 15.75d
+		}
+		{
+			dependencies: ["4600A366EEA6E512"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "5191E3DD058A4833"
+			title: "Tackle Loadout"
+			description: ["Assemble a specialized fishing kit before leaving the settlement."]
+			rewards: [
+				{
+					id: "293E2B3C5A859C8F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6D0DFB026D449AB1"
+					item: { count: 10, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "41FC1ACDE0631298"
+					type: "checkmark"
+				}
+			]
+			x: -1.84d
+			y: 15.75d
+		}
+		{
+			dependencies: ["5E11B18986A07C16"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "0FC0C0864F283796"
+			title: "Freshwater Species Census"
+			description: ["Catch a deliberately broad freshwater selection and identify which habitats produce the species you still need."]
+			rewards: [
+				{
+					id: "3316F98B10DA539C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "729B2B98A07941CD"
+					item: { count: 5, id: "minecraft:cod" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "12C82F6E527C5AC9"
+					type: "checkmark"
+				}
+			]
+			x: -1.05d
+			y: 13.125d
+		}
+		{
+			dependencies: ["5E11B18986A07C16"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "32FAF4E67DC7F10A"
+			title: "Coastal Species Census"
+			description: ["Build a deliberate coastal and ocean species collection beyond the introductory fishing survey."]
+			rewards: [
+				{
+					id: "381A09A10E3AB0E2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "155B652B5CE9C683"
+					item: { count: 5, id: "minecraft:salmon" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1ECF976CE7C7AAFE"
+					type: "checkmark"
+				}
+			]
+			x: 1.575d
+			y: 13.125d
+		}
+		{
+			dependencies: ["0FC0C0864F283796"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "7445B14FD6393533"
+			title: "Cold-Water Expedition"
+			description: ["Travel specifically to cold aquatic biomes for species unavailable near home."]
+			rewards: [
+				{
+					id: "1F988E91B0E2E614"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "656F67E88E4B43C0"
+					item: { count: 5, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6AB78C1D7BD846E1"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["32FAF4E67DC7F10A"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "172A071A8BB868D9"
+			title: "Warm-Water Expedition"
+			description: ["Travel specifically to warm aquatic biomes for a different catch profile."]
+			rewards: [
+				{
+					id: "61329F9D49E3C26A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4B17CA3A201A366B"
+					item: { count: 5, id: "minecraft:salmon" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "19D5F3F96EA66A8A"
+					type: "checkmark"
+				}
+			]
+			x: 2.1d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0FC0C0864F283796"
+				"32FAF4E67DC7F10A"
+			]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "536034B28720B257"
+			title: "Cutting Board Processing"
+			description: ["Process modded fish through Farmer’s Delight-compatible cutting using Aquacompat."]
+			rewards: [
+				{
+					id: "0CF51B0E9DCEEE6E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0B57FDBDADA55AF6"
+					item: { count: 12, id: "minecraft:kelp" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "72957FC8314AFBD9"
+					type: "checkmark"
+				}
+			]
+			x: -2.1d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0FC0C0864F283796"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "67317E8FED044A00"
+			title: "River and Lake Creel"
+			description: ["Catch a deliberately varied set of freshwater fish rather than repeating the foundation survey."]
+			rewards: [
+				{
+					id: "6D049A9BF985A2B0"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2F2A7F2B23A56391"
+					item: { count: 5, id: "minecraft:cod" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "0F545E497C940595"
+					type: "checkmark"
+				}
+			]
+			x: -4.2d
+			y: 10.5d
+		}
+		{
+			dependencies: ["32FAF4E67DC7F10A"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "4855978B7B5525EC"
+			title: "Coastal Creel"
+			description: ["Build a varied coastal and ocean catch rather than repeating the introductory survey."]
+			rewards: [
+				{
+					id: "5AE319B630A3862F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "623A076C66B7700B"
+					item: { count: 5, id: "minecraft:salmon" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "77F156A573FE98B0"
+					type: "checkmark"
+				}
+			]
+			x: 4.2d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"7445B14FD6393533"
+				"172A071A8BB868D9"
+			]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "1307F6416F80F2E7"
+			title: "Deep-Water Fishing"
+			description: ["Prepare for dangerous deep-ocean fishing rather than treating every shoreline as equivalent."]
+			rewards: [
+				{
+					id: "471962230047079A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4BD537D90F124FD7"
+					item: { count: 5, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3844BA8BB5F747FA"
+					type: "checkmark"
+				}
+			]
+			x: 3.15d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"536034B28720B257"
+				"08E3957EC5A619F0"
+			]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "68C9F44C12CB6C01"
+			title: "Aquaculture Delight Kitchen"
+			description: ["Turn catches into proper meals through Aquaculture Delight rather than consuming raw/simple fish."]
+			rewards: [
+				{
+					id: "1C44F58C8457499B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "72FF8C55265F5800"
+					item: { count: 12, id: "minecraft:kelp" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "493DC2EE1FE6E73F"
+					type: "checkmark"
+				}
+			]
+			x: -3.85d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"7445B14FD6393533"
+				"172A071A8BB868D9"
+			]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "04691A0306319105"
+			title: "Temperature Specialist"
+			description: ["Complete catches in both cold-water and warm-water environments."]
+			rewards: [
+				{
+					id: "18ADE72D9B19124B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "20572530A1368F72"
+					item: { count: 4, id: "minecraft:sea_pickle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7B66B7CA1F0D9CB5"
+					type: "checkmark"
+				}
+			]
+			x: 1.05d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"7445B14FD6393533"
+				"172A071A8BB868D9"
+				"1307F6416F80F2E7"
+			]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "2E0362B4D80C0180"
+			title: "Rare Catch Collection"
+			description: ["Pursue uncommon fish and treasures as collection and progression goals."]
+			rewards: [
+				{
+					id: "52798B05FC8508DC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "75FEC77E3E617013"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+				{
+					id: "03483154C8D60663"
+					item: { count: 5, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2E2AE31BF8043AAD"
+					type: "checkmark"
+				}
+			]
+			x: 1.37d
+			y: 5.25d
+		}
+		{
+			dependencies: ["68C9F44C12CB6C01"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "59E009F229F7ABA9"
+			title: "Fish Market"
+			description: ["Process and store several different catches as food ingredients for the settlement."]
+			rewards: [
+				{
+					id: "77E008D0676EA088"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1EF39C257D46A43D"
+					item: { count: 12, id: "minecraft:kelp" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "6FC9D59546D37B4D"
+					type: "checkmark"
+				}
+			]
+			x: -3.85d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"1307F6416F80F2E7"
+				"2E0362B4D80C0180"
+			]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "7FB768421C4CDC97"
+			title: "Neptunium Craft"
+			description: ["Advance into Aquaculture’s Neptunium equipment and use its advantages as a specialist angler."]
+			rewards: [
+				{
+					id: "61B5F98FB1345DCE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "008F3312CC8F353C"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "59AAD77184CD1DE6"
+					type: "checkmark"
+				}
+			]
+			x: 3.82d
+			y: 2.625d
+		}
+		{
+			dependencies: [
+				"536034B28720B257"
+				"68C9F44C12CB6C01"
+				"2E0362B4D80C0180"
+				"7FB768421C4CDC97"
+			]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "45D0BE0B778E9CFF"
+			title: "Master Fishery"
+			description: ["Maintain a fishery that supplies cuisine, expeditions and apothecary ingredients while still rewarding travel."]
+			rewards: [
+				{
+					id: "173194E63422F050"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "33F895B8B3676AFD"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+				{
+					id: "2DBA6744F0E9C333"
+					item: { count: 5, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4852DB344E9B8490"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["7FB768421C4CDC97"]
+			icon: { id: "minecraft:fishing_rod" }
+			id: "484CD31F4C5924C3"
+			title: "Rare Catch Display"
+			description: ["Preserve a genuinely rare catch or Neptunium-related achievement as a trophy."]
+			rewards: [
+				{
+					id: "1C2AF8BE27EBE63F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "59AFEF9856173663"
+					item: { count: 1, id: "minecraft:nautilus_shell" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "143F1C4952AD26D2"
+					type: "checkmark"
+				}
+			]
+			x: 3.82d
+			y: 0d
+		}
+	]
+}

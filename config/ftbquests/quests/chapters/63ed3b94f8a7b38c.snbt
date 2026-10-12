@@ -1,0 +1,485 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "63ed3b94f8a7b38c"
+	icon: { id: "minecraft:bundle" }
+	id: "63ED3B94F8A7B38C"
+	title: "22 — Expedition Gear and Waystones"
+	subtitle: ["Make carrying capacity and fast travel earned infrastructure rather than early-game shortcuts."]
+	images: [ ]
+	order_index: 21
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:bundle" }
+			id: "61C7953B9FD55195"
+			title: "Leather Pack"
+			description: ["Earn the first practical backpack only after leather production is stable."]
+			rewards: [
+				{
+					id: "5BE611FDCB4405AF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "34FBE508B9FEB936"
+					item: { count: 6, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7D2788E681E5ECAC"
+					item: { count: 1, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			x: -4.2d
+			y: 0d
+		}
+		{
+			dependencies: ["165DB18CEE479BD0"]
+			icon: { id: "minecraft:bundle" }
+			id: "7C4B50597186B15B"
+			title: "Discover a Waystone"
+			description: ["Treat generated Waystones as permanent destinations that reward exploration."]
+			rewards: [
+				{
+					id: "63C936603AC30AC8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "38777F77824C3492"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "00515557582C0849"
+					type: "checkmark"
+				}
+			]
+			x: 4.55d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"61C7953B9FD55195"
+				"6EC3607753F2A0F4"
+			]
+			icon: { id: "minecraft:bundle" }
+			id: "05208399AA7BB8FA"
+			title: "Copper Pack"
+			description: ["Advance portable storage alongside the Copper Age rather than jumping straight to huge inventories."]
+			rewards: [
+				{
+					id: "624A5B3942E6CDB0"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1B36E26C75E09132"
+					item: { count: 6, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "027A289120A7625A"
+					type: "checkmark"
+				}
+			]
+			x: -3.15d
+			y: 2.625d
+		}
+		{
+			dependencies: ["61C7953B9FD55195"]
+			icon: { id: "minecraft:bundle" }
+			id: "7451038A291E477B"
+			title: "Pack Weight Discipline"
+			description: ["Choose a backpack tier appropriate to the expedition rather than treating portable storage as infinite capacity."]
+			rewards: [
+				{
+					id: "0BD68B02DBB6F09E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5A32056281C5BE88"
+					item: { count: 6, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "4EB37B1DA70C2233"
+					type: "checkmark"
+				}
+			]
+			x: -5.25d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7C4B50597186B15B"]
+			icon: { id: "minecraft:bundle" }
+			id: "2A7E4EF00AECF15B"
+			title: "Permanent Network"
+			description: ["Use fixed discovered Waystones as infrastructure; do not relocate generated Waystones to convenience locations."]
+			rewards: [
+				{
+					id: "21A925851F365648"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4A02FE499733E38B"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+				{
+					id: "6FC38B187D57C731"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4D76C889EF1E7EDA"
+					type: "checkmark"
+				}
+			]
+			x: 5.6d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7C4B50597186B15B"]
+			icon: { id: "minecraft:bundle" }
+			id: "6C8AFF7E29BC0149"
+			title: "Waystone Survey"
+			description: ["Discover a generated Waystone and record its permanent location instead of moving it."]
+			rewards: [
+				{
+					id: "0ED9A1586C6A0748"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "070F1B7C0683E9B9"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1CBC761F85917E2B"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"05208399AA7BB8FA"
+				"4BDDF524A50EA3B2"
+			]
+			icon: { id: "minecraft:bundle" }
+			id: "10C4D005893E10E1"
+			title: "Iron Pack"
+			description: ["Upgrade only once iron production is established enough that the material is no longer a one-ingot miracle."]
+			rewards: [
+				{
+					id: "65BCFD149164C22F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0A5FD568577A5445"
+					item: { count: 6, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5A1E5F244207473B"
+					type: "checkmark"
+				}
+			]
+			x: -3.15d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2A7E4EF00AECF15B"]
+			icon: { id: "minecraft:bundle" }
+			id: "2239F46CF043C7CA"
+			title: "Travel Hub"
+			description: ["Integrate Waystones with roads, rail or settlement outposts so fast travel complements physical infrastructure."]
+			rewards: [
+				{
+					id: "2A41A8E8524606E3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "30B93E55D9164C73"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+				{
+					id: "69D738C4A8CE4563"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "76D402989E4E02A4"
+					type: "checkmark"
+				}
+			]
+			x: 5.6d
+			y: 13.125d
+		}
+		{
+			dependencies: [
+				"10C4D005893E10E1"
+				"469F52CDEC97B520"
+			]
+			icon: { id: "minecraft:bundle" }
+			id: "4EA7ED7BF6ECBF57"
+			title: "Gold Pack"
+			description: ["Tie higher backpack tiers to post-Nether processed gold and precision infrastructure."]
+			rewards: [
+				{
+					id: "1224112160A12935"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2CAD28DDC7900211"
+					item: { count: 6, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "0F0E36256897B180"
+					type: "checkmark"
+				}
+			]
+			x: 0.175d
+			y: 7.875d
+		}
+		{
+			dependencies: ["10C4D005893E10E1"]
+			icon: { id: "minecraft:bundle" }
+			id: "24E7551B23A86071"
+			title: "Backpack Upgrades"
+			description: ["Unlock backpack functionality gradually so portable storage does not invalidate warehouses and freight."]
+			rewards: [
+				{
+					id: "50964E908D65E0BF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "402F4D2256E6D532"
+					item: { count: 6, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7802E87A7F4928E5"
+					type: "checkmark"
+				}
+			]
+			x: -3.15d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"4EA7ED7BF6ECBF57"
+				"191D364CFA329AC5"
+			]
+			icon: { id: "minecraft:bundle" }
+			id: "1B5276FF06D3D4E8"
+			title: "Diamond Pack"
+			description: ["Reserve large high-tier portable storage for mature industrial and dimensional progression."]
+			rewards: [
+				{
+					id: "4CF4DB02F8D711F7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "42406C5B083A8623"
+					item: { count: 6, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "360B312CE75A7190"
+					type: "checkmark"
+				}
+			]
+			x: 1.4d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"10C4D005893E10E1"
+				"24E7551B23A86071"
+			]
+			icon: { id: "minecraft:bundle" }
+			id: "7192CE558732BE26"
+			title: "Prepared Loadout"
+			description: ["Carry food, medicine, tools, replacement equipment and recovery supplies as a deliberate expedition kit."]
+			rewards: [
+				{
+					id: "3CA44AA037D859BC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2776182DD76D4ECD"
+					item: { count: 10, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "773C16905DA772D7"
+					type: "checkmark"
+				}
+			]
+			x: -5.6d
+			y: 10.5d
+		}
+		{
+			dependencies: ["24E7551B23A86071"]
+			icon: { id: "minecraft:bundle" }
+			id: "3A51B64697A25875"
+			title: "Upgrade Restraint"
+			description: ["Install only upgrades that have been unlocked by the current technology tier."]
+			rewards: [
+				{
+					id: "39C7B0794D1E5A17"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5583475410D9B80B"
+					item: { count: 10, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7265D7DFB01B1525"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"1B5276FF06D3D4E8"
+				"24E7551B23A86071"
+				"7192CE558732BE26"
+				"2A7E4EF00AECF15B"
+			]
+			icon: { id: "minecraft:bundle" }
+			id: "710B180ED25F8339"
+			title: "Crafted Fast Travel"
+			description: ["Earn player-created fast travel only after conventional exploration, logistics and settlement infrastructure have mattered."]
+			rewards: [
+				{
+					id: "5EE4CD69435B2424"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "589CC4FADD0CBAC9"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+				{
+					id: "4467D491C1A47507"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6D668012E93B53B5"
+					type: "checkmark"
+				}
+			]
+			x: 0.175d
+			y: 13.125d
+		}
+		{
+			dependencies: ["7192CE558732BE26"]
+			icon: { id: "minecraft:bundle" }
+			id: "2424DD6F019D3E6C"
+			title: "Recovery Bag"
+			description: ["Keep a small standardized replacement kit ready for recovering a grave."]
+			rewards: [
+				{
+					id: "1D9E81FF37AE4A02"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "474B15CB69D8A3A4"
+					item: { count: 6, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "11F5C9CE230DC9CE"
+					type: "checkmark"
+				}
+			]
+			x: -5.6d
+			y: 13.125d
+		}
+	]
+}

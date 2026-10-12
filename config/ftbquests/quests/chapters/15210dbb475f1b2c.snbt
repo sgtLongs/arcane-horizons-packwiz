@@ -1,0 +1,509 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "15210dbb475f1b2c"
+	icon: { id: "ars_nouveau:novice_spell_book" }
+	id: "15210DBB475F1B2C"
+	title: "7 — Arcane Studies"
+	subtitle: ["Magic is another industrial branch, not an escape hatch."]
+	images: [ ]
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:book" }
+			id: "2A91C87716F79434"
+			title: "Occult Study"
+			description: ["Develop ritual knowledge as a parallel, prepared branch."]
+			rewards: [
+				{
+					id: "6967C4133033AFD0"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "255A40E36651CF2E"
+					item: { count: 6, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "47D8D918A7A2B024"
+					item: { count: 1, id: "minecraft:book" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: -5.6d
+		}
+		{
+			dependencies: ["51E5D1D7CFB478FC"]
+			icon: { id: "minecraft:cauldron" }
+			id: "1D19F58EB2BBFE1A"
+			title: "Hexerei Preparation"
+			description: ["Begin witchcraft only after the metal and resource base can support it."]
+			rewards: [
+				{
+					id: "2E40E7DD0F967CC7"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "2D8AA103F077490E"
+					item: { count: 6, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "0DA548D647E42846"
+					item: { count: 8, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "20D0F213050DA36A"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7114FFBCC11A039E"]
+			icon: { id: "irons_spellbooks:arcane_essence" }
+			id: "2F59FCC541A7C92D"
+			title: "Iron Spellcraft"
+			description: ["Tie Iron's Spells materials into the same progression economy."]
+			rewards: [
+				{
+					id: "116F847DF9D97202"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "1CCB22B47BDEE6B7"
+					item: { count: 12, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2D5C64DF4F4342AC"
+					item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 0.175d
+		}
+		{
+			dependencies: ["10B7123682507A04"]
+			icon: { id: "create:golden_sheet" }
+			id: "2CB982FB2FE0EED4"
+			title: "Gold Sheets"
+			description: ["Convert mechanically refined gold into arcane machine stock."]
+			rewards: [
+				{
+					id: "5F2CFB70921C7F6C"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "0615A872A8000927"
+					item: { count: 8, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6A1833FCD8790DE2"
+					item: { count: 1, id: "create:golden_sheet" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 2.45d
+		}
+		{
+			dependencies: ["10B7123682507A04"]
+			icon: { id: "minecraft:amethyst_shard" }
+			id: "5AE6A1FBF5706CE3"
+			title: "Amethyst Survey"
+			description: ["Use mature mining to gather amethyst for precision and arcane work."]
+			rewards: [
+				{
+					id: "135DC50799383754"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "3D63FF7AEC6A74EA"
+					item: { count: 4, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5EA25E84B031DD62"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 4.55d
+		}
+		{
+			dependencies: ["2A91C87716F79434"]
+			icon: { id: "ars_nouveau:imbuement_chamber" }
+			id: "53DFD5CB3546D871"
+			title: "Ritual Space"
+			description: ["Reserve a safe, expandable area for Occultism rituals before the structures become large."]
+			rewards: [
+				{
+					id: "1944138B6BAE86F8"
+					type: "xp"
+					xp: 41
+				}
+				{
+					id: "2FE5CE3AA240A01E"
+					item: { count: 6, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "69BA5315FEB01EEE"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -5.6d
+		}
+		{
+			dependencies: ["1D19F58EB2BBFE1A"]
+			icon: { id: "create:golden_sheet" }
+			id: "4F0A498A33E80EA6"
+			title: "Witch’s Shelf"
+			description: ["Collect Hexerei ingredients and organize them separately from general storage."]
+			rewards: [
+				{
+					id: "71267DC1BCFA3600"
+					type: "xp"
+					xp: 41
+				}
+				{
+					id: "290268C10AC3B699"
+					item: { count: 6, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "431FC9362E72F077"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5AE6A1FBF5706CE3"
+				"2CB982FB2FE0EED4"
+			]
+			icon: { id: "ars_nouveau:imbuement_chamber" }
+			id: "258A504328533A20"
+			title: "Imbuement Chamber"
+			description: ["Enter Ars Nouveau through processed metals and amethyst."]
+			rewards: [
+				{
+					id: "230AF4AE8AA9C7B2"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "2A691E7C48ADDAF0"
+					item: { count: 5, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7D07149FB24FC2C6"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 2.45d
+		}
+		{
+			dependencies: ["5AE6A1FBF5706CE3"]
+			icon: { id: "minecraft:amethyst_shard" }
+			id: "106EBE75AADD2188"
+			title: "Crystal Cartography"
+			description: ["Mark amethyst and other magical-resource locations for repeat visits."]
+			rewards: [
+				{
+					id: "2CD44272ED5093A5"
+					type: "xp"
+					xp: 41
+				}
+				{
+					id: "76F71B42DF48E223"
+					item: { count: 4, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "71352BBE5E139052"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 4.55d
+		}
+		{
+			dependencies: [
+				"258A504328533A20"
+				"2F59FCC541A7C92D"
+			]
+			icon: { id: "ars_nouveau:imbuement_chamber" }
+			id: "52C058A294278CA0"
+			title: "Shared Arcane Bench"
+			description: ["Place the major magic workstations in a coherent workshop where their different roles are obvious."]
+			rewards: [
+				{
+					id: "31FBD202B8A8601A"
+					type: "xp"
+					xp: 41
+				}
+				{
+					id: "39A25A7C54E7A0D0"
+					item: { count: 5, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "76F23CDDF6778AA1"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 1.4d
+		}
+		{
+			dependencies: ["258A504328533A20"]
+			icon: { id: "ars_nouveau:source_gem" }
+			id: "7033E9705C2F5CD3"
+			title: "Source Gems"
+			description: ["Produce Source Gems rather than relying on random loot."]
+			rewards: [
+				{
+					id: "400FE075CEDDA353"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "5F4019CD1B1B21ED"
+					item: { count: 4, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "314388EA2B668CA3"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7033E9705C2F5CD3"]
+			icon: { id: "ars_nouveau:source_jar" }
+			id: "336F9B3C0BEA9680"
+			title: "Source Storage"
+			description: ["Treat magic as infrastructure by storing Source."]
+			rewards: [
+				{
+					id: "1D964B7ECE31E307"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "6EE67C317BB891A1"
+					item: { count: 8, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "63369D9A6C34BD32"
+					item: { count: 1, id: "ars_nouveau:source_jar" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 1.4d
+		}
+		{
+			dependencies: ["7033E9705C2F5CD3"]
+			icon: { id: "ars_nouveau:novice_spell_book" }
+			id: "7CCE0A887CFABE71"
+			title: "Novice Spellbook"
+			description: ["Build the first real spellbook after metallurgy."]
+			rewards: [
+				{
+					id: "20ECB91BAA1EB959"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "420206B1A6EA340C"
+					item: { count: 3, id: "minecraft:book" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "51185E6884FFA0C0"
+					item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7033E9705C2F5CD3"]
+			icon: { id: "minecraft:amethyst_shard" }
+			id: "3A1302BA9AD0C6D9"
+			title: "Source Farm"
+			description: ["Establish a repeatable way to generate and store Ars Source rather than relying on sporadic bursts."]
+			rewards: [
+				{
+					id: "2B6B3EC1CBFE5213"
+					type: "xp"
+					xp: 41
+				}
+				{
+					id: "54FDBDC04B212CF7"
+					item: { count: 8, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "39384234D4F5ACC3"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 5.6d
+		}
+		{
+			dependencies: [
+				"7CCE0A887CFABE71"
+				"336F9B3C0BEA9680"
+				"2F59FCC541A7C92D"
+				"1D19F58EB2BBFE1A"
+				"2A91C87716F79434"
+			]
+			icon: { id: "ars_nouveau:source_gem" }
+			id: "32445362A5EDFE0D"
+			title: "Arcane Workshop"
+			description: ["Maintain magic beside the foundry rather than replacing it."]
+			rewards: [
+				{
+					id: "5CFC1F35771653F6"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "772601CF8734A1F2"
+					item: { count: 5, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+				{
+					id: "7F5ADCF6EF365AFA"
+					item: { count: 8, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "59D22E8A02B653AD"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -1.05d
+		}
+		{
+			dependencies: ["7CCE0A887CFABE71"]
+			icon: { id: "create:golden_sheet" }
+			id: "138E71E7F11E1247"
+			title: "Spellbook Field Test"
+			description: ["Take a novice spell loadout into a real expedition and identify what it does better than weapons."]
+			rewards: [
+				{
+					id: "1DDB5CC615D2EC72"
+					type: "xp"
+					xp: 41
+				}
+				{
+					id: "67E37FE783C5EEC0"
+					item: { count: 3, id: "minecraft:book" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "38A17AADEBF1D72F"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 3.5d
+		}
+	]
+}

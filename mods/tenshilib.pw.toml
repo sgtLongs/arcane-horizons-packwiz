@@ -1,0 +1,13 @@
+name = "TenshiLib (Forge/NeoForge)"
+filename = "tenshilib-1.21.1-2.3.0.b-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bfca9fc41cb68368173ddb57655af9a2f471d021"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8706217
+project-id = 312040

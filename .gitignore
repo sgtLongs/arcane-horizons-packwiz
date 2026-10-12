@@ -1,0 +1,18 @@
+# Ignore everything by default
+/*
+
+# Packwiz manifest
+!/pack.toml
+!/index.toml
+!/.packwizignore
+!/.gitignore
+!/.gitattributes
+!/.nojekyll
+
+# Modpack distribution files
+!/mods/
+!/config/
+!/kubejs/
+!/shaderpacks/
+!/defaultconfigs/
+!/resourcepacks/

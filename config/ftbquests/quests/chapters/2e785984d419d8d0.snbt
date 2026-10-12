@@ -1,0 +1,605 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "2e785984d419d8d0"
+	icon: { id: "minecraft:brush" }
+	id: "2E785984D419D8D0"
+	title: "21 — Archaeology and Ancient Knowledge"
+	subtitle: ["Give ruins and suspicious sites a research path that feeds exploration, magic and late technology."]
+	images: [ ]
+	order_index: 20
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:brush" }
+			id: "3E020B28610AD0D0"
+			title: "Field Brush"
+			description: ["Carry archaeology tools on expeditions so suspicious sites are opportunities rather than scenery."]
+			rewards: [
+				{
+					id: "4E6DB67CFFEAC6A3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "27900742C381B768"
+					item: { count: 1, id: "minecraft:brush" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "440C750F8D35C0C1"
+					item: { count: 1, id: "minecraft:brush" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 2.885d
+		}
+		{
+			dependencies: ["3E020B28610AD0D0"]
+			icon: { id: "minecraft:brush" }
+			id: "331E088CF64FD147"
+			title: "Suspicious Sites"
+			description: ["Excavate multiple archaeology locations instead of opening every structure as a combat dungeon."]
+			rewards: [
+				{
+					id: "13A1A6EDBF647F9D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "102F3DAA1427C318"
+					item: { count: 1, id: "minecraft:brush" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "32445F2DE8BBBF1A"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 1.835d
+		}
+		{
+			dependencies: ["3E020B28610AD0D0"]
+			icon: { id: "minecraft:brush" }
+			id: "6D72AF10C66CE350"
+			title: "Dig Site Grid"
+			description: ["Survey an archaeological site systematically instead of excavating random blocks."]
+			rewards: [
+				{
+					id: "39F669523A431B49"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6C59C769EC071C0D"
+					item: { count: 1, id: "minecraft:brush" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "42DAB840A9C48FF9"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 3.935d
+		}
+		{
+			dependencies: ["331E088CF64FD147"]
+			icon: { id: "minecraft:brush" }
+			id: "11AE7E1FE530BD96"
+			title: "Pottery Record"
+			description: ["Build a collection of pottery evidence and treat duplicates as research material."]
+			rewards: [
+				{
+					id: "25B692FE5ECB7C92"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "313DA0619BE685F3"
+					item: { count: 12, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5DFF7DCF17B8941B"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 3.06d
+		}
+		{
+			dependencies: [
+				"331E088CF64FD147"
+				"11AE7E1FE530BD96"
+			]
+			icon: { id: "minecraft:brush" }
+			id: "0FEB7E7059BFA47F"
+			title: "Archaeology Table"
+			description: ["Establish the Archeological research workstation and use it as part of settlement scholarship."]
+			rewards: [
+				{
+					id: "2727B3F732C65F9C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "268C49D612A2ED91"
+					item: { count: 6, id: "minecraft:brick" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3877F93AF67C3632"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 0.615d
+		}
+		{
+			dependencies: ["11AE7E1FE530BD96"]
+			icon: { id: "minecraft:brush" }
+			id: "44E43F4E9414F1C5"
+			title: "Sherd Catalogue"
+			description: ["Preserve pottery finds and keep duplicates or patterns organized."]
+			rewards: [
+				{
+					id: "0BAEC7858B43E065"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3DC3747E8DA393AB"
+					item: { count: 12, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7936ADC1D4B3B68D"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 3.06d
+		}
+		{
+			dependencies: ["0FEB7E7059BFA47F"]
+			icon: { id: "minecraft:brush" }
+			id: "157FE4EA44CE6DD0"
+			title: "Statues and Idols"
+			description: ["Recover representative statues or idols as research and collection milestones."]
+			rewards: [
+				{
+					id: "64DCDEC8F4256CA0"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "045D5731A1A2B5E2"
+					item: { count: 8, id: "minecraft:gold_nugget" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6730366EAFB8121D"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -3.585d
+		}
+		{
+			dependencies: ["0FEB7E7059BFA47F"]
+			icon: { id: "minecraft:brush" }
+			id: "7C80A3A654C4CF84"
+			title: "Dark Urns"
+			description: ["Explore dangerous depths specifically for archaeology content rather than only ore and combat loot."]
+			rewards: [
+				{
+					id: "775198E4104CA436"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "777677D426B86A7E"
+					item: { count: 12, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "03DFC9D8D66DEBAA"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -1.485d
+		}
+		{
+			dependencies: ["0FEB7E7059BFA47F"]
+			icon: { id: "minecraft:brush" }
+			id: "0B906A7F76DF9748"
+			title: "Ancient Remains"
+			description: ["Recover and study ancient remains from the Archeological mod."]
+			rewards: [
+				{
+					id: "300CE57DDB1591EB"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "766FD2A4F1E27286"
+					item: { count: 8, id: "minecraft:gold_nugget" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "082756443626D03F"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 0.615d
+		}
+		{
+			dependencies: ["0FEB7E7059BFA47F"]
+			icon: { id: "minecraft:brush" }
+			id: "10D4EF76523BC56C"
+			title: "Petroglyph Survey"
+			description: ["Locate underground petroglyphs and document where ancient cultures left evidence."]
+			rewards: [
+				{
+					id: "50473813796142B6"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "48A81F77ADF7A622"
+					item: { count: 12, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "72E68F25DEF12E6B"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 2.715d
+		}
+		{
+			dependencies: [
+				"157FE4EA44CE6DD0"
+				"7C80A3A654C4CF84"
+			]
+			icon: { id: "minecraft:brush" }
+			id: "23836268A35A60D2"
+			title: "Artifact Conservation"
+			description: ["Store valuable finds in a protected collection rather than immediately spending everything."]
+			rewards: [
+				{
+					id: "4BBB814B4FC83E2B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "040469D66A9BE8F3"
+					item: { count: 8, id: "minecraft:gold_nugget" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "0DBEEAC6C4027031"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: -2.535d
+		}
+		{
+			dependencies: [
+				"0B906A7F76DF9748"
+				"10D4EF76523BC56C"
+				"7C80A3A654C4CF84"
+			]
+			icon: { id: "minecraft:brush" }
+			id: "629F865FA1B6C4EB"
+			title: "Runestone Study"
+			description: ["Recover and experiment with runestones as ancient magical technology."]
+			rewards: [
+				{
+					id: "5F15B621738DD3BA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "30828564038DE3B7"
+					item: { count: 6, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "054F55F7F4C96124"
+					item: { count: 1, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "016544DEE8C2717C"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: 0.615d
+		}
+		{
+			dependencies: [
+				"0B906A7F76DF9748"
+				"10D4EF76523BC56C"
+			]
+			icon: { id: "minecraft:brush" }
+			id: "4496F9F4432E2233"
+			title: "Ruins Archive"
+			description: ["Record where important remains, petroglyphs or monuments were found."]
+			rewards: [
+				{
+					id: "5D6F7B939840A916"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "65E4CD5C7190DADF"
+					item: { count: 12, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "376446F8F4BA7D6B"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: 2.715d
+		}
+		{
+			dependencies: ["629F865FA1B6C4EB"]
+			icon: { id: "minecraft:brush" }
+			id: "5CB81B93D0952632"
+			title: "Runestone Rubbings"
+			description: ["Document runestone discoveries before using them in progression."]
+			rewards: [
+				{
+					id: "5F0A2BBF62F57744"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "06BC66B7A9AC4251"
+					item: { count: 12, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "76334490E3CA8844"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: -3.935d
+		}
+		{
+			dependencies: [
+				"629F865FA1B6C4EB"
+				"52D9DE9C412F0D4C"
+			]
+			icon: { id: "minecraft:brush" }
+			id: "3F8ABE827842D284"
+			title: "Ancient-Industry Link"
+			description: ["Treat selected ancient materials or knowledge as inspiration for mature engineering rather than free high-tier components."]
+			rewards: [
+				{
+					id: "62727F361CA34DE8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "15D2AEF84EF8F188"
+					item: { count: 8, id: "minecraft:brick" }
+					type: "item"
+				}
+				{
+					id: "5F6344EC0CF7CC3E"
+					item: { count: 1, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6EE63B6116F5D4A3"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: -1.84d
+		}
+		{
+			dependencies: [
+				"629F865FA1B6C4EB"
+				"32445362A5EDFE0D"
+			]
+			icon: { id: "minecraft:brush" }
+			id: "38501B19A9410E0A"
+			title: "Ancient-Magic Link"
+			description: ["Connect archaeological discoveries to one of the established magical schools through quests and research."]
+			rewards: [
+				{
+					id: "5CDE3BA83DBB5BC5"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "25310BCC313472B0"
+					item: { count: 6, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4EDAC0C4BE4A8EF3"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: 3.06d
+		}
+		{
+			dependencies: ["3F8ABE827842D284"]
+			icon: { id: "minecraft:brush" }
+			id: "7F054853923A7C9F"
+			title: "Industrial Interpretation"
+			description: ["Connect one ancient find to metallurgy, engineering or logistics research."]
+			rewards: [
+				{
+					id: "1056F3496DA98301"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "618C5E039744A8A0"
+					item: { count: 8, id: "minecraft:brick" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5BAECFC99E2F5BA3"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: -1.84d
+		}
+		{
+			dependencies: [
+				"11AE7E1FE530BD96"
+				"629F865FA1B6C4EB"
+				"38501B19A9410E0A"
+				"3F8ABE827842D284"
+			]
+			icon: { id: "minecraft:brush" }
+			id: "7EE108634B786623"
+			title: "Museum of Horizons"
+			description: ["Build a permanent archive or museum displaying major discoveries from several regions and dimensions."]
+			rewards: [
+				{
+					id: "2C07F4716BA7B32F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "090BC265BAFCA770"
+					item: { count: 2, id: "minecraft:emerald" }
+					type: "item"
+				}
+				{
+					id: "791075109CC930BD"
+					item: { count: 1, id: "minecraft:brush" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4B6700397F121C4D"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: 0.785d
+		}
+		{
+			dependencies: ["38501B19A9410E0A"]
+			icon: { id: "minecraft:brush" }
+			id: "19CBBAF3613B264D"
+			title: "Arcane Interpretation"
+			description: ["Connect one ancient find to Ars, Hexerei, Nature’s Aura, Iron’s Spells or Occultism."]
+			rewards: [
+				{
+					id: "4FCEDFE1FA2DF9E7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "23D86C197BCC5B7C"
+					item: { count: 6, id: "minecraft:candle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "67397C69CFB130E8"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: 3.06d
+		}
+	]
+}

@@ -1,0 +1,505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "15ab327aac378f25"
+	icon: { id: "minecraft:honeycomb" }
+	id: "15AB327AAC378F25"
+	title: "13 — Apiaries and Arboretums"
+	subtitle: ["Renewable production eventually reduces dependence on risky mining."]
+	images: [ ]
+	order_index: 12
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:oak_sapling" }
+			id: "2E1F5679EE770638"
+			title: "Tree Collection"
+			description: ["Collect diverse trees as renewable inputs and settlement resources."]
+			rewards: [
+				{
+					id: "72F6D7BEA59B7D60"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "089340BA610751CC"
+					item: { count: 12, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "127FEBD49509347E"
+					item: { count: 1, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -3.15d
+		}
+		{
+			dependencies: ["51E5D1D7CFB478FC"]
+			icon: { id: "minecraft:beehive" }
+			id: "13CC61A3B85922FE"
+			title: "Apiary Site"
+			description: ["Prepare flowers and safe space for bee infrastructure."]
+			rewards: [
+				{
+					id: "7202F194E7932FE5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50D6F2ADE8B4039C"
+					item: { count: 6, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "20EFC2C6C349C55A"
+					item: { count: 1, id: "minecraft:beehive" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 3.15d
+		}
+		{
+			dependencies: ["2E1F5679EE770638"]
+			icon: { id: "minecraft:honeycomb" }
+			id: "53D6EC81CC528E72"
+			title: "Orchard Rows"
+			description: ["Create a deliberate tree collection instead of scattered specimen trees."]
+			rewards: [
+				{
+					id: "123102788BA67017"
+					type: "xp"
+					xp: 59
+				}
+				{
+					id: "65BB1D83473B3EE5"
+					item: { count: 12, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "15E490189995E21C"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: -4.2d
+		}
+		{
+			dependencies: ["2E1F5679EE770638"]
+			icon: { id: "minecraft:oak_sapling" }
+			id: "4FE4211BC4F2EA7A"
+			title: "Productive Trees"
+			description: ["Develop tree-based resource loops alongside mining."]
+			rewards: [
+				{
+					id: "7CADB7C620A4CC5D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F54E0BD155D23C8"
+					item: { count: 12, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2B51A07151A47991"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: -2.1d
+		}
+		{
+			dependencies: ["13CC61A3B85922FE"]
+			icon: { id: "minecraft:honeycomb" }
+			id: "7DD48863A9C979FA"
+			title: "First Honey"
+			description: ["Build dependable honey and honeycomb production."]
+			rewards: [
+				{
+					id: "11E8C4067DD34AA1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "462CE76E0AE2236C"
+					item: { count: 6, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "458313E48BF8627B"
+					item: { count: 1, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 2.1d
+		}
+		{
+			dependencies: ["13CC61A3B85922FE"]
+			icon: { id: "minecraft:beehive" }
+			id: "4D63665380412B12"
+			title: "Wild Bee Survey"
+			description: ["Locate and document several bee types before expanding production."]
+			rewards: [
+				{
+					id: "15C7EE8DC9652584"
+					type: "xp"
+					xp: 59
+				}
+				{
+					id: "26061BEAF671C952"
+					item: { count: 6, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "77C9DC7A03DD4F68"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 4.2d
+		}
+		{
+			dependencies: ["7DD48863A9C979FA"]
+			icon: { id: "minecraft:honey_bottle" }
+			id: "495CBDB067546DE0"
+			title: "Bee Breeding"
+			description: ["Develop resource-focused bees without letting them replace metallurgy immediately."]
+			rewards: [
+				{
+					id: "656D740AC98BBF04"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04CA96F1137E2A58"
+					item: { count: 6, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2A7235CF8D297332"
+					item: { count: 1, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 1.05d
+		}
+		{
+			dependencies: ["7DD48863A9C979FA"]
+			icon: { id: "minecraft:beehive" }
+			id: "51F4DBFBA191B3AA"
+			title: "Comb Processing"
+			description: ["Set up the routine that turns combs into usable products."]
+			rewards: [
+				{
+					id: "1992228105BE9190"
+					type: "xp"
+					xp: 59
+				}
+				{
+					id: "37061A57E6770B62"
+					item: { count: 6, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5E70F886487BAEC1"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 3.15d
+		}
+		{
+			dependencies: ["495CBDB067546DE0"]
+			icon: { id: "minecraft:beehive" }
+			id: "2FD35B3EE42ABB2F"
+			title: "Apiary Expansion"
+			description: ["Expand beyond opportunistic nests into designed infrastructure."]
+			rewards: [
+				{
+					id: "6B6AF7D61D4F5D15"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4CBE0CEC42058200"
+					item: { count: 6, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4A002897FE9BB9C8"
+					item: { count: 1, id: "minecraft:beehive" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 0d
+		}
+		{
+			dependencies: ["495CBDB067546DE0"]
+			icon: { id: "minecraft:honeycomb" }
+			id: "775D3D440C91E49A"
+			title: "Breeding Ledger"
+			description: ["Track the parentage or recipe path for at least one specialized bee."]
+			rewards: [
+				{
+					id: "1DB9B6AB73C7632E"
+					type: "xp"
+					xp: 59
+				}
+				{
+					id: "64BA4D03B0453CF5"
+					item: { count: 3, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "37D7BDB0A57B2F63"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 2.1d
+		}
+		{
+			dependencies: [
+				"2FD35B3EE42ABB2F"
+				"4FE4211BC4F2EA7A"
+			]
+			icon: { id: "minecraft:flowering_azalea" }
+			id: "369C70E44977F576"
+			title: "Cross Pollination"
+			description: ["Connect farming, flowers, bees and trees into one support system."]
+			rewards: [
+				{
+					id: "3A740E0CB1BE6090"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4AD8B7EBDC3DDC4F"
+					item: { count: 6, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1E8895DE454F6BD4"
+					item: { count: 1, id: "minecraft:flowering_azalea" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -2.1d
+		}
+		{
+			dependencies: [
+				"2FD35B3EE42ABB2F"
+				"4FE4211BC4F2EA7A"
+			]
+			icon: { id: "create:mechanical_harvester" }
+			id: "6F4700258585F08C"
+			title: "Automated Harvest"
+			description: ["Reduce repetitive collection with mature mechanical systems."]
+			rewards: [
+				{
+					id: "2DB5C0CCF6EC1B8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A5EC5FC6405B9C7"
+					item: { count: 5, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "42CEC17B09F37740"
+					item: { count: 1, id: "create:mechanical_harvester" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0d
+		}
+		{
+			dependencies: [
+				"2FD35B3EE42ABB2F"
+				"1FFBEC4328E29A9A"
+			]
+			icon: { id: "minecraft:charcoal" }
+			id: "30D4195B4BDDB390"
+			title: "Foundry Inputs"
+			description: ["Feed renewable carbon and reagents back into metallurgy."]
+			rewards: [
+				{
+					id: "7B4819D1D8CAE5BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "63B084D88D5C16F1"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3962A990FDC1CDA0"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.1d
+		}
+		{
+			dependencies: ["369C70E44977F576"]
+			icon: { id: "minecraft:honey_bottle" }
+			id: "4FB0B920B5A53373"
+			title: "Pollination Corridor"
+			description: ["Place apiary and orchard infrastructure so the two systems visibly support each other."]
+			rewards: [
+				{
+					id: "1139B543A4385650"
+					type: "xp"
+					xp: 59
+				}
+				{
+					id: "4C9730D20C71A5C4"
+					item: { count: 6, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5799639E52541700"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: -2.1d
+		}
+		{
+			dependencies: [
+				"369C70E44977F576"
+				"30D4195B4BDDB390"
+				"6F4700258585F08C"
+			]
+			icon: { id: "minecraft:emerald" }
+			id: "5C4CBD6E2E5E2015"
+			title: "Renewable Industry"
+			description: ["Use renewable systems to support, not trivialize, the late factory."]
+			rewards: [
+				{
+					id: "576CE2FF32700F66"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "422955FD3368E6AB"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+				{
+					id: "7957A03B942270B0"
+					item: { count: 2, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3A4854FA66DBF09D"
+					item: { count: 1, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			x: 13.125d
+			y: 0d
+		}
+		{
+			dependencies: ["5C4CBD6E2E5E2015"]
+			icon: { id: "minecraft:honey_bottle" }
+			id: "79C7FEF846FB69AB"
+			title: "Renewable Foundry Feed"
+			description: ["Demonstrate a bee or tree product feeding a real industrial recipe or resource loop."]
+			rewards: [
+				{
+					id: "47DDDFA9B8B6FB17"
+					type: "xp"
+					xp: 59
+				}
+				{
+					id: "7070FAE03B76EA54"
+					item: { count: 10, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5C7CD702BF04EB45"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: 0d
+		}
+	]
+}

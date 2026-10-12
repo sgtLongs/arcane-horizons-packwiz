@@ -1,0 +1,13 @@
+name = "Mob Champions"
+filename = "mobchampions-1.21.1-neoforge-1.0.2.2-NEOFORGE.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c33f83a197705d02dca9749c182b926167bb8bfc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8341314
+project-id = 1144299

@@ -1,0 +1,13 @@
+name = "Sable: Ships"
+filename = "sable_ships-1.0.0-release.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "79bd74515def2fcc0f8330c7257585634cf9fca8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8236149
+project-id = 1572968

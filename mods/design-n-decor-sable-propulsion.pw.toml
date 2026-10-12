@@ -1,0 +1,13 @@
+name = "Design n Decor Sable Propulsion"
+filename = "dndecorsable-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "528795f276d3563840caa8a869b4498bc0c19049"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8328547
+project-id = 1586421

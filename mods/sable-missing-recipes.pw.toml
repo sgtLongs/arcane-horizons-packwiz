@@ -1,0 +1,13 @@
+name = "Sable: Missing Recipes"
+filename = "sables_missing_recipes-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b2df2ff279b8bbb5e97887ca4463bc4056ef73d7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8573046
+project-id = 1638532

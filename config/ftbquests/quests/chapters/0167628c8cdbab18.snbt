@@ -1,0 +1,593 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "0167628c8cdbab18"
+	icon: { id: "minecraft:wheat" }
+	id: "0167628C8CDBAB18"
+	title: "17 — Husbandry and Wildlife"
+	subtitle: ["Make animal care, genetics and ecological fieldwork meaningful support professions."]
+	images: [ ]
+	order_index: 16
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:wheat" }
+			id: "1205B5ED2BE0AA7B"
+			title: "Ranch Site"
+			description: ["Build a real ranch with room for feeding, water, breeding and animal separation."]
+			rewards: [
+				{
+					id: "62D89AA6C7DD9B10"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4B80D0D9C7122A63"
+					item: { count: 4, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3B079588F3471FB8"
+					item: { count: 1, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: -1.065d
+		}
+		{
+			dependencies: ["1205B5ED2BE0AA7B"]
+			icon: { id: "minecraft:wheat" }
+			id: "1E9D67AF6E07E59F"
+			title: "Naturalist Fieldwork"
+			description: ["Document several wild Naturalist species in their proper habitats without turning every encounter into hunting."]
+			rewards: [
+				{
+					id: "320CB15E5F2B1417"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0F6E8C55B32F6A48"
+					item: { count: 1, id: "minecraft:lead" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "39102D7C902F3F23"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: -4.885d
+		}
+		{
+			dependencies: ["1205B5ED2BE0AA7B"]
+			icon: { id: "minecraft:wheat" }
+			id: "4391A052F2ADF1D3"
+			title: "Feeding Troughs"
+			description: ["Use Animal Husbandry feeding infrastructure so care becomes systematic rather than repetitive hand-feeding."]
+			rewards: [
+				{
+					id: "5CA54139A65B21CA"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5D0213BBCBB20404"
+					item: { count: 12, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "06A608F3F6191D2F"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 5.06d
+		}
+		{
+			dependencies: ["1E9D67AF6E07E59F"]
+			icon: { id: "minecraft:wheat" }
+			id: "3CFB6B00896B5852"
+			title: "Wildlife Census"
+			description: ["Document several Naturalist species without treating every encounter as a hunt."]
+			rewards: [
+				{
+					id: "2994B6F91544AB82"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0D47EF4A3099DBE6"
+					item: { count: 1, id: "minecraft:lead" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "24FE25CF8165C2ED"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -7.335d
+		}
+		{
+			dependencies: ["4391A052F2ADF1D3"]
+			icon: { id: "minecraft:wheat" }
+			id: "26DA9A94260CA196"
+			title: "Domestication"
+			description: ["Raise livestock long enough to engage with domestication and happiness rather than treating animals as disposable resources."]
+			rewards: [
+				{
+					id: "4CCEF9D5AB848F0F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6CAB0E8ACC9F8C5E"
+					item: { count: 12, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "552D5B81696B51C7"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 5.06d
+		}
+		{
+			dependencies: ["4391A052F2ADF1D3"]
+			icon: { id: "minecraft:wheat" }
+			id: "571AF68781276BD4"
+			title: "Clean Water and Feed"
+			description: ["Keep feeding and water infrastructure stocked as routine ranch maintenance."]
+			rewards: [
+				{
+					id: "2D2E6EABD96603DD"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "35B778871EA47F27"
+					item: { count: 12, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "500A54EB6BBFCF25"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 7.16d
+		}
+		{
+			dependencies: ["26DA9A94260CA196"]
+			icon: { id: "minecraft:wheat" }
+			id: "1C1005AD09E8A6AF"
+			title: "Breeding Records"
+			description: ["Begin tracking parents and offspring instead of breeding whichever two animals are closest."]
+			rewards: [
+				{
+					id: "364E89CCAA8C8E98"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "49F3F469854958F1"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "48C5E72C618DFBA1"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 3.4d
+		}
+		{
+			dependencies: ["26DA9A94260CA196"]
+			icon: { id: "minecraft:wheat" }
+			id: "2506D7AB56ED535B"
+			title: "Animal Health"
+			description: ["Recognize sickness or poor care and maintain a healthy herd."]
+			rewards: [
+				{
+					id: "55823A492E2DBD2D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2F76501FFF612D32"
+					item: { count: 3, id: "minecraft:hay_block" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7A03C9C69C6F7BAF"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: 6.11d
+		}
+		{
+			dependencies: ["1C1005AD09E8A6AF"]
+			icon: { id: "minecraft:wheat" }
+			id: "628E79D3D3299583"
+			title: "Genetic Diversity"
+			description: ["Avoid close inbreeding and preserve multiple bloodlines in an important livestock species."]
+			rewards: [
+				{
+					id: "00F91E7FECB3B935"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6DD477EE8BAE277F"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3FA34F113D5A2B4A"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 0.335d
+		}
+		{
+			dependencies: ["1C1005AD09E8A6AF"]
+			icon: { id: "minecraft:wheat" }
+			id: "1666EF07429D1313"
+			title: "Lineage Book"
+			description: ["Track breeding pairs far enough to avoid repeatedly breeding close relatives."]
+			rewards: [
+				{
+					id: "14A6A828D5092F99"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "71F88A5889559296"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "47F33B7AE72D872E"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 5.235d
+		}
+		{
+			dependencies: ["2506D7AB56ED535B"]
+			icon: { id: "minecraft:wheat" }
+			id: "502EBA566F508553"
+			title: "Quarantine Pen"
+			description: ["Reserve a separate enclosure for sick, new or selectively bred animals."]
+			rewards: [
+				{
+					id: "22A4A217838BACD8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5CA751955D423983"
+					item: { count: 3, id: "minecraft:hay_block" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "56BFEFA0A3E265FC"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 7.335d
+		}
+		{
+			dependencies: [
+				"1C1005AD09E8A6AF"
+				"628E79D3D3299583"
+			]
+			icon: { id: "minecraft:wheat" }
+			id: "286C0B098941ABCD"
+			title: "Selected Traits"
+			description: ["Breed deliberately for a useful trait or improved animal rather than raw population growth."]
+			rewards: [
+				{
+					id: "290476706E1CCC40"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "7DDB0299E7BCC70D"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6B3FFC6B1166A655"
+					type: "checkmark"
+				}
+			]
+			x: 13.125d
+			y: 2d
+		}
+		{
+			dependencies: [
+				"26DA9A94260CA196"
+				"286C0B098941ABCD"
+			]
+			icon: { id: "minecraft:wheat" }
+			id: "5AA16125A3288DD2"
+			title: "Cattle Economy"
+			description: ["Maintain cattle as a source of food, milk, leather and breeding stock that feeds several progression systems."]
+			rewards: [
+				{
+					id: "122609B0E92A6726"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5C85DD4848E8CB61"
+					item: { count: 5, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					id: "7CFA12685A94F240"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "02BD584ED221B659"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: -1.325d
+		}
+		{
+			dependencies: ["286C0B098941ABCD"]
+			icon: { id: "minecraft:wheat" }
+			id: "123D5186EEE4BD5E"
+			title: "Trait Project"
+			description: ["Choose one useful inherited trait and breed deliberately toward it."]
+			rewards: [
+				{
+					id: "7166F98F6794EF6A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "676D1F1BC5639157"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "787D0E9424BB122C"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: 0.775d
+		}
+		{
+			dependencies: [
+				"26DA9A94260CA196"
+				"286C0B098941ABCD"
+			]
+			icon: { id: "minecraft:wheat" }
+			id: "08632EB0AF2D909E"
+			title: "Pigs and Truffles"
+			description: ["Use pigs for more than meat by engaging with their husbandry-specific behavior and truffle role."]
+			rewards: [
+				{
+					id: "50CAC79B24D58E7F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "0FA3E8A0DFF94FCB"
+					item: { count: 10, id: "minecraft:carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2B433E332C39B4A7"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: 2.875d
+		}
+		{
+			dependencies: [
+				"26DA9A94260CA196"
+				"286C0B098941ABCD"
+			]
+			icon: { id: "minecraft:wheat" }
+			id: "10A8231E2BC75E99"
+			title: "Sheep and Textiles"
+			description: ["Maintain a sheep line that supports wool, beds, decoration and textile-heavy infrastructure."]
+			rewards: [
+				{
+					id: "5DF8096BFCAD1B4D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4443AC66C444559C"
+					item: { count: 8, id: "minecraft:white_wool" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "77D3A766DD0FD5D7"
+					type: "checkmark"
+				}
+			]
+			x: 15.75d
+			y: 4.975d
+		}
+		{
+			dependencies: ["5AA16125A3288DD2"]
+			icon: { id: "minecraft:wheat" }
+			id: "569E6724D0E66CD1"
+			title: "Dairy and Leather Run"
+			description: ["Operate cattle as a renewable production system rather than a disposable meat source."]
+			rewards: [
+				{
+					id: "172FB232A4E8C5D3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "15E77BC8E9545531"
+					item: { count: 5, id: "minecraft:leather" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "60418636A0D16A32"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: -1.325d
+		}
+		{
+			dependencies: [
+				"5AA16125A3288DD2"
+				"10A8231E2BC75E99"
+				"08632EB0AF2D909E"
+				"1E9D67AF6E07E59F"
+			]
+			icon: { id: "minecraft:wheat" }
+			id: "04559CB7AB22DA24"
+			title: "Working Landscape"
+			description: ["Maintain productive livestock and a healthy surrounding ecosystem as part of a mature settlement."]
+			rewards: [
+				{
+					id: "55F5B2E58DFA23C1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "201D876DD9288074"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+				{
+					id: "43E6C3BEC12A7082"
+					item: { count: 10, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "037CBE40D1DA16E3"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: 1.825d
+		}
+		{
+			dependencies: ["10A8231E2BC75E99"]
+			icon: { id: "minecraft:wheat" }
+			id: "2958FCEAE0AFB874"
+			title: "Wool Works"
+			description: ["Connect sheep production to textiles, beds, decoration or another settlement need."]
+			rewards: [
+				{
+					id: "5FBAF74A85A30A35"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "60150456CC7FBE62"
+					item: { count: 8, id: "minecraft:white_wool" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "785EEAEE2212D829"
+					type: "checkmark"
+				}
+			]
+			x: 18.375d
+			y: 4.975d
+		}
+	]
+}

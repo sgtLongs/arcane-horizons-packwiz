@@ -1,0 +1,544 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "177c5f4f3a14ae47"
+	icon: { id: "create:water_wheel" }
+	id: "177C5F4F3A14AE47"
+	title: "4 — Mechanical Foundations"
+	subtitle: ["Mechanical work begins before bronze and iron."]
+	images: [ ]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "create:andesite_alloy" }
+			id: "28CA9024EABF47C0"
+			title: "Andesite Alloy"
+			description: ["Use primitive zinc to create the alloy that opens Create."]
+			rewards: [
+				{
+					id: "33EA9CBDF81FA88C"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "0337B4D7000066E2"
+					item: { count: 16, id: "minecraft:andesite" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "672E3804DC5A38AC"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			x: 1.4d
+			y: 0d
+		}
+		{
+			dependencies: ["28CA9024EABF47C0"]
+			icon: { id: "create:shaft" }
+			id: "3462CFDD2610D460"
+			title: "Shafts"
+			description: ["Turn alloy into reliable mechanical transmission."]
+			rewards: [
+				{
+					id: "38E00BEA7511304A"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "76F73D9DED04F324"
+					item: { count: 2, id: "minecraft:slime_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2D7151CB840FAF3C"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			x: 0.175d
+			y: 2.625d
+		}
+		{
+			dependencies: ["3462CFDD2610D460"]
+			icon: { id: "create:cogwheel" }
+			id: "665C0B954AFA1F7A"
+			title: "Cogwheels"
+			description: ["Build both sizes of cogwheel and learn rotational ratios."]
+			rewards: [
+				{
+					id: "6EB0E28A583B3098"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "4AF3275C1CE51384"
+					item: { count: 12, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "79ACFD85DCF8E05C"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3462CFDD2610D460"]
+			icon: { id: "create:andesite_alloy" }
+			id: "751679532089A27F"
+			title: "Waterwheel Test"
+			description: ["Build a power source and verify that it can sustain more than one machine under load."]
+			rewards: [
+				{
+					id: "200BA9A1EA7F435A"
+					type: "xp"
+					xp: 32
+				}
+				{
+					id: "7A4EFB7D270F1A3F"
+					item: { count: 12, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "1A1BAF6FCB485646"
+					type: "checkmark"
+				}
+			]
+			x: 1.4d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"3462CFDD2610D460"
+				"665C0B954AFA1F7A"
+			]
+			icon: { id: "create:water_wheel" }
+			id: "16458F17F9F078FC"
+			title: "Water Power"
+			description: ["Build a stable water-powered source of rotational force."]
+			rewards: [
+				{
+					id: "4091753CCB6D37DB"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "746058628347CFF4"
+					item: { count: 12, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6EDE3DA5F91B895A"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+			]
+			x: -1.05d
+			y: 7.875d
+		}
+		{
+			dependencies: ["665C0B954AFA1F7A"]
+			icon: { id: "create:andesite_alloy" }
+			id: "60974FF7EE8ECB1C"
+			title: "Gearbox Bench"
+			description: ["Create a small stock of shafts and gears so every machine upgrade does not require a crafting detour."]
+			rewards: [
+				{
+					id: "46836BC177322340"
+					type: "xp"
+					xp: 32
+				}
+				{
+					id: "51AAA48E3177302C"
+					item: { count: 8, id: "minecraft:dried_kelp" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "14565F863B21E24A"
+					type: "checkmark"
+				}
+			]
+			x: -3.15d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"28CA9024EABF47C0"
+				"16458F17F9F078FC"
+			]
+			icon: { id: "create:andesite_casing" }
+			id: "2361B29E3321F07D"
+			title: "Andesite Casing"
+			description: ["Produce the first machine casing tier."]
+			rewards: [
+				{
+					id: "6D621F7953BB1D61"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "04AACB94CD04E293"
+					item: { count: 16, id: "minecraft:andesite" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2286FB82E052896B"
+					item: { count: 1, id: "create:andesite_casing" }
+					type: "item"
+				}
+			]
+			x: 0.32d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"665C0B954AFA1F7A"
+				"16458F17F9F078FC"
+			]
+			icon: { id: "create:millstone" }
+			id: "1CE35BEA9F76131A"
+			title: "Millstone"
+			description: ["Construct the mill that converts raw metal into poor powder without increasing yield."]
+			rewards: [
+				{
+					id: "177883365F757EF3"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "3826ADB9BFA59CC5"
+					item: { count: 2, id: "minecraft:slime_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "78C2FAFBD54B475C"
+					item: { count: 1, id: "create:millstone" }
+					type: "item"
+				}
+			]
+			x: -3.82d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2361B29E3321F07D"
+				"1CE35BEA9F76131A"
+			]
+			icon: { id: "create:basin" }
+			id: "6FEFEF035FFB061D"
+			title: "Basin"
+			description: ["Prepare for mechanical batching and chemistry."]
+			rewards: [
+				{
+					id: "51AD902CB3D0BED5"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "77546BAA376302A9"
+					item: { count: 2, id: "minecraft:slime_ball" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2CF5CA5FC36DD3DA"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: -0.875d
+			y: 13.125d
+		}
+		{
+			dependencies: ["2361B29E3321F07D"]
+			icon: { id: "kubejs:primitive_drive_belt" }
+			id: "6F55D9525BF56DCB"
+			title: "Primitive Drive Belt"
+			description: ["Connect ranching and preserved food to machinery through the primitive belt recipe."]
+			rewards: [
+				{
+					id: "213DCAFDF0433774"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "47E06E40FF3C23DF"
+					item: { count: 10, id: "minecraft:dried_kelp" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3AFBEBF921F1FC5E"
+					item: { count: 1, id: "kubejs:primitive_drive_belt" }
+					type: "item"
+				}
+			]
+			x: 1.545d
+			y: 13.125d
+		}
+		{
+			dependencies: ["1CE35BEA9F76131A"]
+			icon: { id: "kubejs:poor_copper_powder" }
+			id: "59B3022413266CAA"
+			title: "Poor Ore Powders"
+			description: ["Mill copper, tin, zinc and iron into controlled expert-processing intermediates."]
+			rewards: [
+				{
+					id: "23BE65722932041A"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "3F683F56806FC428"
+					item: { count: 2, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "492B02EEBB3BC753"
+					item: { count: 1, id: "kubejs:poor_copper_powder" }
+					type: "item"
+				}
+			]
+			x: -3.82d
+			y: 13.125d
+		}
+		{
+			dependencies: ["1CE35BEA9F76131A"]
+			icon: { id: "create:shaft" }
+			id: "42A3A8C24C46615C"
+			title: "Powder Trial"
+			description: ["Process several different raw metals through the millstone and compare the resulting poor powders."]
+			rewards: [
+				{
+					id: "56CFFCFADE6ACE50"
+					type: "xp"
+					xp: 32
+				}
+				{
+					id: "4B533B24DB1CB429"
+					item: { count: 12, id: "minecraft:andesite" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "26755824F33747DF"
+					type: "checkmark"
+				}
+			]
+			x: -5.92d
+			y: 13.125d
+		}
+		{
+			dependencies: [
+				"6FEFEF035FFB061D"
+				"6F55D9525BF56DCB"
+			]
+			icon: { id: "create:mechanical_press" }
+			id: "5A207486E0FB1018"
+			title: "Copper Mechanical Press"
+			description: ["Build the custom pre-iron press without spending an iron block."]
+			rewards: [
+				{
+					id: "52C011786B84C069"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "0E279066A9EDF06F"
+					item: { count: 3, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2D8B34A57083D0F5"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+			]
+			x: 1.72d
+			y: 15.75d
+		}
+		{
+			dependencies: ["59B3022413266CAA"]
+			icon: { id: "create:cogwheel" }
+			id: "71DC0302214C6979"
+			title: "Workshop Power Budget"
+			description: ["Arrange the mechanical workshop so rotational power can reach future machines without rebuilding everything."]
+			rewards: [
+				{
+					id: "45F9352C14262DEA"
+					type: "xp"
+					xp: 32
+				}
+				{
+					id: "701413F024DA59D3"
+					item: { count: 2, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "22A0C13C44C6DBB4"
+					type: "checkmark"
+				}
+			]
+			x: -6.27d
+			y: 15.75d
+		}
+		{
+			dependencies: ["5A207486E0FB1018"]
+			icon: { id: "create:copper_sheet" }
+			id: "2CF7198398E2454C"
+			title: "Copper Sheets"
+			description: ["Form copper stock mechanically instead of treating ingots as finished parts."]
+			rewards: [
+				{
+					id: "1C2AE2C99C2FACB4"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "207A993A5ED1B609"
+					item: { count: 3, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "14D189F9E8F89444"
+					item: { count: 1, id: "create:copper_sheet" }
+					type: "item"
+				}
+			]
+			x: 6.27d
+			y: 18.375d
+		}
+		{
+			dependencies: ["5A207486E0FB1018"]
+			icon: { id: "create:shaft" }
+			id: "5F660E96DEAE2C36"
+			title: "Pressing Run"
+			description: ["Use the copper-era press for a useful production batch, not only its own progression item."]
+			rewards: [
+				{
+					id: "662B5032908DAF25"
+					type: "xp"
+					xp: 32
+				}
+				{
+					id: "735DC16F9BAC4C9E"
+					item: { count: 3, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5E7800B4D45D87DF"
+					type: "checkmark"
+				}
+			]
+			x: 4.17d
+			y: 18.375d
+		}
+		{
+			dependencies: [
+				"6FEFEF035FFB061D"
+				"5A207486E0FB1018"
+				"2CF7198398E2454C"
+				"59B3022413266CAA"
+			]
+			icon: { id: "create:depot" }
+			id: "678071CC02025D14"
+			title: "Mechanical Workshop"
+			description: ["Operate water power, milling and pressing as a coherent pre-foundry workshop."]
+			rewards: [
+				{
+					id: "2CAF6E932B71F272"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "6B82956BE65AC442"
+					item: { count: 12, id: "minecraft:andesite" }
+					type: "item"
+				}
+				{
+					id: "4C18F0A166B67441"
+					item: { count: 6, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "1F997D1C1DDE320D"
+					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+			]
+			x: 0.32d
+			y: 21d
+		}
+	]
+}

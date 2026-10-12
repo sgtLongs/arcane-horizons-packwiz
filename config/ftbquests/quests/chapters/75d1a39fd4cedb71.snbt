@@ -1,0 +1,521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "75d1a39fd4cedb71"
+	icon: { id: "minecraft:compass" }
+	id: "75D1A39FD4CEDB71"
+	title: "14 — Wild Horizons"
+	subtitle: ["The settlement can be safe because the resources are not all at home."]
+	images: [ ]
+	order_index: 13
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:compass" }
+			id: "7A3ABF44A05A4C1A"
+			title: "Regional Survey"
+			description: ["Map nearby biomes and identify worthwhile expedition routes."]
+			rewards: [
+				{
+					id: "6B821DFF9231337E"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "65920808CF11D566"
+					item: { count: 2, id: "minecraft:map" }
+					type: "item"
+				}
+				{
+					id: "4E0C6368DD53B84B"
+					item: { count: 16, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "32CCC6A080801FAC"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["7A3ABF44A05A4C1A"]
+			icon: { id: "minecraft:map" }
+			id: "419DE6B43F0570A1"
+			title: "Forest Expedition"
+			description: ["Travel for wood, plants and structures unavailable at home."]
+			rewards: [
+				{
+					id: "7C7E627D48C15804"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "7A30202991A5307B"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4091901E19801832"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			x: -1.05d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7A3ABF44A05A4C1A"]
+			icon: { id: "minecraft:goat_horn" }
+			id: "645370007F004D89"
+			title: "Mountain Expedition"
+			description: ["Seek calcite, exposed ores and high-altitude materials."]
+			rewards: [
+				{
+					id: "4E9B1B3C76D59D8D"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "39B03C61AD460BF1"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "647EC6806F6B8EAE"
+					item: { count: 1, id: "minecraft:goat_horn" }
+					type: "item"
+				}
+			]
+			x: 3.15d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7A3ABF44A05A4C1A"]
+			icon: { id: "minecraft:lily_pad" }
+			id: "301A6BD5A32C026F"
+			title: "Wetland Expedition"
+			description: ["Collect clay, plants and water resources from wetlands."]
+			rewards: [
+				{
+					id: "4178EA9BD372F7E4"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "5C5AFE54E35C1406"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "72B47A66FBE9FA02"
+					item: { count: 1, id: "minecraft:lily_pad" }
+					type: "item"
+				}
+			]
+			x: 1.05d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7A3ABF44A05A4C1A"]
+			icon: { id: "minecraft:cactus" }
+			id: "54A4825B98EAA80E"
+			title: "Desert Expedition"
+			description: ["Seek sand, structures and climate-specific materials."]
+			rewards: [
+				{
+					id: "294523EBE1EE87DF"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "47A0FA02F4020C6D"
+					item: { count: 4, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6B0FC8648B71729C"
+					item: { count: 1, id: "minecraft:cactus" }
+					type: "item"
+				}
+			]
+			x: -3.15d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7A3ABF44A05A4C1A"]
+			icon: { id: "minecraft:amethyst_shard" }
+			id: "15F1DF6700D8AC85"
+			title: "Deep Cave Expedition"
+			description: ["Enter deep caves for post-Bronze and post-iron resources."]
+			rewards: [
+				{
+					id: "3A3D0851A56C68D7"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "5BDAD0110397E68B"
+					item: { count: 20, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3AE40FEEDE36ED77"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 2.625d
+		}
+		{
+			dependencies: ["7A3ABF44A05A4C1A"]
+			icon: { id: "minecraft:compass" }
+			id: "208C04767CADD1EF"
+			title: "Compass Rose"
+			description: ["Create a regional map or waypoint plan before committing to long expeditions."]
+			rewards: [
+				{
+					id: "768791FAE6FE5441"
+					type: "xp"
+					xp: 62
+				}
+				{
+					id: "1EFE652BBFB35990"
+					item: { count: 5, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "26A75EEEFBAA41BB"
+					type: "checkmark"
+				}
+			]
+			x: -5.25d
+			y: 2.625d
+		}
+		{
+			dependencies: [
+				"419DE6B43F0570A1"
+				"301A6BD5A32C026F"
+			]
+			icon: { id: "minecraft:chest" }
+			id: "58CAE6D27974EC90"
+			title: "Ruined Structures"
+			description: ["Salvage structures without allowing their loot to bypass metallurgy."]
+			rewards: [
+				{
+					id: "2E98499E9593E3DB"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "0D7CF27E65D07404"
+					item: { count: 2, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "187A3F6EDE8AA062"
+					item: { count: 1, id: "minecraft:chest" }
+					type: "item"
+				}
+			]
+			x: -1.05d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"645370007F004D89"
+				"15F1DF6700D8AC85"
+			]
+			icon: { id: "minecraft:ender_chest" }
+			id: "704A419AB23DB93C"
+			title: "Long Range Logistics"
+			description: ["Carry enough supplies to survive far from the settlement."]
+			rewards: [
+				{
+					id: "6F2C6A159F9B1830"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "652619CE0E7DE026"
+					item: { count: 12, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "72A809030377DF23"
+					item: { count: 1, id: "minecraft:ender_chest" }
+					type: "item"
+				}
+			]
+			x: 3.15d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"419DE6B43F0570A1"
+				"645370007F004D89"
+				"301A6BD5A32C026F"
+				"54A4825B98EAA80E"
+				"15F1DF6700D8AC85"
+			]
+			icon: { id: "minecraft:recovery_compass" }
+			id: "132D02BE2AB3E300"
+			title: "Wildlands Milestone"
+			description: ["Maintain a safe home while distant exploration remains dangerous."]
+			rewards: [
+				{
+					id: "2769D72270E988A2"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "0C35B09367D9E1F2"
+					item: { count: 3, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+				{
+					id: "4BCA05D01DBD48FF"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3FB24926CDF0898F"
+					item: { count: 1, id: "minecraft:recovery_compass" }
+					type: "item"
+				}
+			]
+			x: 1.05d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"419DE6B43F0570A1"
+				"54A4825B98EAA80E"
+			]
+			icon: { id: "minecraft:compass" }
+			id: "5A3D6826017018FB"
+			title: "Biome Specimen Chest"
+			description: ["Return from multiple biome trips with representative useful materials."]
+			rewards: [
+				{
+					id: "4B19FC1561A2A132"
+					type: "xp"
+					xp: 62
+				}
+				{
+					id: "03FE20D05CE5B9EB"
+					item: { count: 12, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5140814DAB536C1C"
+					type: "checkmark"
+				}
+			]
+			x: -3.15d
+			y: 5.25d
+		}
+		{
+			dependencies: ["15F1DF6700D8AC85"]
+			icon: { id: "minecraft:map" }
+			id: "16D9E815F99EDBEE"
+			title: "Cave Rescue Cache"
+			description: ["Leave emergency supplies near a deep-cave route for future recovery."]
+			rewards: [
+				{
+					id: "18DECCB71CBDA79D"
+					type: "xp"
+					xp: 62
+				}
+				{
+					id: "417348D90CAA4A4F"
+					item: { count: 20, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7950D0E509A8BC3F"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"58CAE6D27974EC90"
+				"704A419AB23DB93C"
+			]
+			icon: { id: "waystones:waystone" }
+			id: "165DB18CEE479BD0"
+			title: "Waystone Network"
+			description: ["Earn fast travel only after conventional exploration has mattered."]
+			rewards: [
+				{
+					id: "24B48C3A6C77B544"
+					type: "xp"
+					xp: 105
+				}
+				{
+					id: "1C112FC4F3CC2FD2"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+				{
+					id: "3D165294064AEE5F"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6B2DEE7CE29A48C4"
+					item: { count: 1, id: "waystones:waystone" }
+					type: "item"
+				}
+			]
+			x: 1.05d
+			y: 7.875d
+		}
+		{
+			dependencies: ["58CAE6D27974EC90"]
+			icon: { id: "minecraft:map" }
+			id: "1E9CBC85C2D8220B"
+			title: "Ruin Survey Notes"
+			description: ["Record worthwhile structures and distinguish cleared sites from unexplored ones."]
+			rewards: [
+				{
+					id: "7712D7ED8F01057A"
+					type: "xp"
+					xp: 62
+				}
+				{
+					id: "7B2170777EFF480F"
+					item: { count: 2, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "6F4E07E5561FE86C"
+					type: "checkmark"
+				}
+			]
+			x: -1.05d
+			y: 7.875d
+		}
+		{
+			dependencies: ["704A419AB23DB93C"]
+			icon: { id: "minecraft:goat_horn" }
+			id: "122BDCE5A67666B7"
+			title: "Road or Rail Marker"
+			description: ["Physically mark at least one long-distance route that will later support logistics."]
+			rewards: [
+				{
+					id: "470FA6BA80EF3633"
+					type: "xp"
+					xp: 62
+				}
+				{
+					id: "005E6411330AF248"
+					item: { count: 12, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "229F839838EF7DFC"
+					type: "checkmark"
+				}
+			]
+			x: 3.15d
+			y: 7.875d
+		}
+		{
+			dependencies: ["165DB18CEE479BD0"]
+			icon: { id: "minecraft:goat_horn" }
+			id: "6A98B9CEE8FEAB6B"
+			title: "Permanent Landmark"
+			description: ["Choose one discovered location worth integrating into the settlement’s travel network."]
+			rewards: [
+				{
+					id: "1A1F525D6C8ABCD2"
+					type: "xp"
+					xp: 62
+				}
+				{
+					id: "6521B7B12E87B8A5"
+					item: { count: 2, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "4C67DE5108472C4C"
+					type: "checkmark"
+				}
+			]
+			x: 1.05d
+			y: 10.5d
+		}
+	]
+}

@@ -1,0 +1,12 @@
+name = "More Vanilla Shields!"
+filename = "morevanillashields-1.0.2-1.21.1.jar"
+side = "both"
+[download]
+url = "https://cdn.modrinth.com/data/qYO6TImU/versions/yQtngMVj/morevanillashields-1.0.2-1.21.1.jar"
+hash-format = "sha512"
+hash = "cb9f16a387d78719b9db7978526f663f3cb345bca87e94d798ffab3499da0abd11b1889c5775334cda543c3794143bb2ac96eb2b235d34734b70722062aab279"
+
+[update]
+[update.modrinth]
+mod-id = "qYO6TImU"
+version = "yQtngMVj"

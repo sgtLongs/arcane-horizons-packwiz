@@ -1,0 +1,858 @@
+{
+	chapter.2847EF37A16E095C.title: "1 — Foundations"
+	chapter.2847EF37A16E095C.chapter_subtitle: ["Survival comes before industry."]
+	quest.11CA8B6D6B95AF62.title: "A Harder First Night"
+	quest.11CA8B6D6B95AF62.quest_desc: ["Build shelter and survive without assuming a furnace will solve the opening game.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. A Harder First Night is one more step from scarcity toward mastery."]
+	quest.2632D0B7E53A278B.title: "Stone Tool Economy"
+	quest.2632D0B7E53A278B.quest_desc: ["Maintain spare stone tools because metal equipment is not close.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Stone Tool Economy is one more step from scarcity toward mastery."]
+	quest.2768340FC72DE51A.title: "Shelter Before Sunset"
+	quest.2768340FC72DE51A.quest_desc: ["Establish a shelter, bed and fallback route before the first dangerous night."]
+	quest.68CE115163F2BAE7.title: "The Campfire Kiln"
+	quest.68CE115163F2BAE7.quest_desc: ["Use campfires for heat, cooking and the first material transformations.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. The Campfire Kiln is one more step from scarcity toward mastery."]
+	quest.2A45C0882817E34E.title: "Stone Reserve"
+	quest.2A45C0882817E34E.quest_desc: ["Stock enough stone and replacement tools that one death or broken pick does not halt progress."]
+	quest.67A7B39CE0E7DDEC.title: "Clay Survey"
+	quest.67A7B39CE0E7DDEC.quest_desc: ["Find and stockpile clay for charges, bricks and foundry work.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Clay Survey is one more step from scarcity toward mastery."]
+	quest.22ED89C9F874F29D.title: "Glass by Patience"
+	quest.22ED89C9F874F29D.quest_desc: ["Fire sand at primitive heat for bottles and workshop construction.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Glass by Patience is one more step from scarcity toward mastery."]
+	quest.1458BA084102DA23.title: "Kiln Duty"
+	quest.1458BA084102DA23.quest_desc: ["Run the campfire kiln through a useful batch of charcoal, bricks or glass instead of treating it as a one-off recipe."]
+	quest.3A6E06ED8A33F7DC.title: "Charcoal Production"
+	quest.3A6E06ED8A33F7DC.quest_desc: ["Establish renewable charcoal for primitive metallurgy.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Charcoal Production is one more step from scarcity toward mastery."]
+	quest.53B2493BCBEF52F5.title: "Forager’s Cache"
+	quest.53B2493BCBEF52F5.quest_desc: ["Build a small reserve of gathered food and fibers before relying on permanent agriculture."]
+	quest.1575FE1101C6F43B.title: "Dried Kelp Supply"
+	quest.1575FE1101C6F43B.quest_desc: ["Preserve kelp for primitive drive components and expedition food.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Dried Kelp Supply is one more step from scarcity toward mastery."]
+	quest.6EE447FB16DA1A66.title: "Fire Brick Stockpile"
+	quest.6EE447FB16DA1A66.quest_desc: ["Slowly fire the brick needed for the first metallurgical structures.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Fire Brick Stockpile is one more step from scarcity toward mastery."]
+	quest.3EEBBAB6A4474225.title: "Food Security"
+	quest.3EEBBAB6A4474225.quest_desc: ["Build several days of food before committing to long production projects.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Food Security is one more step from scarcity toward mastery."]
+	quest.74AEF6CD0EFE09A2.title: "Coastal Kelp Run"
+	quest.74AEF6CD0EFE09A2.quest_desc: ["Make a deliberate trip for kelp and return with enough to support early fuel and food needs."]
+	quest.754579AB522236DA.title: "Calcite Prospecting"
+	quest.754579AB522236DA.quest_desc: ["Locate calcite well before the first iron reduction charge.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Calcite Prospecting is one more step from scarcity toward mastery."]
+	quest.57E43D367D520B90.title: "Leather and Fiber"
+	quest.57E43D367D520B90.quest_desc: ["Gather leather, string and wool for mechanical support components.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Leather and Fiber is one more step from scarcity toward mastery."]
+	quest.2857A1BADDD79E75.title: "Calcite Expedition"
+	quest.2857A1BADDD79E75.quest_desc: ["Locate a dependable calcite source and mark a safe route back to it."]
+	quest.6C0A790FDE5C551D.title: "Defensible Ground"
+	quest.6C0A790FDE5C551D.quest_desc: ["Choose a settlement that can be lit, fenced and expanded.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Defensible Ground is one more step from scarcity toward mastery."]
+	quest.171992F96EBF79D2.title: "Primitive Reserves"
+	quest.171992F96EBF79D2.quest_desc: ["Finish the first age with organized food, fuel and construction reserves.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Primitive Reserves is one more step from scarcity toward mastery."]
+	quest.6542CFC84815B286.title: "Emergency Stockpile"
+	quest.6542CFC84815B286.quest_desc: ["Prepare spare food, tools, torches and basic materials for a recovery after death or disaster."]
+	chapter.1314F1DAC12F5F55.title: "2 — Hearth and Homestead"
+	chapter.1314F1DAC12F5F55.chapter_subtitle: ["The settlement is part of the technology tree."]
+	quest.3D9B9EBC698A2E96.title: "Fields Before Factories"
+	quest.3D9B9EBC698A2E96.quest_desc: ["Establish renewable crops so factory work does not compete with survival.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Fields Before Factories is one more step from scarcity toward mastery."]
+	quest.295A6C0A67AA3421.title: "Early Chipped Workshop"
+	quest.295A6C0A67AA3421.quest_desc: ["Open decorative construction before iron so the settlement can grow with progression.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Early Chipped Workshop is one more step from scarcity toward mastery."]
+	quest.39817F21BA10C397.title: "Kitchen Garden"
+	quest.39817F21BA10C397.quest_desc: ["Lay out a compact food garden close enough to the settlement to maintain routinely."]
+	quest.2971B118C743EA6D.title: "Ranching Begins"
+	quest.2971B118C743EA6D.quest_desc: ["Keep livestock for food, leather and future mechanical components.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Ranching Begins is one more step from scarcity toward mastery."]
+	quest.14F0B3340E896DB9.title: "A Real Pantry"
+	quest.14F0B3340E896DB9.quest_desc: ["Store cooked food and ingredients for long expeditions.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. A Real Pantry is one more step from scarcity toward mastery."]
+	quest.26143276D509D34E.title: "Carpenter’s Row"
+	quest.26143276D509D34E.quest_desc: ["Use Chipped and basic building materials to create a distinct workshop or residential area."]
+	quest.61FEA663F188F8DE.title: "Animal Byproducts"
+	quest.61FEA663F188F8DE.quest_desc: ["Build dependable supplies of leather, wool and feathers.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Animal Byproducts is one more step from scarcity toward mastery."]
+	quest.117E06BC1742B4AB.title: "Breeding Pair"
+	quest.117E06BC1742B4AB.quest_desc: ["Secure at least one dependable breeding pair of useful livestock without exhausting local animals."]
+	quest.1FE7DA5E206B1312.title: "Storage District"
+	quest.1FE7DA5E206B1312.quest_desc: ["Separate ore, fuel, food, magic and building materials.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Storage District is one more step from scarcity toward mastery."]
+	quest.2A4FE8A4AEE870F8.title: "Smokehouse Routine"
+	quest.2A4FE8A4AEE870F8.quest_desc: ["Maintain a practical cooked-food reserve without relying on a furnace."]
+	quest.70E3A359019C9A54.title: "Kitchen Without a Furnace"
+	quest.70E3A359019C9A54.quest_desc: ["Learn campfire meals and low-tech food preparation.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Kitchen Without a Furnace is one more step from scarcity toward mastery."]
+	quest.225D7AC7C1E6DA96.title: "Safe Paths and Lighting"
+	quest.225D7AC7C1E6DA96.quest_desc: ["Make the settlement safer than the wilderness around it.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Safe Paths and Lighting is one more step from scarcity toward mastery."]
+	quest.434AB80625F23B2D.title: "Expedition Kits"
+	quest.434AB80625F23B2D.quest_desc: ["Standardize food, beds, blocks and recovery supplies before travel.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Expedition Kits is one more step from scarcity toward mastery."]
+	quest.5763EA4D0E61333A.title: "Lit Streets"
+	quest.5763EA4D0E61333A.quest_desc: ["Connect key settlement buildings with safe, lit paths rather than isolated boxes."]
+	quest.51E5D1D7CFB478FC.title: "Settlement Established"
+	quest.51E5D1D7CFB478FC.quest_desc: ["Maintain a home capable of supporting copper, bronze and Create workshops.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Settlement Established is one more step from scarcity toward mastery."]
+	quest.206580E03672B26C.title: "Two-Person Expedition Kit"
+	quest.206580E03672B26C.quest_desc: ["Prepare a matched set of food, tools and emergency supplies for both players."]
+	chapter.74FDB4946A518CB7.title: "3 — Copper and Tin"
+	chapter.74FDB4946A518CB7.chapter_subtitle: ["The first metals are scarce, lossy and valuable."]
+	quest.1E8D69AEE403FE2A.title: "Copper Prospecting"
+	quest.1E8D69AEE403FE2A.quest_desc: ["Gather raw copper knowing that primitive recovery wastes most of the ore.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Copper Prospecting is one more step from scarcity toward mastery."]
+	quest.5E435269E472AF3D.title: "Zinc Prospecting"
+	quest.5E435269E472AF3D.quest_desc: ["Locate zinc for Andesite Alloy and the first Create mechanisms.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Zinc Prospecting is one more step from scarcity toward mastery."]
+	quest.787543B5490C53BA.title: "Tin Prospecting"
+	quest.787543B5490C53BA.quest_desc: ["Find Ironworks tin deposits; bronze cannot exist without them.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Tin Prospecting is one more step from scarcity toward mastery."]
+	quest.1CB52B87D9F77560.title: "Primitive Copper Charge"
+	quest.1CB52B87D9F77560.quest_desc: ["Combine four raw copper with carbon and clay for one primitive charge.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Primitive Copper Charge is one more step from scarcity toward mastery."]
+	quest.22BCFF008940FB41.title: "Primitive Zinc"
+	quest.22BCFF008940FB41.quest_desc: ["Accept four raw zinc per ingot until a real foundry exists.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Primitive Zinc is one more step from scarcity toward mastery."]
+	quest.1936F353BDB0BC99.title: "Copper Vein Survey"
+	quest.1936F353BDB0BC99.quest_desc: ["Mark a productive copper site and record the real cost of primitive recovery."]
+	quest.3E67EB75935D68D2.title: "Zinc Run"
+	quest.3E67EB75935D68D2.quest_desc: ["Return from a dedicated zinc trip with enough material to support Andesite Alloy production."]
+	quest.2429A103027F70CE.title: "Tin Route"
+	quest.2429A103027F70CE.quest_desc: ["Establish a repeatable route to tin rather than depending on accidental finds."]
+	quest.1324BBF1FA9BFC15.title: "Primitive Tin Charge"
+	quest.1324BBF1FA9BFC15.quest_desc: ["Build the deliberately poor five-raw tin charge.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Primitive Tin Charge is one more step from scarcity toward mastery."]
+	quest.6EC3607753F2A0F4.title: "First Copper"
+	quest.6EC3607753F2A0F4.quest_desc: ["Fire a primitive copper charge: four raw copper becomes one ingot.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. First Copper is one more step from scarcity toward mastery."]
+	quest.1A25160759F6F92C.title: "First Tin"
+	quest.1A25160759F6F92C.quest_desc: ["Fire five raw tin into one precious tin ingot.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. First Tin is one more step from scarcity toward mastery."]
+	quest.352351388C16437C.title: "Metal Accounting"
+	quest.352351388C16437C.quest_desc: ["Track metal use: every early ingot represents a large mining investment.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Metal Accounting is one more step from scarcity toward mastery."]
+	quest.78EA0A4B28B82387.title: "Andesite Survey"
+	quest.78EA0A4B28B82387.quest_desc: ["Collect Andesite for the mechanical structures that improve recovery.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Andesite Survey is one more step from scarcity toward mastery."]
+	quest.7D91AFCA5CF92F8B.title: "Ore Ledger"
+	quest.7D91AFCA5CF92F8B.quest_desc: ["Track raw ore consumed versus metal produced so the early losses are visible."]
+	quest.68C86CF01970BAAC.title: "Copper Construction"
+	quest.68C86CF01970BAAC.quest_desc: ["Spend scarce copper on infrastructure rather than rushing gear.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Copper Construction is one more step from scarcity toward mastery."]
+	quest.1BD1AFD7DD72640A.title: "Andesite Outcrop"
+	quest.1BD1AFD7DD72640A.quest_desc: ["Secure an andesite source suitable for the first mechanical workshop."]
+	quest.68B6C2A258EFDB37.title: "End of the Primitive Metal Age"
+	quest.68B6C2A258EFDB37.quest_desc: ["Stock enough copper, zinc and tin to begin mechanical processing.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. End of the Primitive Metal Age is one more step from scarcity toward mastery."]
+	chapter.177C5F4F3A14AE47.title: "4 — Mechanical Foundations"
+	chapter.177C5F4F3A14AE47.chapter_subtitle: ["Mechanical work begins before bronze and iron."]
+	quest.28CA9024EABF47C0.title: "Andesite Alloy"
+	quest.28CA9024EABF47C0.quest_desc: ["Use primitive zinc to create the alloy that opens Create.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Andesite Alloy is one more step from scarcity toward mastery."]
+	quest.3462CFDD2610D460.title: "Shafts"
+	quest.3462CFDD2610D460.quest_desc: ["Turn alloy into reliable mechanical transmission.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Shafts is one more step from scarcity toward mastery."]
+	quest.665C0B954AFA1F7A.title: "Cogwheels"
+	quest.665C0B954AFA1F7A.quest_desc: ["Build both sizes of cogwheel and learn rotational ratios.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Cogwheels is one more step from scarcity toward mastery."]
+	quest.751679532089A27F.title: "Waterwheel Test"
+	quest.751679532089A27F.quest_desc: ["Build a power source and verify that it can sustain more than one machine under load."]
+	quest.16458F17F9F078FC.title: "Water Power"
+	quest.16458F17F9F078FC.quest_desc: ["Build a stable water-powered source of rotational force.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Water Power is one more step from scarcity toward mastery."]
+	quest.60974FF7EE8ECB1C.title: "Gearbox Bench"
+	quest.60974FF7EE8ECB1C.quest_desc: ["Create a small stock of shafts and gears so every machine upgrade does not require a crafting detour."]
+	quest.2361B29E3321F07D.title: "Andesite Casing"
+	quest.2361B29E3321F07D.quest_desc: ["Produce the first machine casing tier.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Andesite Casing is one more step from scarcity toward mastery."]
+	quest.1CE35BEA9F76131A.title: "Millstone"
+	quest.1CE35BEA9F76131A.quest_desc: ["Construct the mill that converts raw metal into poor powder without increasing yield.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Millstone is one more step from scarcity toward mastery."]
+	quest.6FEFEF035FFB061D.title: "Basin"
+	quest.6FEFEF035FFB061D.quest_desc: ["Prepare for mechanical batching and chemistry.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Basin is one more step from scarcity toward mastery."]
+	quest.6F55D9525BF56DCB.title: "Primitive Drive Belt"
+	quest.6F55D9525BF56DCB.quest_desc: ["Connect ranching and preserved food to machinery through the primitive belt recipe.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Primitive Drive Belt is one more step from scarcity toward mastery."]
+	quest.59B3022413266CAA.title: "Poor Ore Powders"
+	quest.59B3022413266CAA.quest_desc: ["Mill copper, tin, zinc and iron into controlled expert-processing intermediates.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Poor Ore Powders is one more step from scarcity toward mastery."]
+	quest.42A3A8C24C46615C.title: "Powder Trial"
+	quest.42A3A8C24C46615C.quest_desc: ["Process several different raw metals through the millstone and compare the resulting poor powders."]
+	quest.5A207486E0FB1018.title: "Copper Mechanical Press"
+	quest.5A207486E0FB1018.quest_desc: ["Build the custom pre-iron press without spending an iron block.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Copper Mechanical Press is one more step from scarcity toward mastery."]
+	quest.71DC0302214C6979.title: "Workshop Power Budget"
+	quest.71DC0302214C6979.quest_desc: ["Arrange the mechanical workshop so rotational power can reach future machines without rebuilding everything."]
+	quest.2CF7198398E2454C.title: "Copper Sheets"
+	quest.2CF7198398E2454C.quest_desc: ["Form copper stock mechanically instead of treating ingots as finished parts.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Copper Sheets is one more step from scarcity toward mastery."]
+	quest.5F660E96DEAE2C36.title: "Pressing Run"
+	quest.5F660E96DEAE2C36.quest_desc: ["Use the copper-era press for a useful production batch, not only its own progression item."]
+	quest.678071CC02025D14.title: "Mechanical Workshop"
+	quest.678071CC02025D14.quest_desc: ["Operate water power, milling and pressing as a coherent pre-foundry workshop.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Mechanical Workshop is one more step from scarcity toward mastery."]
+	chapter.45021DFF1ED027D1.title: "5 — Bronze Foundry"
+	chapter.45021DFF1ED027D1.chapter_subtitle: ["Metallurgy becomes a physical foundry process."]
+	quest.3F1639242CDE3345.title: "Poor Copper Powder"
+	quest.3F1639242CDE3345.quest_desc: ["Mill copper without bonus nuggets or hidden ore multiplication.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Poor Copper Powder is one more step from scarcity toward mastery."]
+	quest.2C24DE5AF181FCB5.title: "Foundry Brickwork"
+	quest.2C24DE5AF181FCB5.quest_desc: ["Spend primitive metal on a dedicated Create Metallurgy foundry.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Foundry Brickwork is one more step from scarcity toward mastery."]
+	quest.12CBE94294D47BBC.title: "Graphite Ingot Mold"
+	quest.12CBE94294D47BBC.quest_desc: ["Make a reusable ingot mold from carbon and clay.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Graphite Ingot Mold is one more step from scarcity toward mastery."]
+	quest.13FEAD8FE51A16CF.title: "Casting Table"
+	quest.13FEAD8FE51A16CF.quest_desc: ["Build the table where measured molten metal becomes usable stock.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Casting Table is one more step from scarcity toward mastery."]
+	quest.4029AA66A719CA13.title: "Kiln Brick Run"
+	quest.4029AA66A719CA13.quest_desc: ["Produce enough refractory brickwork to repair or expand the foundry after the first successful cast."]
+	quest.7F04574BEA776398.title: "Faucet and Flow"
+	quest.7F04574BEA776398.quest_desc: ["Control molten metal rather than crafting ingots directly.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Faucet and Flow is one more step from scarcity toward mastery."]
+	quest.31B95D279832466B.title: "Slag Bucket"
+	quest.31B95D279832466B.quest_desc: ["Collect the foundry byproduct and reserve it for later recovery instead of discarding it."]
+	quest.50322FDBD26B332F.title: "Three to One Copper"
+	quest.50322FDBD26B332F.quest_desc: ["Melt poor powder at 30 mB per raw; three raw copper now makes one ingot.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Three to One Copper is one more step from scarcity toward mastery."]
+	quest.21A611E49D486E22.title: "Three to One Tin"
+	quest.21A611E49D486E22.quest_desc: ["Improve tin from five-to-one primitive firing to three-to-one foundry recovery.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Three to One Tin is one more step from scarcity toward mastery."]
+	quest.64A428BD0CE54316.title: "Moldmaker"
+	quest.64A428BD0CE54316.quest_desc: ["Create and store the molds needed for routine metal casting."]
+	quest.61B0FB1F842CFF02.title: "Foundry Mixer"
+	quest.61B0FB1F842CFF02.quest_desc: ["Build the copper-era mixer used for molten alloys.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Foundry Mixer is one more step from scarcity toward mastery."]
+	quest.42DA169FF2F0F2D6.title: "Bronze Ratio Test"
+	quest.42DA169FF2F0F2D6.quest_desc: ["Run a controlled copper-to-tin alloy batch and verify the intended bronze ratio."]
+	quest.6721EDDB52D160D6.title: "Molten Bronze"
+	quest.6721EDDB52D160D6.quest_desc: ["Alloy three parts molten copper to one part molten tin.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Molten Bronze is one more step from scarcity toward mastery."]
+	quest.5841F802FE802477.title: "Bronze Casting"
+	quest.5841F802FE802477.quest_desc: ["Cast bronze ingots and begin treating alloys as designed materials.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Bronze Casting is one more step from scarcity toward mastery."]
+	quest.479A4CC9038BE0BB.title: "Bronze Sheets"
+	quest.479A4CC9038BE0BB.quest_desc: ["Press bronze into formed machine stock.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Bronze Sheets is one more step from scarcity toward mastery."]
+	quest.131AF4D52FEAFE38.title: "Bronze Tool Trial"
+	quest.131AF4D52FEAFE38.quest_desc: ["Use bronze equipment in real mining or combat before iron replaces it."]
+	quest.52932978A3E0D28B.title: "Bronze Equipment"
+	quest.52932978A3E0D28B.quest_desc: ["Use Bronze as a real equipment tier rather than a one-quest novelty.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Bronze Equipment is one more step from scarcity toward mastery."]
+	quest.3010927393796BDF.title: "Mixer Commissioning"
+	quest.3010927393796BDF.quest_desc: ["Commission the bronze-era mixer as a permanent part of the workshop."]
+	quest.1FFBEC4328E29A9A.title: "Bronze Mechanical Mixer"
+	quest.1FFBEC4328E29A9A.quest_desc: ["Use bronze sheets in the Whisk and build the Mixer required for iron chemistry.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Bronze Mechanical Mixer is one more step from scarcity toward mastery."]
+	chapter.11E65EF2E1F969DB.title: "6 — Ironworks"
+	chapter.11E65EF2E1F969DB.chapter_subtitle: ["Iron is a ten-to-twenty-hour industrial milestone."]
+	quest.6DC0F645DB0FD4AF.title: "Iron Prospecting"
+	quest.6DC0F645DB0FD4AF.quest_desc: ["Gather raw iron, but accept that raw ore is nowhere near a finished metal.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Iron Prospecting is one more step from scarcity toward mastery."]
+	quest.35A30DD8E7F405F2.title: "Carbon for Reduction"
+	quest.35A30DD8E7F405F2.quest_desc: ["Prepare charcoal specifically for metallurgical reduction.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Carbon for Reduction is one more step from scarcity toward mastery."]
+	quest.265343B0583119EA.title: "Flux Supply"
+	quest.265343B0583119EA.quest_desc: ["Use calcite and clay to control the first iron bloom charge.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Flux Supply is one more step from scarcity toward mastery."]
+	quest.18176968A65D656E.title: "Poor Iron Powder"
+	quest.18176968A65D656E.quest_desc: ["Mill raw iron into controlled poor powder with no free byproducts.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Poor Iron Powder is one more step from scarcity toward mastery."]
+	quest.5211843D489FBE88.title: "Charcoal Reserve"
+	quest.5211843D489FBE88.quest_desc: ["Build a carbon reserve large enough for repeated bloom batches."]
+	quest.58B83246BCBA4871.title: "Flux Cache"
+	quest.58B83246BCBA4871.quest_desc: ["Gather calcite and clay ahead of time so iron production is limited by ore, not forgotten reagents."]
+	quest.5728FB6D4D5E4CE2.title: "Six Ore Batch"
+	quest.5728FB6D4D5E4CE2.quest_desc: ["Load six poor iron powders into a single reduction batch.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Six Ore Batch is one more step from scarcity toward mastery."]
+	quest.63B448F1B573E65D.title: "First Molten Iron"
+	quest.63B448F1B573E65D.quest_desc: ["Reduce a six-ore bloom charge into only enough molten iron for one ingot.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. First Molten Iron is one more step from scarcity toward mastery."]
+	quest.25E7BCF1BA25135C.title: "Six-for-One Proof"
+	quest.25E7BCF1BA25135C.quest_desc: ["Produce an iron ingot from the full six-raw-iron process and confirm the intended early loss."]
+	quest.6FCFAA3CACC6B5CD.title: "First Iron Ingot"
+	quest.6FCFAA3CACC6B5CD.quest_desc: ["Cast the pack-defining first iron ingot. Six raw iron paid for this one piece.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. First Iron Ingot is one more step from scarcity toward mastery."]
+	quest.1E20D8CB9F45C747.title: "Iron Sheet"
+	quest.1E20D8CB9F45C747.quest_desc: ["Form scarce iron into the sheet stock used by serious machines and equipment.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Iron Sheet is one more step from scarcity toward mastery."]
+	quest.74013130EFD87061.title: "First Iron Budget"
+	quest.74013130EFD87061.quest_desc: ["Choose where the first few iron ingots go and avoid spending them on convenience items."]
+	quest.1A5C796F8A7771DD.title: "Encased Fan Investment"
+	quest.1A5C796F8A7771DD.quest_desc: ["Spend early iron on the machine that dramatically improves recovery.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Encased Fan Investment is one more step from scarcity toward mastery."]
+	quest.30B1E185C627D327.title: "Wash the Concentrate"
+	quest.30B1E185C627D327.quest_desc: ["Wash poor powder instead of throwing most of the metal into slag.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Wash the Concentrate is one more step from scarcity toward mastery."]
+	quest.39D9444D4C598BDC.title: "Three to One Iron"
+	quest.39D9444D4C598BDC.quest_desc: ["Refined washed charges improve iron from six-to-one to three-to-one.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Three to One Iron is one more step from scarcity toward mastery."]
+	quest.6C3439DCB5050A1E.title: "Washed Yield Trial"
+	quest.6C3439DCB5050A1E.quest_desc: ["Compare a primitive iron batch against washed concentrate and document the improvement."]
+	quest.7114FFBCC11A039E.title: "The Furnace Age"
+	quest.7114FFBCC11A039E.quest_desc: ["Only now build a conventional Furnace from brick, campfire technology and Iron Sheet.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. The Furnace Age is one more step from scarcity toward mastery."]
+	quest.4BDDF524A50EA3B2.title: "Iron Infrastructure"
+	quest.4BDDF524A50EA3B2.quest_desc: ["Unlock buckets, hoppers, armor and formed-stock tools after metallurgy is stable.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Iron Infrastructure is one more step from scarcity toward mastery."]
+	quest.10B7123682507A04.title: "Gold Foundry"
+	quest.10B7123682507A04.quest_desc: ["Bring gold into the same controlled ore-processing system instead of direct smelting.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Gold Foundry is one more step from scarcity toward mastery."]
+	quest.5CA575F0B7BCBE36.title: "Gold Sidecast"
+	quest.5CA575F0B7BCBE36.quest_desc: ["Use the foundry for a small gold batch so gold becomes part of the industrial workflow."]
+	chapter.15210DBB475F1B2C.title: "7 — Arcane Studies"
+	chapter.15210DBB475F1B2C.chapter_subtitle: ["Magic is another industrial branch, not an escape hatch."]
+	quest.2A91C87716F79434.title: "Occult Study"
+	quest.2A91C87716F79434.quest_desc: ["Develop ritual knowledge as a parallel, prepared branch.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Occult Study is one more step from scarcity toward mastery."]
+	quest.1D19F58EB2BBFE1A.title: "Hexerei Preparation"
+	quest.1D19F58EB2BBFE1A.quest_desc: ["Begin witchcraft only after the metal and resource base can support it.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Hexerei Preparation is one more step from scarcity toward mastery."]
+	quest.2F59FCC541A7C92D.title: "Iron Spellcraft"
+	quest.2F59FCC541A7C92D.quest_desc: ["Tie Iron's Spells materials into the same progression economy.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Iron Spellcraft is one more step from scarcity toward mastery."]
+	quest.2CB982FB2FE0EED4.title: "Gold Sheets"
+	quest.2CB982FB2FE0EED4.quest_desc: ["Convert mechanically refined gold into arcane machine stock.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Gold Sheets is one more step from scarcity toward mastery."]
+	quest.5AE6A1FBF5706CE3.title: "Amethyst Survey"
+	quest.5AE6A1FBF5706CE3.quest_desc: ["Use mature mining to gather amethyst for precision and arcane work.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Amethyst Survey is one more step from scarcity toward mastery."]
+	quest.53DFD5CB3546D871.title: "Ritual Space"
+	quest.53DFD5CB3546D871.quest_desc: ["Reserve a safe, expandable area for Occultism rituals before the structures become large."]
+	quest.4F0A498A33E80EA6.title: "Witch’s Shelf"
+	quest.4F0A498A33E80EA6.quest_desc: ["Collect Hexerei ingredients and organize them separately from general storage."]
+	quest.258A504328533A20.title: "Imbuement Chamber"
+	quest.258A504328533A20.quest_desc: ["Enter Ars Nouveau through processed metals and amethyst.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Imbuement Chamber is one more step from scarcity toward mastery."]
+	quest.106EBE75AADD2188.title: "Crystal Cartography"
+	quest.106EBE75AADD2188.quest_desc: ["Mark amethyst and other magical-resource locations for repeat visits."]
+	quest.52C058A294278CA0.title: "Shared Arcane Bench"
+	quest.52C058A294278CA0.quest_desc: ["Place the major magic workstations in a coherent workshop where their different roles are obvious."]
+	quest.7033E9705C2F5CD3.title: "Source Gems"
+	quest.7033E9705C2F5CD3.quest_desc: ["Produce Source Gems rather than relying on random loot.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Source Gems is one more step from scarcity toward mastery."]
+	quest.336F9B3C0BEA9680.title: "Source Storage"
+	quest.336F9B3C0BEA9680.quest_desc: ["Treat magic as infrastructure by storing Source.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Source Storage is one more step from scarcity toward mastery."]
+	quest.7CCE0A887CFABE71.title: "Novice Spellbook"
+	quest.7CCE0A887CFABE71.quest_desc: ["Build the first real spellbook after metallurgy.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Novice Spellbook is one more step from scarcity toward mastery."]
+	quest.3A1302BA9AD0C6D9.title: "Source Farm"
+	quest.3A1302BA9AD0C6D9.quest_desc: ["Establish a repeatable way to generate and store Ars Source rather than relying on sporadic bursts."]
+	quest.32445362A5EDFE0D.title: "Arcane Workshop"
+	quest.32445362A5EDFE0D.quest_desc: ["Maintain magic beside the foundry rather than replacing it.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Arcane Workshop is one more step from scarcity toward mastery."]
+	quest.138E71E7F11E1247.title: "Spellbook Field Test"
+	quest.138E71E7F11E1247.quest_desc: ["Take a novice spell loadout into a real expedition and identify what it does better than weapons."]
+	chapter.76374B7FCDBF7C62.title: "8 — Netherworks"
+	chapter.76374B7FCDBF7C62.chapter_subtitle: ["The Nether unlocks hotter metallurgy and real precision."]
+	quest.164C6889F50F007C.title: "Mechanical Ignition Core"
+	quest.164C6889F50F007C.quest_desc: ["Combine iron, copper, redstone and amethyst into the pre-Nether ignition milestone.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Mechanical Ignition Core is one more step from scarcity toward mastery."]
+	quest.4274E70A3AC7C08E.title: "Diamond Pick Exception"
+	quest.4274E70A3AC7C08E.quest_desc: ["Craft the specially gated pick that avoids a Brass/Precision circular dependency.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Diamond Pick Exception is one more step from scarcity toward mastery."]
+	quest.2662281E60D8F8F1.title: "Obsidian Project"
+	quest.2662281E60D8F8F1.quest_desc: ["Mine enough obsidian for deliberate portal construction.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Obsidian Project is one more step from scarcity toward mastery."]
+	quest.38536796243822AE.title: "Portal Staging Area"
+	quest.38536796243822AE.quest_desc: ["Build the Nether portal as an expedition site with spare supplies and a defensible return point."]
+	quest.43506590DA8DED73.title: "Prepared Nether Entry"
+	quest.43506590DA8DED73.quest_desc: ["Enter with food, equipment and a return plan.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Prepared Nether Entry is one more step from scarcity toward mastery."]
+	quest.7D0516E2E0A372D2.title: "Quartz Supply"
+	quest.7D0516E2E0A372D2.quest_desc: ["Bring Nether quartz back to the industrial district.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Quartz Supply is one more step from scarcity toward mastery."]
+	quest.26E1510A141AD616.title: "Blaze Materials"
+	quest.26E1510A141AD616.quest_desc: ["Secure blaze rods and powder from dangerous territory.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Blaze Materials is one more step from scarcity toward mastery."]
+	quest.234950B6DCB236BB.title: "Industrial Flux"
+	quest.234950B6DCB236BB.quest_desc: ["Combine Nether materials with calcite and clay for hotter refining.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Industrial Flux is one more step from scarcity toward mastery."]
+	quest.1E54539C240FA89B.title: "Quartz Freight"
+	quest.1E54539C240FA89B.quest_desc: ["Return with enough quartz for more than a single recipe and route it into storage."]
+	quest.18C8762FFAB191CA.title: "Blaze Hunt"
+	quest.18C8762FFAB191CA.quest_desc: ["Complete a deliberate blaze-material run with escape supplies and a return plan."]
+	quest.15AFF5C3E185B565.title: "Two to One Iron"
+	quest.15AFF5C3E185B565.quest_desc: ["Use heated flux refining to improve iron recovery to two raw per ingot.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Two to One Iron is one more step from scarcity toward mastery."]
+	quest.469F52CDEC97B520.title: "Brass Age"
+	quest.469F52CDEC97B520.quest_desc: ["Use controlled heat to produce brass.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Brass Age is one more step from scarcity toward mastery."]
+	quest.5DE6B9F4740C63A0.title: "Heat Trial"
+	quest.5DE6B9F4740C63A0.quest_desc: ["Run a heated metallurgy batch and verify the two-to-one iron recovery step."]
+	quest.275ADC496625E9DB.title: "Brass Hand and Deployers"
+	quest.275ADC496625E9DB.quest_desc: ["Build the components Create requires for real sequenced assembly.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Brass Hand and Deployers is one more step from scarcity toward mastery."]
+	quest.44011A057407DA07.title: "Brass Production Run"
+	quest.44011A057407DA07.quest_desc: ["Produce a useful reserve of brass for precision components and deployers."]
+	chapter.4F03014A6AD419D7.title: "9 — Industrial Engineering"
+	chapter.4F03014A6AD419D7.chapter_subtitle: ["Precision becomes steel, power and sustained throughput."]
+	quest.401CE8C13A5AF84B.title: "Engineers Hammer"
+	quest.401CE8C13A5AF84B.quest_desc: ["Cross the Precision gate into Immersive Engineering.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Engineers Hammer is one more step from scarcity toward mastery."]
+	quest.752B699E2CF9D175.title: "Blaze Burner"
+	quest.752B699E2CF9D175.quest_desc: ["Control reliable high heat for advanced processes.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Blaze Burner is one more step from scarcity toward mastery."]
+	quest.441EB22AA5AC9BAE.title: "Precision Mechanism"
+	quest.441EB22AA5AC9BAE.quest_desc: ["Complete Create's real post-Nether sequenced assembly.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Precision Mechanism is one more step from scarcity toward mastery."]
+	quest.766E41E829AEB000.title: "Treated Wood"
+	quest.766E41E829AEB000.quest_desc: ["Establish chemical wood treatment for industrial structures.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Treated Wood is one more step from scarcity toward mastery."]
+	quest.551A0E6A85440980.title: "Coke Production"
+	quest.551A0E6A85440980.quest_desc: ["Replace charcoal with industrial carbon where recipes demand it.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Coke Production is one more step from scarcity toward mastery."]
+	quest.1D2B87FB2DA67123.title: "Heated Mixing"
+	quest.1D2B87FB2DA67123.quest_desc: ["Move from ingredient charges to controlled high-temperature processing.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Heated Mixing is one more step from scarcity toward mastery."]
+	quest.1430F83FEDD18CA6.title: "Precision Assembly Line"
+	quest.1430F83FEDD18CA6.quest_desc: ["Arrange the components for Precision Mechanisms as a repeatable process instead of hand-crafting ad hoc."]
+	quest.168F2292D536E4C7.title: "Treated Timber Stock"
+	quest.168F2292D536E4C7.quest_desc: ["Produce enough treated wood for more than the first IE machine."]
+	quest.681A2BBAA8D018A4.title: "Steel Age"
+	quest.681A2BBAA8D018A4.quest_desc: ["Produce steel as a distinct industrial material.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Steel Age is one more step from scarcity toward mastery."]
+	quest.51FD447D897336A4.title: "Coke Yard"
+	quest.51FD447D897336A4.quest_desc: ["Create a dedicated coke-production area and keep a working fuel reserve."]
+	quest.79B7F0899BE64410.title: "Mechanical Crafting"
+	quest.79B7F0899BE64410.quest_desc: ["Build large assemblies that cannot fit a crafting table.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Mechanical Crafting is one more step from scarcity toward mastery."]
+	quest.22E357F11558D9AD.title: "Electrical Power"
+	quest.22E357F11558D9AD.quest_desc: ["Generate and route electrical energy as a parallel power system.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Electrical Power is one more step from scarcity toward mastery."]
+	quest.53E889B9662DC12C.title: "Steel Allocation"
+	quest.53E889B9662DC12C.quest_desc: ["Reserve the first steel for infrastructure that unlocks better production."]
+	quest.52D9DE9C412F0D4C.title: "Industrial Crucible"
+	quest.52D9DE9C412F0D4C.quest_desc: ["Build the crucible that marks mature metallurgy.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Industrial Crucible is one more step from scarcity toward mastery."]
+	quest.21B1BB45AE6B7FBD.title: "Belt Grinder"
+	quest.21B1BB45AE6B7FBD.quest_desc: ["Build the steel-and-precision Create Metallurgy grinder.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Belt Grinder is one more step from scarcity toward mastery."]
+	quest.7E7EFBEC30EF8987.title: "Power Distribution"
+	quest.7E7EFBEC30EF8987.quest_desc: ["Connect electrical generation to at least two useful consumers."]
+	quest.7D9349573C4F3285.title: "Industrial Bay"
+	quest.7D9349573C4F3285.quest_desc: ["Place the Belt Grinder and Industrial Crucible as part of a coherent advanced processing area."]
+	chapter.427C6D2C60CCAF68.title: "10 — Metallurgical Mastery"
+	chapter.427C6D2C60CCAF68.chapter_subtitle: ["Efficiency itself becomes a late-game progression reward."]
+	quest.7190235CB759922F.title: "Rich Concentrates"
+	quest.7190235CB759922F.quest_desc: ["Belt-grind washed material into high-grade concentrates.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Rich Concentrates is one more step from scarcity toward mastery."]
+	quest.5793B1A7941F8AB1.title: "End Separation Materials"
+	quest.5793B1A7941F8AB1.quest_desc: ["Acquire shulker and End resources for stronger separation media.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. End Separation Materials is one more step from scarcity toward mastery."]
+	quest.52FBC7F506054365.title: "Boss Catalyst Materials"
+	quest.52FBC7F506054365.quest_desc: ["Collect Nether Star, dragon breath, Netherite and Source for the final catalyst.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Boss Catalyst Materials is one more step from scarcity toward mastery."]
+	quest.67B262AD324671D3.title: "One to One Iron"
+	quest.67B262AD324671D3.quest_desc: ["At mature industry, finally recover one full iron ingot per raw ore.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. One to One Iron is one more step from scarcity toward mastery."]
+	quest.180A03CD4FD7F7A8.title: "One to One Nonferrous"
+	quest.180A03CD4FD7F7A8.quest_desc: ["Apply the same mature recovery to copper, tin and gold.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. One to One Nonferrous is one more step from scarcity toward mastery."]
+	quest.28ED8FA0EE1C6937.title: "Slag Reprocessing"
+	quest.28ED8FA0EE1C6937.quest_desc: ["Stop treating slag as useless waste and turn it into aggregate.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Slag Reprocessing is one more step from scarcity toward mastery."]
+	quest.546CE2E85FAD75F9.title: "Recovery Ledger"
+	quest.546CE2E85FAD75F9.quest_desc: ["Record the yield of primitive, washed, rich and separated material to make the progression gains tangible."]
+	quest.31AE81DFB0A92232.title: "Industrial Separation Media"
+	quest.31AE81DFB0A92232.quest_desc: ["Combine steel, precision and magic into a material that recovers otherwise lost metal.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Industrial Separation Media is one more step from scarcity toward mastery."]
+	quest.2EEC4413C950DE1F.title: "Slag Recovery Run"
+	quest.2EEC4413C950DE1F.quest_desc: ["Turn a real stockpile of slag into useful recovered material."]
+	quest.1E7ECCA137C7548F.title: "Nonferrous Efficiency Trial"
+	quest.1E7ECCA137C7548F.quest_desc: ["Demonstrate improved copper, tin or gold recovery alongside iron."]
+	quest.2D557643DFF9E03A.title: "Positive Recovery"
+	quest.2D557643DFF9E03A.quest_desc: ["Cross the line from lossless metallurgy into actual ore multiplication.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Positive Recovery is one more step from scarcity toward mastery."]
+	quest.313FE11D4AF18207.title: "Advanced Separation Media"
+	quest.313FE11D4AF18207.quest_desc: ["Build the post-End recovery medium.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Advanced Separation Media is one more step from scarcity toward mastery."]
+	quest.7046659F2B60D506.title: "Separation Reagent Batch"
+	quest.7046659F2B60D506.quest_desc: ["Produce enough separation media for repeated use instead of a single demonstration."]
+	quest.3F18BA321F8019F3.title: "One Point Five Times"
+	quest.3F18BA321F8019F3.quest_desc: ["Superheated industrial feed yields 135 mB per raw-equivalent: 1.5 ingots per ore.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. One Point Five Times is one more step from scarcity toward mastery."]
+	quest.7FAD497D398DD9B1.title: "Two Times Recovery"
+	quest.7FAD497D398DD9B1.quest_desc: ["Advanced feed produces 180 mB: two ingots from one ore.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Two Times Recovery is one more step from scarcity toward mastery."]
+	quest.216FE49765E8F90E.title: "Arcane Metallurgical Catalyst"
+	quest.216FE49765E8F90E.quest_desc: ["Fuse endgame magic and industry into the maximum-recovery catalyst.", "Progress here is intentionally expensive. Build the system, not just the item.", "Track yield as carefully as output; metallurgical efficiency is a progression stat in Arcane Horizons.", "Every era leaves evidence in the workshop. Arcane Metallurgical Catalyst is one more step from scarcity toward mastery."]
+	quest.6CD6A99E81053DA6.title: "Post-End Yield Test"
+	quest.6CD6A99E81053DA6.quest_desc: ["Verify the two-times recovery route on a meaningful ore batch."]
+	quest.6567FE27E3B9DAE2.title: "Endgame Yield Test"
+	quest.6567FE27E3B9DAE2.quest_desc: ["Run an arcane-catalyst batch and confirm the three-times endgame recovery."]
+	chapter.7BD6B3ADDACAA9B0.title: "11 — Hunter's Path"
+	chapter.7BD6B3ADDACAA9B0.chapter_subtitle: ["Danger belongs on expeditions, not as constant base harassment."]
+	quest.128BB0E014F820BF.title: "Iron Arsenal"
+	quest.128BB0E014F820BF.quest_desc: ["Turn expensive processed iron into dependable combat equipment.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Iron Arsenal is one more step from scarcity toward mastery."]
+	quest.78943F624BEF149F.title: "Field Rations"
+	quest.78943F624BEF149F.quest_desc: ["Carry enough food for combat that lasts longer than one encounter.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Field Rations is one more step from scarcity toward mastery."]
+	quest.3686E5B71C76F6DC.title: "Bronze Arsenal"
+	quest.3686E5B71C76F6DC.quest_desc: ["Make Bronze a meaningful combat tier during the long wait for iron.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Bronze Arsenal is one more step from scarcity toward mastery."]
+	quest.230D834AF2B8E253.title: "Primitive Defense"
+	quest.230D834AF2B8E253.quest_desc: ["Use terrain, early shields and preparation before iron armor exists.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Primitive Defense is one more step from scarcity toward mastery."]
+	quest.6BFBD8FA6A5C4AB0.title: "Arcane Combat"
+	quest.6BFBD8FA6A5C4AB0.quest_desc: ["Combine spells, weapons and support supplies.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Arcane Combat is one more step from scarcity toward mastery."]
+	quest.626AF63B79BEC3D8.title: "Bronze Field Trial"
+	quest.626AF63B79BEC3D8.quest_desc: ["Complete a dangerous outing while bronze equipment is still your primary protection."]
+	quest.461F57C52E24707F.title: "Night Patrol"
+	quest.461F57C52E24707F.quest_desc: ["Learn the danger around the settlement without abandoning it.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Night Patrol is one more step from scarcity toward mastery."]
+	quest.51725C2AEED1AE76.title: "Shield Drill"
+	quest.51725C2AEED1AE76.quest_desc: ["Practice a defensive loadout against ordinary hostile mobs before pursuing champions."]
+	quest.77A60B8BA35CC5FF.title: "Nether Hunt"
+	quest.77A60B8BA35CC5FF.quest_desc: ["Fight for materials that cannot be obtained safely at home.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Nether Hunt is one more step from scarcity toward mastery."]
+	quest.47E307FC20818D8A.title: "Champion Hunt"
+	quest.47E307FC20818D8A.quest_desc: ["Deliberately hunt an elite enemy instead of facing constant hordes.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Champion Hunt is one more step from scarcity toward mastery."]
+	quest.6EE0872C8C33B705.title: "Night Watch"
+	quest.6EE0872C8C33B705.quest_desc: ["Defend the settlement perimeter through a full night without turning the base into an impenetrable bunker."]
+	quest.199C45350703415E.title: "Champion Trophy"
+	quest.199C45350703415E.quest_desc: ["Defeat a champion-tier enemy and return with proof of the encounter."]
+	quest.7D2A421BAB19D5AC.title: "Structure Assault"
+	quest.7D2A421BAB19D5AC.quest_desc: ["Clear a hostile structure with a planned retreat path.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Structure Assault is one more step from scarcity toward mastery."]
+	quest.218A618FA8F446C6.title: "Boss Preparation"
+	quest.218A618FA8F446C6.quest_desc: ["Standardize replacement gear, food and recovery items before bosses.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Boss Preparation is one more step from scarcity toward mastery."]
+	quest.186A8D1B013933D0.title: "Dungeon Withdrawal Plan"
+	quest.186A8D1B013933D0.quest_desc: ["Enter a major structure with enough supplies and route knowledge to retreat safely."]
+	quest.53941779B85D1F69.title: "Boss Kit Checklist"
+	quest.53941779B85D1F69.quest_desc: ["Assemble healing, food, ammunition, spare equipment and escape tools before a major boss attempt."]
+	chapter.3970120E93475481.title: "12 — Angler's Journal: Foundations"
+	chapter.3970120E93475481.chapter_subtitle: ["Fishing supports food, travel and dangerous exploration."]
+	quest.37E0D3AC7761048D.title: "First Cast"
+	quest.37E0D3AC7761048D.quest_desc: ["Begin fishing as a support profession.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. First Cast is one more step from scarcity toward mastery."]
+	quest.7031C511B25A0F5E.title: "Freshwater Survey"
+	quest.7031C511B25A0F5E.quest_desc: ["Catalog ordinary river and lake catches.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Freshwater Survey is one more step from scarcity toward mastery."]
+	quest.5974BA75E0AF402F.title: "Coastal Fishing"
+	quest.5974BA75E0AF402F.quest_desc: ["Travel to ocean biomes for different resources.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Coastal Fishing is one more step from scarcity toward mastery."]
+	quest.2B690C1F5EDE047E.title: "Fishing Supplies"
+	quest.2B690C1F5EDE047E.quest_desc: ["Maintain rods, food and storage for long sessions.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Fishing Supplies is one more step from scarcity toward mastery."]
+	quest.2F6E9B0FF4ED3AC3.title: "Cook the Catch"
+	quest.2F6E9B0FF4ED3AC3.quest_desc: ["Use fish as dependable expedition food.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Cook the Catch is one more step from scarcity toward mastery."]
+	quest.5E6BC6034347211B.title: "Treasure Fishing"
+	quest.5E6BC6034347211B.quest_desc: ["Pursue non-fish rewards without using them to skip metallurgy.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Treasure Fishing is one more step from scarcity toward mastery."]
+	quest.2F40F85D1AD46D9A.title: "River Notebook"
+	quest.2F40F85D1AD46D9A.quest_desc: ["Catch several freshwater species and note which environments produced them."]
+	quest.7A1C04A68899E110.title: "Saltwater Notebook"
+	quest.7A1C04A68899E110.quest_desc: ["Repeat the survey on a coast or ocean biome."]
+	quest.691F024C7F4FC946.title: "Nether Support"
+	quest.691F024C7F4FC946.quest_desc: ["Bring preserved food and fishing resources into hostile dimensions.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Nether Support is one more step from scarcity toward mastery."]
+	quest.3141A3F050338BAB.title: "End Support"
+	quest.3141A3F050338BAB.quest_desc: ["Use late-dimensional resources to expand the support branch.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. End Support is one more step from scarcity toward mastery."]
+	quest.42D5CEF12F8A92F5.title: "Tackle Reserve"
+	quest.42D5CEF12F8A92F5.quest_desc: ["Carry spare bait, hooks or rod components for a long fishing trip."]
+	quest.42B2C2BA026A3911.title: "Dangerous Waters"
+	quest.42B2C2BA026A3911.quest_desc: ["Fish in regions where combat preparation matters.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Dangerous Waters is one more step from scarcity toward mastery."]
+	quest.16AEC73EBF5CAF05.title: "Fillet Practice"
+	quest.16AEC73EBF5CAF05.quest_desc: ["Process catches into useful meals rather than eating every fish raw."]
+	quest.5D18B50D0EA0EFD6.title: "Treasure Log"
+	quest.5D18B50D0EA0EFD6.quest_desc: ["Keep at least one unusual fishing treasure or rare catch as part of the settlement collection."]
+	quest.22F9EAA6D6F60F3D.title: "Master Angler"
+	quest.22F9EAA6D6F60F3D.quest_desc: ["Keep the settlement supplied from water as well as fields.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Master Angler is one more step from scarcity toward mastery."]
+	chapter.15AB327AAC378F25.title: "13 — Apiaries and Arboretums"
+	chapter.15AB327AAC378F25.chapter_subtitle: ["Renewable production eventually reduces dependence on risky mining."]
+	quest.2E1F5679EE770638.title: "Tree Collection"
+	quest.2E1F5679EE770638.quest_desc: ["Collect diverse trees as renewable inputs and settlement resources.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Tree Collection is one more step from scarcity toward mastery."]
+	quest.13CC61A3B85922FE.title: "Apiary Site"
+	quest.13CC61A3B85922FE.quest_desc: ["Prepare flowers and safe space for bee infrastructure.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Apiary Site is one more step from scarcity toward mastery."]
+	quest.53D6EC81CC528E72.title: "Orchard Rows"
+	quest.53D6EC81CC528E72.quest_desc: ["Create a deliberate tree collection instead of scattered specimen trees."]
+	quest.4FE4211BC4F2EA7A.title: "Productive Trees"
+	quest.4FE4211BC4F2EA7A.quest_desc: ["Develop tree-based resource loops alongside mining.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Productive Trees is one more step from scarcity toward mastery."]
+	quest.7DD48863A9C979FA.title: "First Honey"
+	quest.7DD48863A9C979FA.quest_desc: ["Build dependable honey and honeycomb production.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. First Honey is one more step from scarcity toward mastery."]
+	quest.4D63665380412B12.title: "Wild Bee Survey"
+	quest.4D63665380412B12.quest_desc: ["Locate and document several bee types before expanding production."]
+	quest.495CBDB067546DE0.title: "Bee Breeding"
+	quest.495CBDB067546DE0.quest_desc: ["Develop resource-focused bees without letting them replace metallurgy immediately.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Bee Breeding is one more step from scarcity toward mastery."]
+	quest.51F4DBFBA191B3AA.title: "Comb Processing"
+	quest.51F4DBFBA191B3AA.quest_desc: ["Set up the routine that turns combs into usable products."]
+	quest.2FD35B3EE42ABB2F.title: "Apiary Expansion"
+	quest.2FD35B3EE42ABB2F.quest_desc: ["Expand beyond opportunistic nests into designed infrastructure.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Apiary Expansion is one more step from scarcity toward mastery."]
+	quest.775D3D440C91E49A.title: "Breeding Ledger"
+	quest.775D3D440C91E49A.quest_desc: ["Track the parentage or recipe path for at least one specialized bee."]
+	quest.369C70E44977F576.title: "Cross Pollination"
+	quest.369C70E44977F576.quest_desc: ["Connect farming, flowers, bees and trees into one support system.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Cross Pollination is one more step from scarcity toward mastery."]
+	quest.6F4700258585F08C.title: "Automated Harvest"
+	quest.6F4700258585F08C.quest_desc: ["Reduce repetitive collection with mature mechanical systems.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Automated Harvest is one more step from scarcity toward mastery."]
+	quest.30D4195B4BDDB390.title: "Foundry Inputs"
+	quest.30D4195B4BDDB390.quest_desc: ["Feed renewable carbon and reagents back into metallurgy.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Foundry Inputs is one more step from scarcity toward mastery."]
+	quest.4FB0B920B5A53373.title: "Pollination Corridor"
+	quest.4FB0B920B5A53373.quest_desc: ["Place apiary and orchard infrastructure so the two systems visibly support each other."]
+	quest.5C4CBD6E2E5E2015.title: "Renewable Industry"
+	quest.5C4CBD6E2E5E2015.quest_desc: ["Use renewable systems to support, not trivialize, the late factory.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Renewable Industry is one more step from scarcity toward mastery."]
+	quest.79C7FEF846FB69AB.title: "Renewable Foundry Feed"
+	quest.79C7FEF846FB69AB.quest_desc: ["Demonstrate a bee or tree product feeding a real industrial recipe or resource loop."]
+	chapter.75D1A39FD4CEDB71.title: "14 — Wild Horizons"
+	chapter.75D1A39FD4CEDB71.chapter_subtitle: ["The settlement can be safe because the resources are not all at home."]
+	quest.7A3ABF44A05A4C1A.title: "Regional Survey"
+	quest.7A3ABF44A05A4C1A.quest_desc: ["Map nearby biomes and identify worthwhile expedition routes.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Regional Survey is one more step from scarcity toward mastery."]
+	quest.419DE6B43F0570A1.title: "Forest Expedition"
+	quest.419DE6B43F0570A1.quest_desc: ["Travel for wood, plants and structures unavailable at home.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Forest Expedition is one more step from scarcity toward mastery."]
+	quest.645370007F004D89.title: "Mountain Expedition"
+	quest.645370007F004D89.quest_desc: ["Seek calcite, exposed ores and high-altitude materials.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Mountain Expedition is one more step from scarcity toward mastery."]
+	quest.301A6BD5A32C026F.title: "Wetland Expedition"
+	quest.301A6BD5A32C026F.quest_desc: ["Collect clay, plants and water resources from wetlands.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Wetland Expedition is one more step from scarcity toward mastery."]
+	quest.54A4825B98EAA80E.title: "Desert Expedition"
+	quest.54A4825B98EAA80E.quest_desc: ["Seek sand, structures and climate-specific materials.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Desert Expedition is one more step from scarcity toward mastery."]
+	quest.15F1DF6700D8AC85.title: "Deep Cave Expedition"
+	quest.15F1DF6700D8AC85.quest_desc: ["Enter deep caves for post-Bronze and post-iron resources.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Deep Cave Expedition is one more step from scarcity toward mastery."]
+	quest.208C04767CADD1EF.title: "Compass Rose"
+	quest.208C04767CADD1EF.quest_desc: ["Create a regional map or waypoint plan before committing to long expeditions."]
+	quest.58CAE6D27974EC90.title: "Ruined Structures"
+	quest.58CAE6D27974EC90.quest_desc: ["Salvage structures without allowing their loot to bypass metallurgy.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Ruined Structures is one more step from scarcity toward mastery."]
+	quest.704A419AB23DB93C.title: "Long Range Logistics"
+	quest.704A419AB23DB93C.quest_desc: ["Carry enough supplies to survive far from the settlement.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Long Range Logistics is one more step from scarcity toward mastery."]
+	quest.132D02BE2AB3E300.title: "Wildlands Milestone"
+	quest.132D02BE2AB3E300.quest_desc: ["Maintain a safe home while distant exploration remains dangerous.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Wildlands Milestone is one more step from scarcity toward mastery."]
+	quest.5A3D6826017018FB.title: "Biome Specimen Chest"
+	quest.5A3D6826017018FB.quest_desc: ["Return from multiple biome trips with representative useful materials."]
+	quest.16D9E815F99EDBEE.title: "Cave Rescue Cache"
+	quest.16D9E815F99EDBEE.quest_desc: ["Leave emergency supplies near a deep-cave route for future recovery."]
+	quest.165DB18CEE479BD0.title: "Waystone Network"
+	quest.165DB18CEE479BD0.quest_desc: ["Earn fast travel only after conventional exploration has mattered.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Waystone Network is one more step from scarcity toward mastery."]
+	quest.1E9CBC85C2D8220B.title: "Ruin Survey Notes"
+	quest.1E9CBC85C2D8220B.quest_desc: ["Record worthwhile structures and distinguish cleared sites from unexplored ones."]
+	quest.122BDCE5A67666B7.title: "Road or Rail Marker"
+	quest.122BDCE5A67666B7.quest_desc: ["Physically mark at least one long-distance route that will later support logistics."]
+	quest.6A98B9CEE8FEAB6B.title: "Permanent Landmark"
+	quest.6A98B9CEE8FEAB6B.quest_desc: ["Choose one discovered location worth integrating into the settlement’s travel network."]
+	chapter.502483A01D8250C6.title: "15 — Worlds Beyond: Foundations"
+	chapter.502483A01D8250C6.chapter_subtitle: ["Dimensions, automation and metallurgy converge in the endgame."]
+	quest.6576400F8EDE15A1.title: "Dimensional Readiness"
+	quest.6576400F8EDE15A1.quest_desc: ["Stock food, metallurgy, magic and replacement equipment before new worlds.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Dimensional Readiness is one more step from scarcity toward mastery."]
+	quest.2C871C2F24AEF0FC.title: "Eyes of Ender"
+	quest.2C871C2F24AEF0FC.quest_desc: ["Craft Eyes from Nether, Arcane and Precision components.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Eyes of Ender is one more step from scarcity toward mastery."]
+	quest.22533F4935E0E750.title: "Deep Dark Campaign"
+	quest.22533F4935E0E750.quest_desc: ["Approach the deepest hostile regions only with mature recovery systems.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Deep Dark Campaign is one more step from scarcity toward mastery."]
+	quest.36ACB39522A809A8.title: "Aether Campaign"
+	quest.36ACB39522A809A8.quest_desc: ["Treat the Aether as a prepared dimensional expedition.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Aether Campaign is one more step from scarcity toward mastery."]
+	quest.15E46EAF571D8B98.title: "Dimension Loadout"
+	quest.15E46EAF571D8B98.quest_desc: ["Prepare different supply kits for the Aether, Deep Dark and End rather than using one generic backpack."]
+	quest.238317165CCB9E99.title: "Stronghold Expedition"
+	quest.238317165CCB9E99.quest_desc: ["Find and provision a route to the stronghold.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Stronghold Expedition is one more step from scarcity toward mastery."]
+	quest.6EC33CE53EC66DFB.title: "Deep Dark Extraction"
+	quest.6EC33CE53EC66DFB.quest_desc: ["Enter the Deep Dark for a specific material and return without turning it into routine strip-mining."]
+	quest.2457ABA0E3A2CA48.title: "Aether Return Route"
+	quest.2457ABA0E3A2CA48.quest_desc: ["Establish a reliable portal-side staging point in the Aether."]
+	quest.191D364CFA329AC5.title: "The End"
+	quest.191D364CFA329AC5.quest_desc: ["Enter the End after industry, magic and exploration have converged.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. The End is one more step from scarcity toward mastery."]
+	quest.1EC99A0B0C56993D.title: "Stronghold Base Camp"
+	quest.1EC99A0B0C56993D.quest_desc: ["Create a safe resupply point near the stronghold before entering the End."]
+	quest.5A8BA1E915B9560B.title: "Dragon Chemistry"
+	quest.5A8BA1E915B9560B.quest_desc: ["Collect dragon breath for maximum metallurgical catalysis.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Dragon Chemistry is one more step from scarcity toward mastery."]
+	quest.458F3596A3EF93BA.title: "Shulker Separation"
+	quest.458F3596A3EF93BA.quest_desc: ["Bring shulker resources home to unlock two-times metallurgy.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Shulker Separation is one more step from scarcity toward mastery."]
+	quest.28D8095C21A7AB2D.title: "Dragon Aftermath"
+	quest.28D8095C21A7AB2D.quest_desc: ["Collect and preserve post-dragon materials needed for later chemistry and metallurgy."]
+	quest.246F65CE3194D13E.title: "Three Times Recovery"
+	quest.246F65CE3194D13E.quest_desc: ["Use the Arcane Metallurgical Catalyst to reach roughly three ingots per ore.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Three Times Recovery is one more step from scarcity toward mastery."]
+	quest.36753E1AD5E2CC75.title: "Arcane Horizons"
+	quest.36753E1AD5E2CC75.quest_desc: ["Finish with a secure settlement, dangerous frontiers and a factory that turns scarcity into abundance.", "Progress here is intentionally expensive. Build the system, not just the item.", "Every era leaves evidence in the workshop. Arcane Horizons is one more step from scarcity toward mastery."]
+	chapter.685635B154063850.title: "16 — Logistics and Freight"
+	chapter.685635B154063850.chapter_subtitle: ["Turn production into a physical network of warehouses, packages and rail-served industry."]
+	quest.4478698D1127B0E0.title: "Warehouse Discipline"
+	quest.4478698D1127B0E0.quest_desc: ["Build a dedicated storage district instead of letting every workshop become a chest maze."]
+	quest.151FCD909A01912D.title: "Funnels and Chutes"
+	quest.151FCD909A01912D.quest_desc: ["Use Create routing components to move materials predictably between machines and buffers."]
+	quest.57387C6D5C875527.title: "Warehouse Zones"
+	quest.57387C6D5C875527.quest_desc: ["Divide storage into receiving, bulk stock, production inputs and finished goods."]
+	quest.4136DF69582D3FA4.title: "Belt Distribution"
+	quest.4136DF69582D3FA4.quest_desc: ["Build a belt line that serves more than one process and can be maintained without tearing the factory apart."]
+	quest.0F9BCECF0214A540.title: "Item Vault Buffering"
+	quest.0F9BCECF0214A540.quest_desc: ["Use bulk buffers so production can continue when downstream machines pause."]
+	quest.1D70FF61E2641697.title: "Throughput Test"
+	quest.1D70FF61E2641697.quest_desc: ["Move a sustained stream of items through funnels, chutes and belts without hand-carrying them."]
+	quest.3FA8D50EDD223E90.title: "Packaged Goods"
+	quest.3FA8D50EDD223E90.quest_desc: ["Adopt Create package logistics for named, routed deliveries rather than hand-carrying every component."]
+	quest.6A36F3AA34AE0D14.title: "Buffer Discipline"
+	quest.6A36F3AA34AE0D14.quest_desc: ["Use vaults or buffers to prevent one machine from starving or backing up another."]
+	quest.47B111725B167A9F.title: "Stockkeeping"
+	quest.47B111725B167A9F.quest_desc: ["Establish a stock-controlled supply area for frequently used industrial and settlement materials."]
+	quest.35AB0E28D196D029.title: "Rail Freight"
+	quest.35AB0E28D196D029.quest_desc: ["Move useful cargo by train between two physically separate production sites."]
+	quest.0D9808B5473379C7.title: "Package Addressing"
+	quest.0D9808B5473379C7.quest_desc: ["Create a small package network with clear destinations and repeatable routing."]
+	quest.6BF662D27ADEE9EE.title: "Remote Foundry"
+	quest.6BF662D27ADEE9EE.quest_desc: ["Operate the foundry as its own district and supply it through logistics rather than player inventory."]
+	quest.7F88E96784F5BEE9.title: "Agricultural Freight"
+	quest.7F88E96784F5BEE9.quest_desc: ["Move food, animal products or crops from a support district into centralized processing."]
+	quest.797BABD82942A0CB.title: "Meta Logistics Network"
+	quest.797BABD82942A0CB.quest_desc: ["Use Create: Meta Logistics to manage a remote or unloaded storage network while retaining physical transport."]
+	quest.1CC4925D6F588091.title: "Freight Manifest"
+	quest.1CC4925D6F588091.quest_desc: ["Move a useful shipment by train and record where it originated and where it was consumed."]
+	quest.622E5780C93CC0F4.title: "Distribution Hub"
+	quest.622E5780C93CC0F4.quest_desc: ["Create a central hub that receives, stores and dispatches goods to multiple destinations."]
+	quest.3ED0CBECD79E10BA.title: "Remote Consumer"
+	quest.3ED0CBECD79E10BA.quest_desc: ["Supply a factory or farm that is physically separated from the central warehouse."]
+	quest.0A3C3B304B1B13AA.title: "Network Stress Test"
+	quest.0A3C3B304B1B13AA.quest_desc: ["Run several producers and consumers at once and fix the first real bottleneck you find."]
+	quest.60052179A45E175A.title: "Regional Supply Chain"
+	quest.60052179A45E175A.quest_desc: ["Maintain at least three specialized sites connected through a deliberate logistics network."]
+	chapter.0167628C8CDBAB18.title: "17 — Husbandry and Wildlife"
+	chapter.0167628C8CDBAB18.chapter_subtitle: ["Make animal care, genetics and ecological fieldwork meaningful support professions."]
+	quest.1205B5ED2BE0AA7B.title: "Ranch Site"
+	quest.1205B5ED2BE0AA7B.quest_desc: ["Build a real ranch with room for feeding, water, breeding and animal separation."]
+	quest.1E9D67AF6E07E59F.title: "Naturalist Fieldwork"
+	quest.1E9D67AF6E07E59F.quest_desc: ["Document several wild Naturalist species in their proper habitats without turning every encounter into hunting."]
+	quest.4391A052F2ADF1D3.title: "Feeding Troughs"
+	quest.4391A052F2ADF1D3.quest_desc: ["Use Animal Husbandry feeding infrastructure so care becomes systematic rather than repetitive hand-feeding."]
+	quest.3CFB6B00896B5852.title: "Wildlife Census"
+	quest.3CFB6B00896B5852.quest_desc: ["Document several Naturalist species without treating every encounter as a hunt."]
+	quest.26DA9A94260CA196.title: "Domestication"
+	quest.26DA9A94260CA196.quest_desc: ["Raise livestock long enough to engage with domestication and happiness rather than treating animals as disposable resources."]
+	quest.571AF68781276BD4.title: "Clean Water and Feed"
+	quest.571AF68781276BD4.quest_desc: ["Keep feeding and water infrastructure stocked as routine ranch maintenance."]
+	quest.1C1005AD09E8A6AF.title: "Breeding Records"
+	quest.1C1005AD09E8A6AF.quest_desc: ["Begin tracking parents and offspring instead of breeding whichever two animals are closest."]
+	quest.2506D7AB56ED535B.title: "Animal Health"
+	quest.2506D7AB56ED535B.quest_desc: ["Recognize sickness or poor care and maintain a healthy herd."]
+	quest.628E79D3D3299583.title: "Genetic Diversity"
+	quest.628E79D3D3299583.quest_desc: ["Avoid close inbreeding and preserve multiple bloodlines in an important livestock species."]
+	quest.1666EF07429D1313.title: "Lineage Book"
+	quest.1666EF07429D1313.quest_desc: ["Track breeding pairs far enough to avoid repeatedly breeding close relatives."]
+	quest.502EBA566F508553.title: "Quarantine Pen"
+	quest.502EBA566F508553.quest_desc: ["Reserve a separate enclosure for sick, new or selectively bred animals."]
+	quest.286C0B098941ABCD.title: "Selected Traits"
+	quest.286C0B098941ABCD.quest_desc: ["Breed deliberately for a useful trait or improved animal rather than raw population growth."]
+	quest.5AA16125A3288DD2.title: "Cattle Economy"
+	quest.5AA16125A3288DD2.quest_desc: ["Maintain cattle as a source of food, milk, leather and breeding stock that feeds several progression systems."]
+	quest.123D5186EEE4BD5E.title: "Trait Project"
+	quest.123D5186EEE4BD5E.quest_desc: ["Choose one useful inherited trait and breed deliberately toward it."]
+	quest.08632EB0AF2D909E.title: "Pigs and Truffles"
+	quest.08632EB0AF2D909E.quest_desc: ["Use pigs for more than meat by engaging with their husbandry-specific behavior and truffle role."]
+	quest.10A8231E2BC75E99.title: "Sheep and Textiles"
+	quest.10A8231E2BC75E99.quest_desc: ["Maintain a sheep line that supports wool, beds, decoration and textile-heavy infrastructure."]
+	quest.569E6724D0E66CD1.title: "Dairy and Leather Run"
+	quest.569E6724D0E66CD1.quest_desc: ["Operate cattle as a renewable production system rather than a disposable meat source."]
+	quest.04559CB7AB22DA24.title: "Working Landscape"
+	quest.04559CB7AB22DA24.quest_desc: ["Maintain productive livestock and a healthy surrounding ecosystem as part of a mature settlement."]
+	quest.2958FCEAE0AFB874.title: "Wool Works"
+	quest.2958FCEAE0AFB874.quest_desc: ["Connect sheep production to textiles, beds, decoration or another settlement need."]
+	chapter.18B6E0F5D7D87844.title: "18 — Angler’s Field Guide"
+	chapter.18B6E0F5D7D87844.chapter_subtitle: ["Turn Aquaculture into a travel, food, equipment and rare-resource profession."]
+	quest.4600A366EEA6E512.title: "Tackle Station"
+	quest.4600A366EEA6E512.quest_desc: ["Establish a permanent fishing station with spare rods, food, storage and tackle."]
+	quest.5E11B18986A07C16.title: "Bait and Tackle"
+	quest.5E11B18986A07C16.quest_desc: ["Use Aquaculture tackle and bait intentionally instead of relying only on a vanilla rod."]
+	quest.5191E3DD058A4833.title: "Tackle Loadout"
+	quest.5191E3DD058A4833.quest_desc: ["Assemble a specialized fishing kit before leaving the settlement."]
+	quest.0FC0C0864F283796.title: "Freshwater Species Census"
+	quest.0FC0C0864F283796.quest_desc: ["Catch a deliberately broad freshwater selection and identify which habitats produce the species you still need."]
+	quest.32FAF4E67DC7F10A.title: "Coastal Species Census"
+	quest.32FAF4E67DC7F10A.quest_desc: ["Build a deliberate coastal and ocean species collection beyond the introductory fishing survey."]
+	quest.7445B14FD6393533.title: "Cold-Water Expedition"
+	quest.7445B14FD6393533.quest_desc: ["Travel specifically to cold aquatic biomes for species unavailable near home."]
+	quest.172A071A8BB868D9.title: "Warm-Water Expedition"
+	quest.172A071A8BB868D9.quest_desc: ["Travel specifically to warm aquatic biomes for a different catch profile."]
+	quest.536034B28720B257.title: "Cutting Board Processing"
+	quest.536034B28720B257.quest_desc: ["Process modded fish through Farmer’s Delight-compatible cutting using Aquacompat."]
+	quest.67317E8FED044A00.title: "River and Lake Creel"
+	quest.67317E8FED044A00.quest_desc: ["Catch a deliberately varied set of freshwater fish rather than repeating the foundation survey."]
+	quest.4855978B7B5525EC.title: "Coastal Creel"
+	quest.4855978B7B5525EC.quest_desc: ["Build a varied coastal and ocean catch rather than repeating the introductory survey."]
+	quest.1307F6416F80F2E7.title: "Deep-Water Fishing"
+	quest.1307F6416F80F2E7.quest_desc: ["Prepare for dangerous deep-ocean fishing rather than treating every shoreline as equivalent."]
+	quest.68C9F44C12CB6C01.title: "Aquaculture Delight Kitchen"
+	quest.68C9F44C12CB6C01.quest_desc: ["Turn catches into proper meals through Aquaculture Delight rather than consuming raw/simple fish."]
+	quest.04691A0306319105.title: "Temperature Specialist"
+	quest.04691A0306319105.quest_desc: ["Complete catches in both cold-water and warm-water environments."]
+	quest.2E0362B4D80C0180.title: "Rare Catch Collection"
+	quest.2E0362B4D80C0180.quest_desc: ["Pursue uncommon fish and treasures as collection and progression goals."]
+	quest.59E009F229F7ABA9.title: "Fish Market"
+	quest.59E009F229F7ABA9.quest_desc: ["Process and store several different catches as food ingredients for the settlement."]
+	quest.7FB768421C4CDC97.title: "Neptunium Craft"
+	quest.7FB768421C4CDC97.quest_desc: ["Advance into Aquaculture’s Neptunium equipment and use its advantages as a specialist angler."]
+	quest.45D0BE0B778E9CFF.title: "Master Fishery"
+	quest.45D0BE0B778E9CFF.quest_desc: ["Maintain a fishery that supplies cuisine, expeditions and apothecary ingredients while still rewarding travel."]
+	quest.484CD31F4C5924C3.title: "Rare Catch Display"
+	quest.484CD31F4C5924C3.quest_desc: ["Preserve a genuinely rare catch or Neptunium-related achievement as a trophy."]
+	chapter.7B1155FE45F02AD8.title: "19 — Agriculture and Cuisine"
+	chapter.7B1155FE45F02AD8.chapter_subtitle: ["Expand the support economy from subsistence crops to automated settlement-scale food production."]
+	quest.09B31AA2916F01D9.title: "Crop Diversity"
+	quest.09B31AA2916F01D9.quest_desc: ["Grow a deliberately diverse field rather than surviving on one staple crop."]
+	quest.102219CDE7F8FF40.title: "Animal Feed Production"
+	quest.102219CDE7F8FF40.quest_desc: ["Reserve agricultural output for livestock and ranch expansion rather than sending every crop to the kitchen."]
+	quest.1DF18A27F2CFBE5D.title: "Expanded Delight Crops"
+	quest.1DF18A27F2CFBE5D.quest_desc: ["Establish the additional crops from Expanded Delight as part of the settlement food economy."]
+	quest.513FB67A4C286525.title: "Seed Bank"
+	quest.513FB67A4C286525.quest_desc: ["Maintain spare seed stock for the expanded crop roster."]
+	quest.00632D0590D8C4A4.title: "Feed Plot"
+	quest.00632D0590D8C4A4.quest_desc: ["Dedicate part of the farm to livestock feed rather than player food."]
+	quest.58F5745237868F71.title: "Pantry Standards"
+	quest.58F5745237868F71.quest_desc: ["Maintain reserve ingredients so cooking does not stop every time an expedition consumes the last meal."]
+	quest.08E3957EC5A619F0.title: "Cutting Board Mastery"
+	quest.08E3957EC5A619F0.quest_desc: ["Use Farmer’s Delight preparation steps as part of real recipes rather than skipping directly to finished food."]
+	quest.3BB301A2B6C0639C.title: "Prep Line"
+	quest.3BB301A2B6C0639C.quest_desc: ["Organize cutting-board and ingredient storage so meals can be assembled efficiently."]
+	quest.3E40D3DE40D4B155.title: "Create Slicer"
+	quest.3E40D3DE40D4B155.quest_desc: ["Automate cutting-board style preparation with Create: Slice and Dice."]
+	quest.40E45C03DFB50699.title: "Slicer Throughput"
+	quest.40E45C03DFB50699.quest_desc: ["Automate a repeated cutting task with Slice and Dice."]
+	quest.4357C1096B20F99B.title: "Mechanical Kitchen"
+	quest.4357C1096B20F99B.quest_desc: ["Connect Create power and ingredient movement to a working food-production line."]
+	quest.5034D283EC3219A2.title: "Combat Provisions"
+	quest.5034D283EC3219A2.quest_desc: ["Prepare expensive food intended for difficult combat and boss attempts."]
+	quest.3FED74ED8994DE9C.title: "Expedition Rations"
+	quest.3FED74ED8994DE9C.quest_desc: ["Produce meals specifically chosen for long exploration and recovery rather than only hunger value."]
+	quest.6EDE0F43323B1C81.title: "Bulk Preservation"
+	quest.6EDE0F43323B1C81.quest_desc: ["Maintain enough prepared food to survive a long expedition or production interruption."]
+	quest.4A6072656B84CC4E.title: "Settlement Kitchen"
+	quest.4A6072656B84CC4E.quest_desc: ["Build a dedicated kitchen capable of feeding both players and supporting the wider settlement."]
+	quest.6FBCCA58DAF551F5.title: "Ration Batch"
+	quest.6FBCCA58DAF551F5.quest_desc: ["Produce expedition food in quantity for more than one trip."]
+	quest.383CADC202B6BAE1.title: "Food Industry"
+	quest.383CADC202B6BAE1.quest_desc: ["Automate meaningful portions of ingredient preparation while keeping high-tier meals dependent on diverse supply chains."]
+	quest.61D5EE55D7AF597E.title: "Kitchen Supply Contract"
+	quest.61D5EE55D7AF597E.quest_desc: ["Keep the settlement kitchen supplied from farms, ranches and fisheries at the same time."]
+	chapter.59D509A33EEE2621.title: "20 — Apothecary"
+	chapter.59D509A33EEE2621.chapter_subtitle: ["Build a dedicated healing and preparation profession from folk remedies to multi-school magical pharmacology."]
+	quest.6AFC976D2BAB6186.title: "Herbal Cabinet"
+	quest.6AFC976D2BAB6186.quest_desc: ["Collect and organize common plants, mushrooms, honey and other basic medicinal ingredients."]
+	quest.68BF2AB92BDE9373.title: "Bee Products"
+	quest.68BF2AB92BDE9373.quest_desc: ["Integrate honey, wax or specialized bee products into the apothecary supply chain."]
+	quest.1255264E78DFCDC5.title: "Animal Ingredients"
+	quest.1255264E78DFCDC5.quest_desc: ["Use responsibly sourced ranching products as medicinal or culinary inputs."]
+	quest.6CC47775B8377E69.title: "Aquatic Ingredients"
+	quest.6CC47775B8377E69.quest_desc: ["Reserve selected fishing products for oils, extracts or later alchemical recipes."]
+	quest.7DB4D0FD86FB6060.title: "Folk Remedies"
+	quest.7DB4D0FD86FB6060.quest_desc: ["Use food, herbs and simple preparations as the earliest recovery tools before advanced brewing."]
+	quest.2978EFE6D9EEC026.title: "Herbarium"
+	quest.2978EFE6D9EEC026.quest_desc: ["Collect and label the plants used most often in medicine and magic."]
+	quest.2D34764D5C9A17CE.title: "Honey Medicine"
+	quest.2D34764D5C9A17CE.quest_desc: ["Use bee products in a real healing, food or alchemical preparation."]
+	quest.03FF85560FCD0624.title: "Ranch Reagents"
+	quest.03FF85560FCD0624.quest_desc: ["Reserve useful animal products for medicine instead of consuming every output elsewhere."]
+	quest.43C1300A5F752CB1.title: "Aquatic Reagents"
+	quest.43C1300A5F752CB1.quest_desc: ["Set aside fish or aquatic products specifically for apothecary work."]
+	quest.724F2E8BAF255611.title: "Drying and Grinding"
+	quest.724F2E8BAF255611.quest_desc: ["Establish a repeatable preparation area for drying, cutting and grinding biological ingredients."]
+	quest.7AC470612FF73216.title: "Hexerei Workshop"
+	quest.7AC470612FF73216.quest_desc: ["Make Hexerei the practical witchcraft branch of the apothecary rather than an isolated magic tree."]
+	quest.7795EC85D3201A86.title: "Nature’s Aura Reagents"
+	quest.7795EC85D3201A86.quest_desc: ["Bring ecological magic into preparations that depend on healthy environments and renewable support systems."]
+	quest.76B959EDE181B807.title: "Mortar Shelf"
+	quest.76B959EDE181B807.quest_desc: ["Create a dedicated storage and processing area for dried and ground ingredients."]
+	quest.72973D475A0F94A3.title: "Iron’s Alchemy"
+	quest.72973D475A0F94A3.quest_desc: ["Connect Iron’s Spells alchemical or potion systems to combat preparation and expedition supply."]
+	quest.64A0469E411B28F0.title: "Ars Infusion"
+	quest.64A0469E411B28F0.quest_desc: ["Use Ars Source and imbuement as magical-processing tools for advanced reagents."]
+	quest.34F52FDE047AF68A.title: "Occult Ingredients"
+	quest.34F52FDE047AF68A.quest_desc: ["Use Occultism for rare ritual knowledge and ingredients without bypassing its intended ritual progression."]
+	quest.313E7CCB487A83D1.title: "Mixing Cauldron"
+	quest.313E7CCB487A83D1.quest_desc: ["Use the Hexerei Mixing Cauldron as a major step from folk preparation into deliberate magical mixtures."]
+	quest.73D5A7D189912873.title: "Boss Preparations"
+	quest.73D5A7D189912873.quest_desc: ["Prepare a complete set of food, medicine, magical consumables and replacements before a major boss attempt."]
+	quest.1A7AC3184182D598.title: "Cauldron Batch"
+	quest.1A7AC3184182D598.quest_desc: ["Prepare several doses of one useful Hexerei or potion mixture in a single planned session."]
+	quest.0D22AD3A0BA565E6.title: "Cross-School Formula"
+	quest.0D22AD3A0BA565E6.quest_desc: ["Complete one preparation that draws ingredients or infrastructure from multiple magic systems."]
+	quest.3CAC92F3BEC83B07.title: "Boss Medicine Chest"
+	quest.3CAC92F3BEC83B07.quest_desc: ["Stock a reusable chest of healing and resistance preparations for major encounters."]
+	quest.4C16425A2F47899C.title: "Master Apothecary"
+	quest.4C16425A2F47899C.quest_desc: ["Maintain a dedicated apothecary that pulls from farms, ranches, fishing, bees, wildlife and every mature magical school."]
+	chapter.2E785984D419D8D0.title: "21 — Archaeology and Ancient Knowledge"
+	chapter.2E785984D419D8D0.chapter_subtitle: ["Give ruins and suspicious sites a research path that feeds exploration, magic and late technology."]
+	quest.3E020B28610AD0D0.title: "Field Brush"
+	quest.3E020B28610AD0D0.quest_desc: ["Carry archaeology tools on expeditions so suspicious sites are opportunities rather than scenery."]
+	quest.331E088CF64FD147.title: "Suspicious Sites"
+	quest.331E088CF64FD147.quest_desc: ["Excavate multiple archaeology locations instead of opening every structure as a combat dungeon."]
+	quest.6D72AF10C66CE350.title: "Dig Site Grid"
+	quest.6D72AF10C66CE350.quest_desc: ["Survey an archaeological site systematically instead of excavating random blocks."]
+	quest.11AE7E1FE530BD96.title: "Pottery Record"
+	quest.11AE7E1FE530BD96.quest_desc: ["Build a collection of pottery evidence and treat duplicates as research material."]
+	quest.0FEB7E7059BFA47F.title: "Archaeology Table"
+	quest.0FEB7E7059BFA47F.quest_desc: ["Establish the Archeological research workstation and use it as part of settlement scholarship."]
+	quest.44E43F4E9414F1C5.title: "Sherd Catalogue"
+	quest.44E43F4E9414F1C5.quest_desc: ["Preserve pottery finds and keep duplicates or patterns organized."]
+	quest.157FE4EA44CE6DD0.title: "Statues and Idols"
+	quest.157FE4EA44CE6DD0.quest_desc: ["Recover representative statues or idols as research and collection milestones."]
+	quest.7C80A3A654C4CF84.title: "Dark Urns"
+	quest.7C80A3A654C4CF84.quest_desc: ["Explore dangerous depths specifically for archaeology content rather than only ore and combat loot."]
+	quest.0B906A7F76DF9748.title: "Ancient Remains"
+	quest.0B906A7F76DF9748.quest_desc: ["Recover and study ancient remains from the Archeological mod."]
+	quest.10D4EF76523BC56C.title: "Petroglyph Survey"
+	quest.10D4EF76523BC56C.quest_desc: ["Locate underground petroglyphs and document where ancient cultures left evidence."]
+	quest.23836268A35A60D2.title: "Artifact Conservation"
+	quest.23836268A35A60D2.quest_desc: ["Store valuable finds in a protected collection rather than immediately spending everything."]
+	quest.629F865FA1B6C4EB.title: "Runestone Study"
+	quest.629F865FA1B6C4EB.quest_desc: ["Recover and experiment with runestones as ancient magical technology."]
+	quest.4496F9F4432E2233.title: "Ruins Archive"
+	quest.4496F9F4432E2233.quest_desc: ["Record where important remains, petroglyphs or monuments were found."]
+	quest.5CB81B93D0952632.title: "Runestone Rubbings"
+	quest.5CB81B93D0952632.quest_desc: ["Document runestone discoveries before using them in progression."]
+	quest.3F8ABE827842D284.title: "Ancient-Industry Link"
+	quest.3F8ABE827842D284.quest_desc: ["Treat selected ancient materials or knowledge as inspiration for mature engineering rather than free high-tier components."]
+	quest.38501B19A9410E0A.title: "Ancient-Magic Link"
+	quest.38501B19A9410E0A.quest_desc: ["Connect archaeological discoveries to one of the established magical schools through quests and research."]
+	quest.7F054853923A7C9F.title: "Industrial Interpretation"
+	quest.7F054853923A7C9F.quest_desc: ["Connect one ancient find to metallurgy, engineering or logistics research."]
+	quest.7EE108634B786623.title: "Museum of Horizons"
+	quest.7EE108634B786623.quest_desc: ["Build a permanent archive or museum displaying major discoveries from several regions and dimensions."]
+	quest.19CBBAF3613B264D.title: "Arcane Interpretation"
+	quest.19CBBAF3613B264D.quest_desc: ["Connect one ancient find to Ars, Hexerei, Nature’s Aura, Iron’s Spells or Occultism."]
+	chapter.63ED3B94F8A7B38C.title: "22 — Expedition Gear and Waystones"
+	chapter.63ED3B94F8A7B38C.chapter_subtitle: ["Make carrying capacity and fast travel earned infrastructure rather than early-game shortcuts."]
+	quest.61C7953B9FD55195.title: "Leather Pack"
+	quest.61C7953B9FD55195.quest_desc: ["Earn the first practical backpack only after leather production is stable."]
+	quest.7C4B50597186B15B.title: "Discover a Waystone"
+	quest.7C4B50597186B15B.quest_desc: ["Treat generated Waystones as permanent destinations that reward exploration."]
+	quest.05208399AA7BB8FA.title: "Copper Pack"
+	quest.05208399AA7BB8FA.quest_desc: ["Advance portable storage alongside the Copper Age rather than jumping straight to huge inventories."]
+	quest.7451038A291E477B.title: "Pack Weight Discipline"
+	quest.7451038A291E477B.quest_desc: ["Choose a backpack tier appropriate to the expedition rather than treating portable storage as infinite capacity."]
+	quest.2A7E4EF00AECF15B.title: "Permanent Network"
+	quest.2A7E4EF00AECF15B.quest_desc: ["Use fixed discovered Waystones as infrastructure; do not relocate generated Waystones to convenience locations."]
+	quest.6C8AFF7E29BC0149.title: "Waystone Survey"
+	quest.6C8AFF7E29BC0149.quest_desc: ["Discover a generated Waystone and record its permanent location instead of moving it."]
+	quest.10C4D005893E10E1.title: "Iron Pack"
+	quest.10C4D005893E10E1.quest_desc: ["Upgrade only once iron production is established enough that the material is no longer a one-ingot miracle."]
+	quest.2239F46CF043C7CA.title: "Travel Hub"
+	quest.2239F46CF043C7CA.quest_desc: ["Integrate Waystones with roads, rail or settlement outposts so fast travel complements physical infrastructure."]
+	quest.4EA7ED7BF6ECBF57.title: "Gold Pack"
+	quest.4EA7ED7BF6ECBF57.quest_desc: ["Tie higher backpack tiers to post-Nether processed gold and precision infrastructure."]
+	quest.24E7551B23A86071.title: "Backpack Upgrades"
+	quest.24E7551B23A86071.quest_desc: ["Unlock backpack functionality gradually so portable storage does not invalidate warehouses and freight."]
+	quest.1B5276FF06D3D4E8.title: "Diamond Pack"
+	quest.1B5276FF06D3D4E8.quest_desc: ["Reserve large high-tier portable storage for mature industrial and dimensional progression."]
+	quest.7192CE558732BE26.title: "Prepared Loadout"
+	quest.7192CE558732BE26.quest_desc: ["Carry food, medicine, tools, replacement equipment and recovery supplies as a deliberate expedition kit."]
+	quest.3A51B64697A25875.title: "Upgrade Restraint"
+	quest.3A51B64697A25875.quest_desc: ["Install only upgrades that have been unlocked by the current technology tier."]
+	quest.710B180ED25F8339.title: "Crafted Fast Travel"
+	quest.710B180ED25F8339.quest_desc: ["Earn player-created fast travel only after conventional exploration, logistics and settlement infrastructure have mattered."]
+	quest.2424DD6F019D3E6C.title: "Recovery Bag"
+	quest.2424DD6F019D3E6C.quest_desc: ["Keep a small standardized replacement kit ready for recovering a grave."]
+	chapter.199AE2C007A46782.title: "23 — Dimensional Ecology"
+	chapter.199AE2C007A46782.chapter_subtitle: ["Give every existing dimension a distinct economic, magical and expedition identity."]
+	quest.1377A24132850D56.title: "Aether Ecology"
+	quest.1377A24132850D56.quest_desc: ["Study Aether plants, creatures and resources as a celestial ecosystem rather than only a dungeon dimension."]
+	quest.0F20710647319049.title: "End Logistics"
+	quest.0F20710647319049.quest_desc: ["Prepare the End as a long-duration expedition with storage and replacement equipment."]
+	quest.422A9CAC6B73EE85.title: "Deep Dark Survey"
+	quest.422A9CAC6B73EE85.quest_desc: ["Enter Ancient City and Deep Dark territory as a planned research mission rather than casual mining."]
+	quest.29AA56E7429C91C3.title: "Nether Logistics"
+	quest.29AA56E7429C91C3.quest_desc: ["Establish a safe supply route and staging area before using the Nether as routine industrial territory."]
+	quest.713A8BFD9539909B.title: "Echo Sample Archive"
+	quest.713A8BFD9539909B.quest_desc: ["Return Deep Dark materials to a protected research collection."]
+	quest.35CECC75CC94EBE4.title: "Aether Specimen Program"
+	quest.35CECC75CC94EBE4.quest_desc: ["Bring back flora, fauna products or materials for ecological and magical research."]
+	quest.4005277871B9E094.title: "Aether Apothecary"
+	quest.4005277871B9E094.quest_desc: ["Bring celestial biological ingredients into late apothecary and Nature’s Aura/Ars research."]
+	quest.1214DE2F238B2D7F.title: "Aether Infrastructure"
+	quest.1214DE2F238B2D7F.quest_desc: ["Establish a repeatable route, shelter and storage for sustained Aether expeditions."]
+	quest.11F60D894392AE0B.title: "Shulker Economy"
+	quest.11F60D894392AE0B.quest_desc: ["Turn shulker resources into a major logistics milestone instead of merely better boxes."]
+	quest.131E4767408AD63F.title: "End Separation"
+	quest.131E4767408AD63F.quest_desc: ["Connect End materials to the two-times metallurgy era and advanced separation technology."]
+	quest.60E63D95705C8418.title: "Nether Industry"
+	quest.60E63D95705C8418.quest_desc: ["Use blaze heat, quartz, brass and precision as the Nether’s defining contribution to technology."]
+	quest.5434B75786A002B5.title: "Nether Supply Contract"
+	quest.5434B75786A002B5.quest_desc: ["Maintain a repeatable flow of quartz, blaze materials or other Nether inputs back to industry."]
+	quest.6A4527DB6C263A7B.title: "Nether Apothecary"
+	quest.6A4527DB6C263A7B.quest_desc: ["Collect Nether-specific ingredients that expand brewing and high-risk combat preparation."]
+	quest.3C480481C2D8EA1C.title: "Echo Research"
+	quest.3C480481C2D8EA1C.quest_desc: ["Use echo/sculk resources as rare inputs for occult, apothecary or advanced magical work."]
+	quest.7701DE3AC0F86742.title: "Aether Supply Line"
+	quest.7701DE3AC0F86742.quest_desc: ["Move useful Aether resources into settlement storage without treating the dimension as a one-time trip."]
+	quest.0535F7A367C6F914.title: "Shulker Logistics Trial"
+	quest.0535F7A367C6F914.quest_desc: ["Use post-End storage or logistics materials in a real distribution system."]
+	quest.24AC73DAA31D72C6.title: "Nether Field Pharmacy"
+	quest.24AC73DAA31D72C6.quest_desc: ["Identify which Nether materials belong in the apothecary supply chain."]
+	quest.70716417489C01D5.title: "Deeper and Darker Expedition"
+	quest.70716417489C01D5.quest_desc: ["Treat the deeper dimension as a separate high-risk campaign with its own resupply requirements."]
+	quest.6A812FC526CFDEDF.title: "Dimensional Supply Network"
+	quest.6A812FC526CFDEDF.quest_desc: ["Maintain supplies or staging infrastructure for multiple dimensions at the same time."]
+	quest.20FB7BCDEAE59706.title: "Other-side Staging Camp"
+	quest.20FB7BCDEAE59706.quest_desc: ["Build a defensible staging point for Deeper and Darker exploration."]
+	quest.645008AE21F6CBE5.title: "Interdimensional Ledger"
+	quest.645008AE21F6CBE5.quest_desc: ["Track which dimension supplies which branch of the settlement economy."]
+	quest.7812B1CBB06935BA.title: "Worlds as an Economy"
+	quest.7812B1CBB06935BA.quest_desc: ["Use each dimension for a distinct set of resources and systems rather than treating them as isolated sightseeing content."]
+}

@@ -1,0 +1,532 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "4f03014a6ad419d7"
+	icon: { id: "immersiveengineering:hammer" }
+	id: "4F03014A6AD419D7"
+	title: "9 — Industrial Engineering"
+	subtitle: ["Precision becomes steel, power and sustained throughput."]
+	images: [ ]
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "immersiveengineering:hammer" }
+			id: "401CE8C13A5AF84B"
+			title: "Engineers Hammer"
+			description: ["Cross the Precision gate into Immersive Engineering."]
+			rewards: [
+				{
+					id: "31F372734EA6BE8B"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "79C90F03B24F4999"
+					item: { count: 14, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "11B68B75318FCAA3"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: -2.1d
+		}
+		{
+			dependencies: ["26E1510A141AD616"]
+			icon: { id: "create:blaze_burner" }
+			id: "752B699E2CF9D175"
+			title: "Blaze Burner"
+			description: ["Control reliable high heat for advanced processes."]
+			rewards: [
+				{
+					id: "6E2E9A7448C6CA54"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "4B1A560C65787C2C"
+					item: { count: 2, id: "minecraft:repeater" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "10D04FCD0859F99F"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["275ADC496625E9DB"]
+			icon: { id: "create:precision_mechanism" }
+			id: "441EB22AA5AC9BAE"
+			title: "Precision Mechanism"
+			description: ["Complete Create's real post-Nether sequenced assembly."]
+			rewards: [
+				{
+					id: "2589050040EDA5F0"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "569C84882CC58BD0"
+					item: { count: 2, id: "minecraft:comparator" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2589330564283AF9"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: 4.2d
+		}
+		{
+			dependencies: ["401CE8C13A5AF84B"]
+			icon: { id: "immersiveengineering:treated_wood_horizontal" }
+			id: "766E41E829AEB000"
+			title: "Treated Wood"
+			description: ["Establish chemical wood treatment for industrial structures."]
+			rewards: [
+				{
+					id: "137298E498A4B5B7"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "3CF624B1CEB49616"
+					item: { count: 8, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7426020F58EC27FC"
+					item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -3.15d
+		}
+		{
+			dependencies: ["401CE8C13A5AF84B"]
+			icon: { id: "immersiveengineering:coal_coke" }
+			id: "551A0E6A85440980"
+			title: "Coke Production"
+			description: ["Replace charcoal with industrial carbon where recipes demand it."]
+			rewards: [
+				{
+					id: "17E6910266FAE962"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "574A3FB71CE921F8"
+					item: { count: 12, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "22B43D8A8F0E1A29"
+					item: { count: 1, id: "immersiveengineering:coal_coke" }
+					type: "item"
+				}
+			]
+			x: 2.625d
+			y: -1.05d
+		}
+		{
+			dependencies: ["752B699E2CF9D175"]
+			icon: { id: "create:basin" }
+			id: "1D2B87FB2DA67123"
+			title: "Heated Mixing"
+			description: ["Move from ingredient charges to controlled high-temperature processing."]
+			rewards: [
+				{
+					id: "130D9678EEBD5DFF"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "29B5BBED7B1B0A38"
+					item: { count: 12, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "507A54A6F211624F"
+					type: "checkmark"
+				}
+			]
+			x: 2.625d
+			y: 2.1d
+		}
+		{
+			dependencies: ["441EB22AA5AC9BAE"]
+			icon: { id: "create:precision_mechanism" }
+			id: "1430F83FEDD18CA6"
+			title: "Precision Assembly Line"
+			description: ["Arrange the components for Precision Mechanisms as a repeatable process instead of hand-crafting ad hoc."]
+			rewards: [
+				{
+					id: "574251F80F2919CD"
+					type: "xp"
+					xp: 47
+				}
+				{
+					id: "4C0D6B5FB770C424"
+					item: { count: 2, id: "minecraft:comparator" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "59F197AA7A6D3C82"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 4.2d
+		}
+		{
+			dependencies: ["766E41E829AEB000"]
+			icon: { id: "create:blaze_burner" }
+			id: "168F2292D536E4C7"
+			title: "Treated Timber Stock"
+			description: ["Produce enough treated wood for more than the first IE machine."]
+			rewards: [
+				{
+					id: "2BF758397E68F908"
+					type: "xp"
+					xp: 47
+				}
+				{
+					id: "0884D5DC3CBE0208"
+					item: { count: 2, id: "minecraft:repeater" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "4AC79509AC38EF53"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: -4.2d
+		}
+		{
+			dependencies: [
+				"551A0E6A85440980"
+				"766E41E829AEB000"
+			]
+			icon: { id: "immersiveengineering:ingot_steel" }
+			id: "681A2BBAA8D018A4"
+			title: "Steel Age"
+			description: ["Produce steel as a distinct industrial material."]
+			rewards: [
+				{
+					id: "2787E3E6B5756140"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "683C2C0EE24C2A27"
+					item: { count: 12, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "6E6A72205E43B556"
+					item: { count: 1, id: "immersiveengineering:ingot_steel" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -2.1d
+		}
+		{
+			dependencies: ["551A0E6A85440980"]
+			icon: { id: "create:precision_mechanism" }
+			id: "51FD447D897336A4"
+			title: "Coke Yard"
+			description: ["Create a dedicated coke-production area and keep a working fuel reserve."]
+			rewards: [
+				{
+					id: "3A4B2DAB2D6FF3B4"
+					type: "xp"
+					xp: 47
+				}
+				{
+					id: "4D025FECD0F54513"
+					item: { count: 12, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7F9B6DCE949BEF3B"
+					type: "checkmark"
+				}
+			]
+			x: 5.25d
+			y: 0d
+		}
+		{
+			dependencies: [
+				"441EB22AA5AC9BAE"
+				"1D2B87FB2DA67123"
+			]
+			icon: { id: "create:mechanical_crafter" }
+			id: "79B7F0899BE64410"
+			title: "Mechanical Crafting"
+			description: ["Build large assemblies that cannot fit a crafting table."]
+			rewards: [
+				{
+					id: "2435A2046819200A"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "539CA5278755399E"
+					item: { count: 3, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "317DA1AB45455120"
+					item: { count: 1, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 2.1d
+		}
+		{
+			dependencies: ["681A2BBAA8D018A4"]
+			icon: { id: "immersiveengineering:connector_lv" }
+			id: "22E357F11558D9AD"
+			title: "Electrical Power"
+			description: ["Generate and route electrical energy as a parallel power system."]
+			rewards: [
+				{
+					id: "3C708FD9B222AFD6"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "6669D34B56F960E7"
+					item: { count: 14, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3D80F4F6554D40CE"
+					item: { count: 1, id: "immersiveengineering:connector_lv" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: -4.2d
+		}
+		{
+			dependencies: ["681A2BBAA8D018A4"]
+			icon: { id: "create:blaze_burner" }
+			id: "53E889B9662DC12C"
+			title: "Steel Allocation"
+			description: ["Reserve the first steel for infrastructure that unlocks better production."]
+			rewards: [
+				{
+					id: "24BE9DC6CDF3507B"
+					type: "xp"
+					xp: 47
+				}
+				{
+					id: "71CD09586C05467E"
+					item: { count: 2, id: "minecraft:repeater" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5E143315CC9895D3"
+					type: "checkmark"
+				}
+			]
+			x: 7.875d
+			y: -2.1d
+		}
+		{
+			dependencies: [
+				"79B7F0899BE64410"
+				"681A2BBAA8D018A4"
+			]
+			icon: { id: "createmetallurgy:industrial_crucible" }
+			id: "52D9DE9C412F0D4C"
+			title: "Industrial Crucible"
+			description: ["Build the crucible that marks mature metallurgy."]
+			rewards: [
+				{
+					id: "20E40CBBF1560748"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "39A54FBB62C2F5D2"
+					item: { count: 14, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6F500CF66E4E757A"
+					item: { count: 1, id: "createmetallurgy:industrial_crucible" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 0d
+		}
+		{
+			dependencies: [
+				"79B7F0899BE64410"
+				"681A2BBAA8D018A4"
+			]
+			icon: { id: "createmetallurgy:mechanical_belt_grinder" }
+			id: "21B1BB45AE6B7FBD"
+			title: "Belt Grinder"
+			description: ["Build the steel-and-precision Create Metallurgy grinder."]
+			rewards: [
+				{
+					id: "4E1B038C68D5E259"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "7C2407ECE58EF594"
+					item: { count: 10, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "10C1D7F792BE8911"
+					item: { count: 1, id: "createmetallurgy:mechanical_belt_grinder" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 2.1d
+		}
+		{
+			dependencies: ["22E357F11558D9AD"]
+			icon: { id: "create:basin" }
+			id: "7E7EFBEC30EF8987"
+			title: "Power Distribution"
+			description: ["Connect electrical generation to at least two useful consumers."]
+			rewards: [
+				{
+					id: "17AE99D3DDC643D9"
+					type: "xp"
+					xp: 47
+				}
+				{
+					id: "58E1AD684D798D6D"
+					item: { count: 14, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "23FBD45CE51F9898"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -4.2d
+		}
+		{
+			dependencies: [
+				"21B1BB45AE6B7FBD"
+				"52D9DE9C412F0D4C"
+			]
+			icon: { id: "create:basin" }
+			id: "7D9349573C4F3285"
+			title: "Industrial Bay"
+			description: ["Place the Belt Grinder and Industrial Crucible as part of a coherent advanced processing area."]
+			rewards: [
+				{
+					id: "4CA634ECB010C1A4"
+					type: "xp"
+					xp: 47
+				}
+				{
+					id: "50D79AF0CB7D1868"
+					item: { count: 14, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3F6559597F1716C5"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 1.05d
+		}
+	]
+}

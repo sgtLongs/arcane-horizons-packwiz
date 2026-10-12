@@ -1,0 +1,474 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "76374b7fcdbf7c62"
+	icon: { id: "minecraft:blaze_rod" }
+	id: "76374B7FCDBF7C62"
+	title: "8 — Netherworks"
+	subtitle: ["The Nether unlocks hotter metallurgy and real precision."]
+	images: [ ]
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "kubejs:mechanical_ignition_core" }
+			id: "164C6889F50F007C"
+			title: "Mechanical Ignition Core"
+			description: ["Combine iron, copper, redstone and amethyst into the pre-Nether ignition milestone."]
+			rewards: [
+				{
+					id: "3CDC929BC63BEFB1"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "437EF52ABDDD548F"
+					item: { count: 4, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "5399E21986126FD6"
+					item: { count: 1, id: "kubejs:mechanical_ignition_core" }
+					type: "item"
+				}
+			]
+			x: -0.085d
+			y: 23.625d
+		}
+		{
+			dependencies: ["164C6889F50F007C"]
+			icon: { id: "minecraft:diamond_pickaxe" }
+			id: "4274E70A3AC7C08E"
+			title: "Diamond Pick Exception"
+			description: ["Craft the specially gated pick that avoids a Brass/Precision circular dependency."]
+			rewards: [
+				{
+					id: "6D348D657274774A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "55F84B4B1B2D2B42"
+					item: { count: 2, id: "minecraft:magma_cream" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "4FF2544308EA71C3"
+					item: { count: 1, id: "minecraft:diamond_pickaxe" }
+					type: "item"
+				}
+			]
+			x: -0.085d
+			y: 21d
+		}
+		{
+			dependencies: ["4274E70A3AC7C08E"]
+			icon: { id: "minecraft:obsidian" }
+			id: "2662281E60D8F8F1"
+			title: "Obsidian Project"
+			description: ["Mine enough obsidian for deliberate portal construction."]
+			rewards: [
+				{
+					id: "1ADC0051C85D903F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "69F7D08CB08555A8"
+					item: { count: 4, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1D489FAA03D7DBF4"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			x: -0.085d
+			y: 18.375d
+		}
+		{
+			dependencies: ["2662281E60D8F8F1"]
+			icon: { id: "kubejs:mechanical_ignition_core" }
+			id: "38536796243822AE"
+			title: "Portal Staging Area"
+			description: ["Build the Nether portal as an expedition site with spare supplies and a defensible return point."]
+			rewards: [
+				{
+					id: "3354362F55660002"
+					type: "xp"
+					xp: 44
+				}
+				{
+					id: "2A2D36F247494C25"
+					item: { count: 4, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "48D275BC24D53D92"
+					type: "checkmark"
+				}
+			]
+			x: -1.315d
+			y: 15.75d
+		}
+		{
+			dependencies: [
+				"2662281E60D8F8F1"
+				"38536796243822AE"
+			]
+			icon: { id: "minecraft:netherrack" }
+			id: "43506590DA8DED73"
+			title: "Prepared Nether Entry"
+			description: ["Enter with food, equipment and a return plan."]
+			rewards: [
+				{
+					id: "3D6FE6802533961D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "614CFA8F92C35CA0"
+					item: { count: 2, id: "minecraft:magma_cream" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "2D6BB114286C98E7"
+					item: { count: 1, id: "minecraft:netherrack" }
+					type: "item"
+				}
+			]
+			x: -0.085d
+			y: 13.125d
+		}
+		{
+			dependencies: ["43506590DA8DED73"]
+			icon: { id: "minecraft:quartz" }
+			id: "7D0516E2E0A372D2"
+			title: "Quartz Supply"
+			description: ["Bring Nether quartz back to the industrial district."]
+			rewards: [
+				{
+					id: "15F9F6BC696E17B7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "60160705D96AD571"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "78EA145C6220E138"
+					item: { count: 1, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			x: -1.135d
+			y: 10.5d
+		}
+		{
+			dependencies: ["43506590DA8DED73"]
+			icon: { id: "minecraft:blaze_rod" }
+			id: "26E1510A141AD616"
+			title: "Blaze Materials"
+			description: ["Secure blaze rods and powder from dangerous territory."]
+			rewards: [
+				{
+					id: "11609B0792DC0A23"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1361B22F849E1BFA"
+					item: { count: 10, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "16391CE14A29B2E9"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			x: 1.135d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"7D0516E2E0A372D2"
+				"26E1510A141AD616"
+			]
+			icon: { id: "kubejs:industrial_flux" }
+			id: "234950B6DCB236BB"
+			title: "Industrial Flux"
+			description: ["Combine Nether materials with calcite and clay for hotter refining."]
+			rewards: [
+				{
+					id: "25CC7EC3049EE2BD"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5FC55AB4BBA03656"
+					item: { count: 3, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "7BD6E402BB26DE45"
+					item: { count: 1, id: "kubejs:industrial_flux" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 7.875d
+		}
+		{
+			dependencies: ["7D0516E2E0A372D2"]
+			icon: { id: "kubejs:mechanical_ignition_core" }
+			id: "1E54539C240FA89B"
+			title: "Quartz Freight"
+			description: ["Return with enough quartz for more than a single recipe and route it into storage."]
+			rewards: [
+				{
+					id: "494513ABB351D7ED"
+					type: "xp"
+					xp: 44
+				}
+				{
+					id: "41DB421BA3C3C60E"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "2FE5F1A2F4796625"
+					type: "checkmark"
+				}
+			]
+			x: -4.9d
+			y: 7.875d
+		}
+		{
+			dependencies: ["26E1510A141AD616"]
+			icon: { id: "minecraft:diamond_pickaxe" }
+			id: "18C8762FFAB191CA"
+			title: "Blaze Hunt"
+			description: ["Complete a deliberate blaze-material run with escape supplies and a return plan."]
+			rewards: [
+				{
+					id: "4591F92F21BDF88C"
+					type: "xp"
+					xp: 44
+				}
+				{
+					id: "26BFD5577C224827"
+					item: { count: 10, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3FB1136E046059D2"
+					type: "checkmark"
+				}
+			]
+			x: 4.9d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"234950B6DCB236BB"
+				"39D9444D4C598BDC"
+			]
+			icon: { id: "kubejs:hot_refined_iron_charge" }
+			id: "15AFF5C3E185B565"
+			title: "Two to One Iron"
+			description: ["Use heated flux refining to improve iron recovery to two raw per ingot."]
+			rewards: [
+				{
+					id: "2763C954F6FEC4D8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "1D5F96294A52D58D"
+					item: { count: 10, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "39E6AB69492D0FCB"
+					item: { count: 1, id: "kubejs:hot_refined_iron_charge" }
+					type: "item"
+				}
+			]
+			x: 0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"7D0516E2E0A372D2"
+				"15AFF5C3E185B565"
+			]
+			icon: { id: "create:brass_ingot" }
+			id: "469F52CDEC97B520"
+			title: "Brass Age"
+			description: ["Use controlled heat to produce brass."]
+			rewards: [
+				{
+					id: "5C21578657F4C31C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3F74AB2F00AFAB1C"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "294DA738B85A53A6"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+			]
+			x: -2.1d
+			y: 2.625d
+		}
+		{
+			dependencies: ["15AFF5C3E185B565"]
+			icon: { id: "minecraft:diamond_pickaxe" }
+			id: "5DE6B9F4740C63A0"
+			title: "Heat Trial"
+			description: ["Run a heated metallurgy batch and verify the two-to-one iron recovery step."]
+			rewards: [
+				{
+					id: "741D1C5C0EE8DD21"
+					type: "xp"
+					xp: 44
+				}
+				{
+					id: "5A0972CDD7B18E47"
+					item: { count: 10, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "726B616EAA424592"
+					type: "checkmark"
+				}
+			]
+			x: 0d
+			y: 2.625d
+		}
+		{
+			dependencies: [
+				"26E1510A141AD616"
+				"469F52CDEC97B520"
+			]
+			icon: { id: "create:deployer" }
+			id: "275ADC496625E9DB"
+			title: "Brass Hand and Deployers"
+			description: ["Build the components Create requires for real sequenced assembly."]
+			rewards: [
+				{
+					id: "1C68182DBE0F6F28"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4A86FE68CE5BE84D"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "26BB12D6A7D67912"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+			]
+			x: 1.225d
+			y: 0d
+		}
+		{
+			dependencies: ["469F52CDEC97B520"]
+			icon: { id: "minecraft:obsidian" }
+			id: "44011A057407DA07"
+			title: "Brass Production Run"
+			description: ["Produce a useful reserve of brass for precision components and deployers."]
+			rewards: [
+				{
+					id: "57E43C5B9CEF7720"
+					type: "xp"
+					xp: 44
+				}
+				{
+					id: "181AE6E37CA01FF2"
+					item: { count: 12, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "781D0AE58A9845F3"
+					type: "checkmark"
+				}
+			]
+			x: -2.1d
+			y: 0d
+		}
+	]
+}

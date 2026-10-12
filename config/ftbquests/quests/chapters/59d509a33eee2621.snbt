@@ -1,0 +1,707 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "59d509a33eee2621"
+	icon: { id: "minecraft:potion" }
+	id: "59D509A33EEE2621"
+	title: "20 — Apothecary"
+	subtitle: ["Build a dedicated healing and preparation profession from folk remedies to multi-school magical pharmacology."]
+	images: [ ]
+	order_index: 19
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:potion" }
+			id: "6AFC976D2BAB6186"
+			title: "Herbal Cabinet"
+			description: ["Collect and organize common plants, mushrooms, honey and other basic medicinal ingredients."]
+			rewards: [
+				{
+					id: "1A8E8226DB4C2105"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "5A156BD5719F5903"
+					item: { count: 8, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3F72E64964FBA3AA"
+					item: { count: 1, id: "minecraft:dandelion" }
+					type: "item"
+				}
+			]
+			x: -2.1d
+			y: 0d
+		}
+		{
+			dependencies: ["7DD48863A9C979FA"]
+			icon: { id: "minecraft:potion" }
+			id: "68BF2AB92BDE9373"
+			title: "Bee Products"
+			description: ["Integrate honey, wax or specialized bee products into the apothecary supply chain."]
+			rewards: [
+				{
+					id: "1A2473218A998F95"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "395BC7E38602AD90"
+					item: { count: 3, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1DAD1FEB5EAAE039"
+					type: "checkmark"
+				}
+			]
+			x: -4.55d
+			y: 2.625d
+		}
+		{
+			dependencies: ["2506D7AB56ED535B"]
+			icon: { id: "minecraft:potion" }
+			id: "1255264E78DFCDC5"
+			title: "Animal Ingredients"
+			description: ["Use responsibly sourced ranching products as medicinal or culinary inputs."]
+			rewards: [
+				{
+					id: "12DC2D8BDD25D433"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3167F433CA6AD3C7"
+					item: { count: 10, id: "minecraft:sugar" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3D451AA85639863C"
+					type: "checkmark"
+				}
+			]
+			x: 2.45d
+			y: 2.625d
+		}
+		{
+			dependencies: ["536034B28720B257"]
+			icon: { id: "minecraft:potion" }
+			id: "6CC47775B8377E69"
+			title: "Aquatic Ingredients"
+			description: ["Reserve selected fishing products for oils, extracts or later alchemical recipes."]
+			rewards: [
+				{
+					id: "1B3844E5E5BD14A2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "12FE0B3386E77982"
+					item: { count: 2, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1CE9A95153EC0ACB"
+					type: "checkmark"
+				}
+			]
+			x: 4.55d
+			y: 2.625d
+		}
+		{
+			dependencies: ["6AFC976D2BAB6186"]
+			icon: { id: "minecraft:potion" }
+			id: "7DB4D0FD86FB6060"
+			title: "Folk Remedies"
+			description: ["Use food, herbs and simple preparations as the earliest recovery tools before advanced brewing."]
+			rewards: [
+				{
+					id: "416D54744651BF2F"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "53783EF6A24BA135"
+					item: { count: 3, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "66BB82D2A70D2C95"
+					type: "checkmark"
+				}
+			]
+			x: 0.35d
+			y: 2.625d
+		}
+		{
+			dependencies: ["6AFC976D2BAB6186"]
+			icon: { id: "minecraft:potion" }
+			id: "2978EFE6D9EEC026"
+			title: "Herbarium"
+			description: ["Collect and label the plants used most often in medicine and magic."]
+			rewards: [
+				{
+					id: "5F15B688C5EB7D01"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "13CB7E3D6E4C9EC4"
+					item: { count: 8, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "63104DF586E1A22F"
+					type: "checkmark"
+				}
+			]
+			x: -6.65d
+			y: 2.625d
+		}
+		{
+			dependencies: ["68BF2AB92BDE9373"]
+			icon: { id: "minecraft:potion" }
+			id: "2D34764D5C9A17CE"
+			title: "Honey Medicine"
+			description: ["Use bee products in a real healing, food or alchemical preparation."]
+			rewards: [
+				{
+					id: "263A5BB865DF9545"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "3003711DC868D0D8"
+					item: { count: 3, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "70F45020A5041452"
+					type: "checkmark"
+				}
+			]
+			x: -4.55d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1255264E78DFCDC5"]
+			icon: { id: "minecraft:potion" }
+			id: "03FF85560FCD0624"
+			title: "Ranch Reagents"
+			description: ["Reserve useful animal products for medicine instead of consuming every output elsewhere."]
+			rewards: [
+				{
+					id: "0537CD44C610CA21"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "06CADF58EB743337"
+					item: { count: 10, id: "minecraft:sugar" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "09098090252CD0D0"
+					type: "checkmark"
+				}
+			]
+			x: 2.45d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6CC47775B8377E69"]
+			icon: { id: "minecraft:potion" }
+			id: "43C1300A5F752CB1"
+			title: "Aquatic Reagents"
+			description: ["Set aside fish or aquatic products specifically for apothecary work."]
+			rewards: [
+				{
+					id: "74A88BBD5EE598C9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6A29E977A69FE7EC"
+					item: { count: 2, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "424B47181D7FEAAF"
+					type: "checkmark"
+				}
+			]
+			x: 4.55d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"6AFC976D2BAB6186"
+				"7DB4D0FD86FB6060"
+				"68BF2AB92BDE9373"
+				"1255264E78DFCDC5"
+				"6CC47775B8377E69"
+			]
+			icon: { id: "minecraft:potion" }
+			id: "724F2E8BAF255611"
+			title: "Drying and Grinding"
+			description: ["Establish a repeatable preparation area for drying, cutting and grinding biological ingredients."]
+			rewards: [
+				{
+					id: "3D218ADD094090C9"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4039D385184598DB"
+					item: { count: 8, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+				{
+					id: "72D6CEFAD53C33F7"
+					item: { count: 6, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "59A7ADA7AB3ECC2C"
+					type: "checkmark"
+				}
+			]
+			x: 0.35d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"724F2E8BAF255611"
+				"1D19F58EB2BBFE1A"
+			]
+			icon: { id: "minecraft:potion" }
+			id: "7AC470612FF73216"
+			title: "Hexerei Workshop"
+			description: ["Make Hexerei the practical witchcraft branch of the apothecary rather than an isolated magic tree."]
+			rewards: [
+				{
+					id: "317A8BE7060314BC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "243B8223331CE728"
+					item: { count: 2, id: "minecraft:fermented_spider_eye" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "07EE56EB2D9E3F3B"
+					type: "checkmark"
+				}
+			]
+			x: -3.47d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"724F2E8BAF255611"
+				"32445362A5EDFE0D"
+			]
+			icon: { id: "minecraft:potion" }
+			id: "7795EC85D3201A86"
+			title: "Nature’s Aura Reagents"
+			description: ["Bring ecological magic into preparations that depend on healthy environments and renewable support systems."]
+			rewards: [
+				{
+					id: "5021B1B7179FA5BC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "011FDC5B86855CC2"
+					item: { count: 8, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "02A2D2C358F32AE8"
+					type: "checkmark"
+				}
+			]
+			x: 4.2d
+			y: 7.875d
+		}
+		{
+			dependencies: ["724F2E8BAF255611"]
+			icon: { id: "minecraft:potion" }
+			id: "76B959EDE181B807"
+			title: "Mortar Shelf"
+			description: ["Create a dedicated storage and processing area for dried and ground ingredients."]
+			rewards: [
+				{
+					id: "016CFA9DCAA6162A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2BAF01ABFFD7C45A"
+					item: { count: 8, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "2B886DA6C9CE7940"
+					type: "checkmark"
+				}
+			]
+			x: -5.57d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"724F2E8BAF255611"
+				"2F59FCC541A7C92D"
+			]
+			icon: { id: "minecraft:potion" }
+			id: "72973D475A0F94A3"
+			title: "Iron’s Alchemy"
+			description: ["Connect Iron’s Spells alchemical or potion systems to combat preparation and expedition supply."]
+			rewards: [
+				{
+					id: "31A00783E3778E2C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4F4CDE8CEDA0E7C6"
+					item: { count: 4, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "62D2D4009CBFF977"
+					type: "checkmark"
+				}
+			]
+			x: 6.65d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"724F2E8BAF255611"
+				"258A504328533A20"
+			]
+			icon: { id: "minecraft:potion" }
+			id: "64A0469E411B28F0"
+			title: "Ars Infusion"
+			description: ["Use Ars Source and imbuement as magical-processing tools for advanced reagents."]
+			rewards: [
+				{
+					id: "7B16C79BDF13E125"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "78EDCADA013AAAAD"
+					item: { count: 5, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "3A079D7540D36CB4"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"724F2E8BAF255611"
+				"2A91C87716F79434"
+			]
+			icon: { id: "minecraft:potion" }
+			id: "34F52FDE047AF68A"
+			title: "Occult Ingredients"
+			description: ["Use Occultism for rare ritual knowledge and ingredients without bypassing its intended ritual progression."]
+			rewards: [
+				{
+					id: "4ECB9A4E23CD8CA8"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "4015476B8514E5ED"
+					item: { count: 4, id: "minecraft:spider_eye" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "258E04114E6C80E0"
+					type: "checkmark"
+				}
+			]
+			x: -0.35d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7AC470612FF73216"]
+			icon: { id: "minecraft:potion" }
+			id: "313E7CCB487A83D1"
+			title: "Mixing Cauldron"
+			description: ["Use the Hexerei Mixing Cauldron as a major step from folk preparation into deliberate magical mixtures."]
+			rewards: [
+				{
+					id: "0468ED2F0884269E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "6E10DE8F983360B5"
+					item: { count: 2, id: "minecraft:fermented_spider_eye" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1d
+			tasks: [
+				{
+					id: "1B3C942B2152CE1C"
+					type: "checkmark"
+				}
+			]
+			x: -2.45d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"313E7CCB487A83D1"
+				"72973D475A0F94A3"
+				"64A0469E411B28F0"
+				"7795EC85D3201A86"
+				"34F52FDE047AF68A"
+			]
+			icon: { id: "minecraft:potion" }
+			id: "73D5A7D189912873"
+			title: "Boss Preparations"
+			description: ["Prepare a complete set of food, medicine, magical consumables and replacements before a major boss attempt."]
+			rewards: [
+				{
+					id: "2DD1953695F581F7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2280FB4469060896"
+					item: { count: 10, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "6C88705B3CDBA66A"
+					item: { count: 6, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2E7766C74CD31F77"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 13.125d
+		}
+		{
+			dependencies: ["313E7CCB487A83D1"]
+			icon: { id: "minecraft:potion" }
+			id: "1A7AC3184182D598"
+			title: "Cauldron Batch"
+			description: ["Prepare several doses of one useful Hexerei or potion mixture in a single planned session."]
+			rewards: [
+				{
+					id: "360F6B219260E639"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "01F6E06646E7ED10"
+					item: { count: 2, id: "minecraft:fermented_spider_eye" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5F6091247A39EB1C"
+					type: "checkmark"
+				}
+			]
+			x: -2.45d
+			y: 13.125d
+		}
+		{
+			dependencies: [
+				"313E7CCB487A83D1"
+				"64A0469E411B28F0"
+				"34F52FDE047AF68A"
+			]
+			icon: { id: "minecraft:potion" }
+			id: "0D22AD3A0BA565E6"
+			title: "Cross-School Formula"
+			description: ["Complete one preparation that draws ingredients or infrastructure from multiple magic systems."]
+			rewards: [
+				{
+					id: "14D91A2EC841EC17"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "65B761386777911A"
+					item: { count: 10, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "06589411400970C0"
+					item: { count: 6, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "056361B7B3283F8F"
+					type: "checkmark"
+				}
+			]
+			x: -0.35d
+			y: 13.125d
+		}
+		{
+			dependencies: ["73D5A7D189912873"]
+			icon: { id: "minecraft:potion" }
+			id: "3CAC92F3BEC83B07"
+			title: "Boss Medicine Chest"
+			description: ["Stock a reusable chest of healing and resistance preparations for major encounters."]
+			rewards: [
+				{
+					id: "43A33B5170F014CC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "21D5FA598CE7AEF0"
+					item: { count: 10, id: "minecraft:redstone" }
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [
+				{
+					id: "23893077CF418D57"
+					type: "checkmark"
+				}
+			]
+			x: 2.975d
+			y: 15.75d
+		}
+		{
+			dependencies: [
+				"73D5A7D189912873"
+				"3CAC92F3BEC83B07"
+			]
+			icon: { id: "minecraft:potion" }
+			id: "4C16425A2F47899C"
+			title: "Master Apothecary"
+			description: ["Maintain a dedicated apothecary that pulls from farms, ranches, fishing, bees, wildlife and every mature magical school."]
+			rewards: [
+				{
+					id: "327C63894853B0BF"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "2F5CAC3EA0807661"
+					item: { count: 10, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "1D80157254E326A2"
+					item: { count: 6, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3BEC88C53EDACA3E"
+					type: "checkmark"
+				}
+			]
+			x: 1.75d
+			y: 18.375d
+		}
+	]
+}
