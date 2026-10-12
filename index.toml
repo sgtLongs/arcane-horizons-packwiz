@@ -614,11 +614,6 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
-file = "mods/irisshaders.pw.toml"
-hash = "763ed0c115b2b9a1e37e38cb153748c9c3f3c31869fd3d56acfaad54c63e78af"
-metafile = true
-
-[[files]]
 file = "mods/irons-lib.pw.toml"
 hash = "1b23f5a7defc103d67d16db0053ff2f6240436bb0d682f760865b590e3416a65"
 metafile = true
@@ -1005,7 +1000,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "617ec6e9893d59905035a510fe336addd46a97b6fd28fad88b70713ebf8e69e3"
+hash = "494ac377ff79aff5c3248b8b69469fb8773adca0a4cbc5ed1b248a93fe10cb2b"
 metafile = true
 
 [[files]]
