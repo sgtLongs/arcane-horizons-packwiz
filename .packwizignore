@@ -24,3 +24,7 @@ saves/
 /packwiz-files.txt
 /packwiz-registered-files.csv
 /mod-inventory.csv
+/mod-release-audit.csv
+/*.csv
+/*.txt
+/*.log

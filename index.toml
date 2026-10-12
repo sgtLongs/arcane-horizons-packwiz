@@ -113,10 +113,6 @@ file = "config/iris.properties"
 hash = "e2af31826bf4bd67cb0f868c3e07379571964a4709fe9a0fe862645731220275"
 
 [[files]]
-file = "installed-mods.txt"
-hash = "a7ee4d54b992d27ed6b274d9c9c0146dbdd5ebaa40b1e32e777f68095b28e42f"
-
-[[files]]
 file = "kubejs/server_scripts/arcane_horizons_expert_loot.js"
 hash = "129d6f03056d1fe4bc253a76f83b491fd0d3a817f7d23ad3132e08c64d0dbe7d"
 
@@ -127,10 +123,6 @@ hash = "d76202b868d6e99b3e0b8e90ba1927cc2c3b146ccc18f08cd1fc01468dabb98a"
 [[files]]
 file = "kubejs/startup_scripts/arcane_horizons_expert_metallurgy_items.js"
 hash = "7abc197ba04bdbe7d2d5b64c36fe10df287205d509e7cce1a1507a2646f2a451"
-
-[[files]]
-file = "mod-release-audit.csv"
-hash = "0e1837c0b869f4b027c02219e047cb0af4c79fc23771aa5b1d6334154f37b1ec"
 
 [[files]]
 file = "mods/aces-spell-utils.pw.toml"
