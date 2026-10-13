@@ -145,11 +145,6 @@ hash = "176c819c0421ebaeea291713232e921d9cdd83753348c97bc7ba9237c5c15912"
 metafile = true
 
 [[files]]
-file = "mods/animalhusbandry.pw.toml"
-hash = "e5f97f79b0c9371fb9a4d73c74b18ce1d07d5d1335a6e43958168f03005bcb73"
-metafile = true
-
-[[files]]
 file = "mods/aoa-core.pw.toml"
 hash = "42697caec0ca8ab5a5511dbf7f6370de6a10f5b4492a87d1cd848dfda547f7b0"
 metafile = true
@@ -902,11 +897,6 @@ metafile = true
 [[files]]
 file = "mods/pf-neoforge.pw.toml"
 hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
-metafile = true
-
-[[files]]
-file = "mods/pickloot.pw.toml"
-hash = "1849825017f00e774e22a7dc32c30f12193c10274ee079b933c6e83675db89da"
 metafile = true
 
 [[files]]
