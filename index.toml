@@ -121,8 +121,20 @@ file = "kubejs/server_scripts/arcane_horizons_expert_metallurgy.js"
 hash = "d76202b868d6e99b3e0b8e90ba1927cc2c3b146ccc18f08cd1fc01468dabb98a"
 
 [[files]]
+file = "kubejs/server_scripts/arcane_horizons_expert_metallurgy_rebalanced_tools.js"
+hash = "bb5f0201332cb4458bd9c614e70d60981e1c6a4b0d4b7cc857a5cdca8dd5a91e"
+
+[[files]]
+file = "kubejs/server_scripts/zinc_mining_level.js"
+hash = "9a02247616ec3787fb7de053ebbab4107180cdff4f5c18a1a96020e3616a21ea"
+
+[[files]]
+file = "kubejs/server_scripts/zz_arcane_horizons_expanded_progression.js"
+hash = "55f92124228dfd5a70db436d96abb3948ae0d79db6afafcae5a920a8e2bda29a"
+
+[[files]]
 file = "kubejs/startup_scripts/arcane_horizons_expert_metallurgy_items.js"
-hash = "7abc197ba04bdbe7d2d5b64c36fe10df287205d509e7cce1a1507a2646f2a451"
+hash = "dff7190dba227f8a7882a719a3d27f0ac2dc83849e8f68d2baceaa7628e0fcbe"
 
 [[files]]
 file = "mods/aces-spell-utils.pw.toml"
