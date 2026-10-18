@@ -122,7 +122,7 @@ hash = "d76202b868d6e99b3e0b8e90ba1927cc2c3b146ccc18f08cd1fc01468dabb98a"
 
 [[files]]
 file = "kubejs/server_scripts/arcane_horizons_expert_metallurgy_rebalanced_tools.js"
-hash = "bb5f0201332cb4458bd9c614e70d60981e1c6a4b0d4b7cc857a5cdca8dd5a91e"
+hash = "2aafe5f0a35df57d62dc1f4ad94ebf602102a2aa72115f589765c963592766db"
 
 [[files]]
 file = "kubejs/server_scripts/zinc_mining_level.js"

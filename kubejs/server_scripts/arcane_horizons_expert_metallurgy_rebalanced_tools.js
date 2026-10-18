@@ -547,7 +547,7 @@ ServerEvents.recipes(event => {
             type: 'occultism:crushing',
             ingredient: { item: advancedFeed },
             min_tier: 1,
-            result: { id: ingot, count: 2 },
+            result: { type: 'occultism:item', id: ingot, count: 2 },
             crushing_time: 200,
             ignore_crushing_multiplier: true
         }).id(`arcane_horizons:occultism/advanced_${metal}_2x`)
@@ -556,7 +556,7 @@ ServerEvents.recipes(event => {
             type: 'occultism:crushing',
             ingredient: { item: arcaneFeed },
             min_tier: 2,
-            result: { id: ingot, count: 3 },
+            result: { type: 'occultism:item', id: ingot, count: 3 },
             crushing_time: 200,
             ignore_crushing_multiplier: true
         }).id(`arcane_horizons:occultism/arcane_${metal}_3x`)
@@ -565,7 +565,7 @@ ServerEvents.recipes(event => {
             type: 'occultism:crushing',
             ingredient: { item: mythicFeed },
             min_tier: 4,
-            result: { id: ingot, count: 6 },
+            result: { type: 'occultism:item', id: ingot, count: 6 },
             crushing_time: 200,
             ignore_crushing_multiplier: true
         }).id(`arcane_horizons:occultism/mythic_${metal}_6x`)
