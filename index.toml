@@ -125,6 +125,10 @@ file = "kubejs/server_scripts/arcane_horizons_expert_metallurgy_rebalanced_tools
 hash = "2aafe5f0a35df57d62dc1f4ad94ebf602102a2aa72115f589765c963592766db"
 
 [[files]]
+file = "kubejs/server_scripts/doggy_talents_copper_recipes.js"
+hash = "8430630b7459a0f487f2f0b2be5e7ef54451c7dd7aeab017015e38b5c339d188"
+
+[[files]]
 file = "kubejs/server_scripts/zinc_mining_level.js"
 hash = "9a02247616ec3787fb7de053ebbab4107180cdff4f5c18a1a96020e3616a21ea"
 
