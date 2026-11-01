@@ -1,0 +1,13 @@
+name = "Resource Library"
+filename = "resourcelibrary-neoforge-1.21.1-2.10.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XLhounCW/versions/5kt8wQJB/resourcelibrary-neoforge-1.21.1-2.10.0.jar"
+hash-format = "sha512"
+hash = "6f3b5eec4ad499f9ea34a8854fb5797d80d88061f25d9f8c216d3c190ff1214c3921df60ca23d8fa1e33eaedecc49405a93b92bb5b684dc90adaaa646b92e072"
+
+[update]
+[update.modrinth]
+mod-id = "XLhounCW"
+version = "5kt8wQJB"

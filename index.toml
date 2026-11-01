@@ -1006,6 +1006,11 @@ hash = "1aea2066b53b965cc351bdae774e57fc729fc238cce7731e5f90b4b61b0b0464"
 metafile = true
 
 [[files]]
+file = "mods/resource-library.pw.toml"
+hash = "a9e8131690338504977bf975d5ccaf97c602113b2bcca8e1c2f5fb2faffe47a9"
+metafile = true
+
+[[files]]
 file = "mods/resource-nether-ores.pw.toml"
 hash = "df3abbd6b25d7de9b952b887fb9e872f5584c3f70898c02cebbc33301032f212"
 metafile = true
