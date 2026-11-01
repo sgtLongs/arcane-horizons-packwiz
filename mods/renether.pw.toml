@@ -1,0 +1,13 @@
+name = "ReNether"
+filename = "renether-2.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WtQNMBIP/versions/AzbGldzG/renether-2.2-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "f9f47c3b6f380820655c13da9d7d91582db7f4f1d1e8d74c7f6e38c8239d1a473b359308c4bc089510d63893795ccff797df0097fefe21a21d6e4ad852117df7"
+
+[update]
+[update.modrinth]
+mod-id = "WtQNMBIP"
+version = "AzbGldzG"

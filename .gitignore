@@ -8,6 +8,7 @@
 !/.gitignore
 !/.gitattributes
 !/.nojekyll
+!/ADDING_MODS.md
 
 # Modpack distribution files
 !/mods/

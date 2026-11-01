@@ -1,0 +1,13 @@
+name = "Resource Nether Ores"
+filename = "resource_nether_ores-neoforge-1.21.1-2.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GXPQteCw/versions/BQFn0XmI/resource_nether_ores-neoforge-1.21.1-2.5.0.jar"
+hash-format = "sha512"
+hash = "8a4fe73830dbe16f67c568a0ec85b138c3b3f9cf280ce7f21e6e2fc9fda90af23029b34cc85c0cdadc970816559e1afe5d7a23f6edf914b018a338a636d1cf43"
+
+[update]
+[update.modrinth]
+mod-id = "GXPQteCw"
+version = "BQFn0XmI"
