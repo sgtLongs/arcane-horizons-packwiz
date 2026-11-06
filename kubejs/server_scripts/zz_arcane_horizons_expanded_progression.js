@@ -194,7 +194,7 @@ ServerEvents.recipes(event => {
             'SCS'
         ], {
             S: 'create:sturdy_sheet',
-            E: 'createaddition:electric_motor',
+            E: 'create_new_age:advanced_motor',
             A: 'create:andesite_alloy',
             F: 'arcane_horizons:flight_control_assembly',
             C: 'arcane_horizons:industrial_control_unit'

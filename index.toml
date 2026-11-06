@@ -109,20 +109,56 @@ file = "config/ftbquests/quests/lang/en_us.snbt"
 hash = "93c8bdcb5952c7c073e0643bcff3706a7bf6b3eef6acde40d4349c64179b66a0"
 
 [[files]]
+file = "config/incontrol/spawn.json"
+hash = "3515af5397faaa16f722a09e2cf8921e31c38ea0b8ac90759b61a77ba6a65561"
+
+[[files]]
 file = "config/iris.properties"
 hash = "e2af31826bf4bd67cb0f868c3e07379571964a4709fe9a0fe862645731220275"
+
+[[files]]
+file = "kubejs/data/arcane_horizons/tier_augments/ascent/attack_damage.json"
+hash = "bf514e5c42b3eeb0688bd700a8d2d46a3466d0df2a726335f780f6559d0fa2cf"
+
+[[files]]
+file = "kubejs/data/arcane_horizons/tier_augments/ascent/max_health.json"
+hash = "d9a76b70a7210136759cec43c9c65d0add11a54ecce32d2a51a4d273ea488d86"
+
+[[files]]
+file = "kubejs/data/arcane_horizons/tier_augments/frontier/attack_damage.json"
+hash = "2fd0aef13363d60ed9743efd75488b353d7b3d1cb57cab991f6a2f68153411d3"
+
+[[files]]
+file = "kubejs/data/arcane_horizons/tier_augments/frontier/max_health.json"
+hash = "ca97e58c7cc1e9c760b911e5009a478ce587c05e02744e196dc118acb2032b46"
+
+[[files]]
+file = "kubejs/data/arcane_horizons/tier_augments/pinnacle/attack_damage.json"
+hash = "8d9c5956c6300f30cbd4e8fafd44aab12cda71199f6b3aebafe49d1de24227a9"
+
+[[files]]
+file = "kubejs/data/arcane_horizons/tier_augments/pinnacle/max_health.json"
+hash = "02e552f6a8647c7faa1dfdd09a69ddaa865cfdbd0d60082984d3dc8bc7d5d22b"
+
+[[files]]
+file = "kubejs/data/arcane_horizons/tier_augments/summit/attack_damage.json"
+hash = "97803c291f3f0c53471b9853892c8cdc7a410b6201c52ad46ca18decf74ee469"
+
+[[files]]
+file = "kubejs/data/arcane_horizons/tier_augments/summit/max_health.json"
+hash = "4eac3262ed6184d163a1446ab8d4df4aa19800df9b5d6513d64f6f140e429205"
 
 [[files]]
 file = "kubejs/server_scripts/arcane_horizons_expert_loot.js"
 hash = "129d6f03056d1fe4bc253a76f83b491fd0d3a817f7d23ad3132e08c64d0dbe7d"
 
 [[files]]
-file = "kubejs/server_scripts/arcane_horizons_expert_metallurgy.js"
-hash = "d76202b868d6e99b3e0b8e90ba1927cc2c3b146ccc18f08cd1fc01468dabb98a"
-
-[[files]]
 file = "kubejs/server_scripts/arcane_horizons_expert_metallurgy_rebalanced_tools.js"
 hash = "2aafe5f0a35df57d62dc1f4ad94ebf602102a2aa72115f589765c963592766db"
+
+[[files]]
+file = "kubejs/server_scripts/arcane_horizons_new_age_electricity.js"
+hash = "c8d99d3abbee249340abef1a434ba9b5fe54edb2a1551a9897c8d22272b58b94"
 
 [[files]]
 file = "kubejs/server_scripts/doggy_talents_copper_recipes.js"
@@ -134,7 +170,7 @@ hash = "9a02247616ec3787fb7de053ebbab4107180cdff4f5c18a1a96020e3616a21ea"
 
 [[files]]
 file = "kubejs/server_scripts/zz_arcane_horizons_expanded_progression.js"
-hash = "55f92124228dfd5a70db436d96abb3948ae0d79db6afafcae5a920a8e2bda29a"
+hash = "f9abafc41eaff5c060066dbd54e85144ba6fc4039e38af91d88c85bba7e32b66"
 
 [[files]]
 file = "kubejs/startup_scripts/arcane_horizons_expert_metallurgy_items.js"
@@ -651,6 +687,11 @@ hash = "91875c996a9958aeea794843fb449915218625f52aaf0234ccd1faffa887e277"
 metafile = true
 
 [[files]]
+file = "mods/in-control.pw.toml"
+hash = "5aedbe06cda7659f0d37cbfe79f6e35b0d64ee327aff40c9c1fb132604132972"
+metafile = true
+
+[[files]]
 file = "mods/inventory-essentials.pw.toml"
 hash = "8ed1d89bfcb006c0f65f6cb7da568edae3a673cd95ce29df62d26144cb5ee83d"
 metafile = true
@@ -878,6 +919,11 @@ metafile = true
 [[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "ef5e19ba6a664e7d2b3d54723e3d3f05c0d9e987d807ecb899c1c2ba1a509519"
+metafile = true
+
+[[files]]
+file = "mods/mutant-monsters.pw.toml"
+hash = "e672245ac368cb42b521a0be668fed61a5b5129d25eec7b8db7722e8f49e2292"
 metafile = true
 
 [[files]]

@@ -1,0 +1,42 @@
+[
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "maxheight": 0,
+    "healthmultiply": 1.7,
+    "damagemultiply": 1.4
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "maxheight": 32,
+    "healthmultiply": 1.45,
+    "damagemultiply": 1.3
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "seesky": true,
+    "mintime": 13000,
+    "maxtime": 23000,
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.1
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:the_nether",
+    "hostile": true,
+    "healthmultiply": 1.5,
+    "damagemultiply": 1.3
+  },
+  {
+    "when": "finalize",
+    "dimension": "minecraft:the_end",
+    "hostile": true,
+    "healthmultiply": 1.75,
+    "damagemultiply": 1.4
+  }
+]
