@@ -218,7 +218,7 @@ hash = "f9abafc41eaff5c060066dbd54e85144ba6fc4039e38af91d88c85bba7e32b66"
 
 [[files]]
 file = "kubejs/server_scripts/zzz_arcane_horizons_nuclear_endgame.js"
-hash = "b392e01750e311bef11526cb326bd73e38aedc93de4e50cb084328fe1e66b094"
+hash = "9fd888f3a9230dbd32437d410e3a8c45e18b5b557073bfbba17670c12e163c6e"
 
 [[files]]
 file = "kubejs/startup_scripts/arcane_horizons_expert_metallurgy_items.js"
@@ -767,6 +767,11 @@ metafile = true
 [[files]]
 file = "mods/immersiveengineering.pw.toml"
 hash = "91875c996a9958aeea794843fb449915218625f52aaf0234ccd1faffa887e277"
+metafile = true
+
+[[files]]
+file = "mods/immersivemusicmod.pw.toml"
+hash = "4f7f641ae9b6c17fd302289c7f79b0afff7c54b10106f9b68c7220a1623aab22"
 metafile = true
 
 [[files]]

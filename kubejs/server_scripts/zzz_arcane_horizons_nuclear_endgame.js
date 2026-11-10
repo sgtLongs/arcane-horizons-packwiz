@@ -5,7 +5,10 @@
 // machines must not bypass the established Create/Occultism metallurgy ladder.
 
 ServerEvents.recipes(event => {
-    const replaceShaped = (output, pattern, key, id) => {
+    // Rhino can execute recipe callbacks in a shared scope during reloads.
+    // Pack-prefixed `var` helpers avoid lexical redeclaration collisions with
+    // helpers in the other progression scripts and tolerate repeated reloads.
+    var ahEndgameReplaceShaped = (output, pattern, key, id) => {
         const outputId = output.replace(/^\d+x\s+/, '')
         event.remove({ output: outputId })
         event.shaped(output, pattern, key).id(`arcane_horizons:endgame/${id}`)
@@ -14,15 +17,15 @@ ServerEvents.recipes(event => {
     // Extended Crafting stores every singularity type as a data component on
     // one shared item. Recipes must therefore match the component as well as
     // the base item or any singularity could be substituted for any other.
-    const singularity = id => ({
+    var ahEndgameSingularityIngredient = id => ({
         type: 'neoforge:components',
         items: 'extendedcrafting:singularity',
         components: { 'extendedcrafting:singularity_id': `extendedcrafting:${id}` }
     })
 
-    const consumedSingularity = id => ({
+    var ahEndgameConsumedSingularity = id => ({
         consume: true,
-        ingredient: singularity(id)
+        ingredient: ahEndgameSingularityIngredient(id)
     })
 
     if (Platform.isLoaded('pneumaticcraft')) {
@@ -45,7 +48,7 @@ ServerEvents.recipes(event => {
             results: [{ count: 1, id: 'pneumaticcraft:compressed_iron_block' }]
         }).id('arcane_horizons:endgame/compressed_iron_block_from_steel')
 
-        replaceShaped('pneumaticcraft:air_compressor', [
+        ahEndgameReplaceShaped('pneumaticcraft:air_compressor', [
             'SSS',
             'S T',
             'MFS'
@@ -65,7 +68,7 @@ ServerEvents.recipes(event => {
         event.remove({ id: /^createoreexcavation:drilling\/.+$/ })
         event.remove({ id: /^createoreexcavation:extractor\/.+$/ })
 
-        const industrialVein = (id, name, icon, output, ticks, stress, salt) => {
+        var ahEndgameIndustrialVein = (id, name, icon, output, ticks, stress, salt) => {
             const veinId = `arcane_horizons:${id}_vein`
             event.recipes.createoreexcavation.vein(`{"text":"${name}"}`, icon)
                 .placement(1024, 128, salt)
@@ -78,12 +81,12 @@ ServerEvents.recipes(event => {
                 .id(`arcane_horizons:${id}_drilling`)
         }
 
-        industrialVein('coal_seam', 'Industrial Coal Seam', 'minecraft:coal', 'minecraft:coal', 800, 512, 71930211)
-        industrialVein('calcite_bed', 'Calcite Bed', 'minecraft:calcite', 'minecraft:calcite', 700, 512, 71930212)
-        industrialVein('clay_bed', 'Deep Clay Bed', 'minecraft:clay_ball', 'minecraft:clay_ball', 600, 512, 71930213)
-        industrialVein('quartz_lode', 'Quartz Lode', 'minecraft:quartz', 'minecraft:quartz', 1000, 768, 71930214)
-        industrialVein('sulfur_bed', 'Sulfur Bed', 'immersiveengineering:dust_sulfur', 'immersiveengineering:dust_sulfur', 1200, 1024, 71930215)
-        industrialVein('saltpeter_bed', 'Saltpeter Bed', 'immersiveengineering:dust_saltpeter', 'immersiveengineering:dust_saltpeter', 1200, 1024, 71930216)
+        ahEndgameIndustrialVein('coal_seam', 'Industrial Coal Seam', 'minecraft:coal', 'minecraft:coal', 800, 512, 71930211)
+        ahEndgameIndustrialVein('calcite_bed', 'Calcite Bed', 'minecraft:calcite', 'minecraft:calcite', 700, 512, 71930212)
+        ahEndgameIndustrialVein('clay_bed', 'Deep Clay Bed', 'minecraft:clay_ball', 'minecraft:clay_ball', 600, 512, 71930213)
+        ahEndgameIndustrialVein('quartz_lode', 'Quartz Lode', 'minecraft:quartz', 'minecraft:quartz', 1000, 768, 71930214)
+        ahEndgameIndustrialVein('sulfur_bed', 'Sulfur Bed', 'immersiveengineering:dust_sulfur', 'immersiveengineering:dust_sulfur', 1200, 1024, 71930215)
+        ahEndgameIndustrialVein('saltpeter_bed', 'Saltpeter Bed', 'immersiveengineering:dust_saltpeter', 'immersiveengineering:dust_saltpeter', 1200, 1024, 71930216)
 
         event.remove({ output: 'createoreexcavation:drilling_machine' })
         event.recipes.create.mechanical_crafting('createoreexcavation:drilling_machine', [
@@ -116,8 +119,8 @@ ServerEvents.recipes(event => {
         // yield: Enrichment 2x, Purification 3x, Injection 4x, Dissolution 5x.
         // Zinc and silver stay in Create/IE because Mekanism has no native
         // clump, shard, slurry, or crystal chain for them.
-        const mekanismMetals = ['copper', 'tin', 'iron', 'gold']
-        mekanismMetals.forEach(metal => {
+        var ahEndgameMekanismMetals = ['copper', 'tin', 'iron', 'gold']
+        ahEndgameMekanismMetals.forEach(metal => {
             const feed = { count: 1, item: `kubejs:rich_${metal}_concentrate` }
 
             event.custom({
@@ -153,7 +156,7 @@ ServerEvents.recipes(event => {
 
         // Entry requires the post-End dimensional milestone plus established
         // IE, PneumaticCraft, and Create: New Age production facilities.
-        replaceShaped('mekanism:metallurgic_infuser', [
+        ahEndgameReplaceShaped('mekanism:metallurgic_infuser', [
             'HCH',
             'PDP',
             'AMA'
@@ -168,7 +171,7 @@ ServerEvents.recipes(event => {
 
         // Every serious Mekanism machine continues to draw on the older
         // industrial districts instead of becoming a self-contained shortcut.
-        replaceShaped('mekanism:steel_casing', [
+        ahEndgameReplaceShaped('mekanism:steel_casing', [
             'SCS',
             'EHE',
             'SPS'
@@ -183,7 +186,7 @@ ServerEvents.recipes(event => {
         // The stock Heat Generator otherwise requires no Mekanism machinery
         // and would provide an early electrical bypass.
         if (Platform.isLoaded('mekanismgenerators')) {
-            replaceShaped('mekanismgenerators:heat_generator', [
+            ahEndgameReplaceShaped('mekanismgenerators:heat_generator', [
                 'SGS',
                 'CHC',
                 'SMS'
@@ -199,7 +202,7 @@ ServerEvents.recipes(event => {
         // Teleportation, QIO, and entanglement are nuclear-era conveniences.
         // Gating their shared core prevents each downstream recipe from needing
         // another bespoke pack item.
-        replaceShaped('mekanism:teleportation_core', [
+        ahEndgameReplaceShaped('mekanism:teleportation_core', [
             'AIA',
             'PDP',
             'AIA'
@@ -225,11 +228,11 @@ ServerEvents.recipes(event => {
             key: {
                 T: { item: 'mekanism:teleportation_core' },
                 A: { tag: 'c:pellets/antimatter' },
-                S: singularity('steel'),
-                B: singularity('brass'),
-                C: singularity('compressed_iron'),
-                E: singularity('advanced_electronics'),
-                P: singularity('pneumatic_pcb'),
+                S: ahEndgameSingularityIngredient('steel'),
+                B: ahEndgameSingularityIngredient('brass'),
+                C: ahEndgameSingularityIngredient('compressed_iron'),
+                E: ahEndgameSingularityIngredient('advanced_electronics'),
+                P: ahEndgameSingularityIngredient('pneumatic_pcb'),
                 R: { item: 'mekanism:robit' }
             },
             result: { count: 1, id: 'mekanism:digital_miner' }
@@ -237,7 +240,7 @@ ServerEvents.recipes(event => {
 
         // High-speed handheld mining waits for fission and the existing
         // dimensional campaign; the Meka-Tool consequently remains later still.
-        replaceShaped('mekanism:atomic_disassembler', [
+        ahEndgameReplaceShaped('mekanism:atomic_disassembler', [
             'UQU',
             'ADA',
             'UMU'
@@ -252,7 +255,7 @@ ServerEvents.recipes(event => {
         if (Platform.isLoaded('mekanismgenerators')) {
             // The reactor shell remains a bulk recipe, but now consumes mature
             // IE structure and electronics as well as Mekanism's own casing.
-            replaceShaped('4x mekanismgenerators:fission_reactor_casing', [
+            ahEndgameReplaceShaped('4x mekanismgenerators:fission_reactor_casing', [
                 'LBL',
                 'BSB',
                 'LBL'
@@ -264,7 +267,7 @@ ServerEvents.recipes(event => {
 
             // Fusion requires demonstrated fission reprocessing rather than
             // only high-tier circuits.
-            replaceShaped('mekanismgenerators:fusion_reactor_controller', [
+            ahEndgameReplaceShaped('mekanismgenerators:fusion_reactor_controller', [
                 'UPU',
                 'FCF',
                 'URU'
@@ -278,7 +281,7 @@ ServerEvents.recipes(event => {
 
             // At least one extra fusion controller is invested in the SPS port,
             // enforcing the fission -> fusion -> antimatter construction order.
-            replaceShaped('mekanism:sps_port', [
+            ahEndgameReplaceShaped('mekanism:sps_port', [
                 'SUS',
                 'SFS',
                 'SUS'
@@ -292,7 +295,7 @@ ServerEvents.recipes(event => {
 
     if (Platform.isLoaded('extendedcrafting') && Platform.isLoaded('mekanism')) {
         // Singularity production begins only after fission/fusion components.
-        replaceShaped('extendedcrafting:compressor', [
+        ahEndgameReplaceShaped('extendedcrafting:compressor', [
             'SUS',
             'PFP',
             'SCS'
@@ -306,7 +309,7 @@ ServerEvents.recipes(event => {
 
         // The 9x9 table is an antimatter-era machine. The compressor can be
         // built earlier so factories can accumulate singularities in parallel.
-        replaceShaped('extendedcrafting:ultimate_table', [
+        ahEndgameReplaceShaped('extendedcrafting:ultimate_table', [
             'AUA',
             'CDC',
             'AEA'
@@ -321,7 +324,7 @@ ServerEvents.recipes(event => {
 
     if (Platform.isLoaded('draconicevolution') && Platform.isLoaded('mekanism')) {
         // Basic Draconic infrastructure begins after fission.
-        replaceShaped('draconicevolution:draconium_core', [
+        ahEndgameReplaceShaped('draconicevolution:draconium_core', [
             'DUD',
             'UPU',
             'DUD'
@@ -332,7 +335,7 @@ ServerEvents.recipes(event => {
         }, 'draconium_core')
 
         // Wyvern technology is the first antimatter consumer.
-        replaceShaped('draconicevolution:wyvern_core', [
+        ahEndgameReplaceShaped('draconicevolution:wyvern_core', [
             'BNB',
             'CAC',
             'BNB'
@@ -362,9 +365,9 @@ ServerEvents.recipes(event => {
                 { consume: true, ingredient: { item: 'mekanism:pellet_antimatter' } },
                 { consume: true, ingredient: { item: 'minecraft:dragon_breath' } },
                 { consume: true, ingredient: { item: 'arcane_horizons:dimensional_matrix' } },
-                consumedSingularity('source'),
-                consumedSingularity('spirit_attunement'),
-                consumedSingularity('aureal')
+                ahEndgameConsumedSingularity('source'),
+                ahEndgameConsumedSingularity('spirit_attunement'),
+                ahEndgameConsumedSingularity('aureal')
             ],
             result: { count: 1, id: 'draconicevolution:awakened_core' },
             techLevel: 'wyvern',
@@ -391,9 +394,9 @@ ServerEvents.recipes(event => {
                 { consume: true, ingredient: { item: 'draconicevolution:large_chaos_frag' } },
                 { consume: true, ingredient: { item: 'draconicevolution:large_chaos_frag' } },
                 { consume: true, ingredient: { item: 'kubejs:mythic_metallurgical_catalyst' } },
-                consumedSingularity('flux_power'),
-                consumedSingularity('ultimate_circuit'),
-                consumedSingularity('antimatter')
+                ahEndgameConsumedSingularity('flux_power'),
+                ahEndgameConsumedSingularity('ultimate_circuit'),
+                ahEndgameConsumedSingularity('antimatter')
             ],
             result: { count: 1, id: 'draconicevolution:chaotic_core' },
             techLevel: 'draconic',
