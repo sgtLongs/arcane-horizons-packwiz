@@ -1,0 +1,7 @@
+{
+  "name": "Brass",
+  "colors": ["E8C65A", "8E6A21"],
+  "ingredient": { "item": "create:brass_ingot" },
+  "materialCount": 8192,
+  "inUltimateSingularity": true
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Ultimate Control",
+  "colors": ["E48CFF", "622C76"],
+  "ingredient": { "item": "mekanism:ultimate_control_circuit" },
+  "materialCount": 1024,
+  "inUltimateSingularity": true
+}

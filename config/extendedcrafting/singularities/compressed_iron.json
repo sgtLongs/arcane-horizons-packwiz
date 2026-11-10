@@ -1,0 +1,7 @@
+{
+  "name": "Compressed Iron",
+  "colors": ["B8B8B8", "555A5E"],
+  "ingredient": { "item": "pneumaticcraft:ingot_iron_compressed" },
+  "materialCount": 8192,
+  "inUltimateSingularity": true
+}

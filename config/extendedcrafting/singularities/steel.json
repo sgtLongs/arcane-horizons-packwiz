@@ -1,0 +1,7 @@
+{
+  "name": "Steel",
+  "colors": ["8D9498", "3E454A"],
+  "ingredient": { "item": "immersiveengineering:ingot_steel" },
+  "materialCount": 16384,
+  "inUltimateSingularity": true
+}

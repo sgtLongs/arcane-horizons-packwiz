@@ -1,0 +1,7 @@
+{
+  "name": "Advanced Electronics",
+  "colors": ["65D6A7", "183C37"],
+  "ingredient": { "item": "immersiveengineering:component_electronic_adv" },
+  "materialCount": 2048,
+  "inUltimateSingularity": true
+}

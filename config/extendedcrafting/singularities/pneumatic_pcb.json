@@ -1,0 +1,7 @@
+{
+  "name": "Pneumatic PCB",
+  "colors": ["3AAE55", "15391F"],
+  "ingredient": { "item": "pneumaticcraft:printed_circuit_board" },
+  "materialCount": 2048,
+  "inUltimateSingularity": true
+}

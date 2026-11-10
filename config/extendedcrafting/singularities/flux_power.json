@@ -1,0 +1,7 @@
+{
+  "name": "Flux Power",
+  "colors": ["F74343", "6E1010"],
+  "ingredient": { "item": "extendedcrafting:flux_star" },
+  "materialCount": 512,
+  "inUltimateSingularity": true
+}

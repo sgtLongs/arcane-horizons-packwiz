@@ -1,0 +1,7 @@
+{
+  "name": "Spirit Attunement",
+  "colors": ["B793FF", "38245C"],
+  "ingredient": { "item": "occultism:spirit_attuned_gem" },
+  "materialCount": 4096,
+  "inUltimateSingularity": true
+}

@@ -5,6 +5,50 @@ file = ".nojekyll"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/extendedcrafting/singularities/advanced_electronics.json"
+hash = "8c7401d337441ae1a3db92ac5306d449614ce46643c3e4e18cf086a57859d6bb"
+
+[[files]]
+file = "config/extendedcrafting/singularities/antimatter.json"
+hash = "c76c52e4b7e4ac9c23fd302ffcc0d38e84c595b04610155c456b6baf906a5c7b"
+
+[[files]]
+file = "config/extendedcrafting/singularities/aureal.json"
+hash = "201ee7b9584ab956be12ea054b52acd2c72344b089b21783cada4151a1ce5152"
+
+[[files]]
+file = "config/extendedcrafting/singularities/brass.json"
+hash = "e0a9c7b94d4747ff927d244bb84cbf041c788715cce4d58b662010b9eb172ebf"
+
+[[files]]
+file = "config/extendedcrafting/singularities/compressed_iron.json"
+hash = "8db399214ce0bc3a86d1cf8119068e236371b900649cc1c270d7cccb862fe7f2"
+
+[[files]]
+file = "config/extendedcrafting/singularities/flux_power.json"
+hash = "a4551378e102b0c08a5d872f603831b15907bae73a975f204aed3895f0140ea4"
+
+[[files]]
+file = "config/extendedcrafting/singularities/pneumatic_pcb.json"
+hash = "5ba361f89b53a84aa1fc4ab4f7f4d079410b353b32482272edea98b7648b54c6"
+
+[[files]]
+file = "config/extendedcrafting/singularities/source.json"
+hash = "f0f9ac1e555200e6360d2740391e174dcb2cd2a15dc7ef18058af9f133ba455e"
+
+[[files]]
+file = "config/extendedcrafting/singularities/spirit_attunement.json"
+hash = "e4408f2b8e08ff89e84d6878730e0e4c9f8bcfaa75c91d57cd8209fbcf1ddf13"
+
+[[files]]
+file = "config/extendedcrafting/singularities/steel.json"
+hash = "b56af24bc815957e83ec7354fc67be0d29638a39e011d0ce28ce2505709e4fb7"
+
+[[files]]
+file = "config/extendedcrafting/singularities/ultimate_circuit.json"
+hash = "a46ee53f37814e00ef282c6459c1ec0affe6a0f2ea0accf3437978ee66d18eb6"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
@@ -173,6 +217,10 @@ file = "kubejs/server_scripts/zz_arcane_horizons_expanded_progression.js"
 hash = "f9abafc41eaff5c060066dbd54e85144ba6fc4039e38af91d88c85bba7e32b66"
 
 [[files]]
+file = "kubejs/server_scripts/zzz_arcane_horizons_nuclear_endgame.js"
+hash = "b392e01750e311bef11526cb326bd73e38aedc93de4e50cb084328fe1e66b094"
+
+[[files]]
 file = "kubejs/startup_scripts/arcane_horizons_expert_metallurgy_items.js"
 hash = "dff7190dba227f8a7882a719a3d27f0ac2dc83849e8f68d2baceaa7628e0fcbe"
 
@@ -332,6 +380,11 @@ hash = "4a7d85fc2f67432dad21dd3b316a557ff73d1b4992a54cc1e0877d2ae0c8207a"
 metafile = true
 
 [[files]]
+file = "mods/brandons-core.pw.toml"
+hash = "e86ba611faf7caeed1ea1191e17d6f396e9467a055facf94ab106ef87c24b305"
+metafile = true
+
+[[files]]
 file = "mods/carbon-config.pw.toml"
 hash = "f2c200174b5797315f33dcbe733625529cdf7940500c923d7971a04eda202c83"
 metafile = true
@@ -364,6 +417,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
+metafile = true
+
+[[files]]
+file = "mods/codechicken-lib.pw.toml"
+hash = "1e1678b169096708fcb92496f251260471221554f70ca0dab1b99f2a6b72ea7b"
 metafile = true
 
 [[files]]
@@ -472,6 +530,11 @@ hash = "39499039e11a6e0f50542d80af94c172342fdb686f3a59d5ee4457d978a54e75"
 metafile = true
 
 [[files]]
+file = "mods/create-ore-excavation.pw.toml"
+hash = "10d3389f72e8e8f78518f5b6786ccec4e62dbad117491d2970e8e1f75e390251"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
 hash = "80332cead695f1e3c27e99133a48709767d1106f836792bb2fc4d594b88f1a68"
 metafile = true
@@ -507,6 +570,11 @@ hash = "b065a8cb99a887abb2c434b84e3fa84f1e62cf500b1b9f50c86a4b48e4bdcc4f"
 metafile = true
 
 [[files]]
+file = "mods/cucumber.pw.toml"
+hash = "b2059d79bf6e41281a26b5b75a8f0cb20804079fe49a22042a26aa5ce28ba7f5"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
 metafile = true
@@ -529,6 +597,11 @@ metafile = true
 [[files]]
 file = "mods/doggy-talents-next.pw.toml"
 hash = "4dc4b35767b1869c41addaa0cd8f26d8ec55d01e75efd3a2a01dd43420cc7f45"
+metafile = true
+
+[[files]]
+file = "mods/draconic-evolution.pw.toml"
+hash = "61dbbdcc41c7bf50540b8d1e83fdf61d9367f392690b45d3cdece8aad55370ac"
 metafile = true
 
 [[files]]
@@ -582,6 +655,11 @@ hash = "c21fdfb4055a25a2658c58995e0088f973b570c0c0b60e3bb8bf8291fa2a8e64"
 metafile = true
 
 [[files]]
+file = "mods/extended-crafting.pw.toml"
+hash = "ba64df29d7c2f4c93f22df576ac4d217eeb695cab602769dc03bbebf1868aa6b"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
 metafile = true
@@ -594,6 +672,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/forbidden-arcanus.pw.toml"
+hash = "1781b20756b9c2b0bd930e18bbe7cd8c66d822018d95d74b5ffbbfac19aa94ff"
 metafile = true
 
 [[files]]
@@ -867,6 +950,16 @@ hash = "85b0bb55b80d196b879fe6755cd7cc509f6ecd5706bb25acd43826da5335dd57"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-generators.pw.toml"
+hash = "0ec2ceb5602df266d2e07bdc0bc409cdd3d325a6b5136554787779cdf8057a27"
+metafile = true
+
+[[files]]
+file = "mods/mekanism.pw.toml"
+hash = "42061fd570a0b7a8063c0860056c6391593190caa0f12d3b49105e52a56817fe"
+metafile = true
+
+[[files]]
 file = "mods/mns-moogs-nether-structures.pw.toml"
 hash = "98ceb2590dd22cedeaca03ab328de244e03047c3454aee6c155664913257e244"
 metafile = true
@@ -1004,6 +1097,11 @@ metafile = true
 [[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+metafile = true
+
+[[files]]
+file = "mods/pneumaticcraft-repressurized.pw.toml"
+hash = "46838ef65d3c86f6b77f136f525ecf234a0c48fb6bba19a267a179861cc924da"
 metafile = true
 
 [[files]]
@@ -1224,6 +1322,11 @@ metafile = true
 [[files]]
 file = "mods/universal-sawmill.pw.toml"
 hash = "e64376be6101f6ba8a1af9db49d5b256279681abada369bbd078b965c4a0ea9d"
+metafile = true
+
+[[files]]
+file = "mods/valhelsia-core.pw.toml"
+hash = "f05197caaa06d6cf3807ae2d81928c4f5eff1336597b863207c6320ab7f2e4b0"
 metafile = true
 
 [[files]]

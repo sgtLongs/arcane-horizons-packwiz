@@ -1,0 +1,7 @@
+{
+  "name": "Aureal",
+  "colors": ["F7E7A0", "B68B29"],
+  "ingredient": { "item": "forbidden_arcanus:aureal_bottle" },
+  "materialCount": 2048,
+  "inUltimateSingularity": true
+}
