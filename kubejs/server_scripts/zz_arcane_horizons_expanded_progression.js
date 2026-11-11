@@ -16,9 +16,9 @@ ServerEvents.recipes(event => {
         event.custom({
             type: 'ars_nouveau:enchanting_apparatus',
             keepNbtOfReagent: false,
-            output: output,
             pedestalItems: pedestalItems.map(item => ({ item: item })),
-            reagent: [{ item: reagent }],
+            reagent: { item: reagent },
+            result: { id: output.item, count: output.count || 1 },
             sourceCost: sourceCost
         }).id(`arcane_horizons:expanded/${id}`)
     }
@@ -58,11 +58,11 @@ ServerEvents.recipes(event => {
     // One early Twilight boss cycle supplies enough cores for the first
     // factory tier. Later recipes use the renewable core, not boss drops.
     event.recipes.create.mechanical_crafting('8x arcane_horizons:twilight_core', [
-        ' NSSS ',
+        ' NSS ',
         'NSTSN',
         'SSLSS',
         'NSTSN',
-        ' NSSS '
+        ' NSS '
     ], {
         N: 'twilightforest:naga_scale',
         S: '#c:plates/steel',

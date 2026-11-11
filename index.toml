@@ -114,7 +114,7 @@ hash = "9a02247616ec3787fb7de053ebbab4107180cdff4f5c18a1a96020e3616a21ea"
 
 [[files]]
 file = "kubejs/server_scripts/zz_arcane_horizons_expanded_progression.js"
-hash = "358592df212b586457848df8b7c618b20fbb13f280592fe071643b37119cd63a"
+hash = "64919d88d202e0b4afa544875762ae74fc9b6a4cd858756dfef52f80ce7e0310"
 
 [[files]]
 file = "kubejs/server_scripts/zzz_arcane_horizons_nuclear_endgame.js"
