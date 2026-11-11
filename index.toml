@@ -665,6 +665,11 @@ hash = "91875c996a9958aeea794843fb449915218625f52aaf0234ccd1faffa887e277"
 metafile = true
 
 [[files]]
+file = "mods/immersivemusicmod.pw.toml"
+hash = "9b105ded2255d63b2b4d8b3bb24c14e467617d56019dc9abafe64cbb0c0d3cfa"
+metafile = true
+
+[[files]]
 file = "mods/in-control.pw.toml"
 hash = "5aedbe06cda7659f0d37cbfe79f6e35b0d64ee327aff40c9c1fb132604132972"
 metafile = true
