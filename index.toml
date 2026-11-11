@@ -49,110 +49,6 @@ file = "config/extendedcrafting/singularities/ultimate_circuit.json"
 hash = "a46ee53f37814e00ef282c6459c1ec0affe6a0f2ea0accf3437978ee66d18eb6"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/0167628c8cdbab18.snbt"
-hash = "bcd7f11b2cf9d82d661105025f85f7a768c8f1a94b6703f28779bb5ffb2716ba"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/11e65ef2e1f969db.snbt"
-hash = "26e0e2f5b87ec6bdb8e7784eede337962461cd8d3032a687da6c5e6b8c5a5289"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/1314f1dac12f5f55.snbt"
-hash = "51cb1890c715271d39cfb1935447a3cbaca73c2500aa8b581ad34d458fd99c96"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/15210dbb475f1b2c.snbt"
-hash = "9e3469539b3c455d070e7c3373e2c006c18eed65e90a5c9c529060455d7a40e9"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/15ab327aac378f25.snbt"
-hash = "5da5cdf4b7f42a8097cd033d2646ff5f9e42679e6deb1f3f7c9f13c28e2edf65"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/177c5f4f3a14ae47.snbt"
-hash = "aacc0d55434468674b17146796cf8d74f0818f98b0c7e0cdae9cb5b2a4266985"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/18b6e0f5d7d87844.snbt"
-hash = "323d95367d95c026a628812c62987192ca4a165918b12b9d4411e6ffcf82b226"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/199ae2c007a46782.snbt"
-hash = "ab683e79939475aea574aa0e20261407bd93fe4a8cb99c5b3ae1349125790e7b"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/2847ef37a16e095c.snbt"
-hash = "475f5dfca5747d4e51faa9d538150f90bd5f7bdd1f49ba80abd71925fb03dc14"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/2e785984d419d8d0.snbt"
-hash = "d59677870b0cb6c7ca3649aa33ebb43060b1026c234a9b52d503ceddc851051c"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/3970120e93475481.snbt"
-hash = "c3d655dbe3418cdd45a45d7e87345bd6e82dd58db5089caf9646e52825317e92"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/427c6d2c60ccaf68.snbt"
-hash = "659d56f2052dd9197152199012964b8a50e6b9712f50b4876fc9e90f59a24c6f"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/45021dff1ed027d1.snbt"
-hash = "ba85b7fec398ecbba30f61cd4e7853f7cece710ceaae6ca9f975c82ed622b6c1"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/4f03014a6ad419d7.snbt"
-hash = "a13e2288821bdb20f50c0dcedb6a3baa86b230de7059d8b9e0826960c915b89a"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/502483a01d8250c6.snbt"
-hash = "30d80db34985a650ba45c23bf77ba99be7e0a4c4a29eb60f831b5354f5b21fbd"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/59d509a33eee2621.snbt"
-hash = "3c8f24c67217c02696b657da433834f1d184b02a87f67d0b6692a9ed6ee3f1c7"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/63ed3b94f8a7b38c.snbt"
-hash = "1fc570ce2f0334b04e1b8d4594aee1327a0b8d04fcd040547110a772fafdc8ff"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/685635b154063850.snbt"
-hash = "0c37b179593730f9cdeef56432ef43849bf3f5b3cfa4e719c1972037ba64df90"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/74fdb4946a518cb7.snbt"
-hash = "255d1d4f689136025851c8fcf53e7fadda6a7746cadf833519c54700d78abc80"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/75d1a39fd4cedb71.snbt"
-hash = "a0f95d7f32d1c002deaf65b82ee869d3d097ce7d4f73541339333b0b93914c67"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/76374b7fcdbf7c62.snbt"
-hash = "4a29e8282646568d75b80a7a7d97211a426d1c204c68e999eaef7f1e2e520dc6"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/7b1155fe45f02ad8.snbt"
-hash = "f97a58766842aa3b5880d9403d5ca7d28d75250105e737627f58cc7bc0665045"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/7bd6b3addacaa9b0.snbt"
-hash = "f58dafba7e4c2bf05e6cec53bc305bd0efcda02b846bad6e8947ab427b691207"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "6ae826599ff81f65ef32123cd42cdcc6dfeca9b6cdfa7d1749315f5283bd9f9b"
-
-[[files]]
-file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "93c8bdcb5952c7c073e0643bcff3706a7bf6b3eef6acde40d4349c64179b66a0"
-
-[[files]]
 file = "config/incontrol/spawn.json"
 hash = "3515af5397faaa16f722a09e2cf8921e31c38ea0b8ac90759b61a77ba6a65561"
 
@@ -193,12 +89,16 @@ file = "kubejs/data/arcane_horizons/tier_augments/summit/max_health.json"
 hash = "4eac3262ed6184d163a1446ab8d4df4aa19800df9b5d6513d64f6f140e429205"
 
 [[files]]
+file = "kubejs/server_scripts/arcane_horizons_alternative_resources.js"
+hash = "036e935b732f107c80aa3057a36232a4cd162861b2502cd47126cde8b15f54cb"
+
+[[files]]
 file = "kubejs/server_scripts/arcane_horizons_expert_loot.js"
 hash = "129d6f03056d1fe4bc253a76f83b491fd0d3a817f7d23ad3132e08c64d0dbe7d"
 
 [[files]]
 file = "kubejs/server_scripts/arcane_horizons_expert_metallurgy_rebalanced_tools.js"
-hash = "2aafe5f0a35df57d62dc1f4ad94ebf602102a2aa72115f589765c963592766db"
+hash = "34233dc2b9921650d7fd37a1eaf5f9a4a707376c3392817cad2d03c828dc9c38"
 
 [[files]]
 file = "kubejs/server_scripts/arcane_horizons_new_age_electricity.js"
@@ -214,7 +114,7 @@ hash = "9a02247616ec3787fb7de053ebbab4107180cdff4f5c18a1a96020e3616a21ea"
 
 [[files]]
 file = "kubejs/server_scripts/zz_arcane_horizons_expanded_progression.js"
-hash = "f9abafc41eaff5c060066dbd54e85144ba6fc4039e38af91d88c85bba7e32b66"
+hash = "358592df212b586457848df8b7c618b20fbb13f280592fe071643b37119cd63a"
 
 [[files]]
 file = "kubejs/server_scripts/zzz_arcane_horizons_nuclear_endgame.js"
@@ -222,7 +122,7 @@ hash = "9fd888f3a9230dbd32437d410e3a8c45e18b5b557073bfbba17670c12e163c6e"
 
 [[files]]
 file = "kubejs/startup_scripts/arcane_horizons_expert_metallurgy_items.js"
-hash = "dff7190dba227f8a7882a719a3d27f0ac2dc83849e8f68d2baceaa7628e0fcbe"
+hash = "3349e867c04aca1eef3cdae383d7c69dd3c7b48c6db18e6f0d8e4803e94d3b63"
 
 [[files]]
 file = "mods/aces-spell-utils.pw.toml"
@@ -705,11 +605,6 @@ hash = "276e79d919c3a698ab2881d784544b7e60bef69b43f44808353bb65d38633cb3"
 metafile = true
 
 [[files]]
-file = "mods/ftb-quests-forge.pw.toml"
-hash = "6a451ba7022f1afab59b6884ded7e2c533f7d4279738477030d6de496e3de1a4"
-metafile = true
-
-[[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "c21c2308684a75cda7dd9d557d129c9f89f49be527da3d5aa675fff444c11f5e"
 metafile = true
@@ -767,11 +662,6 @@ metafile = true
 [[files]]
 file = "mods/immersiveengineering.pw.toml"
 hash = "91875c996a9958aeea794843fb449915218625f52aaf0234ccd1faffa887e277"
-metafile = true
-
-[[files]]
-file = "mods/immersivemusicmod.pw.toml"
-hash = "4f7f641ae9b6c17fd302289c7f79b0afff7c54b10106f9b68c7220a1623aab22"
 metafile = true
 
 [[files]]

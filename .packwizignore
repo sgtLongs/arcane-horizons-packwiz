@@ -20,6 +20,12 @@ saves/
 /_arcane_horizons_progression_backup/
 /server-snapshot/
 /ADDING_MODS.md
+/AGENTS.md
+/docs/
+/tools/
+/recipe-reference/
+/reports/
+/.github/
 
 /packwiz-backup.zip
 /packwiz-mods*.txt

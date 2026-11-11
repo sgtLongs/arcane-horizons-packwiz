@@ -41,13 +41,6 @@ ServerEvents.recipes(event => {
             .id(`arcane_horizons:metallurgy/${id}`)
 
     // =====================================================================
-    // 0. QUEST BOOK
-    // =====================================================================
-    event.remove({ output: 'ftbquests:book' })
-    event.shapeless('ftbquests:book', ['minecraft:book', 'minecraft:charcoal'])
-        .id('arcane_horizons:expert_metallurgy/quest_book')
-
-    // =====================================================================
     // 1. PRIMITIVE FIRE AGE
     // =====================================================================
     removeOutput('minecraft:furnace')
@@ -148,15 +141,8 @@ ServerEvents.recipes(event => {
 
         var pmColors = ['white','orange','magenta','light_blue','yellow','lime','pink','gray','light_gray','cyan','purple','blue','brown','green','red','black']
         pmColors.forEach(color => removeOutput(`productivemetalworks:${color}_foundry_controller`))
-        event.shaped('productivemetalworks:black_foundry_controller', [
-            'SPS',
-            'ICI',
-            'SAS'
-        ], {
-            S: '#c:plates/steel', P: 'create:precision_mechanism',
-            I: 'create:iron_sheet', C: 'createmetallurgy:industrial_crucible',
-            A: 'ars_nouveau:source_gem'
-        }).id('arcane_horizons:metallurgy/late_productive_metalworks_controller')
+        // The sole replacement controller is owned by expanded progression,
+        // after the dimensional matrix and industrial control unit.
     }
 
     // =====================================================================
@@ -210,12 +196,7 @@ ServerEvents.recipes(event => {
     // =====================================================================
     // 4. CREATE METALLURGY FOUNDRY - COPPER/TIN ERA
     // =====================================================================
-    // Sable: Ships - custom Ship Engine recipe
-    replaceShaped('sable_ships:ship_engine', ['AAA','ACA','ABA'], {
-        A: 'minecraft:polished_andesite',
-        B: 'minecraft:copper_block',
-        C: 'minecraft:campfire'
-    }, 'arcane_horizons:expert_metallurgy/sable_ship_engine')
+    // The Sable ship engine is owned by expanded progression's Aviation Age.
     replaceShaped('createmetallurgy:foundry_basin', ['BCB','BAB','BBB'], {
         B:'minecraft:bricks', C:'minecraft:copper_ingot', A:'create:andesite_alloy'
     }, 'arcane_horizons:metallurgy/foundry_basin')

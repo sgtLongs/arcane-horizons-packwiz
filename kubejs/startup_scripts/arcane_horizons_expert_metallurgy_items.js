@@ -104,4 +104,8 @@ StartupEvents.registry('item', event => {
     progressionItems.forEach(([id, name, texture]) => {
         item(`arcane_horizons:${id}`, name, texture)
     })
+
+    // This assembly must be prepared in the Ars workshop and then bound by an
+    // Occultism crusher spirit before it becomes a usable progression core.
+    item('arcane_horizons:unbound_spirit_core', 'Unbound Spirit Core', 'minecraft:item/echo_shard')
 })

@@ -12,6 +12,17 @@ ServerEvents.recipes(event => {
         event.shapeless(output, inputs).id(`arcane_horizons:expanded/${id}`)
     }
 
+    const apparatus = (output, reagent, pedestalItems, sourceCost, id) => {
+        event.custom({
+            type: 'ars_nouveau:enchanting_apparatus',
+            keepNbtOfReagent: false,
+            output: output,
+            pedestalItems: pedestalItems.map(item => ({ item: item })),
+            reagent: [{ item: reagent }],
+            sourceCost: sourceCost
+        }).id(`arcane_horizons:expanded/${id}`)
+    }
+
     // -----------------------------------------------------------------
     // NETHER -> STEEL -> TWILIGHT I
     // -----------------------------------------------------------------
@@ -46,42 +57,47 @@ ServerEvents.recipes(event => {
 
     // One early Twilight boss cycle supplies enough cores for the first
     // factory tier. Later recipes use the renewable core, not boss drops.
-    event.shaped('8x arcane_horizons:twilight_core', [
-        'NSN',
-        'SLS',
-        'NSN'
+    event.recipes.create.mechanical_crafting('8x arcane_horizons:twilight_core', [
+        ' NSSS ',
+        'NSTSN',
+        'SSLSS',
+        'NSTSN',
+        ' NSSS '
     ], {
         N: 'twilightforest:naga_scale',
         S: '#c:plates/steel',
-        L: 'twilightforest:lich_trophy'
+        L: 'twilightforest:lich_trophy',
+        T: 'twilightforest:torchberries'
     }).id('arcane_horizons:expanded/twilight_core')
 
     // -----------------------------------------------------------------
     // ARCANE II + BRASS AUTOMATION
     // -----------------------------------------------------------------
-    event.shaped('2x arcane_horizons:arcane_actuator', [
-        'TST',
-        'CBC',
-        'TMT'
-    ], {
-        T: 'arcane_horizons:twilight_core',
-        S: 'ars_nouveau:source_gem',
-        C: 'create:brass_casing',
-        B: 'create:electron_tube',
-        M: 'hexerei:moon_dust'
-    }).id('arcane_horizons:expanded/arcane_actuator')
+    apparatus(
+        { item: 'arcane_horizons:arcane_actuator', count: 2 },
+        'create:electron_tube',
+        [
+            'arcane_horizons:twilight_core', 'arcane_horizons:twilight_core',
+            'ars_nouveau:source_gem', 'ars_nouveau:source_gem',
+            'create:brass_casing', 'create:brass_casing',
+            'hexerei:moon_dust', 'hexerei:moon_dust'
+        ],
+        3000,
+        'arcane_actuator'
+    )
 
-    event.shaped('arcane_horizons:enchanted_machine_frame', [
-        'SMS',
-        'PAP',
-        'STS'
-    ], {
-        S: '#c:plates/steel',
-        M: 'hexerei:moon_dust',
-        P: 'ars_nouveau:source_gem',
-        A: 'arcane_horizons:arcane_actuator',
-        T: 'arcane_horizons:twilight_core'
-    }).id('arcane_horizons:expanded/enchanted_machine_frame')
+    apparatus(
+        { item: 'arcane_horizons:enchanted_machine_frame' },
+        'arcane_horizons:arcane_actuator',
+        [
+            'immersiveengineering:plate_steel', 'immersiveengineering:plate_steel',
+            'immersiveengineering:plate_steel', 'immersiveengineering:plate_steel',
+            'ars_nouveau:source_gem', 'ars_nouveau:source_gem',
+            'hexerei:moon_dust', 'arcane_horizons:twilight_core'
+        ],
+        5000,
+        'enchanted_machine_frame'
+    )
 
     replaceShaped('create:deployer', [' E ', 'CAC', ' H '], {
         E: 'create:electron_tube',
@@ -107,16 +123,18 @@ ServerEvents.recipes(event => {
     // -----------------------------------------------------------------
     // PRECISION ENGINEERING
     // -----------------------------------------------------------------
-    event.shaped('arcane_horizons:industrial_control_unit', [
-        'SPS',
-        'AEA',
-        'SRS'
+    event.recipes.create.mechanical_crafting('2x arcane_horizons:industrial_control_unit', [
+        'SPAPS',
+        'PEAEP',
+        'AEREA',
+        'PEAEP',
+        'SPAPS'
     ], {
-        S: '#c:plates/steel',
+        S: 'immersiveengineering:plate_steel',
         P: 'create:precision_mechanism',
         A: 'arcane_horizons:arcane_actuator',
-        E: 'arcane_horizons:enchanted_machine_frame',
-        R: 'minecraft:redstone_block'
+        E: 'create:electron_tube',
+        R: 'arcane_horizons:enchanted_machine_frame'
     }).id('arcane_horizons:expanded/industrial_control_unit')
 
     replaceShaped('create:mechanical_arm', [' B ', 'CIC', ' H '], {
@@ -141,15 +159,18 @@ ServerEvents.recipes(event => {
     }, 'rotation_speed_controller')
 
     // A single midgame combat reward becomes a batch of reusable keys.
-    event.shaped('8x arcane_horizons:resonant_core', [
-        'TST',
-        'SWS',
-        'TST'
-    ], {
-        T: 'arcane_horizons:twilight_core',
-        S: 'ars_nouveau:source_gem_block',
-        W: 'mowziesmobs:wrought_axe'
-    }).id('arcane_horizons:expanded/resonant_core')
+    apparatus(
+        { item: 'arcane_horizons:resonant_core', count: 8 },
+        'mowziesmobs:wrought_axe',
+        [
+            'arcane_horizons:twilight_core', 'arcane_horizons:twilight_core',
+            'arcane_horizons:twilight_core', 'arcane_horizons:twilight_core',
+            'ars_nouveau:source_gem_block', 'ars_nouveau:source_gem_block',
+            'ars_nouveau:source_gem_block', 'ars_nouveau:source_gem_block'
+        ],
+        10000,
+        'resonant_core'
+    )
 
     // -----------------------------------------------------------------
     // INDUSTRIAL POWER -> DEEPER AND DARKER -> HEAVY ENGINEERING
@@ -175,16 +196,20 @@ ServerEvents.recipes(event => {
     // -----------------------------------------------------------------
     // AVIATION AGE
     // -----------------------------------------------------------------
-    event.shaped('arcane_horizons:flight_control_assembly', [
-        'FCF',
-        'IRI',
-        'FEF'
+    event.recipes.create.mechanical_crafting('arcane_horizons:flight_control_assembly', [
+        'F S F',
+        ' C I ',
+        'S H S',
+        ' R E ',
+        'F S F'
     ], {
         F: 'twilightforest:knightmetal_ingot',
+        S: 'create:sturdy_sheet',
         C: 'createaddition:capacitor',
         I: 'arcane_horizons:industrial_control_unit',
+        H: 'immersiveengineering:heavy_engineering',
         R: 'arcane_horizons:resonant_core',
-        E: 'immersiveengineering:heavy_engineering'
+        E: 'create_new_age:advanced_motor'
     }).id('arcane_horizons:expanded/flight_control_assembly')
 
     if (Platform.isLoaded('sable_ships')) {
@@ -204,21 +229,34 @@ ServerEvents.recipes(event => {
     // -----------------------------------------------------------------
     // LATE DIMENSIONS, TELEPORTATION, AND ENDGAME INDUSTRY
     // -----------------------------------------------------------------
-    event.shaped('arcane_horizons:spirit_bound_core', [
-        'OMO',
-        'MFM',
-        'ORO'
-    ], {
-        O: 'occultism:spirit_attuned_gem',
-        M: 'hexerei:moon_dust',
-        F: 'arcane_horizons:enchanted_machine_frame',
-        R: 'arcane_horizons:resonant_core'
+    apparatus(
+        { item: 'arcane_horizons:unbound_spirit_core', count: 2 },
+        'arcane_horizons:enchanted_machine_frame',
+        [
+            'occultism:spirit_attuned_gem', 'occultism:spirit_attuned_gem',
+            'occultism:spirit_attuned_gem', 'occultism:spirit_attuned_gem',
+            'hexerei:moon_dust', 'hexerei:moon_dust',
+            'arcane_horizons:resonant_core', 'occultism:otherworld_essence'
+        ],
+        10000,
+        'unbound_spirit_core'
+    )
+
+    event.custom({
+        type: 'occultism:crushing',
+        ingredient: { item: 'arcane_horizons:unbound_spirit_core' },
+        min_tier: 2,
+        result: { type: 'occultism:item', id: 'arcane_horizons:spirit_bound_core', count: 1 },
+        crushing_time: 400,
+        ignore_crushing_multiplier: true
     }).id('arcane_horizons:expanded/spirit_bound_core')
 
-    event.shaped('arcane_horizons:dimensional_matrix', [
-        'AEA',
-        'SDS',
-        'BEB'
+    event.recipes.create.mechanical_crafting('arcane_horizons:dimensional_matrix', [
+        'AESEA',
+        'EBDBE',
+        'SDBDS',
+        'EBDBE',
+        'AESEA'
     ], {
         A: 'aether:ambrosium_shard',
         E: 'betterend:eternal_crystal',

@@ -9,6 +9,11 @@
 !/.gitattributes
 !/.nojekyll
 !/ADDING_MODS.md
+!/AGENTS.md
+!/docs/
+!/tools/
+!/recipe-reference/
+!/.github/
 
 # Modpack distribution files
 !/mods/

@@ -1,0 +1,16 @@
+mekanism:bio
+mekanism:carbon
+mekanism:clean
+mekanism:deuterium
+mekanism:diamond
+mekanism:dirty
+mekanism:fungi
+mekanism:fusion_fuel
+mekanism:gaseous
+mekanism:gold
+mekanism:redstone
+mekanism:refined_obsidian
+mekanism:tin
+mekanism:tritium
+mekanism:waste_barrel_decay_blacklist
+mekanism:water_vapor

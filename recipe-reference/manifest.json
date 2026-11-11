@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "generatedAtUtc": "2026-11-10T14:13:48.046Z",
+  "packTomlSha256": "80a89c45bee590a3c838eafd9a799d46c20979a2076d14295575e8ac8de8142b",
+  "indexTomlSha256": "1ad6b8fea4ee7f954eb77227ea4bf6fd879e42adc4bab0fee5c5685051f9fdb1",
+  "startupScriptsSha256": "a4014f33f96b535590f8f1202e397b79519bc64cee72e9b2c07d1b933ab2af01",
+  "probeDeclarationFiles": 2973,
+  "registryCounts": {
+    "Item": 32370,
+    "ItemTag": 5044,
+    "Fluid": 338,
+    "FluidTag": 183,
+    "RecipeType": 253,
+    "RecipeSerializer": 405,
+    "RecipeId": 39639,
+    "ModId": 270,
+    "MekanismChemical": 68,
+    "MekanismChemicalTag": 16
+  },
+  "exportedRecipeFiles": 0
+}
