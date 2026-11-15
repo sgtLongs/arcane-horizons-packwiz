@@ -86,7 +86,14 @@ ServerEvents.recipes(event => {
 
     event.recipes.create.milling('kubejs:poor_copper_powder', 'minecraft:raw_copper').processingTime(250)
         .id('arcane_horizons:metallurgy/mill_poor_copper')
-    event.recipes.create.milling('kubejs:poor_tin_powder', '#c:raw_materials/tin').processingTime(250)
+    // Use an explicit item-tag ingredient so KubeJS does not coerce these shared tag names
+    // into 1000 mB fluid ingredients, which Create milling cannot accept.
+    event.custom({
+        type: 'create:milling',
+        ingredients: [{ tag: 'c:raw_materials/tin' }],
+        results: [{ id: 'kubejs:poor_tin_powder' }],
+        processing_time: 250
+    })
         .id('arcane_horizons:metallurgy/mill_poor_tin')
     event.recipes.create.milling('kubejs:poor_zinc_powder', 'create:raw_zinc').processingTime(250)
         .id('arcane_horizons:metallurgy/mill_poor_zinc')
@@ -94,7 +101,12 @@ ServerEvents.recipes(event => {
         .id('arcane_horizons:metallurgy/mill_poor_iron')
     event.recipes.create.milling('kubejs:poor_gold_powder', 'minecraft:raw_gold').processingTime(300)
         .id('arcane_horizons:metallurgy/mill_poor_gold')
-    event.recipes.create.milling('kubejs:poor_silver_powder', '#c:raw_materials/silver').processingTime(300)
+    event.custom({
+        type: 'create:milling',
+        ingredients: [{ tag: 'c:raw_materials/silver' }],
+        results: [{ id: 'kubejs:poor_silver_powder' }],
+        processing_time: 300
+    })
         .id('arcane_horizons:metallurgy/mill_poor_silver')
 
     // Remove default Create Metallurgy routes that would yield close to 1:1 immediately.
@@ -146,7 +158,7 @@ ServerEvents.recipes(event => {
         ;['aluminum','brass','bronze','constantan','copper','electrum','gold','invar','iron','lead','netherite','nickel','osmium','silver','steel','tin','zinc']
             .forEach(metal => event.custom({
                 type: 'create:emptying',
-                ingredients: [{ id: `productivemetalworks:molten_${metal}_bucket` }],
+                ingredients: [{ item: `productivemetalworks:molten_${metal}_bucket` }],
                 results: [
                     { id: 'minecraft:bucket' },
                     { id: `createmetallurgy:molten_${metal}`, amount: 1000 }

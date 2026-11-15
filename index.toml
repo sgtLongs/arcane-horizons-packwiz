@@ -57,6 +57,14 @@ file = "config/iris.properties"
 hash = "e2af31826bf4bd67cb0f868c3e07379571964a4709fe9a0fe862645731220275"
 
 [[files]]
+file = "config/servercore/config.yml"
+hash = "7ac232f0bbf4814fdfdce6dad9fd77b98c42db4ee20ed80d2aca533f887dfa78"
+
+[[files]]
+file = "config/servercore/optimizations.yml"
+hash = "0cc738800e4c1e61cf87408e2b2e0142a0907d52eda7c3fe49c2dd94f8cbd9ef"
+
+[[files]]
 file = "kubejs/data/arcane_horizons/tier_augments/ascent/attack_damage.json"
 hash = "bf514e5c42b3eeb0688bd700a8d2d46a3466d0df2a726335f780f6559d0fa2cf"
 
@@ -98,7 +106,7 @@ hash = "129d6f03056d1fe4bc253a76f83b491fd0d3a817f7d23ad3132e08c64d0dbe7d"
 
 [[files]]
 file = "kubejs/server_scripts/arcane_horizons_expert_metallurgy_rebalanced_tools.js"
-hash = "1f28c79cd5572ab4e7c60ce0dc372896f48c706fd9334c2d7ce8ad5876b1a828"
+hash = "2a22220e0ad7b7b9cfeeadf7901e3fe0bddcedd1e36c2d61904da60af912f0c5"
 
 [[files]]
 file = "kubejs/server_scripts/arcane_horizons_new_age_electricity.js"
@@ -1152,6 +1160,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "33454564d216f62d011ac78fc0aa2a49977ac1161f10f4accb1d33a9934969df"
 metafile = true
 
 [[files]]

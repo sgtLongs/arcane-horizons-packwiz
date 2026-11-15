@@ -1,0 +1,159 @@
+# Arcane Horizons ServerCore configuration.
+# Keep behavior-changing features at their defaults except for a conservative,
+# farm-animal-only activation range based on the server's Spark profile.
+
+features:
+  prevent-enderpearl-chunkloading: false
+  chunk-tick-distance-affects-random-ticks: false
+  prevent-moving-into-unloaded-chunks: false
+  autosave-interval-seconds: 300
+  xp-merge-fraction: 40
+  xp-merge-radius: 0.5
+  item-merge-radius: 0.5
+  lobotomize-villagers:
+    enabled: false
+    tick-interval: 20
+
+# Do not let ServerCore alter view distance, simulation distance, or mobcaps.
+dynamic:
+  enabled: false
+  target-mspt: 35
+  default-values:
+    MOBCAP_PERCENTAGE: 100
+    CHUNK_TICK_DISTANCE: 10
+  dynamic-settings:
+    - setting: 'CHUNK_TICK_DISTANCE'
+      max: 10
+      min: 6
+      increment: 1
+      interval: 15
+    - setting: 'MOBCAP_PERCENTAGE'
+      max: 100
+      min: 50
+      increment: 10
+      interval: 15
+    - setting: 'SIMULATION_DISTANCE'
+      max: 10
+      min: 6
+      increment: 1
+      interval: 15
+    - setting: 'CHUNK_TICK_DISTANCE'
+      max: 6
+      min: 2
+      increment: 1
+      interval: 15
+    - setting: 'MOBCAP_PERCENTAGE'
+      max: 50
+      min: 30
+      increment: 10
+      interval: 15
+    - setting: 'SIMULATION_DISTANCE'
+      max: 6
+      min: 2
+      increment: 1
+      interval: 15
+    - setting: 'VIEW_DISTANCE'
+      max: 10
+      min: 5
+      increment: 1
+      interval: 150
+
+# Intentionally disabled: population control remains a player/admin decision.
+breeding-cap:
+  enabled: false
+  villagers:
+    limit: 32
+    range: 64
+    unlimited-height: false
+  happy-ghasts:
+    limit: 32
+    range: 64
+    unlimited-height: false
+  animals:
+    limit: 32
+    range: 64
+    unlimited-height: false
+
+# Preserve vanilla spawning behavior.
+mob-spawning:
+  zombie-reinforcements:
+    enforce-mobcap: false
+    additional-capacity: 32
+  nether-portal-randomticks:
+    enforce-mobcap: false
+    additional-capacity: 32
+  monster-spawners:
+    enforce-mobcap: false
+    additional-capacity: 32
+  infested:
+    enforce-mobcap: false
+    additional-capacity: 32
+  categories:
+    - category: 'MONSTER'
+      mobcap: 70
+      spawn-interval: 1
+      despawn-distance: 128
+    - category: 'CREATURE'
+      mobcap: 10
+      spawn-interval: 400
+      despawn-distance: 128
+    - category: 'AMBIENT'
+      mobcap: 15
+      spawn-interval: 1
+      despawn-distance: 128
+    - category: 'AXOLOTLS'
+      mobcap: 5
+      spawn-interval: 1
+      despawn-distance: 128
+    - category: 'UNDERGROUND_WATER_CREATURE'
+      mobcap: 5
+      spawn-interval: 1
+      despawn-distance: 128
+    - category: 'WATER_CREATURE'
+      mobcap: 5
+      spawn-interval: 1
+      despawn-distance: 128
+    - category: 'WATER_AMBIENT'
+      mobcap: 20
+      spawn-interval: 1
+      despawn-distance: 64
+
+commands:
+  status-enabled: true
+  mobcaps-enabled: true
+  colors:
+    primary: 'dark_aqua'
+    secondary: 'green'
+    tertiary: 'aqua'
+
+activation-range:
+  enabled: true
+  tick-new-entities: true
+  use-vertical-range: false
+  skip-non-immune: false
+  villager-tick-panic: true
+  villager-work-immunity-after: 20
+  villager-work-immunity-for: 20
+  excluded-entity-types:
+    - 'minecraft:ghast'
+    - 'minecraft:hopper_minecart'
+    - 'minecraft:warden'
+
+  # Unmatched entities continue to tick every game tick, even while inactive.
+  default-activation-type:
+    activation-range: 16
+    tick-interval: 1
+    wakeup-interval: -1
+    extra-height-up: false
+    extra-height-down: false
+
+  # Only farm/passive animals are reduced: beyond 48 blocks they tick at 5 TPS.
+  custom-activation-types:
+    - name: 'farm-animals'
+      activation-range: 48
+      tick-interval: 4
+      wakeup-interval: 30
+      extra-height-up: false
+      extra-height-down: false
+      entity-matcher:
+        - 'typeof:animal'
