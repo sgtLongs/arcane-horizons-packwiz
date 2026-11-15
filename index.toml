@@ -98,7 +98,7 @@ hash = "129d6f03056d1fe4bc253a76f83b491fd0d3a817f7d23ad3132e08c64d0dbe7d"
 
 [[files]]
 file = "kubejs/server_scripts/arcane_horizons_expert_metallurgy_rebalanced_tools.js"
-hash = "34233dc2b9921650d7fd37a1eaf5f9a4a707376c3392817cad2d03c828dc9c38"
+hash = "1f28c79cd5572ab4e7c60ce0dc372896f48c706fd9334c2d7ce8ad5876b1a828"
 
 [[files]]
 file = "kubejs/server_scripts/arcane_horizons_new_age_electricity.js"
@@ -300,6 +300,11 @@ hash = "d297223abd52c7942e55d0e9b44b0ef5dd3dae908f58bd3ca47696a08cac8296"
 metafile = true
 
 [[files]]
+file = "mods/cb-multipart.pw.toml"
+hash = "c09e2c7df60d3d247a443a8b788d1fc55278246e3e1e151b5a27e31b01ee0dbc"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
@@ -495,6 +500,11 @@ hash = "0f84d7a5d201d9ecc88758108350a6c48924a7f81f22a3e7da29637259ae48ac"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
+metafile = true
+
+[[files]]
 file = "mods/doggy-talents-next.pw.toml"
 hash = "4dc4b35767b1869c41addaa0cd8f26d8ec55d01e75efd3a2a01dd43420cc7f45"
 metafile = true
@@ -662,11 +672,6 @@ metafile = true
 [[files]]
 file = "mods/immersiveengineering.pw.toml"
 hash = "91875c996a9958aeea794843fb449915218625f52aaf0234ccd1faffa887e277"
-metafile = true
-
-[[files]]
-file = "mods/immersivemusicmod.pw.toml"
-hash = "9b105ded2255d63b2b4d8b3bb24c14e467617d56019dc9abafe64cbb0c0d3cfa"
 metafile = true
 
 [[files]]
@@ -1027,6 +1032,31 @@ metafile = true
 [[files]]
 file = "mods/productivetrees.pw.toml"
 hash = "23d84c8b5a6fd787cc8eb7b9b423a5b05de93cb5b7eea5f2551ecd6d014df44e"
+metafile = true
+
+[[files]]
+file = "mods/project-red-core.pw.toml"
+hash = "1d7223f9d3839654c309a2b8aa5061917dbbff27ea87af961820393a1d68dd14"
+metafile = true
+
+[[files]]
+file = "mods/project-red-exploration.pw.toml"
+hash = "450e13d6a8a3ab4419db7341f948940fba9e4f4d10c3886e84c85242250bcefa"
+metafile = true
+
+[[files]]
+file = "mods/project-red-illumination.pw.toml"
+hash = "d255c5d6bd9f0f2694b205234e47066d25c78cf1b6685bc1ea120e90649d278f"
+metafile = true
+
+[[files]]
+file = "mods/project-red-integration.pw.toml"
+hash = "76fc72a4c4587a4de3333054ad562717d67aace52fbc05391b76f295b2235578"
+metafile = true
+
+[[files]]
+file = "mods/project-red-transmission.pw.toml"
+hash = "9da154905408379e803be7895169e8f5813c4e7bec3a00fe3849d9c833b6899a"
 metafile = true
 
 [[files]]

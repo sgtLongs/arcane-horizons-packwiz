@@ -1,4 +1,4 @@
-// Arcane Horizons Expert Metallurgy v0.4.1
+// Arcane Horizons Expert Metallurgy v0.4.2
 // Minecraft 1.21.1 / NeoForge / Create 6.0.10
 // Create Metallurgy 1.0.3 / Create Ironworks 4.0.3 / KubeJS Create
 //
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
         .id('arcane_horizons:metallurgy/primitive_copper')
 
     event.shapeless('kubejs:primitive_tin_charge', [
-        'create_ironworks:raw_tin','create_ironworks:raw_tin',
+        '#c:raw_materials/tin','#c:raw_materials/tin',
         'minecraft:charcoal','minecraft:clay_ball'
     ]).id('arcane_horizons:metallurgy/primitive_tin_charge')
     event.campfireCooking('create_ironworks:tin_ingot', 'kubejs:primitive_tin_charge', 0.3, 1400)
@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.create.milling('kubejs:poor_copper_powder', 'minecraft:raw_copper').processingTime(250)
         .id('arcane_horizons:metallurgy/mill_poor_copper')
-    event.recipes.create.milling('kubejs:poor_tin_powder', 'create_ironworks:raw_tin').processingTime(250)
+    event.recipes.create.milling('kubejs:poor_tin_powder', '#c:raw_materials/tin').processingTime(250)
         .id('arcane_horizons:metallurgy/mill_poor_tin')
     event.recipes.create.milling('kubejs:poor_zinc_powder', 'create:raw_zinc').processingTime(250)
         .id('arcane_horizons:metallurgy/mill_poor_zinc')
@@ -94,17 +94,19 @@ ServerEvents.recipes(event => {
         .id('arcane_horizons:metallurgy/mill_poor_iron')
     event.recipes.create.milling('kubejs:poor_gold_powder', 'minecraft:raw_gold').processingTime(300)
         .id('arcane_horizons:metallurgy/mill_poor_gold')
-    event.recipes.create.milling('kubejs:poor_silver_powder', 'immersiveengineering:raw_silver').processingTime(300)
+    event.recipes.create.milling('kubejs:poor_silver_powder', '#c:raw_materials/silver').processingTime(300)
         .id('arcane_horizons:metallurgy/mill_poor_silver')
 
     // Remove default Create Metallurgy routes that would yield close to 1:1 immediately.
     var easyMeltInputs = [
         'minecraft:raw_copper','minecraft:copper_ore','minecraft:deepslate_copper_ore','create:crushed_raw_copper',
         'create_ironworks:raw_tin','create_ironworks:tin_ore','create_ironworks:deepslate_tin_ore','create_ironworks:crushed_raw_tin',
+        'projectred_exploration:raw_tin','projectred_exploration:tin_ore','projectred_exploration:deepslate_tin_ore',
         'create:raw_zinc','create:zinc_ore','create:deepslate_zinc_ore','create:crushed_raw_zinc',
         'minecraft:raw_iron','minecraft:iron_ore','minecraft:deepslate_iron_ore','create:crushed_raw_iron',
         'minecraft:raw_gold','minecraft:gold_ore','minecraft:deepslate_gold_ore','create:crushed_raw_gold',
-        'immersiveengineering:raw_silver','immersiveengineering:ore_silver','immersiveengineering:deepslate_ore_silver','create:crushed_raw_silver'
+        'immersiveengineering:raw_silver','immersiveengineering:ore_silver','immersiveengineering:deepslate_ore_silver','create:crushed_raw_silver',
+        'projectred_exploration:raw_silver','projectred_exploration:silver_ore','projectred_exploration:deepslate_silver_ore'
     ]
     easyMeltInputs.forEach(input => {
         event.remove({ type: 'createmetallurgy:melting', input: input })
@@ -134,10 +136,22 @@ ServerEvents.recipes(event => {
 
     // If Productive Metalworks is already in the pack source, block its raw-ore 2x/3x bypass.
     if (Platform.isLoaded('productivemetalworks')) {
-        ;['minecraft:raw_copper','create_ironworks:raw_tin','create:raw_zinc','minecraft:raw_iron','minecraft:raw_gold','immersiveengineering:raw_silver','immersiveengineering:raw_block_silver','create:crushed_raw_silver']
+        ;['minecraft:raw_copper','create_ironworks:raw_tin','projectred_exploration:raw_tin','projectred_exploration:raw_tin_block','create:raw_zinc','minecraft:raw_iron','minecraft:raw_gold','immersiveengineering:raw_silver','immersiveengineering:raw_block_silver','projectred_exploration:raw_silver','projectred_exploration:raw_silver_block','create:crushed_raw_silver']
             .forEach(input => event.remove({ type: 'productivemetalworks:item_melting', input: input }))
         ;['#c:ores/copper','#c:ores/tin','#c:ores/zinc','#c:ores/iron','#c:ores/gold','#c:ores/silver']
             .forEach(input => event.remove({ type: 'productivemetalworks:item_melting', input: input }))
+
+        // Productive Metalworks and Create Metallurgy register distinct molten fluids.
+        // Normalize every metal they share when its PM bucket is emptied through a Create Item Drain.
+        ;['aluminum','brass','bronze','constantan','copper','electrum','gold','invar','iron','lead','netherite','nickel','osmium','silver','steel','tin','zinc']
+            .forEach(metal => event.custom({
+                type: 'create:emptying',
+                ingredients: [{ id: `productivemetalworks:molten_${metal}_bucket` }],
+                results: [
+                    { id: 'minecraft:bucket' },
+                    { id: `createmetallurgy:molten_${metal}`, amount: 1000 }
+                ]
+            }).id(`arcane_horizons:metallurgy/empty_productive_${metal}_bucket`))
 
         var pmColors = ['white','orange','magenta','light_blue','yellow','lime','pink','gray','light_gray','cyan','purple','blue','brown','green','red','black']
         pmColors.forEach(color => removeOutput(`productivemetalworks:${color}_foundry_controller`))
@@ -648,6 +662,14 @@ ServerEvents.recipes(event => {
         B:'irons_spellbooks:gold_spell_book', P:'create:precision_mechanism'
     }).id('arcane_horizons:expert_metallurgy/irons_diamond_spell_book')
 
+    // The stock Netherite Spell Book is a parallel craft from unrelated loot.
+    // Make it the capstone of the pack-owned copper -> iron -> gold -> diamond ladder.
+    event.remove({ id: 'irons_spellbooks:netherite_spell_book' })
+    event.shaped('irons_spellbooks:netherite_spell_book', ['NSN','LBL',' S '], {
+        N:'minecraft:netherite_ingot', S:'create:sturdy_sheet',
+        L:'irons_spellbooks:legendary_ink', B:'irons_spellbooks:diamond_spell_book'
+    }).id('arcane_horizons:expert_metallurgy/irons_netherite_spell_book')
+
     removeOutput('irons_spellbooks:inscription_table')
     event.shaped('irons_spellbooks:inscription_table', ['BAB','ISI','PPP'], {
         B:'minecraft:book', A:'irons_spellbooks:arcane_essence', I:'create:iron_sheet',
@@ -681,6 +703,133 @@ ServerEvents.recipes(event => {
     event.shaped('hexerei:mixing_cauldron', ['ISI','ACA','III'], {
         I:'create:iron_sheet', S:'ars_nouveau:source_gem', A:'minecraft:amethyst_shard', C:'minecraft:cauldron'
     }).id('arcane_horizons:expert_metallurgy/hexerei_mixing_cauldron')
+
+    // Portable broom flight belongs to the Aviation Age. One Flight Control
+    // Assembly enters through the Willow Broom, then survives economically by
+    // making Witch Hazel and Mahogany sequential upgrades rather than three
+    // independent endgame crafts.
+    ;[
+        'hexerei:willow_broom_from_mixing_cauldron',
+        'hexerei:witch_hazel_broom_from_mixing_cauldron',
+        'hexerei:mahogany_broom_from_mixing_cauldron'
+    ].forEach(id => event.remove({ id: id }))
+
+    event.custom({
+        type: 'hexerei:mixingcauldron',
+        fluid: { id: 'minecraft:water', amount: 1000 },
+        ingredients: [
+            { item: 'arcane_horizons:flight_control_assembly' },
+            { item: 'hexerei:blood_bottle' },
+            { item: 'hexerei:willow_log' },
+            { item: 'minecraft:gold_block' },
+            { item: 'minecraft:wheat' },
+            { item: 'hexerei:mandrake_root' },
+            { item: 'minecraft:gold_block' },
+            { item: 'hexerei:willow_log' }
+        ],
+        output: { id: 'hexerei:willow_broom' }
+    }).id('arcane_horizons:magic/hexerei_willow_broom')
+
+    event.custom({
+        type: 'hexerei:mixingcauldron',
+        fluid: { id: 'minecraft:water', amount: 1000 },
+        ingredients: [
+            { item: 'hexerei:willow_broom' },
+            { item: 'minecraft:diamond' },
+            { item: 'hexerei:witch_hazel_log' },
+            { item: 'hexerei:blood_bottle' },
+            { item: 'minecraft:wheat' },
+            { item: 'hexerei:mandrake_root' },
+            { item: 'hexerei:blood_bottle' },
+            { item: 'hexerei:witch_hazel_log' }
+        ],
+        output: { id: 'hexerei:witch_hazel_broom' },
+        liquidOutput: { fluid: 'hexerei:blood_fluid' }
+    }).id('arcane_horizons:magic/hexerei_witch_hazel_broom')
+
+    event.custom({
+        type: 'hexerei:mixingcauldron',
+        fluid: { id: 'minecraft:water', amount: 1000 },
+        ingredients: [
+            { item: 'hexerei:witch_hazel_broom' },
+            { item: 'minecraft:netherite_ingot' },
+            { item: 'hexerei:mahogany_log' },
+            { item: 'hexerei:blood_bottle' },
+            { item: 'minecraft:wheat' },
+            { item: 'hexerei:mandrake_root' },
+            { item: 'hexerei:blood_bottle' },
+            { item: 'hexerei:mahogany_log' }
+        ],
+        output: { id: 'hexerei:mahogany_broom' }
+    }).id('arcane_horizons:magic/hexerei_mahogany_broom')
+
+    // Forbidden & Arcanus otherwise restores direct 1:1 recovery after the
+    // Blast Furnace through its Clibano. Preserve its non-metal transmutation,
+    // but remove only the confirmed iron/copper/gold ore and raw-metal recipes.
+    ;[
+        'forbidden_arcanus:clibano_combustion/copper_ingot_from_clibano_combusting_raw_copper',
+        'forbidden_arcanus:clibano_combustion/copper_ingot_from_clibano_combustion',
+        'forbidden_arcanus:clibano_combustion/gold_ingot_from_clibano_combusting_raw_gold',
+        'forbidden_arcanus:clibano_combustion/gold_ingot_from_clibano_combustion',
+        'forbidden_arcanus:clibano_combustion/iron_ingot_from_clibano_combusting_raw_iron',
+        'forbidden_arcanus:clibano_combustion/iron_ingot_from_clibano_combustion'
+    ].forEach(id => event.remove({ id: id }))
+
+    if (Platform.isLoaded('projectred_core')) {
+        // This one central machine gate paces the entire basic Integration tree.
+        event.remove({ id: 'projectred_core:plate' })
+        event.recipes.create.pressing('2x projectred_core:plate', 'minecraft:smooth_stone')
+            .id('arcane_horizons:projectred/pressed_circuit_plate')
+    }
+
+    if (Platform.isLoaded('projectred_exploration')) {
+        // Project Red's own furnace recipes bypass the pack's recovery ladder.
+        // Its raw materials now enter through the c:raw_materials milling and
+        // primitive-charge recipes defined above.
+        ;[
+            'projectred_exploration:tin_ingot_from_raw_tin_smelting',
+            'projectred_exploration:tin_ingot_from_tin_ore_smelting',
+            'projectred_exploration:tin_ingot_from_deepslate_tin_ore_smelting',
+            'projectred_exploration:silver_ingot_from_raw_silver_smelting',
+            'projectred_exploration:silver_ingot_from_silver_ore_smelting',
+            'projectred_exploration:silver_ingot_from_deepslate_silver_ore_smelting'
+        ].forEach(id => event.remove({ id: id }))
+
+        // The gem tools have near-diamond performance and the armor has the
+        // diamond 3/6/8/3 protection profile. Match the pack's existing diamond
+        // gates while retaining the Project Red saws as utility tools.
+        var projectRedToolPatterns = [
+            ['pickaxe',['GGG',' C ',' I '],{C:'kubejs:mechanical_ignition_core',I:'create:iron_sheet'}],
+            ['axe',    ['GG ','GP ',' S '],{P:'create:precision_mechanism',S:'minecraft:stick'}],
+            ['shovel', [' G ',' P ',' S '],{P:'create:precision_mechanism',S:'minecraft:stick'}],
+            ['hoe',    ['GG ',' P ',' S '],{P:'create:precision_mechanism',S:'minecraft:stick'}],
+            ['sword',  [' G ',' G ',' P '],{P:'create:precision_mechanism'}],
+            ['sickle', [' G ','  G','SPG'],{P:'create:precision_mechanism',S:'minecraft:stick'}]
+        ]
+        var projectRedArmorPatterns = [
+            ['helmet',    ['GGG','S S']],
+            ['chestplate',['G G','GSG','GGG']],
+            ['leggings',  ['GSG','G G','G G']],
+            ['boots',     ['G G','S S']]
+        ]
+
+        ;['ruby','sapphire','peridot'].forEach(gem => {
+            var gemTag = `#c:gems/${gem}`
+            projectRedToolPatterns.forEach(([tool, pattern, extraKey]) => {
+                var output = `projectred_exploration:${gem}_${tool}`
+                var key = Object.assign({ G: gemTag }, extraKey)
+                event.remove({ id: output })
+                event.shaped(output, pattern, key)
+                    .id(`arcane_horizons:projectred/${gem}_${tool}`)
+            })
+            projectRedArmorPatterns.forEach(([piece, pattern]) => {
+                var output = `projectred_exploration:${gem}_${piece}`
+                event.remove({ id: output })
+                event.shaped(output, pattern, { G: gemTag, S: 'create:sturdy_sheet' })
+                    .id(`arcane_horizons:projectred/${gem}_${piece}`)
+            })
+        })
+    }
 
     // =====================================================================
     // 12. EXISTING EXPERT CROSS-GATES
