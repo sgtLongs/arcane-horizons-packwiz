@@ -5,7 +5,7 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "529ffecfedabdee6440641f354e8fea638ec8f08"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/9259/554/aether_chronicles-1.0.1.jar"
 
 [update]
 [update.curseforge]

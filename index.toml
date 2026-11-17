@@ -195,7 +195,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether-chronicles.pw.toml"
-hash = "0bf31a520f23a6febb7f54c5038a693556bd44b4379354961a37606b12c5d00b"
+hash = "b4acd489e85898b3862ba619267543203871d9e04056a18ace43f8ceafdb2e16"
 metafile = true
 
 [[files]]
