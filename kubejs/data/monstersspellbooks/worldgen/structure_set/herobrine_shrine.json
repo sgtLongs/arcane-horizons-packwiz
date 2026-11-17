@@ -1,0 +1,11 @@
+{
+  "structures": [
+    { "structure": "monstersspellbooks:herobrine_shrine", "weight": 5 }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 32,
+    "salt": 6129841846
+  }
+}

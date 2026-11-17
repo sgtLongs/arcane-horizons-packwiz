@@ -1,0 +1,39 @@
+# Arcane Horizons keeps Every Compat narrowly scoped to Chipped.
+# This file changes registry contents and must be identical on clients and servers.
+
+[woodtype]
+# Productive Trees alone provides more than 160 wood families. Hold those variants
+# back until their registry, memory, startup-time, and JEI impact can be evaluated.
+blacklist = ["productivetrees:.*"]
+
+[leavestype]
+# Keep Productive Trees leaf variants out for the same reason as its wood variants.
+blacklist = ["productivetrees:.*"]
+
+[block]
+blacklist = []
+
+[entryset]
+blacklist = []
+
+[module]
+# Wood types from these mods remain available as Chipped inputs. Only their own
+# Every Compat furniture/decor modules are disabled to avoid an uncontrolled
+# cross-product of every installed wood with every installed decoration mod.
+blacklist = [
+    "create",
+    "farmersdelight",
+    "handcrafted",
+    "mcwbridges",
+    "mcwdoors",
+    "mcwfences",
+    "mcwfurnitures",
+    "mcwlights",
+    "mcwroofs",
+    "mcwwindows",
+    "regions_unexplored",
+    "twilightforest"
+]
+
+[other]
+include_all_wood_modules = true

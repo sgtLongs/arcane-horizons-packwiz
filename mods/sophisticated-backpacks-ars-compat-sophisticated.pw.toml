@@ -1,0 +1,13 @@
+name = "Sophisticated Backpacks: Ars Compat   |   Sophisticated Backpacks Ars-Nouveau Compatibility"
+filename = "arssophisticatedcompat-0.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7cc6c1e1d92d109230f68b6a63dc4bfb13c245a6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8653384
+project-id = 1653477

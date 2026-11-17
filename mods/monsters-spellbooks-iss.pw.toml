@@ -1,0 +1,13 @@
+name = "Monsters & Spellbooks: Iron's Spells 'n Spellbooks Addon"
+filename = "monsterspellbooks-0.0.16.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b3aa89fd081bf4bfaf8d0f4380bcdc393c66ab0e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8788560
+project-id = 1428928

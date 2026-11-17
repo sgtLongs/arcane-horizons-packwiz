@@ -1,0 +1,10 @@
+# Arcane Horizons balance profile.
+# Keep the cross-mod gem chase meaningful without flooding Apotheosis loot or
+# letting early socket stacking overwhelm the pack's staged gear progression.
+[general]
+frequency = "RARE"
+minimum_rarity = "RARE"
+spellbooks = true
+resonance = true
+resonance_first = 6
+resonance_second = 10

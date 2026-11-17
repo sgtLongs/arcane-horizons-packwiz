@@ -1,0 +1,5 @@
+# Arcane Horizons already has a large Curios ecosystem. Keep Apothic Compats'
+# item and equipment integrations, but avoid adding another pool of randomly
+# affixed curios with multiplicative stat bonuses.
+[Curios]
+enableCustomCurios = false

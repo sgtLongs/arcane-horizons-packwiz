@@ -5,6 +5,14 @@ file = ".nojekyll"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/apothic_compats-startup.toml"
+hash = "89cf91d71f8441f9726f237ed0738705d343cf7dce92362b963c9bf347a31441"
+
+[[files]]
+file = "config/everycomp-hazardous.toml"
+hash = "1a6ac49025848b025d4f06fecd8f886583be67adc77ad646409a33abe30088fe"
+
+[[files]]
 file = "config/extendedcrafting/singularities/advanced_electronics.json"
 hash = "8c7401d337441ae1a3db92ac5306d449614ce46643c3e4e18cf086a57859d6bb"
 
@@ -57,6 +65,10 @@ file = "config/iris.properties"
 hash = "e2af31826bf4bd67cb0f868c3e07379571964a4709fe9a0fe862645731220275"
 
 [[files]]
+file = "config/kaelos_gems.toml"
+hash = "6e7a4c2018d87f22abca1d27179c9d2c00b36d109016e8f4ada977156390f6b9"
+
+[[files]]
 file = "config/servercore/config.yml"
 hash = "7ac232f0bbf4814fdfdce6dad9fd77b98c42db4ee20ed80d2aca533f887dfa78"
 
@@ -95,6 +107,50 @@ hash = "97803c291f3f0c53471b9853892c8cdc7a410b6201c52ad46ca18decf74ee469"
 [[files]]
 file = "kubejs/data/arcane_horizons/tier_augments/summit/max_health.json"
 hash = "4eac3262ed6184d163a1446ab8d4df4aa19800df9b5d6513d64f6f140e429205"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/deathsilver_ore_placed.json"
+hash = "12c45def5c8c4f96331e2a833f8e39705785e0992511a7fa695040b931988296"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/gravistone_placed.json"
+hash = "0699dd47b677ad9dadd0e894b56dbeb150839b1956343a919792497942bd67bd"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/ivorystone_placed.json"
+hash = "687952216a47189edab618e562146096683c589ba2bbc01a126a2a3a8437113f"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/orichalcum_ore_placed.json"
+hash = "fb87f1952c1aeb45349831dc12a4db1e3807a17c93dbd2020fec8ea5f6ddbeeb"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/pearl_ore_placed.json"
+hash = "7ddeb8cb34f7fcedecb12eeb1aa14e41e69fd28fd4c149afbae1648058e00685"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/pyrite_ore_placed.json"
+hash = "e74239e9db73f4a2f4ce03fa917e7b9d4c8953e8562f1120e5fba1be59ef67ec"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/ruby_ore_placed.json"
+hash = "b502305e0879d8f37328e3649b87ddf3f56a3f3ec99f5e0bd6a3dbfbeec3deba"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/scorched_ore_placed.json"
+hash = "9855fb8594fdf051e9905c99662be28da18a07cf4ef0ebf5e8dec87b74e4fa7c"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/void_ore_placed.json"
+hash = "34c69bef110cb1d1843a3e10a983a86fb53bf419b2a1bfb8c9877e3d6ba84fe3"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/structure_set/draugr_camp.json"
+hash = "4c99fedb07dd8d7a4c05836cccdacbdebc26053210c5186612a3ba8cc3a20902"
+
+[[files]]
+file = "kubejs/data/monstersspellbooks/worldgen/structure_set/herobrine_shrine.json"
+hash = "d0a0706daf3877b5a8284b95ccd00a613b767a31edc5c227ea0ddb581a558661"
 
 [[files]]
 file = "kubejs/server_scripts/arcane_horizons_alternative_resources.js"
@@ -138,6 +194,11 @@ hash = "ed90b65c424e2af0597d2a39bc655ebdb5ef25c7f30e0d8af9c0eb5fdd172bba"
 metafile = true
 
 [[files]]
+file = "mods/aether-chronicles.pw.toml"
+hash = "0bf31a520f23a6febb7f54c5038a693556bd44b4379354961a37606b12c5d00b"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
@@ -170,6 +231,11 @@ metafile = true
 [[files]]
 file = "mods/apothic-attributes.pw.toml"
 hash = "5fbeebfba16e5480242c5e0db97a9167289500e53bc0df1a0a872c0e62f55de8"
+metafile = true
+
+[[files]]
+file = "mods/apothic-compats.pw.toml"
+hash = "78ec590a0859dc9b07fa3c1a1c2d816f661748c3a2b9a2bef3fc2681dd66affa"
 metafile = true
 
 [[files]]
@@ -213,18 +279,53 @@ hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
+file = "mods/ars-additions.pw.toml"
+hash = "8cebdadc3a9e2c630d702e4b8e8147685a232eb9c24bf772fe4eb97caf4c932d"
+metafile = true
+
+[[files]]
+file = "mods/ars-controle.pw.toml"
+hash = "709623a91be4f2c83c68478805d094294ec92e13184fd67a4ae493b1b3253117"
+metafile = true
+
+[[files]]
 file = "mods/ars-creo.pw.toml"
 hash = "4169ab805d649579198344e6a394233c34cb652b0a3ab119b63d5f3efaad5225"
 metafile = true
 
 [[files]]
 file = "mods/ars-elemental.pw.toml"
-hash = "2dedbdaea212fc6b7327eb46b9d6ced3597aa0920ba1df19950a79ed408c5178"
+hash = "8e9f867e9c0ff53e08e779ae54fd1bbead92f1d7323b75369e64ade719d5d7c1"
+metafile = true
+
+[[files]]
+file = "mods/ars-hex-unity.pw.toml"
+hash = "7d0647e13542b1b34167f4b48544797a80351f0ff49a80ed55b456f68a0a8a71"
 metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "bbbde993c3a6d5d56f4a72e27574f5d7401867d4f1bc817fbf1104b5236ad047"
+hash = "13dc68f3429beff58fd9d02b2d48318087fc7e1281163587f07df40fd1e6a44a"
+metafile = true
+
+[[files]]
+file = "mods/ars-nouveaus-flavors-delight.pw.toml"
+hash = "11624d000e08153c788a5bdf14e32f4cb575a5584bb2cc5fbdca18391acbc933"
+metafile = true
+
+[[files]]
+file = "mods/ars-ocultas.pw.toml"
+hash = "8f26fb64848cd06f1da4842762f7271af6337e9fda2d53f3ef10e9c27dd31c1a"
+metafile = true
+
+[[files]]
+file = "mods/ars-sable.pw.toml"
+hash = "9a593e03d9013177307882735bdd336499922668e0d898d7fd97ea027e0949a8"
+metafile = true
+
+[[files]]
+file = "mods/ars-technica.pw.toml"
+hash = "130e60104ba3741895272ba1a2ccbddb0bec7476f5184a16eb36ad96dd9fc0cf"
 metafile = true
 
 [[files]]
@@ -290,6 +391,11 @@ metafile = true
 [[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "e86ba611faf7caeed1ea1191e17d6f396e9467a055facf94ab106ef87c24b305"
+metafile = true
+
+[[files]]
+file = "mods/caelus.pw.toml"
+hash = "992b0dca9683f225fc774d779762d18a009f2d82b9d051e7c0b55a33a95d9238"
 metafile = true
 
 [[files]]
@@ -518,6 +624,11 @@ hash = "4dc4b35767b1869c41addaa0cd8f26d8ec55d01e75efd3a2a01dd43420cc7f45"
 metafile = true
 
 [[files]]
+file = "mods/draconic-evolution-render-patcher.pw.toml"
+hash = "f31cc6e4ae7e29c0deb9bcb904158407ea80bf4ada2879c240c8f374397b5e2d"
+metafile = true
+
+[[files]]
 file = "mods/draconic-evolution.pw.toml"
 hash = "61dbbdcc41c7bf50540b8d1e83fdf61d9367f392690b45d3cdece8aad55370ac"
 metafile = true
@@ -560,6 +671,11 @@ metafile = true
 [[files]]
 file = "mods/eternal-nether.pw.toml"
 hash = "9dfa76ffc920d0abefb53c682dbd3a7129ff149761dcd33587971a440ecc025f"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "d173124cbe77b9b97005675ba13ac2868bade78186de21ec2876a6726d5d3f81"
 metafile = true
 
 [[files]]
@@ -708,6 +824,11 @@ hash = "1b23f5a7defc103d67d16db0053ff2f6240436bb0d682f760865b590e3416a65"
 metafile = true
 
 [[files]]
+file = "mods/irons-spells-n-spellbooks-aeronautics.pw.toml"
+hash = "6c1a221023ee631137ab0a56e35366d37af30db5a013fcd6016c3e90cbcbdd81"
+metafile = true
+
+[[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "4f7ef8bd9e05ab690a81d0f698d38a25bbaf0729953fd015bca3a852aadf7689"
 metafile = true
@@ -730,6 +851,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "03ca69cbe1fce33ca267e62ba30679545c116e8eaf43b7e7d65495d5e7910629"
+metafile = true
+
+[[files]]
+file = "mods/kaelos-gems-apotheosis-addon.pw.toml"
+hash = "27754e3651e80c69251124da73c023e3fa17ceefc297bd1793010bae5a4754a4"
 metafile = true
 
 [[files]]
@@ -889,7 +1015,12 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "f35e905918b2694a543ca4bef5e90be9a84f966b80a5f486dbbab6cc015f07e8"
+hash = "1f4795c499834ae0728af24e31a645ff281555255eaf0945571502e35493ef32"
+metafile = true
+
+[[files]]
+file = "mods/monsters-spellbooks-iss.pw.toml"
+hash = "9ce74552e93e18469448b4b1a54879776ec85af597cffd60d6cb9e0aff8483e9"
 metafile = true
 
 [[files]]
@@ -953,13 +1084,18 @@ hash = "a3f6da0a0185d1f5725d57ea0fde61fc33922a3b42408e491ba407a98e0e2f68"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-glyphs.pw.toml"
+hash = "b64cdb46d272fea0415478942b9efb97404070efe308866d6111114e413be806"
+metafile = true
+
+[[files]]
 file = "mods/occultism.pw.toml"
-hash = "b8c0d5c9a69b45135efd1e4a329e455d884c3378c4ebe3e0ad5794b5ddcc1414"
+hash = "ec2300f69a0256c53c988b56d2ccaa97fe44d450c92c40b27f58b6858c3ca331"
 metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
+hash = "a7fd33e3171967cf90314c3a1147769b051315b7db4f30e7c51304d0d3ef4dee"
 metafile = true
 
 [[files]]
@@ -1154,7 +1290,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "a1fa121ed5d0207e4cdd3f545d043f68f9a4bb38dcb21278b968fad5e4cefe4a"
+hash = "f2c81cf494b7b6c1063563d7377224cf64b29e0b86bcf87bcf4da8eb79b9c800"
 metafile = true
 
 [[files]]
@@ -1193,18 +1329,28 @@ hash = "494ac377ff79aff5c3248b8b69469fb8773adca0a4cbc5ed1b248a93fe10cb2b"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks-ars-compat-sophisticated.pw.toml"
+hash = "d723c56fda2ad23f5dc86124bf68d6f40faf9613de057b74e2cd11afab60a04c"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "2b3710eb891a5f6c8a0db46f2b51b1505794ab10244353d35357d269279bbc86"
+hash = "9bc110bc3856f564d2da98ae94a2ac91514cf9a206089b3607657468e98bf198"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9d4a04a61b2cebf80d76716f2d3c034d17f817327cbad6a79921a05c2e2c23a3"
+hash = "eb53e55904b817f6fc907109f51f4b17c474ec06084c01a4f6729d2ec1347f33"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-ars-compat-sophisticated.pw.toml"
+hash = "85ae9babecffad4a52f57fe105b393a23acd61a904d4b63feb015a8b72489ee0"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "2d45e747634f18813476b01a13507fa99e01e330334f11c3ed8b6a074faf3b5f"
+hash = "daf137e8a49ade4dd31c65befa0fe1136cd834e43714a989db482c133f7d45d4"
 metafile = true
 
 [[files]]
@@ -1220,6 +1366,11 @@ metafile = true
 [[files]]
 file = "mods/spartan-weaponry-unofficial.pw.toml"
 hash = "153790b0f389a0dbe239eda56d4fa97a7871f381ce14f878d686569398ce6c7c"
+metafile = true
+
+[[files]]
+file = "mods/starbunclemania.pw.toml"
+hash = "ab2c89f6522d1d30ccec20d200e9a19418979edd8b19efa24b31f0464959e47b"
 metafile = true
 
 [[files]]

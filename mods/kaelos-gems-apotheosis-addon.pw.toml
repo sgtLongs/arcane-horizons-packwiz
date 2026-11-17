@@ -1,0 +1,13 @@
+name = "Kaelo's Gems — Apotheosis Addon"
+filename = "kaelos_gems-1.21.1-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0735c959bbfacb261acad3c8b0f61493f90e9811"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9278730
+project-id = 1681826

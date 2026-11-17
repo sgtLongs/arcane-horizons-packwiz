@@ -4,6 +4,8 @@ _arcane_horizons_progression_backup/
 dynamic-resource-pack-cache/
 dynamic-data-pack-cache/
 .mixin.out/
+.balance-audit/
+.tmp/
 saves/
 backups/
 _arcane_horizons_progression_backup/

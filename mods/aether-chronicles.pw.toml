@@ -1,0 +1,13 @@
+name = "Aether Chronicles: Iron's Spells 'n Spellbooks Addon"
+filename = "aether_chronicles-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "529ffecfedabdee6440641f354e8fea638ec8f08"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9259554
+project-id = 1752784

@@ -1,0 +1,13 @@
+name = "Ars Hex Unity"
+filename = "ars_hex-1.21.1-5.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c29a6e3c883bd2f74c08ba06bf92bc88b0407b78"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9296988
+project-id = 1357380
