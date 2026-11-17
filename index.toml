@@ -109,50 +109,6 @@ file = "kubejs/data/arcane_horizons/tier_augments/summit/max_health.json"
 hash = "4eac3262ed6184d163a1446ab8d4df4aa19800df9b5d6513d64f6f140e429205"
 
 [[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/deathsilver_ore_placed.json"
-hash = "12c45def5c8c4f96331e2a833f8e39705785e0992511a7fa695040b931988296"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/gravistone_placed.json"
-hash = "0699dd47b677ad9dadd0e894b56dbeb150839b1956343a919792497942bd67bd"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/ivorystone_placed.json"
-hash = "687952216a47189edab618e562146096683c589ba2bbc01a126a2a3a8437113f"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/orichalcum_ore_placed.json"
-hash = "fb87f1952c1aeb45349831dc12a4db1e3807a17c93dbd2020fec8ea5f6ddbeeb"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/pearl_ore_placed.json"
-hash = "7ddeb8cb34f7fcedecb12eeb1aa14e41e69fd28fd4c149afbae1648058e00685"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/pyrite_ore_placed.json"
-hash = "e74239e9db73f4a2f4ce03fa917e7b9d4c8953e8562f1120e5fba1be59ef67ec"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/ruby_ore_placed.json"
-hash = "b502305e0879d8f37328e3649b87ddf3f56a3f3ec99f5e0bd6a3dbfbeec3deba"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/scorched_ore_placed.json"
-hash = "9855fb8594fdf051e9905c99662be28da18a07cf4ef0ebf5e8dec87b74e4fa7c"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/placed_feature/void_ore_placed.json"
-hash = "34c69bef110cb1d1843a3e10a983a86fb53bf419b2a1bfb8c9877e3d6ba84fe3"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/structure_set/draugr_camp.json"
-hash = "4c99fedb07dd8d7a4c05836cccdacbdebc26053210c5186612a3ba8cc3a20902"
-
-[[files]]
-file = "kubejs/data/monstersspellbooks/worldgen/structure_set/herobrine_shrine.json"
-hash = "d0a0706daf3877b5a8284b95ccd00a613b767a31edc5c227ea0ddb581a558661"
-
-[[files]]
 file = "kubejs/server_scripts/arcane_horizons_alternative_resources.js"
 hash = "036e935b732f107c80aa3057a36232a4cd162861b2502cd47126cde8b15f54cb"
 
@@ -1016,11 +972,6 @@ metafile = true
 [[files]]
 file = "mods/modonomicon.pw.toml"
 hash = "1f4795c499834ae0728af24e31a645ff281555255eaf0945571502e35493ef32"
-metafile = true
-
-[[files]]
-file = "mods/monsters-spellbooks-iss.pw.toml"
-hash = "9ce74552e93e18469448b4b1a54879776ec85af597cffd60d6cb9e0aff8483e9"
 metafile = true
 
 [[files]]
